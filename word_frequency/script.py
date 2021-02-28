@@ -1,6 +1,13 @@
 import re
 import glob
 
+# Print in descending order frequencies of word occurences 
+def print_frequencies(frequencies, total_count):
+    for w in sorted(frequencies, key=frequencies.get, reverse=True):
+        freq = float(frequencies[w]) / float(total_count)
+        print(w, "%.12f " % (freq))
+
+
 # Obtain list of text files in /texts dir
 files = glob.glob("texts/*.txt")
 
@@ -16,6 +23,7 @@ for file_name in files:
     # Split string into array of words (removes white spaces by default)
     words = contents.split()
 
+    # Make keep number of occurences for each word
     frequencies = {}
     for w in words:
         if w in frequencies:
@@ -25,15 +33,24 @@ for file_name in files:
     all_frequencies.append(frequencies)
     words_counts.append(len(words))
 
+# Go through all sets of frequencies
 relative_freqs = {}
 for frequencies in all_frequencies:
+    # go through each word for current counts
+    # & update the master count (sum of all texts)
     for key in frequencies:
         if key in relative_freqs:
             relative_freqs[key] += frequencies[key]
         else:
             relative_freqs[key] = frequencies[key]
-for w in sorted(relative_freqs, key=relative_freqs.get, reverse=False):
-    print(w, relative_freqs[w])
 
+# Print word frequencies for all texts
+for i in range(len(all_frequencies)):
+    print('Printing word frequencies for file -- ' + files[i])
+    print_frequencies(all_frequencies[i], words_counts[i])
+
+# Relative frequencies
+print('Printing relative frequency for all texts')
 total_word_count = sum(words_counts)
-print(total_word_count)
+print_frequencies(relative_freqs, total_word_count)
+
