@@ -1,0 +1,48 @@
+Update: Here’s what is known about Trump’s COVID-19 treatment
+By Jon Cohen
+Oct. 5, 2020 , 12:20 PM
+
+On 2 October, the White House announced President Donald Trump received an experimental antibody treatment after a test revealed he’s infected with SARS-CoV-2. At the time, he reportedly had mild COVID-19 symptoms, including fever and congestion, and he was transferred to Walter Reed National Military Medical Center. Later, the president’s medical team confirmed he had started a course of remdesivir, an antiviral drug shown to modestly help hospitalized COVID-19 patients. Two days later, on 4 October, the team revealed Trump had been given a steroid normally reserved for severe COVID-19 cases, although his physician offered optimism about a quick recovery, even suggesting he might soon be discharged from Walter Reed.
+
+What is the antibody cocktail Trump received?
+It’s a combination of two antibodies directed against a key protein of the virus that causes COVID-19, SARS-CoV-2. They bind to a region on the main surface spike protein that helps the virus attach to a receptor on human cells called angiotensin-converting enzyme 2. The targeted region is dubbed the receptor binding domain. One antibody comes from a human who had recovered from a SARS-CoV-2 infection; a B cell that makes the antibody was harvested from the person’s blood and the genes for the immune protein isolated and copied. The other antibody is from a mouse, which was engineered to have a human immune system, that had the spike protein injected into it.
+
+Are there any data showing the cocktail works and is safe?
+Experiments in both golden hamsters and rhesus macaques that were intentionally infected with SARS-CoV-2 showed the cocktail could reduce viral levels and disease pathology.
+
+Regeneron, the maker of the cocktail, earlier last week presented preliminary data from its ongoing clinical trial in people who tested positive for SARS-CoV-2 but were asymptomatic or, in the most extreme cases, had moderate disease—a group that would appear to mirror Trump’s current condition. No serious safety concerns surfaced, and the treatment reduced viral load and shortened symptomatic disease in patients who did not have SARS-CoV-2 antibodies at the trial’s start. It’s unclear whether the treatment can prevent severe disease, but there were hints that it might: Participants who received a placebo had more medical visits.
+
+A separate trial is assessing the impact of the treatment on hospitalized COVID-19 patients, but Regeneron has yet to report any results from that study.
+
+Do the preliminary clinical trial data match the president’s treatment scheme?
+Not exactly. Trump received an 8-gram infusion of the treatment. Regeneron’s data showed a 2.4-gram infusion worked as well as the higher dose at reducing SARS-CoV-2 levels in people. This was widely seen as good news because monoclonals are difficult and expensive to produce, and a lower dose means more people can ultimately receive it.
+
+Why did the president receive the higher dose of the antibodies?
+Likely out of “an abundance of caution” by the president’s medical team, says George Yancopoulos, co-founder and chief scientific officer of Regeneron. Yancopoulos does not directly know why Trump’s physicians chose to use 8 grams, but says the company’s data indicate there’s “very, very limited risk” that the antibodies will cause harm at either dose. The higher dose might last longer, he said, and at some time points in the company’s study, Regeneron did see “trends” suggesting the higher dose more powerfully beats back the virus—the company used the amount of viral genetic material found with nose swabs as a proxy for SARS-CoV-2 levels in the entire body.
+
+“If I had to treat one patient, I’d give the high dose,” Yancopoulos says. “From a societal point of view and the need to treat as many people as possible, I’d give the lower dose.”
+
+Did Trump match the patients in the study who benefited from the treatment?
+The Regeneron study found the treatment only worked in people who did not have SARS-CoV-2 antibodies at the start of the study. It also worked best in people who had higher levels of the virus. Whether the president had those antibodies and a high viral load has not been made public. “I couldn’t speculate because it has to do with an individual patient,” Yancopoulos says.
+
+The memorandum from the president’s physician said Trump was receiving “Regeneron’s polyclonal antibody cocktail.” Are these antibodies “polyclonal”?
+No. The treatment consisted of two monoclonal antibodies—meaning each was produced by making identical copies, or clones, of an antibody gene in a single B cell. Polyclonal antibody cocktails refer to antibodies made by mixtures of B cells.
+
+What was the regulatory mechanism that allowed the president to receive the experimental Regeneron antibodies?
+The antibodies are typically only available to people who participate in clinical trials. Trump theoretically could have enrolled in the ongoing treatment study that reported preliminary data last week, but that trial randomly assigns half the participants to receive the antibodies; the other half serves as a control group and receives infusions of an inactive placebo. A U.S. Food and Drug Administration (FDA) regulation called “expanded access”—technically known as 21 CFR 312.310—allows physicians to request “compassionate use” of experimental treatments through an “investigational new drug” pathway used for individual patients or for emergencies. “These are designed to be used in these rare and special circumstances,” Yancopoulos says. “This is not the first time we’ve done compassionate use for these monoclonal antibodies. This is not a mechanism for widespread distribution.”
+
+Could Regeneron’s monoclonal antibody treatment become more widely available through FDA’s emergency use authorization (EUA) pathway?
+Yes. Both Regeneron and Eli Lilly, which similarly reported encouraging preliminary clinical trial data last month from a single SARS-CoV-2 monoclonal antibody, are discussing the possibility of an EUA with FDA. Lilly reported signs that its antibody reduced the need for hospitalization, but as with Regeneron, too few participants have so far become seriously ill to reach a convincing conclusion to this critical question.
+
+What’s the evidence for using remdesivir in COVID-19 patients?
+Remdesivir is an antiviral drug developed by Gilead Sciences, originally to treat the hepatitis C virus. It did not perform well against that pathogen but has been tried against Ebola and other viruses, after showing some activity in cells and animal models. The drug inhibits a viral enzyme used for replication of the pathogen. Earlier this year, it demonstrated a modest clinical benefit in a trial with hospitalized COVID-19 patients, leading FDA to grant Gilead an EUA for the drug. That EUA has since been expanded for use in patients with mild disease although its benefit in them is not clear. The drug has become widely used for COVID-19 patients despite continuing skepticism that it has a major clinical benefit. Because it and the monoclonal antibodies target different parts of the virus, administering them together may have a synergistic effect. One COVID-19 clinical trial is testing remdesivir and Lilly’s antibody, for example.
+
+Why was a steroid added to his treatment?
+On 4 October, Sean Conley, the White House physician, said in a press conference that Trump had also been started on the steroid dexamethasone. The drug dampens the body’s immune response and can keep it from wreaking havoc in the late stages of COVID-19. It is the only treatment so far that has been shown to reduce the mortality in patients with severe COVID-19, but there are some indications that it may actually be harmful if given too early in the disease course. In the United Kingdom’s Recovery trial there was a clear benefit for patients requiring oxygen or ventilation but not for other patients. Conley said Trump had experienced “two episodes of transient drops in his oxygen saturation.” Independent doctors were quick to point out that dexamethasone can have serious side effects including agitation, paranoia, and even psychosis.
+
+Is the president receiving any other COVID-19 treatments?
+The statement released on 2 October by the president’s physician said that in addition to the antibodies, Trump “has been taking zinc, vitamin D, famotidine, melatonin and a daily aspirin.” That wording leaves unclear whether he was taking those substances before his diagnosed infection. Notably, the statement does not indicate whether Trump was or is taking hydroxychloroquine, the antimalarial he controversially pushed as a COVID-19 treatment.
+
+Famotidine has been suggested to be a treatment for COVID-19, but it’s also a popular heartburn remedy, sold widely under the name Pepcid. A clinical trial testing it in hospitalized COVID-19 patients in New York was not able to recruit enough patients to properly evaluate its impact. The Feinstein Institutes for Medical Research, which initiated that trial, released a statement on 2 October citing evidence it was helpful for COVID-19 but also saying, “We have yet to prove [famotidine’s] efficacy.” The institute says it’s “eagerly awaiting” FDA approval of a trial that will evaluate whether famotidine can help people who are not hospitalized.
+
+This story was originally published on 2 October at 9:25 p.m.

@@ -1,0 +1,53 @@
+Is there a cure for the new coronavirus?
+By Stephanie Pappas - Live Science Contributor 5 days ago
+
+When would you know you have the virus?
+
+ 
+ 
+ 
+ 
+ 
+ Comments (0)
+CORONAVIRUS SCIENCE AND NEWS
+—Coronavirus in the US: Map & cases
+—What are the symptoms?
+—How deadly is the new coronavirus?
+—How long does virus last on surfaces?
+—How does it compare with seasonal flu?
+—How does the coronavirus spread?
+—Can people spread the coronavirus after they recover?
+
+Updated March 14 with new vaccine information. 
+
+COVID-19, the respiratory disease caused by the new coronavirus, has spread to every continent except Antarctica. Not too long after the virus was first discovered at the end of December, labs turned their sights toward treatment.
+
+Currently, however, there is no cure for this coronavirus, and treatments are based on the kind of care given for influenza (seasonal flu) and other severe respiratory illnesses, known as "supportive care," according to the Centers for Disease Control and Prevention (CDC). These treatments essentially treat the symptoms, which often in the case of COVID-19 involve fever, cough and shortness of breath. In mild cases, this might simply mean rest and fever-reducing medications such as acetaminophen (Tylenol) for comfort.
+
+In hospitals, doctors and nurses are sometimes treating COVID-19 patients with the antiviral drug oseltamivir, or Tamiflu, which seems to suppress the virus' reproduction in at least some cases. This is somewhat surprising, Michigan Tech virologist Ebenezer Tumban told Live Science, as Tamiflu was designed to target an enzyme on the influenza virus, not on coronaviruses. The National Institutes of Health has begun a clinical trial at the University of Nebraska Medical Center to test the antiviral remdesivir for COVID-19, the agency announced Feb. 25. In China, doctors are also testing an array of other antivirals originally designed to treat Ebola and HIV, Nature Biotechnology reported.
+
+In cases in which pneumonia inhibits breathing, treatment involves ventilation with oxygen. Ventilators blow air into the lungs through a mask or a tube inserted directly into the windpipe. A New England Journal of Medicine study of 1,099 hospitalized patients with the coronavirus in China found that 41.3% needed supplemental oxygen and 2.3% needed invasive mechanical ventilation. Glucocorticoids were given to 18.6% of patients, a treatment often used to reduce inflammation and help open airways during respiratory disease.
+
+There is no vaccine for the coronavirus that causes COVID-19. Scientists are working to develop one, Hilary Marston, a medical officer and policy advisor at the National Institute of Allergy and Infectious Diseases (NIAID), said in a Harvard T.H. Chan School of Public Health webcast on Monday (March 2). 
+
+As of March 14, doctors in Seattle are recruiting volunteers to participate in a clinical trial for an experimental vaccine for COVID-19 that's being developed by the biotechnology company Moderna Therapeutics. However, biomedical ethicists are concerned that a critical step in vaccine development was skipped. In order to fast-track the vaccine, the researchers didn’t first show that it triggered an immune response in animals, a step that is normally required before human testing, Live Science previously reported.
+
+The researchers did begin testing the experimental vaccine on lab mice on the same day they started recruiting people for the clinical trial, Stat News reported. The mice did show an immune response that was similar to the one triggered by an experimental vaccine for a related coronavirus MERS-CoV. (Vaccines work by priming your immune system to recognize a virus like SARS-CoV-2 as an enemy and put up an attack against it.)
+
+Related: How this experimental vaccine for SARS-CoV-2 would work
+
+Even so, doctors aren't sure how much this "fast-tracking" will speed up the time it takes to develop and bring such a vaccine to market. 
+
+Before this experimental vaccine was in the works, Marston had said not to expect a vaccine in the near term. "If everything moves as quickly as possible, the soonest that it could possibly be is about one-and-a-half to two years. That still might be very optimistic," Marston said. 
+
+Coronavirus basics
+The novel coronavirus, now called SARS-CoV-2, causes the disease COVID-19. The virus was first identified in Wuhan, China, on Dec. 31, 2019, though it seems to have been spreading well before that date. Since then, it has spread to every continent except Antarctica. The death rate appears to be higher than that of the seasonal flu, but it also varies by location as well as a person's age, underlying health conditions, among other factors. For instance, in Hubei Province, the epicenter of the outbreak, the death rate reached 2.9%, whereas it was just 0.4% in other provinces in China, according to a study published Feb. 18 in the China CDC Weekly.
+
+Scientists aren't certain where the virus originated, though they know that coronaviruses (which also include SARS and MERS) are passed between animals and humans. Research comparing the genetic sequence of SARS-CoV-2 with a viral database suggests it originated in bats. Since no bats were sold at the seafood market in Wuhan at the disease’s epicenter, researchers suggest an intermediate animal, possibly the pangolin (an endangered mammal) is responsible for the transmission to humans. There are currently no treatments for the disease, but labs are working on various types of treatments, including a vaccine. 
+
+Originally published on Live Science. 
+
+
+OFFER: Save at least 53% with our latest magazine deal!
+
+With impressive cutaway illustrations that show how things function, and mindblowing photography of the world’s most inspiring spectacles, How It Works represents the pinnacle of engaging, factual fun for a mainstream audience keen to keep up with the latest tech and the most impressive phenomena on the planet and beyond. Written and presented in a style that makes even the most complex subjects interesting and easy to understand, How It Works is enjoyed by readers of all ages.

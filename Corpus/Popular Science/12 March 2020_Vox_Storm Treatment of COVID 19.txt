@@ -1,0 +1,50 @@
+How doctors can potentially significantly reduce the number of deaths from Covid-19
+We already have medicines for treating cytokine storm syndrome, the immune response that’s killing many who die of Covid-19.
+
+It is not yet clear what the death rate of Covid-19 will be, though the best estimate right now is that it is around 1 percent, 10 times more lethal than seasonal flu.
+
+Critically important studies emerging from China suggest that for many patients who die of Covid-19, it may be their own immune system, rather than the virus itself, that deals the fatal blow. This is called a cytokine storm.
+
+During a cytokine storm, an excessive immune response ravages healthy lung tissue, leading to acute respiratory distress and multi-organ failure. Untreated, cytokine storm syndrome is usually fatal. Patients in other studies who developed cytokine storm syndrome after viral triggers often ironically possessed subtle genetic immune defects resulting in the uncontrolled immune response.
+
+Over the past two decades, much has been learned about the diagnosis and treatment of cytokine storm syndromes. On the front lines of the Covid-19 response, it is critical that medical professionals are aware of the syndrome and prepared to identify and treat it.
+
+This act of preparation could help to significantly reduce the number of deaths from Covid-19. In treating cytokine storms brought about by other illnesses, like other viral infections and autoimmune diseases, death rates among patients suffering a cytokine storm have been reduced to as low as 27 percent.
+
+Until vaccines for the novel coronavirus are available, likely a year or more from now, it is possible that millions of people may become infected around the globe. This is in part due to minimal early symptoms in up to 80 percent of those who become infected.
+
+However, seemingly mild cases of Covid-19 can morph into more severe cases involving the lower lungs and up to 20 percent of symptomatic novel coronavirus infected individuals require hospitalization, with 5 percent overall needing intensive care. Although individuals who are elderly or who have underlying chronic health problems are at a higher risk of mortality, younger previously healthy people have also succumbed to severe Covid-19.
+
+
+Cytokine storm syndromes go by many names, but they share the pathology of an overly active immune response that leads to frequently fatal multi-organ dysfunction syndrome (MODS). The risk factors for why some previously healthy individuals become deathly ill remain unknown. There are likely host factors, including genetic mutations that put individuals at higher risk. Until the risk factors are known, the medical community will need to treat those Covid-19 patients based solely on the severity of their disease.
+
+How to screen for cytokine storm syndrome in sick patients
+While novel and repurposed anti-viral therapies are being explored to treat Covid-19, those individuals with cytokine storm syndrome also require treatment of the overly active immune response. In these situations, an overactive immune response can be deadly. All Covid-19 patients sick enough for hospitalization should be given a cheap, quick, and readily available serum ferritin blood test. Indeed, elevated serum ferritin values have recently been reported in Chinese hospitalized patients with Covid-19. This is a good first screening tool for the possibility of a cytokine storm syndrome in sick patients with high fevers.
+
+The question then remains how best to treat a cytokine storm syndrome once it is identified. The treating physician is often placed between a rock and a hard place. Corticosteroids can be powerfully broad immunosuppressive agents, and they are inexpensive and readily available throughout the world. However, it can be frightening for a physician to treat a severely ill, infected individual with such powerful and wide-ranging immune suppression.
+
+We already have medicines for treating cytokine storm syndrome triggered by viruses
+With the development of biologic therapies for a variety of rheumatic, oncologic, and other conditions, novel approaches to treating the immune response are now available. These highly targeted medicines go after one or a few inflammatory molecules, including cytokines, without the general immune suppression effected by corticosteroids and other relatively non-selective immune suppressants.
+
+Recently, a number of specific anti-cytokine approaches have proven effective in treating a variety of cytokine storm syndromes, including those triggered by viruses. These include drugs targeting interleukin-1 (IL-1), IL-6, IL-18, and interferon-gamma. While randomized trials will be needed to confirm which, if any, of these therapeutics will effectively treat Covid-19-infected patients with cytokine storm syndrome, IL-6 blockade has recently been reported to be in use in China with successful outcomes in some individuals receiving this as part of their treatment.
+
+While working to prevent future outbreaks of deadly coronavirus infections with vaccine development and discovering new or re-purposed anti-viral medicines to treat the virus, we must also use all the knowledge at our disposal to treat those patients most at risk of dying – including from Covid-19-induced cytokine storms. For this to occur, the medical community must first be aware of the possibility, then make the diagnosis, and finally treat infected individuals with overly active immune responses that are harmful, if not fatal, left untreated. This should help save the lives of those unfortunate individuals at risk of Covid-19 induced cytokine storm syndrome.
+
+
+
+ 
+ 
+TOP ARTICLES
+1/5
+READ MORE
+The race for presidential delegates is well underway. Track
+them here.
+
+
+NEXT UP IN POLITICS & POLICY
+Coronavirus treatment research is being held up by Trump’s ban on the use of fetal tissue
+Trump’s policies are putting vulnerable immigrants at risk as coronavirus spreads
+America’s mass transit agencies need a bailout, too
+Exclusive: New poll shows Asian American voters could give Democrats a big boost in 2020 battleground districts
+Trump’s latest coronavirus press briefing was a disastrous failure in leadership
+The 2 Democrats running for president and everything else you should know about 2020

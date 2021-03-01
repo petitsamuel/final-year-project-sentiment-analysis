@@ -1,0 +1,126 @@
+What Triage Issues Reveal: Ethics in the COVID-19 Pandemic in Italy and France
+Kristina Orfali 
+Journal of Bioethical Inquiry (2020) 
+Symposium: COVID-19
+Published: 09 November 2020
+
+Abstract
+In today’s pandemic, many countries have experienced shortages of medical resources and many healthcare providers have often been faced with dramatic decisions about how to allocate beds, intensive care, or ventilators. Despite recognizing the need for triage, responses are not the same everywhere, and opinions and practices differ around what guidelines should be used, how they should be implemented, and who should ultimately decide. To some extent, triage issues reflect community values, revealing a given society’s moral standards and ideals. Our goal is to study two countries which share many common features—Italy and France—as they deal with the pandemic, revealing the moral organization of medicine and healthcare, the power structures, and the nature of the disruptions in each context.
+
+When experiencing shortages of medical resources, countries must make life and death “triage” decisions about who has access to needed treatments. Triage in healthcare is by no means a novel topic. From the early triage committees on dialysis (Seattle Committee in 1962) to today’s organ transplantations, physicians do select patients on specific criteria, and that practice is generally accepted by the public.
+
+On March 11, COVID-19 was classified by WHO as a pandemic, leading several countries to issue triage guidelines with little or no preparation and scarce information on the disease. Guidelines drafted by WHO in 2016 were mostly on risk communication (WHO 2016). However, the (WHO 2007) report addressed (in chapter 3) the ethical issues of resource scarcity during a pandemic. Some countries updated previous frameworks from official pandemic preparedness documents, particularly from the H1N1 influenza in 2009; various guidelines (Emmanuel et al. 2020; Truog, Mitchell, and Daley 2020) were published both in medical and ethical journals as the pandemic disseminated; professional medical societies came out with their own guidelines; and numerous discussions were reported in the media.
+
+Despite this common recognition of the need for triage, responses are not the same everywhere, and opinions and practices differ around who should draft these guidelines, what guidelines should be used, how they should be implemented, and who should ultimately decide. To some extent, triage issues reflect community values.
+
+The case of Italy and France is particularly interesting. As the pandemic reached different phases, we did observe changing values and possibly new modes of accountability emerging. The necessary shift from a patient-centred care to healthcare guided by public-health duties creates great tensions for clinicians. Scarcity of resources suddenly generates the need to prioritize the community over the individual (fair allocation of scarce resources, altered standard of care, etc.). While France and Italy share many cultural similarities (including a more paternalistic medical approach than the United States), the two experiences were largely dissimilar. Triage issues almost ruptured the Italian medical system, changing the doctor–patient relationship and the social consensus (particularly in the north), whereas the French kept holding on to non-transparent medical triage guidelines, avoiding at all costs any public debates on such topic. How can such different outcomes be explained?
+
+Beyond a socialized healthcare system, Italy and France share generally a great trust towards public authorities regarding the management of healthcare matters. As a result, ethical issues such as end of life (Feuillet-Liger, Orfali, and Callus 2013) or neonatal resuscitation policies (Orfali 2004) usually leave substantial discretionary decision-making power to physicians. Another common feature is the weakness of independent clinical ethics framework. In France (Orfali 2011), the Comité Consultatif National d'Ethique (CCNE), created in 1983, was the first active ethical institution in charge of defining norms and producing expertise. Its numerous reports became the most widely quoted source in National Assembly debates on bioethical topics, from assisted reproduction to (more recently) end of life. Italy has followed a similar path with the creation in the 1990s of their own national ethics committee, the Comitato Nazionale per la Bioetica (CNB). In both cases, a major part of these committees’ work dealt with issues related to medical research, beginning of life (assisted reproduction, etc.), and end of life. On the last topic, both countries seem to follow a similar path, with the Lambert case in France in 2013 and the Eluana Englaro case in Italy in 2009. Both countries have finally produced specific legislation (in 2018 for Italy, and in 2005 and more recently in 2016 for France, with the Claeys-Leonetti Law) that allows patients to refuse care if competent and to draft advance directives. However, the same patient, if unable to consent, falls in both countries under the decision-making power of the physicians who need only to “consult” the family; the surrogate chosen by the patient has in fact no real medical decision-making power. Moreover, both laws do give physicians significant leeway regarding the patient’s advance directives if they do not seem medically appropriate—although the Italian law, unlike the French, would require the surrogate’s (fiduciaro) consent to any drastic change in the advance directives.
+
+Though there are more ethical debates within the hospital milieu, particularly in France (Picozzi et al. 2017), there has hardly been, in either country, any widespread development of clinical ethics (Mino 2002). Neither country has clinical ethicists or clinical consultation services comparable to the United States. In fact, ethics remain to a large degree medically managed, possibly with some minor input from philosophy or psychology. In both places, there is a common reluctance from the state and the medical profession to acknowledge any jurisdictional vacancy for a specific occupation (even less so for a profession) of bioethicist.
+
+Until COVID-19 became a worldwide pandemic, there has been little attention to ethical issues during pandemic times in both countries. In 2009 the CCNE did produce a recommendation (Avis 106) regarding general ethical questions related to a potential influenza pandemic, but the only scarce resource mentioned was a potential lack of vaccines. The plan suggested following priorities and criteria used in organ transplantation, with an absolute priority for healthcare professionals in case of shortage. In Italy, the 2008 report Piano nazionale di preparazione e risposta ad una pandemia influenzale [National flu pandemic preparedness and response plan] (CCM 2008) addressed mostly epidemiological issues, territorial organization, and public communication in case of a pandemic. Quite surprisingly, none of these plans explicitly dealt with specific protocols regarding triage decisions or the allocation of scarce resource at the bedside—announcing the lack of preparedness during the COVID-19 outbreak and the dramatic situation which followed. As with end-of-life matters (and ethical questions in general), triage issues in both countries fell into the hands of the medical community, particularly intensivists, who as experts were also supposed to advise politicians and the government.
+
+Italy was the first country hit in the West; it was therefore unprepared for the dreadful reality of more than thirty-three thousand people dying from the coronavirus by the end of May and to the consequences of dramatic shortages of ICU beds, respirators, and trained ICU staff, particularly in one of the wealthiest parts of the country (Lombardy). There was little available information on the specifics of the disease, as critically ill patients were trapped on ventilators for longer time than expected. In France, the Grand Est (“Great East”) region was early and severely hit by the pandemic, followed by the Ile de France region (the region surrounding and including Paris).
+
+Triage Guidelines
+Finally, weeks after the pandemic outbreak, both countries hastily produced triage guidelines. The Italian Professional Society of Intensivists published their guidelines (SIAARTI 2020) in March, several weeks after the beginning of the pandemic; the French guidelines (SFAR 2020) were drafted on April 3. Both were drafted by ICU physicians, and both state that the goal is first to minimize the death toll and second to maximize life years saved. Unlike most American guidelines, there are no separate triage committee or triage officers; in both countries, decisions are to be made by treating physicians in a collegial way. In France, however, the French National Ethics Committee (CCNE) recommended a new ethical support (“cellules éthiques de soutien”) if needed to help assisting physicians facing difficult decisions.
+
+The most obvious difference is that the Italian guidelines were published and widely debated in the media, while the French guidelines were sent to hospitals with little or no publicity. There had been some acknowledgement of a potential need for triage (“tri”) in a publication by the Conseil National d’Ethique (CCNE 2020), but overall, the triage issue remained exclusively discussed within the medical community. The Italian guidelines explicitly state that “an age limit for an ICU admission might be ultimately need to be set,” while the wording of the French guidelines tends to avoid any explicit age- or disability-related exclusion criterion (although these categories are taken into account in the prognosis). Again, the Italian guidelines are more explicit and transparent than the French ones. Finally, the French guidelines differ also in that they give explicit and absolute priority for ICU beds and ventilators to their healthcare providers, whatever their condition and whatever the rationing situation.
+
+The Reality of Triage: Italy
+Because Italy has one of the oldest populations in the world, the death toll has been particularly high during the first COVID-19 wave (as of March 27, 56 per cent of cases reported in Italy were over sixty-years-old). The fact that the pandemic was concentrated in one area created an overflow and a need for triage. In northern Italy, as (mostly anonymous) reports in the news, social media, and even international medical journals demonstrated, triage was becoming the harsh reality: “So aversive was this triage that [doctors] hesitated to describe how these decisions were made” (Rosenbaum 2020, 3). Triage practices varied by hospital, but age cut-offs went down from eighty to seventy-five (or even less) at the peak of the epidemic. Physicians who spoke openly about the wrenching decisions they faced were sued by their hospital. When the triage guidelines finally were published, they were met by harsh criticism (Sorbi 2020).
+
+Yet, the silent world of purely medical life-and-death decision-making finally collapsed under the pressure of an overstretched healthcare system. Public opinion expressed outrage, and members of the medical community disowned their peers. More surprisingly, many frontline physicians and healthcare givers publicly expressed a demand for more explicit ethical guidelines (Mannelli 2020), arguing that these issues went beyond strict medical expertise. They even appealed internationally to more ethical discussions on these dramatic triage issues, warning that this was not solely an Italian problem (Ferraresi 2020). The triage issue revealed the limits of a purely medical management of a pandemic, creating a rupture in the old paternalistic model. Will this lead to a novel approach in the healthcare system? At the very least, the tragic context has highlighted the lack of ethicists in Italy (Nicoli and Gasparetto 2020) as well as the lack of “legal shield” for healthcare professionals. Finally, the decentralized nature of the Italian healthcare system resulted in an obvious lack of solidarity between regions, which amplified the ethical challenges.
+
+The Reality of Triage: France
+In contrast, the French approach largely relied on non-public guidelines. While age could not in principle be used as a discriminatory criterion, an age cut-off for accessing an ICU bed was de facto established in the overwhelmed regions (Grand Est and Ile de France), as reported within (but not outside of) the medical community. Apparently, bedside triage was less prevalent than an upstream, informal triage made by declining to transfer older patients to an ICU (or even sometimes to a hospital). For a long time, Jérôme Salomon, the French director general for health, avoided even giving any statistics regarding COVID-related deaths in nursing homes (EPHADs), although these made up more than a third of all deaths. Triage was de facto taking place at the first responder’s (SAMU)Footnote1 level. A medical argument sometimes invoked was that older people would not do well on a ventilator (a similar informal policy existed regarding disabled people—particularly those in institutions—who would often not be transferred to hospitals). Indeed, the French SAMU has been criticized for using a specific scoring system (“Aggir”)Footnote2 evaluating patients’ autonomy and dependency before permitting a transfer. Several associations, representing nursing homes or the disabled community, appealed to the highest court in the nation (Conseil d’Etat) for the lack of clear protocols to ensure equal access to healthcare resources. The Conseil d’Etat (2020) responded by quoting the different guidelines, arguing that there were protocols in place and that no age- or disability-related discrimination had been proven.
+
+Interestingly, these issues—and in particular the practice of not transferring some COVID patients to hospitals for age- or disability-related reasons—did not come up in the public debate and were hardly reported in the media contrary to the Italian case. There seem to be an implicit consensus that these issues are better discussed within the medical community and that the definition of the relevant criteria should be left to medical experts who in turn will advise the government regarding any ethical problems. Ethical oversight in France, especially in the clinical setting, remains in the hands of the medical establishment (De Vries et al. 2009; Debacker, Moret, and Robillard 2020), leading more to a self-regulation of experts than to any external control.
+
+Discussion
+What lessons can we draw from these two situations of triage with initially quite similar healthcare systems and medical culture? Socialized healthcare is grounded in the idea of equal access to healthcare resources; physicians are supposed to be the gate keepers of this system. In Italy, in a less centralized system facing excessive pressure, this model collapsed because front-line physicians themselves questioned their own role, triggering a debate that went well beyond the medical community, involving society as a whole. Purely medical criteria became morally questionable and socially unacceptable; a quest for more public health ethics emerged.
+
+In France, medical paternalism seems to remain strongly in place, and has been successful at turning triage issues into an “objective,” purely medical process—but at the cost of a total absence of transparency. Defining what is morally and socially acceptable remains a task for medical experts, whose opinion is followed by policymakers. How long will this last? Many in France start to feel that they have been deeply misled (notably regarding advice for the use of masks and the lack of tests) even by experts advising the government; legal actions against several health authorities are now taking place.
+
+Ultimately the comparison exposed the lack of ethicists and independent ethical involvement in triage policies and planning in both countries. It also demonstrated that under dramatic pressure brought by the pandemic, the guidelines in Italy opened up an unparalleled ethical discourse and a quest for more ethical questioning regarding choices that were made. In France, the picture remains less clear but excess mortality in nursing homes has started to be reported and distraught families are suing (Thibert 2020a, 2020b). Post-COVID, there might come a time for more accountability regarding what happened during the pandemic.
+
+Notes
+1.
+The French SAMU (Service d’Aide Médicale d’Urgence) is slightly different from EMS in that they involve ER physicians and intensivists in the ambulance
+
+2.
+This is a scale (from 1 to 6) that is used as a tool to assess mental and physical state of an elderly person and the level of demonstrated autonomy she has. It has mostly been used for the allocation of benefits for older people.
+
+References
+CCM (Centro nazionale per la prevenzione e il controllo delle malattie) [National Centre for Disease Prevention and Control (Italy)]. 2008. Piano nazionale di preparazione e risposta a una pandemia influenzale [National flu pandemic preparedness and response plan]. Ministero della Salute [Ministry of Health].
+
+Conseil d’Etat [Council of State]. 2020. Décision du 15 avril. Accès aux soins de personnes résidant en EPHAD [Decision of April 15: Access to healthcare for people living in EPHADs].
+
+Conseil National d’Ethique (CCNE) [National Council of Ethics]. 2020. COVID-19. Contribution du CCNE: Enjeux éthiques face à une pandémie [Ethical issues in the face of a pandemic]. March 13.
+
+Debacker P., A. Moret, and J. Robillard. 2020. Le monde du handicap et de la santé mentale s'inquiète du tri en reanimation [The world of disability and mental health is concerned about triage in intensive care]. Hospimedia, April 17.
+
+De Vries, R., R. Dingwall, and K. Orfali. 2009. The moral organization of the professions: Bioethics in the United States and France. Journal of Contemporary Sociology 57(4): 555–579.
+Emmanuel, E., G. Persad, R. Upshur, et al. Fair allocation of scarce medical resources in the time of Covid-19. New England Journal of Medicine 382(21):2049–2055
+
+Ferraresi, M. 2020. A coronavirus cautionary tale from Italy: Don’t do what we did. Boston Globe, March 13.
+
+Feuillet-Liger B., K. Orfali, and T. Callus, eds. 2013. Families and end-of-life treatment decisions: An international perspective. Brussels: Bruylant.
+Mannelli, C. 2020. Whose life to save? Scarce resources allocation in the COVID-19 outbreak. Journal of Medical Ethics 46(6): 364–366.
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+Mino, J.C. 2002. Lorsque l’autonomie du médecin est remise en cause par l'autonomie du patient: Le champ hospitalier de l'éthique clinique aux Etats-Unis et en France [When doctor autonomy is called into question by patient autonomy: Clinical ethics in the United States and France]. Revue Française des Affaires Sociales 56(3): 73–102.
+
+ 
+ 
+
+Nicoli, F., and A. Gasparetto. 2020. Italy in a time of emergency and scarce resources: The need for embedding ethical reflection in social and clinical settings. The Journal of Clinical Ethics 31(1): 92–94.
+
+ 
+ 
+
+Orfali, K. 2004. Parental role in medical decision-making: fact or fiction? A comparative study of ethical dilemmas in French and American neonatal intensive care units. Social Science and Medicine 58(10): 2009–2022.
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+———. 2011. French bioethics: The rhetoric of universality and the ethics of medical responsibility. In Bioethics around the globe, edited by C. Myser. Oxford Press.
+
+Picozzi M., F. Nicoli, and R. Pegoraro. 2017. The development of clinical ethics in Italy and the birth of the “Document of Trento.” Clinical Ethics 12(1): 24–30.
+
+Rosenbaum, L. 2020. Facing Covid-19 in Italy—ethics, logistics, and therapeutics on the epidemics’ front line. New England Journal of Medicine 382(20): 1873–1875.
+
+SIAARTI [Italian College of Anaesthesia, Analgesia, Resuscitation, and Intensive Care]. 2020. Clinical ethics recommendations for the allocation of intensive care treatments in exceptional, resource-limited circumstances. March 16.
+
+SFAR (Société Française d’Anesthésie-Réanimation)[French Society of Anaesthesia-Resuscitation]. 2020. Priorisation des traitements de réanimation pour les patients en état critique en situation d’épidémie de COVID-19 avec capacités limitées. [Prioritization of resuscitation treatments for critically ill patients in a COVID-19 epidemic situation with limited capacity]. April 3.
+
+Sorbi, M. 2020 Terapie intensive, il documento choc: “Liste dei meritevoli per essere curati.” [Intensive care, the shock document: “Lists of those deserving treatment”]. Il Giornale.it, March 8.
+
+Thibert, C. 2020a. Les plus de 75 ans sont-ils exclus d’office des soins de réanimation? [Are people over 75 excluded from intensive care?]. Le Figaro, April 1.
+
+———. 2020b. Les personnes âgées infectées ont-elles été privées d’hospitalisation? [Have the infected elderly been denied hospitalization?] Le Figaro, April 23.
+
+Truog, R.D., C. Mitchell, and G.Q. Daley. 2020. The toughest triage—allocating ventilators in a pandemic, New England Journal of Medicine 382(21): 1973–1975.
+
+ 
+
+WHO (World Health Organization). 2007. Ethical considerations in developing a public health response to pandemic influenza. Geneva: WHO. https://apps.who.int/iris/handle/10665/70006.
+
+ 
+ 
+
+WHO. 2016. Communicating risk in public health emergencies. A WHO guideline for emergency risk communication (ERC), policy and practice.
+Author information
+Affiliations
+Department of Pediatrics, Division of Neonatology, Columbia University Medical Center, 622 W 168th street PH17-, New York, NY, 10032, USA

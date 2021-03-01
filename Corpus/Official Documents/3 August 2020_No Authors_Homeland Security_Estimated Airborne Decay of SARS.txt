@@ -1,0 +1,40 @@
+Estimated Airborne Decay of SARS-CoV-2 (virus that causes COVID-19)
+under a range of temperatures, relative humidity, and UV index
+Use the sliders to select the UV index, temperature and relative humidity of interest. Information on how long SARS-CoV-2 would be expected to remain stable in aerosols (airborne) will be displayed in the table below. Users can find the environmental conditions for a specific location by accessing general weather resources online.
+
+SARS-CoV-2 Airborne Decay Calculator
+UV Index:
+0
+10
+UV Index:
+2
+Temperature:
+50
+86
+Temperature:
+70
+°F / 21.1 °C
+Relative Humidity:
+20
+70
+Relative Humidity:
+40
+%
+COVID Stability:
+% Virus Decay	Minutes	Hours
+50% (half-life):	10.21	0.17
+90%:	33.92	0.57
+99%:	67.83	1.13
+ 
+
+Background
+Minimizing person-to-person spread of SARS-CoV-2 is one of the main ways to reduce the impact of COVID-19.
+Transmission is believed to occur through respiratory droplets produced by talking, coughing and sneezing. Contact with contaminated surfaces and objects may also contribute to spread.
+Increased temperature and relative humidity cause a minimal increase in SARS-CoV-2 decay, but the addition of simulated sunlight causes rapid decay of the virus in aerosol.
+These data have been used to develop a predictive model to estimate virus decay in aerosols under a limited range of environmental conditions.
+The data that supports the decay of SARS-CoV-2 with simulated sunlight (UV) is published in the Journal of Infectious Diseases and can be found here.
+Model Caveats
+Graphic showing UV index and Relative Humidity rapid decay per minute model
+
+It should be noted that in order to fully assess the hazard posed by aerosols containing SARS-CoV-2, additional information is needed, including how much infectious virus is shed by infected individuals into the air, and the amount of virus that needs to be inhaled to cause infection.
+The tool is valid for the following ranges of conditions: 50-86°F, 20-70% relative humidity, and UV indices of 0-10.

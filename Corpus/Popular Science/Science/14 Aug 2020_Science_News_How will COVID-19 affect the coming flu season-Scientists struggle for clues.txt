@@ -1,0 +1,40 @@
+How will COVID-19 affect the coming flu season? Scientists struggle for clues?
+Scientists struggle for clues
+By Kelly Servick Aug. 14, 2020 , 4:30 PM
+
+In March, as the Southern Hemisphere braced for winter flu season while fighting COVID-19, epidemiologist Cheryl Cohen and colleagues at South Africa’s National Institute for Communicable Diseases (NICD) set up a plan to learn from the double whammy. They hoped to study interactions between seasonal respiratory viruses and SARS-CoV-2, which causes COVID-19. Does infection with one change a person’s risk of catching the other? How do people fare when they have both?
+
+But the flu season—and the answers—never came. NICD’s Centre for Respiratory Disease and Meningitis, which Cohen leads, has logged only a single flu case since the end of March. In previous years, the country’s surveillance platforms have documented, on average, about 700 cases during that period, Cohen says. “We’ve been doing flu surveillance since 1984, and it’s unprecedented.”
+Some cases probably got overlooked as clinics temporary closed and people with mild symptoms avoided medical offices and clinics, Cohen says. “But I don’t believe it possible that we’ve entirely missed the flu season with all of our [surveillance] programs.” Apparently, travel restrictions, school closures, social distancing, and mask wearing have all but stopped flu from spreading in South Africa. Similar stories have emerged from Australia, New Zealand, and parts of South America.
+
+The Northern Hemisphere hopes to be so lucky. Few cases in the south might mean little infection spreading north, says Pasi Penttinen, head of the influenza and respiratory illness program at the European Centre for Disease Prevention and Control (ECDC). But if lockdowns and social distancing measures aren’t in place in October, November, and December, flu will spread much more readily than it has in the south, warns virologist John McCauley, director of the Worldwide Influenza Centre at the Francis Crick Institute.
+
+The prospect of a flu season during the coronavirus pandemic is chilling to health experts. Hospitals and clinics already under strain dread a pileup of new respiratory infections, including influenza and respiratory syncytial virus (RSV), another seasonal pathogen that can cause serious illness in young children and the elderly. In the United States, where some areas already face long waits for COVID-19 test results, the delays could grow as flu symptoms boost demand. “The need to try to rule out SARS-CoV-2 will be intense,” says Marc Lipsitch of the Harvard T.H. Chan School of Public Health.
+
+Because the Southern Hemisphere has largely been spared, researchers have little evidence about how COVID-19 might influence the course of a flu outbreak. One big concern is coinfection—people getting COVID-19 and flu at once, says Ian Barr, deputy director of the World Health Organization Collaborating Centre for Reference and Research on Influenza in Melbourne, Australia. “Two or three viruses infecting you are normally worse than one,” he says.
+
+But the consequences of coinfections with SARS-CoV-2 haven’t been thoroughly studied. In April, a team at Stanford University found that among 116 people in Northern California who tested positive for the coronavirus in March, 24 also tested positive for at least one other respiratory pathogen, most often rhinoviruses and enteroviruses that cause cold symptoms, as well as RSV. Only one of the patients had influenza, although there likely wasn’t much flu circulating so late in the U.S. season, says Stanford pathologist Benjamin Pinsky, a co-author. The study didn’t find a difference in outcomes between COVID-19 patients with and without other infections. But it was too small to draw broad conclusions.
+
+Documented flu cases, April through mid-August
+COVID-19 control measures dramatically reduced transmission of flu in many Southern Hemisphere countries this season.
+
+Country	2018	2019	2020
+Argentina	1517	4623	53
+Chile	2439	5007	12
+Australia	925	9933	33
+South Africa	711	1094	6
+FLUNET; GLOBAL INFLUENZA SURVEILLANCE AND RESPONSE SYSTEM
+To make things more complicated, having one virus can change a person’s chance of getting infected with another. Epidemiologist Sema Nickbakhsh and her team at the University of Glasgow have found both positive and negative relationships between different pairs of respiratory viruses, even after adjusting for confounding factors that would cause two viruses to show up concurrently or at separate times, such as their tendencies to wax and wane with the seasons.
+Coinfections with flu and other respiratory viruses are relatively rare, Nickbakhsh says, and the interactions her group has documented between flu and other viruses have suggested protective effects. For example, being infected with one type of flu virus, influenza A, seemed to reduce the chance of also having a rhinovirus, the researchers reported in 2019. (The mechanism behind this effect isn’t yet clear.)
+
+Nickbakhsh is more concerned about RSV, which her team found to have positive interactions with CoV-OC43, a coronavirus species of the same genus as SARS-CoV-2. It’s possible, she says, that having COVID-19 could increase a person’s susceptibility to RSV, or vice versa. Pinning down possible interactions between COVID-19 and other infections requires a large number of patient samples tested for SARS-CoV-2 and other respiratory viruses. Rapid, dual diagnostic tests will be important for both research and treatment decisions, says Benjamin Singer, a pulmonary and critical care physician at Northwestern University. The U.S. Food and Drug Administration has issued emergency use authorizations for flu–COVID-19 combination tests developed by Qiagen, BioFire Diagnostics, and the U.S. Centers for Disease Control and Prevention (CDC).
+
+The impending winter in the Northern Hemisphere has also brought new attention to flu vaccines, which may keep hospital admissions down as health systems grapple with the pandemic. Flu vaccine manufacturers including GlaxoSmithKline and AstraZeneca have announced production increases for the 2020–21 season. CDC expects to have a record-setting 194 million to 198 million doses—a 20 million–dose increase from last year. Last month, the United Kingdom’s National Health Service announced it would expand the age groups eligible for a free flu shot among both children and adults.
+
+But what if the flu season is minor? Pouring resources into an immunization campaign necessarily subtracts from COVID-19 responses, says Penttinen, whose team provides guidance to European member states on flu vaccination. Still, rates of vaccination have long been “suboptimal” in Europe, he adds. (Rates among older adults—the target population for the flu vaccine in many countries—range from 2% to 72.8%, depending on the country, according to the most recent ECDC data, released in 2018.) “I think the tendency is to say, ‘We should err on the side of caution—putting efforts into at least maintaining if not increasing the influenza vaccine coverage,’” Penttinen says.
+
+The Southern Hemisphere dodging the flu bullet might create even one more blind spot: Less circulating influenza virus means fewer clues about which genetic variants are most prevalent and likely to contribute to the next flu season. The current record-low season creates a genetic bottleneck, McCauley says, and the flu variants that survive “will be presumably the fittest ones,” he says. It’s not clear what variants will dominate when flu, inevitably, rears its head again.
+
+Barr and McCauley, whose institutions are two of the six that collect and analyze flu samples to decide the composition of the next year’s vaccine, say they’ve received fewer patient samples than in previous years.
+
+Insufficient data could lead to a less effective vaccine for the Southern Hemisphere in 2021. The contents of that cocktail must be decided by the end of September. “It’s a little unsettling,” Barr says, “but we’ll do the best we can with the viruses that we have.”

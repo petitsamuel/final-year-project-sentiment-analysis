@@ -1,0 +1,32 @@
+Eli Lilly reports first, promising results for an antibody against COVID-19
+By Meredith Wadman Sep. 16, 2020 , 11:15 AM
+
+Today brings the first whisper of success for a class of closely watched drugs that it’s hoped will begin to beat back COVID-19 before vaccines are licensed: monoclonal antibodies, engineered versions of the same virus-fighting antibodies that the body naturally produces.
+
+Eli Lilly reports this morning interim results from a placebo-controlled trial of one such compound, cloned in quantity from an antibody captured from the blood of a patient who recovered from COVID-19. In June, the company began a trial delivering either placebo or one of three doses of the antibody, called LY-CoV555, to 452 patients. These were not gravely ill people, but patients with mild or moderate symptoms who had tested positive for SARS-CoV-2 within the past 3 days and had not been hospitalized.
+
+Related
+a man with electrodes on his chest and a doctor monitoring him
+As evidence builds that COVID-19 can damage the heart, doctors are racing to understand it
+person in ICU bed 
+Why COVID-19 is more deadly in people with obesity—even if they’re young
+immunofluorescence image of healthy germinal centers in lymph node
+The coronavirus may shut down the immune system’s vital classrooms
+See all of our coverage of the coronavirus outbreak
+Five of 302 patients who received the drug ended up being hospitalized—1.7%. But nine of the 150 placebo patients ended up in the hospital—6%—meaning there was a 72% reduced risk of being hospitalized for patients who received the antibody versus those who received a placebo. The drug produced no serious side effects, the company reports.
+
+“Since these are the first clinical data we’ve seen from neutralizing antibodies, I find the results quite encouraging, for lack of safety issues and supportive signs—not definitive, by any means—of having efficacy,” says Eric Topol, a cardiologist who directs the Scripps Research Translational Institute. “So much is riding on this class of drugs for prevention, early treatment (as in this trial),” and use in hospitals before patients become critically ill.
+
+Most of those hospitalized were older or had a higher-than-healthy body mass index, a gauge of obesity, “suggesting a more pronounced treatment effect for patients in these higher-risk groups,” according to Lilly’s press release. Daniel Skovronsky, the company’s chief scientific officer, told The Wall Street Journal these risk factors could guide who receives the antibody if supplies are limited, assuming that the antibody is approved by the U.S. Food and Drug Administration (FDA).
+
+But only the middle dose of the antibody reached the trial’s primary goal: a significant reduction of the load of coronavirus in the blood of patients after 11 days. Lower and higher doses did not meet this mark. The biological effect of a drug is normally expected to increase with the dose, so the finding that the higher dose did not reach the endpoint boosts the possibility that the middle dose’s impact was due to chance.
+
+What’s more, the company declined to say whether the difference in hospitalization rates for treated patients as compared with those who received placebo reached statistical significance, and several analysts raised their eyebrows about whether the effect is meaningful, as Endpoints News reports.
+
+Still, Skovronsky told STAT the company hopes to discuss a possible emergency use authorization with FDA, which requires less, and less definitive, efficacy data from a company than what’s required for an unqualified FDA approval to move a drug to market.
+
+The Lilly trial is ongoing, aiming to enroll a total of 800 patients, and includes another Lilly antibody, LY-CoV016, which binds to a different target on the virus’ spike protein. Regeneron Pharmaceuticals also has a pair of coronavirus-targeting antibodies in clinical trials in hospitalized and nonhospitalized patients, with preliminary results expected later this month.
+
+“The monoclonal antibody class represents our best shot for a near term, potent intervention even though they are difficult to produce at scale and will likely carry a high cost,” Topol says.
+
+*Update, 16 September, 2 p.m.: This article has been updated to include a reference to analysts’ skepticism.

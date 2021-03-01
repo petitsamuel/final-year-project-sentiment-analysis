@@ -1,0 +1,125 @@
+Addendum to Precautionary SAGE meeting on Covid-19, 22nd January 2020
+Held in 10 Victoria St, London, SW1H 0NN
+
+This addendum clarifies the roles of the SAGE attendees listed in the minute. There are
+three categories of attendee. Scientific experts provide evidence and advice as part of the
+SAGE process. HMG attendees listen to this discussion, to help inform policy work, and are
+able to provide the scientific experts with context on the work of government where
+appropriate. The secretariat attends in an organisational capacity. The list of attendees is
+split into these groups below.
+Attendees
+Scientific experts: Patrick Vallance (GCSA), Chris Whitty (CMO), Charlotte Watts (CSA
+DfID), Jonathan Van Tam (Deputy CMO), Neil Ferguson (Imperial), Carole Mundell (CSA
+FCO), Peter Horby (Oxford), Christine Middlemiss (CVO DEFRA), James Rubin (King's
+College), Cathy Roth (DFID), Jeremy Farrar (Wellcome), Phil Blythe (CSA DfT), Pasi
+Penttinen (ECDC), David Lalloo (LSHTM), Maria Zambon (PHE), Ben Killingley (UCL), John
+Edmunds (LSTHM), Jim McMenamin (Health Protection Scotland).
+Observers and Government officials: Rupert Shute (dCSA HO), Kavitha Kishen (DfT),
+Stuart Wainwright (GoS), Tasha Grant (CCS), Samantha Harris (GoS).
+Secretariat: [redacted]
+Names of junior officials and the secretariat are redacted.
+Participants who were Observers and Government Officials were not consistently recorded
+therefore this may not be a complete list.
+1
+UPDATED, valid as of 1700 23 January
+Precautionary SAGE meeting on Wuhan Coronavirus (WN-CoV)
+22 January 2020
+Held in 10 Victoria St, London SW1H 0NN
+Situation update
+1. DHSC provided an update on current declared cases, deaths and geographic spread.
+2. China has recently revised case definitions. This makes comparisons difficult.
+3. It was reported that diagnostic testing capability in Wuhan is overwhelmed.
+4. There is considerable uncertainty around the data, with almost certainly many more
+cases than have been reported; a reasonable worst case cannot be made reliably under
+such circumstances.
+5. WHO has received some environmental sampling from Wuhan: information on the
+zoonotic reservoir may be forthcoming shortly.
+6. *** Following the meeting, authorities in Wuhan announced the suspension of public
+transport, including outbound trains and flights, from 0200 GMT 23 January. ***
+Current understanding of WN-CoV
+7. There is evidence of person-to-person transmission. It is unknown whether transmission
+is sustainable.
+8. The incubation period is unclear – but appears to be within 5 to 10 days; 14 days after
+contact is a sensible outer limit to use.
+9. It is highly probable that the reproductive number is currently above 1.
+10. It is currently estimated that the mortality rate for WN-CoV is lower than for SARS, but it
+is too early to reliably quantify that rate.
+11. There is insufficient information currently on the genetic strain to comment on WN-CoV's
+origin.
+12. There is no evidence yet on whether individuals are infectious prior to showing
+symptoms.
+13. There is no evidence that individuals are more infectious when symptoms are more
+severe, but that is likely.
+14. There appears to be very little genetic diversity in WN-CoV based on sequences
+available so far.
+15. It is reasonable to argue – based on lessons from MERS and SARS, and consistent with
+exported cases of WN-CoV – that individuals returning from Wuhan are no longer at risk
+if they show no symptoms after 14 days.
+Summary and review of NERVTAG conclusions
+16. NERVTAG does not advise port of entry screening, irrespective of the current limited
+understanding of the epidemiology.
+17. NERVTAG does not advise use of screening questionnaires, pilot declarations or
+requiring confirmation of exit screening at Wuhan.
+18. NERVTAG does support public health information efforts via leaflets, posters and
+broadcast messengers to passengers.
+19. SAGE supports NERVTAG's position both on the value of port screening and on
+monitoring measures.
+20. SAGE would review its position on port screening only if a simple, specific and rapid test
+was available and was deployable at scale across the UK. Temperature and other forms 
+2
+of screening are unlikely to be of value and have high false positive and false negative
+rates.
+Transport-related issues
+21. The European Centre for Disease Prevention and Control (ECDC) has just published
+"Risk assessment guidelines for infectious diseases transmitted on aircraft (RAGIDA) -
+Middle East Respiratory Syndrome Coronavirus (MERS-CoV)".
+22. ECDC advises use of MERS guidelines for the current outbreak, but acknowledges the
+limitations of its evidence base.
+UK health readiness and planning
+23. The UK currently has good centralised diagnostic capacity for WN-CoV – and is days
+away from a specific test, which is scalable across the UK in weeks. The sensitivity of
+the test is currently unknown. There are conflicting reports of the sensitivity of diagnostic
+tests from upper respiratory tract sampling.
+24. DHSC is developing advice for UK healthcare workers on testing potentially infected
+individuals.
+25. SAGE agreed that DHSC and PHE criteria for testing potentially infected individuals
+were appropriate, i.e. those with symptoms or signs of WN-CoV, and a history of
+travelling to or living in Wuhan in the 14 days prior to symptom onset, including those
+who accessed Wuhan healthcare facilities. SAGE advised that DHSC and PHE should
+be ready to revise those criteria as the situation evolves.
+26. DHSC and PHE also preparing plans for isolating potentially infected individuals and the
+follow up of contacts.
+ACTION: CMO to share the latest iteration of the PHE isolation plan for suspected cases
+and contacts with some of the SAGE participants, in particular behavioural scientists, to
+get their view of its proportionality and advice on how to communicate uncertainty, in
+order to improve subsequent versions.
+ACTION: CMO/DHSC and PHE to consider how NHS primary care facilities might
+respond to an increase of cases and potential cases.
+ACTION: CMO/DHSC and FCO to work together to ensure consistent messaging on
+travel advice to/from Wuhan.
+27. There are no practical preventative actions that HMG might undertake ahead of Chinese
+New Year.
+Triggers for escalating HMG response
+28. Of DHSC's current triggers, there has been infection of healthcare workers and probably
+some sustained human-to-human transmission, but not geographical spread
+unconnected to Wuhan.
+29. SAGE agreed that HMG should review its response either in the case of onward spread
+of WN-CoV person to person outside of China or a severe confirmed case in the UK.
+30. SAGE is unable to say at this stage whether it might be required to reconvene.
+3
+Summary of actions
+CMO to share the latest iteration of the PHE isolation plan for suspected cases and contacts
+with some of the SAGE participants, in particular behavioural scientists, to get their view of
+its proportionality and advice on how to communicate uncertainty, in order to improve
+subsequent versions.
+CMO/DHSC and PHE to consider how NHS primary care facilities might respond to an
+increase of cases and potential cases.
+CMO/DHSC and FCO to work together to ensure consistent messaging on travel advice
+to/from Wuhan.
+Attendees
+SAGE participants: Patrick Vallance, Chris Whitty, Charlotte Watts, Jonathan Van Tam, Neil
+Ferguson, Carole Mundell, Peter Horby, Christine Middlemiss, James Rubin, Cathy Roth
+By phone: Jeremy Farrar, Phil Blythe, Pasi Penttinen, David Lalloo, Maria Zambon, Ben
+Killingley, John Edmunds, Jim McMenamin
+Observing: Rupert Shute, Tasha Grant, Kavitha Kishen,
+Stuart Wainwrig

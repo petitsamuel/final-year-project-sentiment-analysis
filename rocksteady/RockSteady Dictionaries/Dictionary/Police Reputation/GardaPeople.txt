@@ -1,0 +1,68 @@
+Term	GardaPeople	Commissioner	DeputyCommissioner	AssistantCommissioner	ChiefSuperintendent	Superintendent	Inspector	Sergeant	Garda	Executive Director	Director	CMO	Head of Legal	CAO	Minister	CommissionerTermRemove
+commissioner	GardaPeople	Commissioner														
+Commissioner	GardaPeople	Commissioner														
+Mr Harris	GardaPeople	Commissioner														
+Drew Harris	GardaPeople	Commissioner														
+Mr Drew Harris	GardaPeople	Commissioner														
+Mr Callinan	GardaPeople	Commissioner														
+Mr î Cual‡in	GardaPeople	Commissioner														
+Ms O' Sullivan	GardaPeople	Commissioner														
+Ms O Sullivan	GardaPeople	Commissioner														
+deputy commissioner			DeputyCommissioner													CommissionerTermRemove
+Deputy Commissioner			DeputyCommissioner													CommissionerTermRemove
+mr Crowley	GardaPeople		DeputyCommissioner													
+assistant commissioner				AssistantCommissioner												CommissionerTermRemove
+Assistant Commissioner				AssistantCommissioner												CommissionerTermRemove
+Mr Leahy	GardaPeople			AssistantCommissioner												
+Mr Fanning	GardaPeople			AssistantCommissioner												
+Mr Sheahan	GardaPeople			AssistantCommissioner												
+Mr O'Brien	GardaPeople			AssistantCommissioner												
+Mr O'Sullivan	GardaPeople			AssistantCommissioner												
+Ms McMahon	GardaPeople			AssistantCommissioner												
+Mrs McMahon	GardaPeople			AssistantCommissioner												
+Mr Finn	GardaPeople			AssistantCommissioner												
+Mr O'Driscoll	GardaPeople			AssistantCommissioner												
+Ms McPartlin	GardaPeople			AssistantCommissioner												
+Mrs McPartlin	GardaPeople			AssistantCommissioner												
+Mr O'Mahoney	GardaPeople			AssistantCommissioner												
+chief superintendent	GardaPeople				ChiefSuperintendent											
+Chief Superintendent	GardaPeople				ChiefSuperintendent											
+Ms Hilman	GardaPeople				ChiefSuperintendent											
+superintendent	GardaPeople					Superintendent										
+Superintendent	GardaPeople					Superintendent										
+Mr Ferris	GardaPeople					Superintendent										
+inspector	GardaPeople						Inspector									
+Inspector	GardaPeople						Inspector									
+Mr Mccabe	GardaPeople							Sergeant								
+sergeant	GardaPeople							Sergeant								
+Sergeant	GardaPeople							Sergeant								
+Sgt	GardaPeople							Sergeant								
+sgt	GardaPeople							Sergeant								
+garda	GardaPeople								Garda							
+Garda	GardaPeople								Garda							
+gardaa	GardaPeople								Garda							
+gardaã	GardaPeople								Garda	
+gardai	GardaPeople								Garda							
+mr wilson	GardaPeople								Garda							
+Gda	GardaPeople								Garda							
+gda	GardaPeople								Garda							
+John O'Driscoll	GardaPeople									Executive Director						
+Orla McPartlin	GardaPeople									Executive Director						
+David Gilbride	GardaPeople									Executive Director						
+Michael Culhane	GardaPeople									Executive Director						
+John Barrett	GardaPeople									Executive Director						
+Liam Kidd	GardaPeople									Executive Director						
+Kate Mulkerrins	GardaPeople									Executive Director						
+David Gilbride	GardaPeople									Executive Director						
+Andrew McLindon	GardaPeople										Director					
+Ovo Oghuvbu	GardaPeople											CMO				
+Oghenovo Oghuvbu	GardaPeople											CMO				
+Ken Ruane	GardaPeople												Head of Legal			
+Kenneth Ruane	GardaPeople												Head of Legal			
+Joseph Nugent	GardaPeople													CAO		
+Mr Shatter	GardaPeople														Minister	
+Mr Flanagan	GardaPeople														Minister	
+Alan Shatter	GardaPeople														Minister	
+Charlie Flanagan	GardaPeople														Minister	
+Frances Fitzgerald	GardaPeople														Minister	
+Ms Fitzgerald	GardaPeople														Minister	

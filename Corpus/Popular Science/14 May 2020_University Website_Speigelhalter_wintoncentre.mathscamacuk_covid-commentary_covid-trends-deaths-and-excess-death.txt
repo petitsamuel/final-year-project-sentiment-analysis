@@ -1,0 +1,18 @@
+https://wintoncentre.maths.cam.ac.uk/covid-commentary/covid-trends-deaths-and-excess-deaths-updated-14th-may/
+We now have data from the Office for National Statistics for death registrations in England and Wales up to the end of May 1st (Week 18). In week 18 there is still a steep spike of total deaths, although smaller than the previous week.
+
+total-weekly.png
+In Week 18, 17,953 deaths were registered , an excess of 8,008 over the five-year average of 9,941. 6,035 of this excess were labeled as COVID, leaving around 2000 (25% of the excess) non-COVID.
+
+Over the 5-week period March 28th to May 1st, 97,204 deaths were registered, compared to an average 51,721 for these four weeks over the last five years, an excess of 45,483, corresponding to a relative increase of 88%. 32,718 (34%) of all deaths had COVID mentioned on the death certificate. This means that, of the 45,483 excess deaths, 12,765 (28%) did not have COVID on the death certificate.
+
+The excess deaths are plotted in the Figure below.
+
+excess-weekly.png
+Excess deaths that were not labelled as COVID on the death certificate may be due to under-diagnosis, or 'indirect' deaths, say due to collateral damage from the disrupted health service.
+
+Further comments:
+Compared to five-year average, around 500 excess deaths a week for the end of 2019, and around 500 a week fewer up to mid-March.
+Data is by week of registration, rather than week of death, which delays sign of peak.
+Data sources:
+Data are described in the bulletin from 12th May Office for National Statistics release Deaths registered weekly in England and Wales, provisional: week ending 1 May 2020 , and can be downloaded as a spreadsheet . The tab Weekly Figures 2020, Column 18 provides total, five-year average and COVID deaths.

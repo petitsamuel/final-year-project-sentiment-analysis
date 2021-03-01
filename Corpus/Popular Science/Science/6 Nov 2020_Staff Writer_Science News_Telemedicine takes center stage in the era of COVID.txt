@@ -1,0 +1,117 @@
+Telemedicine takes center stage in the era of COVID-19
+By Allison Marin, Nov. 6, 2020 , 2:00 PM
+
+This special feature is brought to you by the Science/AAAS Custom Publishing Office
+Telemedicine comes in many shapes and sizes and offers many advantages over the traditional healthcare visit, but until recently, it was largely underutilized. The COVID-19 pandemic quickly changed that—only time will tell if telemedicine’s new popularity will last.
+
+ On March 11, 2020, COVID-19 was declared a pandemic by the World Health Organization, radically changing the way medicine is practiced. In the span of a few weeks, as quarantining and social distancing became the norm, in-person medical visits plummeted, suddenly thrusting telemedicine from the wings of medical care to center stage.
+
+“The pandemic created a huge public health issue, but the biggest problem wasn’t that COVID-19 patients couldn’t get care—it was that people without the disease couldn’t access their normal care,” says Michael Okun, professor and chair of neurology at the University of Florida.
+
+Viral outbreak = viral uptake
+Americans began delaying all kinds of health care amid fears of the virus. The United States saw a 42% reduction in emergency department (ED) visits in April 2020 compared to the same time period in 2019 (1). The multisite Mayo Clinic—which sees 1.2 million patients annually, making it the largest U.S. health care system—reported a 78% drop in in-person visits from mid-March to mid-April (2).
+
+Over the same time period, use of Mayo’s digital health care services went through the roof, including a 10,880% increase in video appointments to patient homes. Before the pandemic, 300 of their providers had performed at least one video telemedicine visit in the preceding year. By the middle of July this number had increased 2,000% to more than 6,500 (2).
+
+“The COVID-19 pandemic has essentially accelerated U.S. digital health by about 10 years,” says Bart Demaerschalk, medical director for synchronous services at Mayo’s Center for Connected Care.
+
+Many parts of Europe and Asia also experienced falling ED and clinic visits and a surge in digital health (3,4). “In the UK, telemedicine before COVID-19 was almost nonexistent. During the pandemic, in-person consultations dropped by 90% or more, with virtual visits at least partially filling the gap,” says Tipu Aziz, professor of neurosurgery at the University of Oxford.
+
+ 
+
+The COVID-19 pandemic has essentially accelerated U.S. digital health by about 10 years.
+
+Bart Demaerschalk
+Many forms, many uses
+Telemedicine is a general term that refers to the provision of medical care at a distance through telecommunications technology. Broadly, it falls into two categories: synchronous and asynchronous. Synchronous telemedicine is performed in real time, such as a video call between a patient and a provider. It can also occur provider-to-provider, such as when an ED doctor consults with a remote stroke expert to develop the best treatment for a patient.
+
+Another example of synchronous telemedicine is the use of remote programming for neural therapies such as deep-brain stimulation, vagus nerve stimulation, sacral neuromodulation, and spinal cord stimulation (5). This approach has been used in China since 2014. Unlike Western device manufacturers, Chinese companies such as Beijing PINS Medical Company Limited make implanted devices that can be adjusted from afar, says Beijing Tsinghua Changgung Hospital neurosurgeon James Wang. These devices were developed to solve the problem of patients having to travel long distances due to the clinician shortage in Central and Western China.
+
+Asynchronous telemedicine includes “store-and-forward” technologies, such as online portals that allow patient–provider or provider–provider communications. It also includes chat bots, such as those designed to help a patient decide whether to get tested for the virus that causes COVID-19, and remote monitoring of patients through wearable or implantable devices.
+
+Advantages abound
+Telemedicine offers many advantages over the traditional face-to-face health care provider visit. “In the era of COVID-19, telemedicine improves the safety of patients and providers alike,” says Judd Hollander, associate dean for strategic health initiatives at Sidney Kimmel Medical College at Thomas Jefferson University in Philadelphia, Pennsylvania. “But independent of the pandemic, it simply offers better, more convenient care that costs less.”
+
+Telemedicine makes care more readily available to patients who have difficulty accessing it due to distance or disability. Removing the need for transportation is a huge advantage for high-risk populations, such as seniors and those with chronic medical conditions, says Hollander.
+
+Another major benefit of telemedicine is convenience. In one analysis, patients spent an average of 2 hours at a doctor’s appointment, yet only 20 minutes with the provider (6). The remaining time was spent on travel and waiting at the clinic.
+
+“There is a hands-on component to medicine that is traditional and is important, but it’s a small part of the whole experience of seeing a physician,” says Russell Libby, president of the primary care multisite pediatric practice Virginia Pediatric Group. “I find that my patients are much more engaged and much less stressed when I see them via video.”
+
+Hollander, too, finds that patients prefer telemedicine visits to in-person ones. “Our patient satisfaction for virtual visits is through the roof,” he says. “In fact, patients are 30% more likely to show up for a telemedicine visit than an in-person one.”
+
+A May 2020 survey of Medicare Advantage beneficiaries found that 91% of those who had used telemedicine had a good experience and that 78% would use it again (7).
+
+A third major advantage of telemedicine is cost. A 2016 survey found that 93% of telemedicine users reported lower health care costs (8). “Not only can telemedicine prevent unnecessary ED visits, there are also other expenses that are generated during office visits, such as lab testing or EKGs [electocardiograms], that may not be needed and are not used during a video visit,” says Libby.
+
+Telemedicine also provides better confidentiality for patients who may not want to be seen in a clinic, and it affords family members scattered across the globe the opportunity to participate in their loved one’s care, says Okun.
+
+Virtual visits can also give providers access to information they might not otherwise have, adds Libby. “I get a glimpse into the patient’s home environment, which can provide important clues about their health. Plus, on a video call, patients can just grab their prescription bottle if they can’t remember what medication they’re taking.”
+
+However, telemedicine is about more than just replacing face-to-face visits, says Ann Mond Johnson, CEO of the American Telemedicine Association, headquartered in Arlington, Virginia. “In the U.S. and across the world, both in urban and rural areas, there is a huge shortage of clinicians. Wait times to see primary care providers can be weeks; for specialists it can be even longer,” she explains. “We can use telemedicine to reimagine medical care and provide access to more people.”
+
+Relaxing the rules
+A number of regulatory changes have occurred in the United States to facilitate telemedicine use during the pandemic. One significant policy change, effective for the duration of the COVID-19 national emergency, is that Health Insurance Portability and Accountability Act of 1996 (HIPAA)-covered providers may now use apps that are not fully HIPAA compliant—such as FaceTime, Zoom, and Skype—to provide telemedicine.
+
+“We’re very optimistic because the pandemic has forced regulations to finally catch up with what technology can deliver,” says Mond Johnson. “It’s also significantly lowered the barrier to entry for telemedicine.”
+
+Okun, who in addition to his role at the University of Florida, is medical director of the Parkinson’s Foundation, headquartered in Miami as well as New York City, is also excited by the recent changes (9). “We’ve been fighting for over a decade to get telemedicine approved as a treatment for Parkinson’s. In terms of regulatory changes, the COVID-19 outbreak accomplished in 10 days what we’ve been working on for 10 years,” he says.
+
+Several other countries, such as France and China, also enacted policy changes to bolster telemedicine use during the pandemic (4).
+
+For example, before the COVID-19 outbreak, China had no national policy on telemedicine. “Physicians could provide it to their patients for free, but that’s not sustainable,” says Wang. “Now, the national health care system covers telemedicine.”
+
+
+Telemedicine increases health care access to patients with disabilities and those who live in rural areas.
+Teletechnology
+Although one limitation of telemedicine is the inherent lack of a hands-on approach to medicine, there is technology such as TytoCare that providers can use to augment the physical exam, explains Libby. Based in New York City, TytoCare provides patients with a device that can make recordings of the heart and lungs; perform imaging of the ear, mouth, and skin; and detect body temperature, all remotely. This information is transmitted to the physician in real time through an app.
+
+Remote blood pressure monitoring systems that transmit measurements over Wi-Fi or Bluetooth are also available. Apple watches can measure heart rate and some models can conduct an EKG. Besides these patient-operated devices, there are a number of professional devices providers can use when conducting a remote consultation with a specialist, such as digital scopes, which provide high-quality images or sounds from a number of body parts, and the PINS Bluetooth deep-brain stimulator, which detects brain signals from deep in the brain and sends electrical impulses to block abnormal nerve signals.
+
+Another type of technology that is beginning to play a role in telemedicine is artificial intelligence (AI) (10). For example, it has been used to remotely predict which chronic obstructive pulmonary disease (COPD) patients are at high risk for an exacerbation of symptoms. As AI methodology evolves, it is likely to play an increasingly greater role in telemedicine.
+
+Protecting privacy, preserving security
+A major concern with telemedicine is ensuring the privacy and security of patients, a topic on the minds of health care providers and consumers alike.
+
+“If you use a traditional telemedicine platform, it’s totally secure,” says Hollander. The problem lies with the unofficial platforms currently allowed during the COVID-19 pandemic, he adds. “As we come out of the pandemic, we have to enforce appropriate regulations that protect patient privacy and security.”
+
+An April 2020 international survey of physicians indicates that just under half of those using telemedicine during COVID-19 are doing so for the first time (11). Mond Johnson has a message for them: “Although you’re adopting quickly, don’t cut corners on privacy, security, and confidentiality. They are so important.”
+
+Yanan Sui, assistant professor at Tsinghua University in Beijing, China, has developed a unique method of preserving patient privacy (12). COVID-19 has increased the number of neurology patients in China who want to use telemedicine; however, due to a shortage of clinicians, many patients must make video recordings that can be viewed later by their doctors. Existing de-identification methods, such as blurring a patient’s face, don’t preserve the facial movements that are critical to a neurologist’s assessment of the patient, says Sui.
+
+Instead, Sui and his collaborators have developed a method that uses AI and deepfake technology to “swap” faces, in order to de-identify patients while still preserving facial aspects such as movements, which provide medical information.
+
+“Our approach has implications far beyond neurology [and extends] to many kinds of telemedicine videos,” says Sui. “By properly protecting the patient’s identity, our technology makes it much more likely that doctors and patients will consent to share their recorded video data with the larger medical and research community.” The team is currently in the process of assembling a large dataset using videos of Parkinson’s disease patients, which they hope to have ready to share with researchers in the next 2 years.
+
+Closing the “digital divide”
+Unfortunately, it was well documented before COVID-19—but is especially true during the pandemic—that structurally inequities are very pervasive in the U.S. health care system. One example of this is the “digital divide”—lower rates of technology and broadband adoption among older adults, racial and ethnic minorities, and those of lower socioeconomic status.
+
+“We became concerned that certain patients might have increased barriers to engaging in care via telemedicine and that rapid adoption of telemedicine might exacerbate existing inequities in care among the more marginalized patients,” explains Lauren Eberly, a cardiology fellow at the University of Pennsylvania in Philadelphia.
+
+To better understand who telemedicine is reaching and who it might be leaving behind, Eberly and her colleagues looked at nearly 3,000 adult cardiology patients who were scheduled for a telemedicine visit between mid- March and mid-April 2020 to identify factors associated with a noncompleted visit (13).
+
+“Overall, we found that 54% of patients either canceled or did not show up for their telemedicine visit,” said Eberly. The factor that was most strongly associated with lower telemedicine use was non-English language. Non-English speakers had a greater than 50% lower usage of telemedicine than English speakers.
+
+In response to their findings, the researchers have integrated language translation services into their telemedicine platform and are now working to have a more formalized outreach to contact patients in their native languages.
+
+The new normal?
+As the pandemic slows, many are wondering what will happen to telemedicine down the road. “It’s unlikely that the current high utilization of telemedicine is going to persist in exactly the same way in the future, but it will almost certainly remain higher for both patients and providers than it was pre-pandemic,” says Demaerschalk.
+
+“The silver lining of the COVID-19 crisis is that we hope providers, their patients, regulators, and payers can embrace and support telemedicine as an essential enhancement to providing the best care possible,” says Libby.
+
+The extent to which telemedicine remains an integral part of health care depends largely on whether the legislative, regulatory, and payer changes that have recently occurred become permanent, says Mond Johnson. “We have a lot of work to do, but I’m very hopeful,” she adds.
+
+References
+K. P. Hartnett et al., Morb. Mort. Wkly. Rep. 69, 699–704 (2020), https://doi.org/10.15585/mmwr. mm6923e1.
+B. M. Demaerschalk, R. N. Blegen, S. R. Ommen, Telemed. J. E. Health (2020), https://doi.org/10.1089/tmj.2020.0290.
+C.-C. F. Tam et al., Circ. Cardiovasc. Qual. Outcomes 13, e006631 (2020), https://doi.org/10.1161/CIRCOUTCOMES.120.006631.
+R. Ohannessian, T. A. Duong, A. Odone, JMIR Public Health Surveill. 6, e18810 (2020), https://doi.org/10.2196/18810.
+H. Xie et al., Epilepsy Res. 159, 106246 (2020), https://doi.org/10.1016/j.eplepsyres.2019.106246.
+K. N. Ray, A. V. Chari, J. Engberg, M. Bertolet, A. Mehrotra, Am. J. Manag. Care. 21, 567–574 (2015), available at www.ajmc.com/view/opportunity-costs-of-ambulatory-medical-care-in-the-un....
+Morning Consult (2020), available at www.bettermedicarealliance.org/wp-content/ uploads/2020/06/BMA-Memo-CT-D23.pdf.
+HealthMine (2016), available at https://healthmine.com/wp-content/uploads/2019/07/ HealthMine_Digital_Health_Tools_Report_May_2016.pdf.
+J. Zhang et al., Mov. Disord. 35, 909–910 (2020), https://doi.org/10.1002/mds.28098.
+C. Kuziemsky et al., Yearb. Med. Inform. 28, 35–40 (2019), http://dx.doi.org/10.1055/s-0039-1677897.
+Sermo (2020), available at https://sermo-mktg.s3.amazonaws.com/instapage/ COVID+HCP+Sentiment_Updated+4.16.20.pdf.
+B. Zhu et al., in AIES ‘20: Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society (2020), 414–420, https://doi.org/10.1145/3375627.3375849.
+L. A. Eberly et al., Circulation (2020), https://doi.org/10.1161/circulationaha.120.048185

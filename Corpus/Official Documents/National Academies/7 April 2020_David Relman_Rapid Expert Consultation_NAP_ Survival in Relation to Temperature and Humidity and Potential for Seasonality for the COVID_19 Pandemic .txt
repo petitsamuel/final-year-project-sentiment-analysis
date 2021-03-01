@@ -1,0 +1,117 @@
+Rapid Expert Consultation on SARS-CoV-2 Survival in Relation to Temperature and Humidity and Potential for Seasonality for the COVID-19 Pandemic (April 7, 2020)
+April 7, 2020
+
+Kelvin Droegemeier, Ph.D.
+
+Office of Science and Technology Policy
+
+Executive Office of the President
+
+Eisenhower Executive Office Building
+
+1650 Pennsylvania Avenue, NW
+
+Washington, DC 20504
+
+Dear Dr. Droegemeier:
+
+Attached please find a rapid expert consultation on the topics of virus survival in relation to temperature and humidity and potential for seasonal reduction and resurgence of cases. This assessment was prepared by members of the National Academies of Sciences, Engineering, and Medicine’s Standing Committee on Emerging Infectious Diseases and 21st Century Health Threats.
+
+The aim of this rapid expert consultation is to provide scientifically grounded principles that are relevant to decision making about the potential for seasonal variation of SARS-CoV-2.
+
+We hope this document proves useful to you and your colleagues.
+
+Respectfully,
+
+Harvey V. Fineberg, M.D., Ph.D.
+
+Chair
+
+Standing Committee on Emerging Infectious Diseases and 21st Century Health Threats
+
+This rapid expert consultation responds to your request concerning (1) survival of SARS-CoV-2 in relation to temperature and humidity; and (2) potential for seasonal reduction and resurgence in cases.1
+In general, a common approach to issue 1 is with experimental studies in the laboratory, typically involving the deliberate dissemination of a laboratory-propagated virus under controlled environmental conditions with subsequent sampling. The most common approach to issue 2 is with natural history studies that observe disease transmission in different locations and times of year and seek correlations with environmental conditions such as temperature and humidity. Each approach has strengths and weaknesses: with experimental studies, environmental conditions can be controlled, but almost always the conditions fail to adequately mimic those of the natural setting; with natural history studies, the conditions are relevant and reflect the real world, but there is typically little control of environmental conditions and there are many confounding factors. Because the two approaches are so distinct, it is often difficult to harmonize the findings from the two, and relate the findings from one to the other.
+
+LABORATORY STUDIES
+In the Rapid Expert Consultation Update on SARS-CoV-2 Surface Stability and Incubation for the COVID-19 Pandemic (March 27, 2020) we reviewed laboratory studies of SARS-CoV-2 survival under controlled environmental conditions. We provide a slightly updated version of that review here. We note that since the March 27 rapid expert consultation, there is minimal new information published on this topic (e.g., one preprint is now published). Work is ongoing, but no results have been made available.
+
+The laboratory data available so far indicate reduced survival of SARS-CoV-2 at elevated temperatures and variation in temperature sensitivity as a function of the type of surface on which the virus is placed. However, the number of well-controlled studies on the topic available at this time remains small. We anticipate new, relevant data within the next week or two, and in particular, data on surface survival of the virus under different levels of humidity, and aerosol survival with and without exposure to natural levels of ultraviolet (UV) radiation.
+
+In a now published report from Hong Kong, Chin et al. examined the stability (using viral culture) of SARS-CoV-2 as a function of temperature, type of surface, and following the use of disinfectants.2 With respect to temperature, using a starting suspension of 6.7 log TCID50/ml in virus transport medium,3 at 4oC there was only a 0.6-log unit reduction at the end of 14 days of incubation in this medium; at 22oC, a 3-log unit reduction after 7 days, and no detection at 14 days; and at 37oC, a 3-log unit reduction after 1 day and no virus detected afterward. No virus was detected after 30 minutes at 56oC or after 5 minutes at 70oC. With respect to survival on surfaces using a 5 ?L droplet of virus culture at 7.8 log TCID50/ml, no infectious virus was recovered from printing and tissue paper after 3 hours; no infectious virus was detected on cloth after 2 days or on stainless steel after 7 days. However, on the outside of a surgical mask, 0.1% of the original inoculum was detected on day 7. The persistence of infectious virus on personal protective equipment (PPE) is concerning and warrants additional study to inform guidance for health care workers. Such studies should also examine the effects of various treatments that might be used to disinfect PPE when they cannot be discarded after single use.
+
+Chad Roy from the Tulane University National Primate Research Center shared via telephone some preliminary results of dynamic aerosol stability experiments with SARS-CoV-2 conducted over the past several weeks at the Infectious Disease Aerobiology Core program at Tulane.4 His group generated an aerosol with a fairly uniform distribution of 2 micron particles, using virus grown in DMEM tissue culture (TC) medium and suspended in a rotating drum at an ambient temperature of ~23oC and ~50% humidity. The aerosol was sampled longitudinally for up to 16 hours, and the virus was assessed for viability by growth (enumeration of plaque forming units [PFUs]) and morphology (electron microscopy). He reports surprisingly that SARS-CoV-2 has a longer half-life under these conditions than influenza virus, SARS-CoV-1, monkeypox virus, and Mycobacterium tuberculosis. As of March 24, he was waiting for some growth results, but expected to post a manuscript describing these findings to bioRxiv soon. This result is also concerning, but is quite preliminary; importantly, the details have not yet been shared.
+
+George Korch and Mike Hevey from the National Biodefense Analysis and Countermeasures Center (NBACC), which was created by the U.S. Department of Homeland Security, shared their plans for an extensive series of experiments on SARS-CoV-2 environmental survival.5 Because they share their plans with the White House Coronavirus Task Force, only a few observations are provided here. The NBACC is well suited for the kinds of studies it has planned, and the scope and relevance are noteworthy. In particular, it plans to create simulated infected body fluids, including saliva and lower respiratory secretions. It plans to test simulated solar radiation on virus survival, which is important. It also has already examined a wider range of relative humidity and temperature than some other groups, which is again, important. And it will compare RNA semi-quantitative measurements with viral growth (PFUs) on samples from all conditions, which is critical.
+
+At Rocky Mountain Laboratories (RML), part of the National Institutes of Health, current studies include the effect of temperature and humidity on virus stability; virus stability in human body fluids, including urine and feces; and the effectiveness of decontamination procedures for PPE, including N95 respirators.6
+
+There are important caveats regarding the results from experimental studies. The first caveat concerns the relevance of laboratory conditions to real-world conditions. For example, many of the experimental survival studies have used virus grown in TC media. One expects that virus from naturally infected humans when directly disseminated to the nearby environment has different survival properties than virus grown in TC media, even when the latter is purified and spiked into a relevant human body fluid such as saliva. Having said this, environmental dissemination of clinically relevant human fluids spiked with TC-grown virus will be more predictive of real-world virus survival than environmental dissemination of TC-grown virus in TC media. Important human clinical matrices into which virus should be spiked include saliva, respiratory (including nasal) mucus and lower respiratory tract airway secretions, urine, blood, and stool. In addition, nebulized saline should be spiked and studied.
+
+__________________
+
+
+Page 4
+Suggested Citation:"Rapid Expert Consultation." National Academies of Sciences, Engineering, and Medicine. 2020. Rapid Expert Consultation on SARS-CoV-2 Survival in Relation to Temperature and Humidity and Potential for Seasonality for the COVID-19 Pandemic (April 7, 2020). Washington, DC: The National Academies Press. doi: 10.17226/25771.×
+Another issue is humidity and the failure or inability of some laboratories to control and vary relative humidity for their experiments. For example, the Tulane Infectious Disease Aerobiology Core lab cannot vary humidity in a controlled fashion; whereas the NBACC is able to do so. Aerosol studies to date have typically used TC-grown virus and have therefore used humidity levels that are more favorable for viral decay (e.g., 50-65% relative humidity). Real respiratory fluid is likely to be more protective of infectivity, and indoor relative humidity in wintertime in temperate regions is usually 20-40%, a range that is more favorable for virus survival. Consequently, the half-lives reported to date under these conditions may represent the lower end of the range. Differences in experimental conditions across studies (e.g., viral growth media, viral titer determination methods, infectivity of the inoculum) would be expected to contribute to variation in study results.
+
+Finally, attention should be paid to the possibility of variation in environmental survival among different SARS-CoV-2 strains. Isolates from early and late in the pandemic and from different geographic regions should be studied and compared.
+
+NATURAL HISTORY STUDIES
+Studies published so far have conflicting results regarding potential seasonal effects and are hampered by poor data quality, confounding factors, and insufficient time since the beginning of the pandemic from which to draw conclusions. There is some evidence to suggest that SARS-CoV-2 may transmit less efficiently in environments with higher ambient temperature and humidity; however, given the lack of host immunity globally, this reduction in transmission efficiency may not lead to a significant reduction in disease spread without the concomitant adoption of major public health interventions. Furthermore, the other coronaviruses causing potentially serious human illness, including both SARS-CoV and MERS-CoV, have not demonstrated any evidence of seasonality following their emergence.
+
+The current pandemic started in the winter season mostly in northern latitudes, and less than 4 months ago, making it difficult to ascertain differences within a localized geographic region with changing seasons. Some analyses of variability across different geographic regions based on humidity and temperature are available. A study from China in the early part of the pandemic suggested that every 1°C elevation in ambient temperature led to a decrease in daily confirmed cases by 36-57% when relative humidity was between 67% to 85.5%, and every 1% increase in relative humidity decreased the daily confirmed cases by 11-22% when the average temperature was between 5.04°C and 8.2°C, but these findings were not consistent across mainland China.7 Another study in China concluded that increases in temperature and relative humidity can lower the reproductive rate, but the average R0 was still close to 2 at maximum temperatures and humidity in their dataset, suggesting that the virus will still spread exponentially at higher temperatures and humidity.8 Outside of China, a study looking at daily case growth rates in 121
+countries or regions found the highest rates in temperate regions.9 They found growth rates peaked in regions with a mean temperature of 5°C and decreased in warmer and colder climates. Temperature was the variable with the highest relative importance in explaining variations in growth rates although they did see fast growth rates in warmer climates and huge variations in regions with similar climates, suggesting that many factors contribute to transmission. Another study in 310 geographic regions across 116 countries also found an inverse relationship between temperature and humidity and incidence of COVID-19.10 One study examined cities with significant community spread compared to those without spread and found greater disease rates in cities and regions along a narrow distribution within the 30-50° N’ corridor (areas of lower average temperature and humidity), which is consistent with the behavior of seasonal respiratory viruses.11 A study in countries that had at least 12 days of data found an increase in doubling time of virus transmission at warmer temperatures (average of 9.5°C versus 26.5°C), suggesting a slowing of disease spread at warmer temperatures.12
+
+The results of these studies should be interpreted with caution, in the context of the limited time during which natural experiments have taken place in different locations. There are significant caveats in all of the studies presented, mostly related to data quality and the limitation in time and location, with the pandemic mostly in temperate regions during the winter months. Issues with data quality include the estimates of reproductive rate, assumptions about infectivity period, and short observational time windows. There are also important confounding factors associated with geography and hence, with temperature and humidity: access to and quality of public health and health care systems, per capita income, human behavioral patterns, and the availability of diagnostics. As a reflection of these confounding factors, those studies that show a significant correlation between temperature and humidity and disease transmission, also show that the two factors explain only a small fraction of the overall variation in transmission rates. Of note, a study by Luo et al. showed sustained transmission despite changes in weather in various parts of China that ranged from cold and dry to tropical arguing against any seasonal differences, although issues with data collection and reporting, as with all of the studies, makes this analysis limited.13 This study concludes that changes in weather alone will not necessarily lead to declines in cases without extensive public health interventions.
+
+Some limited data support a potential waning of cases in warmer and more humid seasons, yet none are without major limitations. Given that countries currently in “summer” climates, such as Australia and Iran, are experiencing rapid virus spread, a decrease in cases with increases in humidity and temperature elsewhere should not be assumed. Given the lack of immunity to SARS-CoV-2 across the world, if there is an effect of temperature and humidity on transmission, it may not be as apparent as with other respiratory viruses for which there is at least some preexisting partial immunity. It is useful to note that pandemic influenza strains have not exhibited
+the typical seasonal pattern of endemic/epidemic strains. There have been 10 influenza pandemics in the past 250-plus years—two started in the northern hemisphere winter, three in the spring, two in the summer, and three in the fall. All had a peak second wave approximately 6 months after emergence of the virus in the human population, regardless of when the initial introduction occurred.
+
+Additional studies as the SARS-CoV-2 pandemic unfolds could shed more light on the effects of climate on transmission.
+
+In summary, although experimental studies show a relationship between higher temperatures and humidity levels, and reduced survival of SARS-CoV-2 in the laboratory, there are many other factors besides environmental temperature, humidity, and survival of the virus outside of the host, that influence and determine transmission rates among humans in the “real world.”
+
+My colleagues and I hope this input is helpful to you as you continue to guide the nation’s response in this ongoing public health crisis.
+
+Respectfully,
+
+David A. Relman, M.D.
+
+Member
+
+Standing Committee on Emerging Infectious Diseases and 21st Century Health Threats
+
+APPENDIX
+
+Authors and Reviewers of This Rapid Expert Consultation
+This rapid expert consultation was prepared by staff of the National Academies of Sciences, Engineering, and Medicine, and members of the National Academies’ Standing Committee on Emerging Infectious Diseases and 21st Century Health Threats: Kristian Andersen, The Scripps Research Institute; David Relman, Stanford University; and David Walt, Brigham and Women’s Hospital and Harvard Medical School.
+
+Harvey Fineberg, chair of the Standing Committee, approved this document. The following individuals served as reviewers: Jim Chappell, Vanderbilt University Medical Center; Mark Denison, Vanderbilt University Medical Center; Michael Diamond, Washington University; Matthew Frieman, University of Maryland School of Medicine; Linsey Marr, Virginia Tech; Michael Osterholm, University of Minnesota; and Stanley Perlman, University of Iowa. Ellen Wright Clayton, Vanderbilt University Medical Center, and Susan Curry, University of Iowa, served as arbiters of this review on behalf of the National Academies’ Report Review Committee and their Health and Medicine Division.
+
+
+__________________
+
+1 A previous iteration of this rapid expert consultation is available upon request from SCEID@nas.edu. The previous iteration did not include the discussion on laboratory studies.
+2 Chin et al. Stability of SARS-CoV-2 in different environmental conditions. Lancet Microbe 2020. https://doi.org/10.1016/S2666-5247(20)30003-3.
+3 TCID50 is the Median Tissue Culture Infectious Dose.
+4 Personal communication, Chad Roy, Tulane University National Primate Research Center, March 24, 2020.
+
+5 Personal communication, George Korch and Mike Hevey, National Biodefense Analysis and Countermeasures Center, March 24, 2020.
+
+6 Personal communication, Vincent Munster, Rocky Mountain Laboratories, March 24, 2020.
+
+7 Qi et al. 2020. COVID-19 transmission in Mainland China is associated with temperature and humidity: A time-series analysis. https://doi.org/10.1101/2020.03.30.20044099.
+
+8 Wang et al. 2020. High temperature and high humidity reduce the transmission of COVID-19. http://dx.doi.org/10.2139/ssrn.3551767.
+
+9 Ficetola and Rubolini. 2020. Climate affects global patterns of COVID-19 early outbreak dynamics. https://doi.org/10.1101/2020.03.23.20040501.
+
+10 Islam et al. 2020. Temperature, humidity, and wind speed are associated with lower COVID-19 incidence. https://doi.org/10.1101/2020.03.27.20045658.
+
+11 Sajadi et al. 2020. Temperature, humidity and latitude analysis to predict potential spread and seasonality for COVID-19. http://dx.doi.org/10.2139/ssrn.3550308.
+
+12 Notari. 2020. Temperature dependence of COVID-19 transmission. https://doi.org/10.1101/2020.03.26.20044529.
+
+13 Luo et al. 2020. The role of absolute humidity on transmission rates of the COVID-19 outbreak. https://doi.org/10.1101/2020.02.12.20022467.
+
+

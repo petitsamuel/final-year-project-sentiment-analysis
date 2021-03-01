@@ -1,0 +1,18 @@
+Term	Courts	Supreme Court	Court of Appeal	High Court	Central Criminal Court	Special Criminal Court	Circuit Court	District Court	Children Court
+Supreme Court	Courts	Supreme Court							
+appeal court	Courts		Court of Appeal						
+appeals court	Courts		Court of Appeal						
+Court of Appeals	Courts		Court of Appeal						
+Court of Appeal	Courts		Court of Appeal						
+Court of Criminal Appeal	Courts		Court of Appeal						
+Court of Criminal Appeals	Courts		Court of Appeal						
+Courts-Martial Appeal Court	Courts		Court of Appeal						
+High Court	Courts			High Court					
+Central Criminal Court	Courts				Central Criminal Court				
+Special Criminal Court	Courts					Special Criminal Court			
+Circuit Appeals Court	Courts						Circuit Court		
+Circuit Court	Courts						Circuit Court
+Dublin Circuit Court	Courts						Circuit Court		
+District Court	Courts							District Court	
+Children Court	Courts								Children Court
+Juvenile Court	Courts								Children Court

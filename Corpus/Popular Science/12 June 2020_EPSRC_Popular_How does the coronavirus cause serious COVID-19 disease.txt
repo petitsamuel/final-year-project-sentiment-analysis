@@ -1,0 +1,50 @@
+The most important consequence of severe COVID-19 is a reduction in the lung’s ability to transfer oxygen from the air into the blood – leading to low blood oxygen levels (hypoxia). Supportive treatment in hospital is therefore mainly to increase blood oxygen. However, unlike many other common respiratory viruses, severe COVID-19 has diverse effects that affect multiple organs of the body.
+Pneumonia
+The lungs resemble a sponge with each hole representing an air sac (alveolus) and material delicately holding the air sacs and the blood vessels together. The virus enters the lungs in droplets and infects cells lining the air sacs where it multiplies. This directly damages those cells, but also triggers a response from the immune cells nearby, which is called inflammation. Fluid collects in the lung tissue causing pneumonia. This impairs the transfer of oxygen between air sacs and blood, often causing the patient to experience shortness of breath as the body tries to compensate for the inefficient gas transfer by breathing faster. Fluid and dead cells, in the form of mucous or pus, can collect in the air sacs themselves.
+Damage to the air sacs
+Post-mortem studies reveal the damage that occurs in the most severe and fatal cases. The lungs of deceased patients are firm and swollen, and their airways may be clogged with frothy secretions. Under the microscope, it is possible to see debris from dead lung and immune cells.[1][2] It is difficult to differentiate what damage is due to the virus itself, the initial immune response to the virus, blood clots in the lung or a later severe inflammation (see below).
+
+
+
+FIGURE 1: How the lungs are damaged by the virus and the body’s inflammatory response to it
+Blood clots and their consequences
+Blood clots in the lung are a common feature of severe COVID-19.[1] If a large blood vessel carrying blood to the lung is suddenly blocked, this can worsen the breathlessness and cause chest pain. Clots more than 1 millimetre in size may be seen in computed tomography (CT) scans that ‘light up’ the blood vessels in the lung like branches of a tree.[3] However, if clotting also starts to develop in the smallest vessels in the lung, this may cause a gradual deterioration in the patient’s condition, increasing oxygen requirements. Some critically unwell COVID-19 patients have had strokes due to a blockage of blood vessels supplying the brain.[4]
+Higher levels of D-dimer, a breakdown product of blood clots, have been seen in critically ill patients compared to moderately ill patients.[5] Although patients in hospital routinely receive low-dose preventive blood thinning medications, some hospitals are now routinely giving higher doses to COVID-19 patients with very high D-dimer levels, and trials comparing doses of blood thinner are underway.[6]
+High blood pressure and diabetes both damage blood vessels, and patients with these conditions are at high risk of severe COVID-19. The gateway for viral entry in the lung, the ACE2 receptor, is also found on cells lining blood vessels, and under the microscope there is visible evidence of viral infection of vessels.[7] In severe COVID-19, pre-existing damage to blood vessels, damage from the virus itself, and the body’s own inflammatory response[5] might combine to encourage blood clotting.
+FIGURE 2: Blood vessel disease, blood clots and inflammatory damage in severe COVID-19
+Immune dysfunction in severe COVID-19
+Could the body’s response to the virus cause more harm than good? Virus persisting in the body[8] or significant damage to the lungs and blood vessels as described above may lead to inflammatory over-reaction in the most severe cases. Labels linked to overactive inflammatory responses to infection, such as hyper-inflammatory syndrome, cytokine storm and viral sepsis, have been repurposed for COVID-19, but a lack of current scientific understanding means that they do not have precise definitions.
+As part of a healthy immune response, infection-fighting white blood cells recognise the virus. They release chemicals called cytokines that attract other immune cells to the site of an infection. These are activated so that they can kill cells infected with the virus. But if too many cytokines are released in a short period, cells not infected by virus may also be killed – causing collateral damage.[9] In patients with severe COVID-19, cytokine levels are far higher than in patients with mild disease.[10]
+Treatments targeting the inflammatory response, rather than the virus itself, exist for severe COVID-19. Steroid therapy dampens the immune response in general, but newer treatments are emerging that can block specific cytokines involved in these harmful responses. The concern with these new treatments is that they may impede protective immune responses as well, which is why drug trials are underway to measure their benefits and risks.
+The effect on other organs
+COVID-19 does not just affect the lungs. Other organs are commonly impacted in severe disease. Kidney failure results from multiple factors, including dehydration, decreased blood flow to the kidneys, blood clots, and damage to small blood vessels either from the body’s immune response or from the virus itself.[11] Less is known about the effect on organs such as the heart, liver and brain, and studies that follow survivors of severe disease to assess long-term complications are needed.
+A minority of individuals suffer severe COVID-19, where the body’s organs are damaged by the virus itself, by the body’s inflammatory response to the virus and by clots in the blood vessels. A detailed understanding of how to prevent or treat this severe disease is needed, and research is underway to find this out.
+You may also be interested in
+
+Biological challenges in developing coronavirus vaccines
+25 Mar 2020
+Vaccination, diagnosis and treatment
+Read more
+
+Are there different strains of the SARS-CoV-2 virus circulating?
+10 Jun 2020
+Coronaviruses and disease
+Read more
+
+Why do people from ethnic minorities suffer more from COVID-19?
+27 May 2020
+Coronaviruses and disease
+Read more
+References
+1. Fox SE, Akmatbekov A, Harbert JL, et al. Pulmonary and Cardiac Pathology in Covid-19: The First Autopsy Series from New Orleans. medRxiv. 2020 Apr. DOI: 10.1101/2020.04.06.20050575.
+2. Carsana L, Sonzogni A, Nasr A, et al. Pulmonary post-mortem findings in a large series of COVID-19 cases from Northern Italy. medRxiv. 2020 Apr. DOI: 10.1101/2020.04.19.20054262.
+3. Moore AJE, Wachsmann J, Chamarthy MR, et al. Imaging of acute pulmonary embolism: an update. Cardiovascular Diagnosis and Therapy. 2018 Jun;8(3):225-243. DOI: 10.21037/cdt.2017.12.01.
+4. Klok FA, Kruip MJHA, van der Meer NJM, et al. Incidence of thrombotic complications in critically ill ICU patients with COVID-19. Thrombosis Research. 2020 Jul;191:145-147. DOI: 10.1016/j.thromres.2020.04.013.
+5. Levi M, Thachil J, Iba T, Levy JH. Coagulation abnormalities and thrombosis in patients with COVID-19. The Lancet Haematology. 2020 May. DOI: 10.1016/s2352-3026(20)30145-9.
+6. Blondin M. Preventing COVID-19-associated Thrombosis, Coagulopathy and Mortality With Low- and High-dose Anticoagulation: a Randomized, Open-label Clinical Trial. ClinicalTrials.gov. 2020 Apr. NCT04345848
+7. Varga Z, Flammer AJ, Steiger P, et al. Endothelial cell infection and endotheliitis in COVID-19. The Lancet. 2020 May;395(10234):1417-1418. DOI: 10.1016/s0140-6736(20)30937-5.
+8. Zhou F, Yu T, Du R, et al. Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study. The Lancet. 2020 Mar;395(10229):1054-1062. DOI: 10.1016/s0140-6736(20)30566-3.
+9. Li H, Liu L, Zhang D, et al. SARS-CoV-2 and viral sepsis: observations and hypotheses. The Lancet. 2020 May;395(10235):1517-1520. DOI: 10.1016/s0140-6736(20)30920-x.
+10. Chen G, Wu D, Guo W, et al. Clinical and immunological features of severe and moderate coronavirus disease 2019. The Journal of Clinical Investigation. 2020 May;130(5):2620-2629. DOI: 10.1172/jci137244.
+11. Ronco C, Reis T, Husain-Syed F. Management of acute kidney injury in patients with COVID-19. The Lancet Respiratory Medicine. 2020 May. DOI: 10.1016/s2213-2600(20)30229-0.
+

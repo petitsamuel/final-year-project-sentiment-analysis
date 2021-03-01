@@ -1,0 +1,24 @@
+The anti-malaria drug: chloroquine
+Chloroquine is a cheap, widely available drug that has been routinely used since 1945 against malaria and other conditions and can be safely taken by pregnant women and children. Lab studies found the antiviral drug was effective against the coronavirus, at least in a petri dish, and results from a small French study in 24 patients, announced this week, suggested that it could quicken recovery.
+
+Doctors said 25% of patients who received the drug tested positive for the virus after six days, compared with 90% of those who did not receive it. Chloroquine and a related drug, hydroxychloroquine, are among the four treatments tested in an international clinical trial, announced on Wednesday by the World Health Organization (WHO), and the UK has added chloroquine to its list of medicines under export controls.
+
+The HIV treatment drug: Kaletra
+
+Coronavirus: the week explained - sign up for our email newsletter
+ Read more
+Kaletra is a combination of two antiviral medicines, lopinavir and ritonavir, normally used to treat HIV, which lab studies suggested held promise as a potential Covid-19 treatment. However, these hopes suffered a significant setback this week with one of the first major studies of 200 seriously ill patients from China finding no benefit. The study is not the end of the road: it is possible that the drug could be effective if given earlier on, or to less severely ill patients. The WHO has included Kaletra in a major multi-country trial launched this week.
+
+The anti-flu drug: favipiravir
+The Japanese flu drug, made by a subsidiary of Fujifilm, has created a stir by more than halving the time that people with Covid-19 test positive for the virus. A Chinese trial in 340 people showed that the virus tended to be cleared in four days in those who received the drug, versus 11 days in those who went without. Chest scans supported the findings, revealing less damage in those who took the drug. But the antiviral, also known as Avigan, may need to be given before virus levels peak in the body. A Japanese health official told the Mainichi Shimbun newspaper that it did not appear to work as well in severely ill people, in whom the virus had had more time to replicate.
+
+The Ebola drug: remdesivir
+Remdesivir was originally developed as an Ebola treatment, but the drug has emerged as a frontrunner among potential antiviral drugs to combat Covid-19. The enthusiasm comes from studies that show that it works against Sars and Mers, two other coronaviruses that are more lethal but less transmissible. The drug works by shutting off the virus’s ability to replicate itself inside cells. This means it is most likely to be effective when a person has just caught the bug and the virus is still reproducing in the upper respiratory tract. One reason for caution is that early data suggest people may already have high levels of the virus when they start showing symptoms. Multiple trials are under way to evaluate remdesivir in China, the US and Asia, with the first results due in April.
+
+Antibody therapies
+Advertisement
+
+Doctors in China have treated some critically ill patients with the blood plasma of recovered patients, an approach that dates back to the Spanish flu pandemic of 1918. The logic is that the blood should contain antibodies to help fight off infection. Downsides include the difficulties of scaling up the method for widespread use, the risk of transmitting other diseases and that the relevant antibodies are only present in small amounts, so the treatment, if effective at all, is far from optimal. A number of teams, including the US company Regeneron, are working on the hi-tech equivalent of serum therapy. Regeneron says it is a few weeks away from identifying two powerful antibodies that protect against Covid-19, which it will then manufacture synthetically and turn into a therapeutic cocktail, with a view to starting human trials in the summer. If successful, an antibody therapy could be used as both a treatment and a prophylactic to protect health workers and other high-risk groups.
+
+Interferon beta
+The UK biotech firm Synairgen has been given fast-track approval to trial a lung-disease drug in Covid-19 sufferers. The compound, interferon beta, forms part of the lung’s natural defence system against viruses and was originally developed for patients with chronic obstructive pulmonary disorder, or COPD. The hope is that administering interferon beta boosts the body’s ability to fight the virus, especially in those who have weakened immune systems. It was identified in February by the WHO as the only therapy in phase-2 trials that can be inhaled, meaning patients can administer it themselves through a small battery-operated nebuliser.

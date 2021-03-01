@@ -1,0 +1,874 @@
+* Review
+* Published: 02 May 2017
+Pathogenic human coronavirus infections: causes and consequences of cytokine storm and immunopathology
+* Rudragouda Channappanavar & 
+* Stanley Perlman 
+Seminars in Immunopathology volume 39, pages529–539(2017)Cite this  
+* 29k Accesses
+* 149 Citations
+* 77 Altmetric
+* Metricsdetails
+Abstract
+Human coronaviruses (hCoVs) can be divided into low pathogenic and highly pathogenic coronaviruses. The low pathogenic CoVs infect the upper respiratory tract and cause mild, cold-like respiratory illness. In contrast, highly pathogenic hCoVs such as severe acute respiratory syndrome CoV (SARS-CoV) and Middle East respiratory syndrome CoV (MERS-CoV) predominantly infect lower airways and cause fatal pneumonia. Severe pneumonia caused by pathogenic hCoVs is often associated with rapid virus replication, massive inflammatory cell infiltration and elevated pro-inflammatory cytokine/chemokine responses resulting in acute lung injury (ALI), and acute respiratory distress syndrome (ARDS). Recent studies in experimentally infected animal strongly suggest a crucial role for virus-induced immunopathological events in causing fatal pneumonia after hCoV infections. Here we review the current understanding of how a dysregulated immune response may cause lung immunopathology leading to deleterious clinical manifestations after pathogenic hCoV infections.
+Introduction
+Coronaviruses belong to the virus family Coronaviridae and are enveloped, positive-sense RNA viruses. The coronavirus genome is approximately 31 Kb, making these viruses the largest known RNA viruses [1, 2]. Coronaviruses infect a variety of host species, including humans and several other vertebrates. These viruses predominantly cause respiratory and intestinal tract infections and induce a wide range of clinical manifestations [3, 4]. Coronaviruses infecting the respiratory tract have long been recognized as significant pathogens in domestic and companion animals and as the cause of mild and severe respiratory illness in humans [4, 5]. In general, coronaviruses infecting humans can be classified into low pathogenic hCoVs, which include HCoV-229E, HCoV-OC43, HCoV-NL63, and HCoV-HKU and highly pathogenic CoVs such as severe acute respiratory syndrome CoV (SARS-CoV) and Middle East respiratory syndrome CoV (MERS-CoV) [6, 7]. Low pathogenic hCoV infect upper airways and cause seasonal mild to moderate cold-like respiratory illnesses in healthy individuals. In contrast, the highly pathogenic hCoVs (pathogenic hCoV or hCoV hereafter) infect the lower respiratory tract and cause severe pneumonia, which sometimes leads to fatal acute lung injury (ALI) and acute respiratory distress syndrome (ARDS), resulting in high morbidity and mortality [8–12].
+Highly pathogenic hCoVs pose a substantial threat to public health. During the 2002–2003 epidemic, SARS-CoV infected approximately 8400 individuals with a 9.6% overall mortality rate [13, 14]. More recently, MERS-CoV crossed species to infect 1936 individuals resulting in 690 deaths (?36% mortality rate) as of April 5, 2017 [15, 16]. Recent identification of SARS-like coronaviruses in bats and MERS-CoV in domesticated camels makes it likely that these viruses will continue to cross species barriers and cause additional outbreaks in human populations [17–20]. These highly pathogenic hCoVs cause a wide spectrum of clinical manifestations in humans, with a large fraction of patients developing short period of moderate clinical illness and a small but a substantial number of patients experiencing severe disease characterized by ALI and ARDS [21–23, 10]. Thus, there are basically two groups of patients, those developing milder disease, which resolved and those with severe disease, which was commonly fatal. The disease severity in pathogenic hCoV infections was also influenced by several factors such as initial viral titers in the airways and age and comorbid conditions of the infected individual. While younger individuals below 18 years experience mild-moderate clinical illness, elderly individuals exhibit worse outcomes after infection with SARS-CoV or MERS-CoV [22, 10, 24]. Additionally, individuals with comorbid conditions such as diabetes, obesity, heart failure, and renal failure among others experience severe disease, particularly after MERS-CoV infection [25, 26].
+Despite several years of research, specific factors causing the unusually high morbidity and mortality following pathogenic hCoVs are incompletely understood. Virus-induced direct cytopathic effects and viral evasion of host immune responses are believed to play major roles in disease severity. However, studies from humans who died of SARS and more recent studies in animal models suggested that a dysregulated immune response occurred, resulting in an exuberant inflammation and lethal disease. In this review, we discuss recent advances in our understanding of hCoV pathogenesis, with a special emphasis on cytokine storm and immunopathology as causes for deleterious consequences during hCoV infections.
+Clinical features of highly pathogenic CoV infection in humans
+SARS-CoV infection in humans resulted in an acute respiratory illness that varied from mild febrile illness to ALI and in some  es ARDS and death [27, 10]. The clinical course of SARS presents in three distinct phases. The initial phase was characterized by robust virus replication accompanied by fever, cough, and other symptoms, all of which subsided in a few days. The second clinical phase was associated with high fever, hypoxemia, and progression to pneumonia-like symptoms, despite a progressive decline in virus titers towards the end of this phase [28]. During the third phase, ?20% of patients progressed to ARDS, which often resulted in death [29, 30]. Because of a progressive decline in virus titers, the third phase is thought to have resulted from exuberant host inflammatory responses.
+The most common clinical manifestations of MERS include flu-like symptoms such as fever, sore throat, non-productive cough, myalgia, shortness of breath, and dyspnea, which rapidly progress to pneumonia [25, 21]. Other atypical presentations include mild respiratory illness without fever, chills, wheezing, and palpitations. MERS-CoV in humans also causes gastrointestinal symptoms such as abdominal pain, vomiting, and diarrhea. The majority of MERS patients with dyspnea progress to develop severe pneumonia and require admission to an intensive care unit (ICU). Although most healthy individuals present with mild-moderate respiratory illness, immunocompromised and individuals with comorbid conditions experience severe respiratory illness, which often progressed to ARDS [21]. Overall, MERS-CoV caused severe disease in primary index  es, immunocompromised individuals and in patients with comorbid conditions, but secondary  es of household contacts or healthcare workers were mostly asymptomatic or showed mild respiratory illness.
+Lung pathology of hCoV infections
+Gross and microscopic pathology of SARS
+Typically, analyses of lungs from patients who succumbed to SARS showed lung consolidation and edema with pleural effusions, focal hemorrhages, and mucopurulent material in the tracheobronchial tree. Diffuse alveolar damage (DAD) was a prominent histological feature in SARS lungs [31, 32]. Other changes included hyaline membrane formation, alveolar hemorrhage, and fibrin exudation in alveolar spaces with septal and alveolar fibrosis observed during later stages [32, 33]. Staining for viral antigen revealed infection of airway and alveolar epithelial cells, vascular endothelial cells, and macrophages [31, 32]. Furthermore, SARS-CoV viral p s and viral genome were also detected in monocytes and lymphocytes [31].
+In addition to these changes, histological examination of lungs from patients who died of SARS revealed extensive cellular infiltrates in the interstitium and alveoli. These cellular infiltrates included neutrophils and macrophages with macrophages being the predominant cell type [31, 32]. These results correlated with increased numbers of neutrophils and monocytes and lower CD4 and CD8 T cell counts in the peripheral blood samples of patients with fatal SARS [34–36].
+Gross and microscopic pathology of MERS
+Despite numerous laboratory-confirmed  es and deaths due to MERS-CoV infection in several countries, only one autopsy report of MERS in humans is available. Analysis of lung tissue from this patient showed pleural, pericardial, and abdominal effusions associated with generalized congestion, edema, and consolidation of lungs [37]. Similar to SARS-CoV infection, DAD was a prominent feature in the lungs. Additionally, epithelial cell necrosis, sloughing of bronchiolar epithelium, alveolar edema, and thickening of alveolar septa were also noted. Immunohistochemical examination showed that MERS-CoV predominantly infected airways and alveolar epithelial cells, and endothelial cells and macrophages. The severity of lung lesions correlated with extensive infiltration of neutrophils and macrophages in the lungs and higher numbers of these cells in the peripheral blood of MERS patients [37].
+Cytokine and chemokine responses during pathogenic hCoV infections
+Cytokines and chemokines have long been thought to play an important role in immunity and immunopathology during virus infections. A rapid and well-coordinated innate immune response is the first line of defense against viral infections, but dysregulated and excessive immune responses may cause immunopathology [38–40]. Although there is no direct evidence for the involvement of pro-inflammatory cytokines and chemokines in lung pathology during SARS and MERS, correlative evidence from patients with severe disease suggests a role for hyper-inflammatory responses in hCoV pathogenesis.
+Cytokine and chemokine responses to SARS-CoV infection
+While SARS-CoV productively infects airway and alveolar epithelial cells, infection of hematopoietic cells such as dendritic cells (DCs), monocyte-macrophages, and other PBMC-derived cells is abortive. SARS-CoV infection of DCs induces low-level expression of antiviral cytokines IFN-??, moderate up-regulation of pro-inflammatory cytokines TNF and IL-6, and a significant up-regulation of inflammatory chemokines CCL3, CCL5, CCL2, and CXCL10 [41, 42]. Similarly, SARS-CoV-infected macrophages show delayed but elevated levels of IFN and other pro-inflammatory cytokines [42]. Additionally, SARS-CoV-infected airway epithelial cells (AECs) also produce large amounts of CCL3, CCL5, CCL2, and CXCL10 [43]. The delayed but excessive production of these cytokines and chemokines is thought to induce a dysregulated innate immune response to SARS-CoV infection.
+High serum levels of pro-inflammatory cytokines (IFN-?, IL-1, IL-6, IL-12, and TGF?) and chemokines (CCL2, CXCL10, CXCL9, and IL-8) were found in SARS patients with severe disease compared to individuals with uncomplicated SARS [44–47]. Conversely, SARS patients with severe disease had very low levels of the anti-inflammatory cytokine, IL-10 [44]. In addition to pro-inflammatory cytokines and chemokines, individuals with lethal SARS showed elevated levels of IFN (IFN-? and IFN-?) and IFN-stimulated genes (ISGs) (CXCL10 and CCL-2) compared to healthy controls or individuals with mild-moderate disease [48–51]. These results were the first to suggest a possible role for IFNs and ISGs in the immunopathogenesis of SARS in humans. Thus, it appears from these studies that dysregulated and/or exaggerated cytokine and chemokine responses by SARS-CoV-infected AECs, DCs, and macrophages could play an important role in SARS pathogenesis.
+Cytokine and chemokine responses to MERS-CoV infection
+Similar to SARS, MERS-CoV infection of human airway epithelial cells induces significant but delayed IFN and pro-inflammatory cytokine (IL-1?, IL-6, and IL-8) responses [52]. While MERS-CoV replicates both in naïve and activated human monocyte-macrophages and DCs, only activated T cells support MERS-CoV replication [53–55]. This is in contrast to SARS-CoV, which abortively infected monocyte-macrophages, DCs, and T cells. MERS-CoV infection of THP-1 cells, a monocyte cell line, and human peripheral blood monocyte-derived macrophages and dendritic cells induced delayed but elevated levels of pro-inflammatory cytokines and chemokines such as CCL-2, CCL-3, CCL-5, IL-2, and IL-8 [54, 55]. However, induction of IFN-?/? by monocyte-macrophages and DCs was not substantial except for plasmacytoid dendritic cells, which produced copious amounts of IFNs upon MERS-CoV infection [56]. Recent studies showed elevated levels of serum pro-inflammatory cytokines (IL-6 and IFN-?) and chemokines (IL-8, CXCL-10, and CCL5) in individuals with severe MERS compared to those with mild to moderate disease [57, 58]. High serum cytokine and chemokine levels in MERS patients correlated with increased neutrophil and monocyte numbers in lungs and in the peripheral blood, suggesting a possible role for these cells in lung pathology [57, 58, 37].
+Cytokines/chemokines and immunopathology in animal models
+Dysregulated inflammatory response in animal models of SARS-CoV infection
+Several inbred mouse strains have been evaluated to study SARS-CoV pathogenesis. Mice infected with the human strain of SARS-CoV (SARS-CoV-Urbani) were permissive to virus replication but developed only mild lung pathology and clinical illness [59]. Subsequently, isolation of mouse-adapted strains of SARS-CoV (e.g., SARS-CoV-MA15) allowed studies of lethal SARS [60–62]. MA15 infects airway and alveolar epithelial cells and epithelial cells of other organs [62]. Young mice of many strains (e.g., C57BL/6, 129) support MA15 replication in the lungs but are resistant to developing significant clinical disease [63, 64]. In contrast, young BALB/c mice infected with MA15 develop lethal disease characterized by diffuse alveolar damage, enhanced monocyte/macrophage and neutrophil accumulation, pulmonary edema, and hyaline membrane formation [62]. Furthermore, aged mice of all strains develop lethal clinical disease and succumb to infection [65, 66, 64]. In addition to mouse models, SARS-CoV infection of aged rhesus macaques resulted in significantly more pathology than young adult animals [67]. These animal models replicated several key features of SARS-CoV infection in humans and were thus useful for investigating SARS pathogenesis.
+Studies in animal models have been particularly useful in elucidating the role of cytokines and chemokines in mediating lung immunopathology following hCoV infections. Infection of non-human primates (NHPs) with SARS-CoV induced a dysregulated immune response resulting in increased disease severity in aged but not young NHPs, despite similar viral titers in the airways [67]. Since enhanced expression of genes regulating inflammation but not virus titers correlated with disease severity, an exaggerated immune response is thought to induce lethal disease in aged NHPs [67]. Similarly, in SARS-CoV-infected BALB/c mice, disease severity in aged mice correlated with early and disproportionately strong up-regulation of ARDS-associated inflammatory gene signatures [66]. In a recent study, we identified a pathogenic role for IFN-I in mice infected with MA15. Our results showed that rapid SARS-CoV replication in BALB/c mice induced a delayed IFN-?/? response accompanied by an excessive influx of pathogenic inflammatory monocyte-macrophages (IMMs) [38]. The accumulating IMMs themselves produced additional levels of monocyte chemo-attractants such as CCL2, CCL7, and CCL12 (through IFN-?/? receptor stimulation), resulting in further accumulation of pathogenic IMMs, which in turn enhanced disease severity. These infiltrating IMMs produced elevated levels of pro-inflammatory cytokines such as TNF, IL-6, IL1-?, and iNOS. Blocking IFN signaling, depleting IMMs, or neutralizing a single inflammatory cytokine, TNF, protected mice from lethal SARS-CoV infection. Additionally, IFN-?/? or IMM-derived pro-inflammatory cytokines sensitized T cells to undergo apoptosis, further impeding virus clearance [38]. In another study of SARS-CoV infection, loss of TIR-domain-containing adapter-inducing interferon-? (TRIF), an adapter molecule for TLR3 and TLR4 signaling, resulted in a distinct inflammatory signature characterized by neutrophil and other inflammatory cell infiltration [68]. A dysregulated immune response to SARS-CoV in TRIF-deficient mice was associated with aberrant antiviral IFN (IFN-? and IFN?), pro-inflammatory cytokine and chemokine (IL-6, TNF, IFN-?, and CCL5), and interferon-stimulated gene (RSAD2, IFIT1, and CXCL10) responses. Notably, virus titers were significantly higher in TLR3?/? and TRIF?/? mice compared to their WT controls [68]. Although the viral factors regulating the pro-inflammatory response of neutrophils and monocyte-macrophages remain to be identified, the E protein of SARS-CoV has been shown to enhance pro-inflammatory cytokine and chemokine and inflammasome activity via its ion channel activity [69–71]. These results support the notion that higher virus titers and dysregulated cytokine/chemokine responses cause a “cytokine storm” with lung immunopathological changes following SARS-CoV infection.
+Animal models of MERS-CoV infection and lethal disease
+Animal models employed to study MERS include rhesus macaques, rabbits, marmosets, and mice among others. MERS-CoV challenged rhesus macaques developed mild to moderate disease [72]. Similarly, MERS-CoV-infected rabbits displayed mild clinical disease with mild-moderate perivascular, peribronchiolar infiltration, and to a lesser extent lung interstitial inflammation [73, 74]. In contrast, marmosets displayed moderate-severe respiratory disease characterized by broncho-interstitial pneumonia, alveolar edema, and fibrin deposition [75]. Marmosets with severe disease showed increased neutrophil and macrophage infiltration in alveoli and interstitial septa, although whether marmosets develop severe disease remains controversial [75, 76]. Although gross and histological lesions and inflammatory cell infiltration in MERS-CoV infected marmosets resemble human disease, there are no data available describing cytokine and chemokine responses in these animals.
+Small laboratory animals, particularly rodents, do not support MERS-CoV replication due to inability of MERS-CoV-spike protein to bind to human DPP4 (hDPP4) orthologs in these animals [77]. The first mouse model to study MERS was generated by intranasal transduction of adenovirus encoding hDPP4. These mice developed mild to moderate pneumonia, especially in immunodeficient mice [78]. Several hDPP4 transgenic mouse models developed thereafter exhibited variable organ tropism and disease severity, depending on the promoter driving the hDPP4 expression [79, 80]. More recently, hDPP4 knock-in mice in which hDPP4 is expressed under the mouse hDPP4 promoter have also been described. These mice also developed moderate clinical disease after infection with human isolates of MERS-CoV [81]. We and others recently developed a similar mouse model and showed that serial passage of human isolate of MERS-CoV resulted in mouse adaptation. Mice infected with this adapted virus caused lethal respiratory illness and will be useful for studies of pathogenesis [82, 83].
+Overall, delayed and aberrant antiviral and pro-inflammatory cytokine production in MERS-CoV-infected human macrophages and dendritic cells and high serum pro-inflammatory cytokine levels in patients with severe disease compared to mild-moderate clinical disease suggesting that possible dysregulated and enhanced cytokine responses promote lung pathology following MERS-CoV infection.
+CoV antagonism of IFN responses and disease severity
+To counter innate antiviral cytokine responses, SARS-CoV and MERS-CoV encode several structural and non-structural proteins (nsps) that antagonize antiviral immune response. SARS-CoV encoded nsp1, nsp3-macrodomain, nsp3-deubiquitinase (DUB), and ORF3b, ORF6, and ORF9b subvert antiviral response by antagonizing IFN and ISG responses [84–89]. While nsp3 impairs IFN responses by unknown mechanism, nsp1 inhibits IFN responses by blocking STAT1 phosphorylation [90, 91]. Additionally, structural proteins such as the membrane (M) and nucleocapsid (N) proteins dampen IFN signaling by inhibiting TBK1/IKKe and by unknown mechanisms, respectively [92–95]. Similarly, MERS-CoV structural proteins M and N and accessory proteins orf3, orf4a, and orf4b antagonize IFN responses [85, 96, 97]. It should be noted that most if not all of these putative antiviral mechanisms were demonstrated in transient expression assays and whether they are actually important in the context of infectious virus remains to be determined. Structural and non-structural protein antagonism of IFN responses further amplifies inflammatory responses by promoting unrestrained virus replication resulting in increased viral PAMPs that further dampen IFN signaling and stimulate PRRs to induce an aberrant inflammatory response. Lack of IFN signaling also leads to an excessive accumulation of Ly6C low monocytes and neutrophils.
+Causes of exuberant inflammatory response
+Despite several years of research studying SARS and MERS pathogenesis, specific host factors that drive lung pathology following hCoV infections are relatively unknown. However, a careful review of the literature related to SARS-CoV and MERS-CoV pathogenesis in humans and animal models highlights several key factors that may play a crucial role in the initiation and progression of an exacerbated inflammatory responses.
+1. 1.
+Rapid virus replication: A notable feature of pathogenic human coronaviruses such as SARS-CoV and MERS-CoV is that both viruses replicate to high titers very early after infection both in vitro and in vivo [38, 98–100, 28]. This high replication could lead to enhanced cytopathic effects and production of higher levels of pro-inflammatory cytokines and chemokines by infected epithelial cells [99, 68, 12]. These cytokines and chemokines in turn orchestrate massive infiltration of inflammatory cells into the lungs [38]. Studies from hCoV infections in humans and experimental animals demonstrated a strong correlation between high SARS-CoV and MERS-CoV titers and disease severity.
+2. 2.
+hCoV infection of airway and/or alveolar epithelial cells: Studies from animal models, especially mouse models, provide correlative evidence for differential disease outcome if the viruses predominantly infect airway epithelial cells versus both airway and alveolar epithelial (type I and type II pneumocytes) cells. In B6 and 129 strains, both of which are permissive to virus replication but resistant to developing clinical disease, viral antigen is predominantly located in airway epithelial cells early after infection. In contrast, in highly susceptible BALB/c mice, virus antigen is detected in the lung airways and in alveolar type I and II pneumocytes (Fig. 1). These results suggest a critical role for hCoV-infected type I and II pneumocytes in mediating lung pathology and host susceptibility.
+3. 3.
+Delayed IFN responses: As mentioned in previous sections, both SARS-CoV and MERS-CoV encode multiple structural and non-structural proteins that antagonize IFN responses. hCoV reach high titers very early after infection and harbor multiple proteins that inhibit the IFN response, suggesting that an early antagonism of the IFN response might delay or evade the innate immune response. The delayed IFN signaling further orchestrates IMM responses and sensitizes T cells to apoptosis resulting in dysregulated inflammatory response [38].
+4. 4.
+Monocyte-macrophages and neutrophil accumulation: Both human and animal studies demonstrate accumulation of inflammatory monocyte-macrophages and neutrophils in the lungs following hCoV infection. These cells are the predominant source of cytokines and chemokines associated with hCoV lethal disease observed both in humans and animal models [38, 32].
+Fig. 1
+
+Staining for SARS-CoV-N antigen in lungs of C57BL/6 and BALB/c mice at 16 and 48 h post-infection
+Full size image
+Consequences of cytokine storm and immunopathology
+1. 1.
+Epithelial and endothelial cell apoptosis and vascular leakage: One of the earliest consequences of rapid virus replication and exuberant pro-inflammatory cytokine/chemokine responses is lung epithelial and endothelial cell apoptosis. IFN-?? and IFN-? induce inflammatory cell infiltration and cause airway and alveolar epithelial cell apoptosis via Fas-FasL- or TRAIL-DR5-dependent mechanisms [101–103]. Additionally, TNF released by IMMs also promotes the apoptosis of both lung epithelial cells and endothelial cells (unpublished observation). Apoptosis of epithelial and endothelial cells compromises lung microvascular and alveolar epithelial cell barrier resulting in vascular leakage and alveolar edema ultimately resulting in hypoxia.
+2. 2.
+Suboptimal T cell response: CoV-specific T cells are crucial for virus clearance and limit further damage to host [64, 104]. Additionally, T cell responses also dampen overactive innate immune responses [105, 106]. Exuberant inflammatory responses caused by pathogenic hCoV diminish the T cell response, in the  e of SARS-CoV infection via TNF-mediated T cell apoptosis, thus resulting in uncontrolled inflammatory response.
+3. 3.
+Accumulation of alternatively activated macrophages and altered tissue homeostasis: In some SARS patients with extended duration of disease, DAD was accompanied by fibrosis of interstitial and alveolar spaces and hyperplasia of pneumocytes. Similar histological features were noticed in lungs of SARS-CoV-challenged STAT ?/? mice on B6 and 129 backgrounds. Lungs from these mice revealed an enhanced perivascular infiltration of alternatively activated macrophages, neutrophils, and fibroblasts accompanied by extensive fibrin deposition and alveolar collapse, features observed during end stage ALI and ARDS in humans [63, 107]. Further studies revealed that abrogation of STAT1 signaling, specifically in myeloid cells, resulted in alternative activation of macrophages [108]. In addition, a delicate balance between host coagulation and fibrinolysis processes regulates tissue remodeling and ALI [109].
+4. 4.
+ARDS: Inflammatory mediators play a key role in the pathogenesis of ARDS, a primary cause of death in patients infected with SARS-CoV or MERS-CoV [110, 111]. Several pro-inflammatory cytokines, including IL-6, IL-8, IL-1?, and GM-CSF, reactive oxygen species, and chemokines such as CCL2, CCL-5, IP-10, and CCL3 contribute to ARDS [48, 112, 113]. Additionally, uncontrolled epithelial cell proliferation and impaired tissue remodeling during later stages induce ARDS leading to pulmonary fibrosis and death.
+A summary of causes and consequences of cytokine storm and immunopathology to hCoV pathogenesis is demonstrated in Fig. 2.
+Fig. 2
+
+Schematic representation of protective versus pathogenic inflammatory responses to pathogenic hCoV infections
+Full size image
+Therapeutic approaches
+High virus titers and subsequent exuberant inflammatory cytokine and chemokine responses correlate with high morbidity and mortality observed during pathogenic hCoV infections. A systematic review of therapeutic effects of several commonly used antiviral and immunomodulatory agents used during SARS outbreak showed inconclusive results [114]. Similarly, therapeutic interventions aimed towards reducing viral load were somewhat beneficial when administered early but not during later stages of MERS-CoV infection [115–117]. These results suggest that besides controlling viral load, novel strategies directed at attenuating inflammatory responses will likely improve clinical outcomes. Here, we describe agents that have the potential to mitigate hCoV-induced inflammation.
+Commonly used therapeutics
+Corticosteroid therapy
+Corticosteroids are a class of steroidal hormones that exert anti-inflammatory functions and are generally used to suppress inflammatory conditions. During the 2003 SARS epidemic, corticosteroids were the mainstay of immunomodulatory therapy. The timely administration of corticosteroids often leads to early improvement in terms of reduced fever, resolution of radiographic lung infiltrates, and better oxygenation [118–120]. However, while some studies showed no beneficial effect, other demonstrated adverse outcomes following corticosteroid therapy during SARS-CoV infection in humans. Early treatment of corticosteroids in SARS patients enhanced plasma viral load in non-ICU patients, thus leading to exacerbated disease [118]. Overall, these results show that the timing, dosage, and duration of corticosteroid therapy are critical if this intervention is to be beneficial in hCoV infections. In general, corticosteroid therapy is not recommended for treatment of hCoV respiratory infections.
+Interferons
+Pegylated and non-pegylated interferons have been under investigation for therapeutic purposes in hCoV-infected individuals. However, therapeutic use of these agents produced mixed results both in humans and animal models of hCoV infections. Early administration of IFN was marginally beneficial in reducing viral load and resulted in moderate improvement in clinical manifestations. In contrast, delayed administration of IFN did not have any advantage compared to placebo controls. Similarly, early administration of combination of IFN and ribavirin modestly ameliorated disease severity but did not affect mortality [115, 121, 117, 122].
+Other possible therapeutics
+IFN-?? inhibitors and IFN-?
+IFN-?? restrict virus replication through induction of ISGs. However, IFN-?? can also exacerbate disease by enhancing recruitment and function of IMMs and other innate immune cells. While an early interferon response was protective in SARS-CoV-infected mice, delayed IFN-?? signaling dysregulated the anti-SARS-CoV immune response suggesting that timing of IFN therapy is critical in determining the disease outcome. Based on these results, the administration of IFN-?? receptor blockers or antagonists should be considered as an option to prevent exuberant inflammatory responses during later stages of severe disease, particularly during SARS [38]. In contrast to IFN-??, IFN-? mainly activates epithelial cells and lacks monocyte-macrophage-mediated pro-inflammatory activity of IFN-?? [123]. Additionally, IFN-? suppresses neutrophil recruitment to the site of inflammation [124]. Since SARS-CoV and MERS-CoV predominantly infect AECs and IFN-? stimulates antiviral gene in epithelial cells without over-stimulating the immune system, use of IFN-? may be an ideal therapeutic option.
+Suppression of oxidized phospholipids
+Oxidized phospholipids (OxPL) have been shown to promote ALI by increasing lung macrophage cytokine/chemokine production via TLR4-TRIF signaling in influenza A virus (IAV)-infected mice [125]. In a recent study, therapeutic administration of the TLR4 antagonist, Eritoran, protected mice from lethal IAV infection by reducing the levels of OxPL and inflammatory cytokines and chemokines [126]. Despite potent immunomodulatory functions, Eritoran has no direct antiviral activity, suggesting its use in the amelioration of inflammatory responses. Since pathogenic human coronaviruses cause acute lung injury and promote OxPL production in the lungs [125], strategies to suppress OxPL either by using Eritoran or other similar compounds could be of value in dampening hCoV-induced inflammation.
+Sphingosine-1-phosphate receptor 1 agonist therapy
+In mice infected with IAV, sphingosine-1-phosphate receptor 1 (S1P1) signaling in endothelial cells was shown to orchestrate pathogenic inflammatory responses [127]. Targeted S1P1 agonism restrained excessive inflammatory cell recruitment, suppressed pro-inflammatory cytokines and chemokines, and reduced IAV induced morbidity and mortality [127, 128]. SARS-CoV infects lung epithelial cells and endothelial cells in humans and NHPs [29], so that SARS-CoV infection of endothelial cells may drive S1P1-mediated inflammatory cytokine/chemokine responses and neutrophil and macrophage accumulation. Therefore, S1P1 agonism could be a potential therapeutic agent in hCoV patients to dampen pathogenic cytokine and chemokine responses, if a role for an excessive immune response by these cells is demonstrated.
+Inhibitors of monocyte recruitment and function
+Studies in animal models demonstrate pathogenic roles for IMMs during lethal hCoV infections. In a mouse model of cardiac inflammation, systemic delivery of optimized lipid nanop s containing a CCR2-silencing short interfering RNA (siRNA) efficiently degraded CCR2 mRNA and impaired IMM recruitment to sites of inflammation thus resulting in improved disease outcome [129, 130]. Since hCoVs are single-stranded RNA (ssRNA) viruses and stimulation of IMMs with the TLR7 agonist, R837 (a synthetic ssRNA mimic), induces strong inflammatory responses, it is possible that IMM-specific TLR-7 signaling promotes excessive inflammation in response to hCoV infection. Thus, a TLR7 antagonist-targeted approach to mitigate inflammation could prove beneficial.
+Other immunomodulatory agents
+Several other immunomodulatory agents that could ameliorate inflammatory responses following pathogenic hCoV infections include cytokine/chemokine inhibitors and danger-associated molecular pattern (DAMP) antagonists [131]. Studies from animal models show a significant contribution of TNF to acute lung injury and impaired T cell responses in SARS-CoV-challenged mice. In vivo neutralization of TNF activity or infection of mice lacking TNFR provides protection against SARS-CoV-induced morbidity and mortality [38, 132]. However, it is to be noted that TNF was not detected in the serum of SARS patients at least during later stages of infection.
+Conclusion
+Inflammation is an indispensable part of an effective immune response, without which successful elimination of an infectious agent is difficult. The inflammatory response begins with the initial recognition of a pathogen, which then mediates immune cell recruitment, eliminates pathogens, and ultimately results in tissue repair and return to homeostasis. However, certain viruses such as highly pathogenic CoVs, IAV, and ebola viruses induce excessive and prolonged cytokine/chemokine response known as “cytokine storms,” which results in high morbidity and mortality due to immunopathology. Although studies reviewed in this manuscript provide evidence that “cytokine storms” and immunopathology can occur during pathogenic hCOV infections, we do not yet have a sufficient understanding of the specific factor/s responsible for exuberant inflammatory responses. Studies from human autopsies and animal models strongly suggest a pathogenic role for inflammatory cytokines/chemokines derived from IMM and neutrophils. Therefore, therapeutic interventions targeting these pro-inflammatory cytokines and chemokines could prove beneficial in ameliorating undesirable inflammatory responses. Additionally, since high virus titers at early and later stages of infection strongly correlate with disease severity in humans, strategies directed at controlling viral load as well as attenuating the inflammatory response might prove beneficial. Therefore, future studies should focus on identification of specific signaling pathways that mediate inflammatory responses in hCoV-infected patients and animals.
+References
+1. 1.
+Masters PS, Perlman, S (2013) Coronaviridae. In: Knipe DM, Howley P (eds) Fields Virology. Lippincott Williams and Wilkins, Philadelphia, PA, pp 825–858
+2. 2.
+Siddell SZJ, Snijder EJ (2005) Coronaviruses, toroviruses, and arteriviruses, vol. 1. Hodder Arnold, London
+o  
+3. 3.
+Peck KM et al (2015) Coronavirus host range expansion and Middle East respiratory syndrome coronavirus emergence: biochemical mechanisms and evolutionary perspectives. Annu Rev Virol 2(1):95–117
+o  
+o  
+o  
+o  
+4. 4.
+Su S et al (2016) Epidemiology, genetic recombination, and pathogenesis of coronaviruses. Trends Microbiol 24(6):490–502
+o  
+o  
+o  
+o  
+5. 5.
+Weiss SR, Navas-Martin S (2005) Coronavirus pathogenesis and the emerging pathogen severe acute respiratory syndrome coronavirus. Microbiol Mol Biol Rev 69(4):635–664
+o  
+o  
+o   Central
+o  
+o  
+6. 6.
+Heugel J et al (2007) Coronavirus-associated pneumonia in previously healthy children. Pediatr Infect Dis J 26(8):753–755
+o  
+o  
+o  
+7. 7.
+Kuypers J et al (2007) Clinical disease in children associated with newly described coronavirus subtypes. Pediatrics 119(1):e70–e76
+o  
+o  
+o  
+8. 8.
+Drosten C et al (2003) Identification of a novel coronavirus in patients with severe acute respiratory syndrome. N Engl J Med 348(20):1967–1976
+o  
+o  
+o  
+o  
+9. 9.
+Kuiken T et al (2003) Newly discovered coronavirus as the primary cause of severe acute respiratory syndrome. Lancet 362(9380):263–270
+o  
+o  
+o  
+o  
+10. 10.
+Peiris JS et al (2003) Coronavirus as a possible cause of severe acute respiratory syndrome. Lancet 361(9366):1319–1325
+o  
+o  
+o  
+o  
+11. 11.
+van Boheemen S et al (2012) Genomic characterization of a newly discovered coronavirus associated with acute respiratory distress syndrome in humans. MBio 3(6)
+12. 12.
+Zaki AM et al (2012) Isolation of a novel coronavirus from a man with pneumonia in Saudi Arabia. N Engl J Med 367(19):1814–1820
+o  
+o  
+o  
+o  
+13. 13.
+Perlman S, Netland J (2009) Coronaviruses post-SARS: update on replication and pathogenesis. Nat Rev Microbiol 7(6):439–450
+o  
+o  
+o   Central
+o  
+o  
+14. 14.
+WHO Cumulative number of reported probable  es of SARS. In: 2003
+15. 15.
+http://www.who.int/csr/disease/coronavirus_infections/MERS_CoV_RA_20140613.pdf WUoM-CTfAtHaIRfA-RGLaoMAf
+16. 16.
+WHO: Middle East respiratory syndrome coronavirus (MERS-CoV). http://www.who.int/emergencies/mers-cov/en/
+17. 17.
+Adney DR et al (2014) Replication and shedding of MERS-CoV in upper respiratory tract of inoculated dromedary camels. Emerg Infect Dis 20(12):1999–2005
+o  
+o  
+o   Central
+o  
+o  
+18. 18.
+Alagaili AN et al (2014) Middle East respiratory syndrome coronavirus infection in dromedary camels in Saudi Arabia. MBio 5(2):e00884–e00814
+o  
+o   Central
+o  
+o  
+o  
+19. 19.
+Ge XY et al (2013) Isolation and characterization of a bat SARS-like coronavirus that uses the ACE2 receptor. Nature 503(7477):535–538
+o  
+o  
+o   Central
+o  
+o  
+20. 20.
+Menachery VD et al (2015) A SARS-like cluster of circulating bat coronaviruses shows potential for human emergence. Nat Med 21(12):1508–1513
+o  
+o  
+o   Central
+o  
+o  
+21. 21.
+Arabi YM et al (2014) Clinical course and outcomes of critically ill patients with Middle East respiratory syndrome coronavirus infection. Ann Intern Med 160(6):389–397
+o  
+o  
+o  
+22. 22.
+Assiri A et al (2013) Epidemiological, demographic, and clinical characteristics of 47  es of Middle East respiratory syndrome coronavirus disease from Saudi Arabia: a descriptive study. Lancet Infect Dis 13(9):752–761
+o  
+o  
+o  
+23. 23.
+Leong HN et al (2006) Clinical and laboratory findings of SARS in Singapore. Ann Acad Med Singap 35(5):332–339
+o  
+o  
+24. 24.
+Saad M et al (2014) Clinical aspects and outcomes of 70 patients with Middle East respiratory syndrome coronavirus infection: a single-center experience in Saudi Arabia. Int J Infect Dis 29:301–306
+o  
+o  
+o  
+25. 25.
+Al-Tawfiq JA et al (2014) Middle East respiratory syndrome coronavirus: a  e-control study of hospitalized patients. Clin Infect Dis 59(2):160–165
+o  
+o  
+o  
+26. 26.
+Zumla A et al (2015) Middle East respiratory syndrome. Lancet 386(9997):995–1007
+o  
+o   Central
+o  
+o  
+27. 27.
+Peiris JS et al (2004) Severe acute respiratory syndrome. Nat Med 10(12 Suppl):S88–S97
+o  
+o  
+o  
+o  
+28. 28.
+Peiris JS et al (2003) Clinical progression and viral load in a community outbreak of coronavirus-associated SARS pneumonia: a prospective study. Lancet 361(9371):1767–1772
+o  
+o  
+o  
+o  
+29. 29.
+Nicholls J et al (2003) SARS: clinical virology and pathogenesis. Respirology 8(Suppl):S6–S8
+o  
+o  
+o  
+30. 30.
+van den Brand JM et al (2014) The pathology and pathogenesis of experimental severe acute respiratory syndrome and influenza in animal models. J Comp Pathol 151(1):83–112
+o  
+o  
+o  
+31. 31.
+Gu J et al (2005) Multiple organ infection and the pathogenesis of SARS. J Exp Med 202(3):415–424
+o  
+o  
+o   Central
+o  
+o  
+32. 32.
+Nicholls JM et al (2003) Lung pathology of fatal severe acute respiratory syndrome. Lancet 361(9371):1773–1778
+o  
+o  
+o  
+33. 33.
+van den Brand JM et al (2014) The pathology and pathogenesis of experimental severe acute respiratory syndrome and influenza in animal models. J Comp Pathol 151(1):83–112
+34. 34.
+Cui W et al (2003) Expression of lymphocytes and lymphocyte subsets in patients with severe acute respiratory syndrome. Clin Infect Dis 37(6):857–859
+o  
+o  
+o  
+35. 35.
+Li T et al (2004) Significant changes of peripheral T lymphocyte subsets in patients with severe acute respiratory syndrome. J Infect Dis 189(4):648–651
+o  
+o  
+o  
+36. 36.
+Wang YH et al (2004) A cluster of patients with severe acute respiratory syndrome in a chest ward in southern Taiwan. Intensive Care Med 30(6):1228–1231
+o  
+o  
+o  
+37. 37.
+Ng DL et al (2016) Clinicopathologic, immunohistochemical, and ultrastructural findings of a fatal  e of Middle East respiratory syndrome coronavirus infection in the United Arab Emirates, April 2014. Am J Pathol 186(3):652–658
+o  
+o  
+o  
+38. 38.
+Channappanavar R et al (2016) Dysregulated type I interferon and inflammatory monocyte-macrophage responses cause lethal pneumonia in SARS-CoV-infected mice. Cell Host Microbe 19(2):181–193
+o  
+o  
+o   Central
+o  
+o  
+39. 39.
+Davidson S et al (2015) Disease-promoting effects of type I interferons in viral, bacterial, and coinfections. J Interf Cytokine Res 35(4):252–264
+o  
+o  
+o  
+40. 40.
+Shaw AC et al (2013) Age-dependent dysregulation of innate immunity. Nat Rev Immunol 13(12):875–887
+o  
+o  
+o   Central
+o  
+o  
+41. 41.
+Cheung CY et al (2005) Cytokine responses in severe acute respiratory syndrome coronavirus-infected macrophages in vitro: possible relevance to pathogenesis. J Virol 79(12):7819–7826
+o  
+o  
+o   Central
+o  
+o  
+42. 42.
+Law HK et al (2005) Chemokine up-regulation in SARS-coronavirus-infected, monocyte-derived human dendritic cells. Blood 106(7):2366–2374
+o  
+o  
+o   Central
+o  
+o  
+43. 43.
+Yen YT et al (2006) Modeling the early events of severe acute respiratory syndrome coronavirus infection in vitro. J Virol 80(6):2684–2693
+o  
+o  
+o   Central
+o  
+o  
+44. 44.
+Chien JY et al (2006) Temporal changes in cytokine/chemokine profiles and pulmonary involvement in severe acute respiratory syndrome. Respirology 11(6):715–722
+o  
+o  
+o  
+45. 45.
+Wang CH et al (2005) Persistence of lung inflammation and lung cytokines with high-resolution CT abnormalities during recovery from SARS. Respir Res 6:42
+o  
+o   Central
+o  
+o  
+o  
+46. 46.
+Wong CK et al (2004) Plasma inflammatory cytokines and chemokines in severe acute respiratory syndrome. Clin Exp Immunol 136(1):95–103
+o  
+o  
+o   Central
+o  
+o  
+47. 47.
+Zhang Y et al (2004) Analysis of serum cytokines in patients with severe acute respiratory syndrome. Infect Immun 72(8):4410–4415
+o  
+o  
+o   Central
+o  
+o  
+48. 48.
+Cameron MJ et al (2008) Human immunopathogenesis of severe acute respiratory syndrome (SARS). Virus Res 133(1):13–19
+o  
+o  
+o  
+o  
+49. 49.
+Cameron MJRL, Xu L, Danesh A, Bermejo-Martin JF, Cameron CM, Muller MP, Gold WL, Richardson SE, Poutanen SM, Willey BM, DeVries ME, Fang Y, Seneviratne C, Bosinger SE, Persad D, Keshavjee S, Louie M, Loeb MB, Brunton J, McGeer AJ, Kelvin DJ (2007) Interferon-mediated immunopathological events are associated with atypical innate and adaptive immune responses in patients with severe acute respiratory syndrome. J Virol 81(16):8692–8706
+o  
+o  
+o   Central
+o  
+o  
+50. 50.
+Huang KJ et al (2005) An interferon-gamma-related cytokine storm in SARS patients. J Med Virol 75(2):185–194
+o  
+o  
+o  
+o  
+51. 51.
+Theron M et al (2005) A probable role for IFN-gamma in the development of a lung immunopathology in SARS. Cytokine 32(1):30–38
+o  
+o  
+o  
+o  
+52. 52.
+Lau SK et al (2013) Delayed induction of proinflammatory cytokines and suppression of innate antiviral response by the novel Middle East respiratory syndrome coronavirus: implications for pathogenesis and treatment. J Gen Virol 94(Pt 12):2679–2690
+o  
+o  
+o  
+o  
+53. 53.
+Chu H et al (2015) Middle East respiratory syndrome coronavirus efficiently infects human primary T lymphocytes and activates the extrinsic and intrinsic apoptosis pathways. J Infect Dis 213(6):904–14
+54. 54.
+Tynell J et al (2016) Middle East respiratory syndrome coronavirus shows poor replication but significant induction of antiviral responses in human monocyte-derived macrophages and dendritic cells. J Gen Virol 97(2):344–355
+o  
+o  
+o   Central
+o  
+o  
+55. 55.
+Zhou J et al (2014) Active replication of Middle East respiratory syndrome coronavirus and aberrant induction of inflammatory cytokines and chemokines in human macrophages: implications for pathogenesis. J Infect Dis 209(9):1331–1342
+o  
+o  
+o  
+o  
+56. 56.
+Scheuplein VA et al (2015) High secretion of interferons by human plasmacytoid dendritic cells upon recognition of Middle East respiratory syndrome coronavirus. J Virol 89(7):3859–3869
+o  
+o  
+o   Central
+o  
+o  
+57. 57.
+Kim ES et al (2016) Clinical progression and cytokine profiles of Middle East respiratory syndrome coronavirus infection. J Korean Med Sci 31(11):1717–1725
+o  
+o   Central
+o  
+o  
+o  
+58. 58.
+Min CK et al (2016) Comparative and kinetic analysis of viral shedding and immunological responses in MERS patients representing a broad spectrum of disease severity. Sci Rep 6:25359
+o  
+o  
+o   Central
+o  
+o  
+59. 59.
+Roberts A et al (2005) Aged BALB/c mice as a model for increased severity of severe acute respiratory syndrome in elderly humans. J Virol 79(9):5833–5838
+o  
+o  
+o   Central
+o  
+o  
+60. 60.
+Day CW et al (2009) A new mouse-adapted strain of SARS-CoV as a lethal model for evaluating antiviral agents in vitro and in vivo. Virology 395(2):210–222
+o  
+o  
+o   Central
+o  
+o  
+61. 61.
+Nagata N et al (2008) Mouse-passaged severe acute respiratory syndrome-associated coronavirus leads to lethal pulmonary edema and diffuse alveolar damage in adult but not young mice. Am J Pathol 172(6):1625–1637
+o  
+o  
+o   Central
+o  
+o  
+62. 62.
+Roberts A et al (2007) A mouse-adapted SARS-coronavirus causes disease and mortality in BALB/c mice. PLoS Pathog 3(1):e5
+o  
+o   Central
+o  
+o  
+o  
+63. 63.
+Frieman MB et al (2010) SARS-CoV pathogenesis is regulated by a STAT1 dependent but a type I, II and III interferon receptor independent mechanism. PLoS Pathog 6(4):e1000849
+o  
+o   Central
+o  
+o  
+o  
+64. 64.
+Zhao J et al (2011) Age-related increases in PGD(2) expression impair respiratory DC migration, resulting in diminished T cell responses upon respiratory virus infection in mice. J Clin Invest 121(12):4921–4930
+o  
+o  
+o   Central
+o  
+o  
+65. 65.
+Graham RL et al (2012) A live, impaired-fidelity coronavirus vaccine protects in an aged, immunocompromised mouse model of lethal disease. Nat Med 18(12):1820–1826
+o  
+o  
+o   Central
+o  
+o  
+66. 66.
+Rockx B et al (2009) Early upregulation of acute respiratory distress syndrome-associated cytokines promotes lethal disease in an aged-mouse model of severe acute respiratory syndrome coronavirus infection. J Virol 83(14):7062–7074
+o  
+o  
+o   Central
+o  
+o  
+67. 67.
+Smits SL et al (2010) Exacerbated innate host response to SARS-CoV in aged non-human primates. PLoS Pathog 6(2):e1000756
+o  
+o   Central
+o  
+o  
+o  
+68. 68.
+Totura AL et al (2015) Toll-like receptor 3 signaling via TRIF contributes to a protective innate immune response to severe acute respiratory syndrome coronavirus infection. MBio 6(3):e00638–e00615
+o  
+o  
+o  
+o  
+o  
+69. 69.
+Jimenez-Guardeno JM et al (2014) The PDZ-binding motif of severe acute respiratory syndrome coronavirus envelope protein is a determinant of viral pathogenesis. PLoS Pathog 10(8):e1004320
+o  
+o  
+o  
+o  
+o  
+70. 70.
+Nieto-Torres JL et al (2014) Severe acute respiratory syndrome coronavirus envelope protein ion channel activity promotes virus fitness and pathogenesis. PLoS Pathog 10(5):e1004077
+o  
+o  
+o  
+o  
+o  
+71. 71.
+Nieto-Torres JL et al (2015) Severe acute respiratory syndrome coronavirus E protein transports calcium ions and activates the NLRP3 inflammasome. Virology 485:330–339
+o  
+o  
+o  
+o  
+o  
+72. 72.
+de Wit E et al (2013) Middle East respiratory syndrome coronavirus (MERS-CoV) causes transient lower respiratory tract infection in rhesus macaques. Proc Natl Acad Sci U S A 110(41):16598–16603
+o  
+o  
+o  
+o  
+73. 73.
+Haagmans BL et al (2015) Asymptomatic Middle East respiratory syndrome coronavirus infection in rabbits. J Virol 89(11):6131–6135
+o  
+o  
+o  
+o  
+o  
+74. 74.
+Houser KV et al (2016) Prophylaxis with a Middle East respiratory syndrome coronavirus (MERS-CoV)-specific human monoclonal antibody protects rabbits from MERS-CoV infection. J Infect Dis 213(10):1557–1561
+o  
+o  
+o  
+o  
+75. 75.
+Falzarano D et al (2014) Infection with MERS-CoV causes lethal pneumonia in the common marmoset. PLoS Pathog 10(8):e1004250
+o  
+o  
+o  
+o  
+o  
+76. 76.
+Johnson RF et al (2015) Intratracheal exposure of common marmosets to MERS-CoV Jordan-n3/2012 or MERS-CoV EMC/2012 isolates does not result in lethal disease. Virology 485:422–430
+o  
+o  
+o  
+o  
+o  
+77. 77.
+Barlan A et al (2014) Receptor variation and susceptibility to Middle East respiratory syndrome coronavirus infection. J Virol 88(9):4953–4961
+o  
+o  
+o  
+o  
+o  
+78. 78.
+Zhao J et al (2014) Rapid generation of a mouse model for Middle East respiratory syndrome. Proc Natl Acad Sci U S A 111(13):4970–4975
+o  
+o  
+o  
+o  
+o  
+79. 79.
+Gretebeck LM, Subbarao K (2015) Animal models for SARS and MERS coronaviruses. Curr Opin Virol 13:123–129
+o  
+o  
+o  
+o  
+80. 80.
+van Doremalen N, Munster VJ (2015) Animal models of Middle East respiratory syndrome coronavirus infection. Antivir Res 122:28–38
+o  
+o  
+o  
+o  
+o  
+81. 81.
+Pascal KE et al (2015) Pre- and postexposure efficacy of fully human antibodies against Spike protein in a novel humanized mouse model of MERS-CoV infection. Proc Natl Acad Sci U S A 112(28):8738–8743
+o  
+o  
+o  
+o  
+o  
+82. 82.
+Cockrell A et al (2016) A mouse model for MERS coronavirus-induced acute respiratory distress syndrome. Nature Microbiology 2:16226
+83. 83.
+Li K et al (2017) Mouse-adapted MERS coronavirus causes lethal lung disease in human DPP4 knockin mice. Proceedings of the National Academy of Sciences 114(15):E3119–E3128
+84. 84.
+Frieman M et al (2007) Severe acute respiratory syndrome coronavirus ORF6 antagonizes STAT1 function by sequestering nuclear import factors on the rough endoplasmic reticulum/Golgi membrane. J Virol 81(18):9812–9824
+o  
+o  
+o  
+o  
+o  
+85. 85.
+Kindler E et al (2016) Interaction of SARS and MERS coronaviruses with the antiviral interferon response. Adv Virus Res 96:219–243
+o  
+o  
+o  
+o  
+86. 86.
+Narayanan K et al (2008) Severe acute respiratory syndrome coronavirus nsp1 suppresses host gene expression, including that of type I interferon, in infected cells. J Virol 82(9):4471–4479
+o  
+o  
+o  
+o  
+o  
+87. 87.
+Sun L et al (2012) Coronavirus papain-like proteases negatively regulate antiviral innate immune response through disruption of STING-mediated signaling. PLoS One 7(2):e30802
+o  
+o  
+o  
+o  
+o  
+88. 88.
+Thiel V, Weber F (2008) Interferon and cytokine responses to SARS-coronavirus infection. Cytokine Growth Factor Rev 19(2):121–132
+o  
+o  
+o  
+o  
+89. 89.
+Totura AL, Baric RS (2012) SARS coronavirus pathogenesis: host innate immune responses and viral antagonism of interferon. Current Opinion in Virology 2(3):264–275
+o  
+o  
+o  
+o  
+90. 90.
+Wathelet MG et al (2007) Severe acute respiratory syndrome coronavirus evades antiviral signaling: role of nsp1 and rational design of an attenuated strain. J Virol 81(21):11620–11633
+o  
+o  
+o  
+o  
+o  
+91. 91.
+Fehr AR et al (2016) The Conserved Coronavirus Macrodomain Promotes Virulence and Suppresses the Innate Immune Response during Severe Acute Respiratory Syndrome Coronavirus Infection. mBio 7(6):e01721–16
+92. 92.
+Frieman M et al (2009) Severe acute respiratory syndrome coronavirus papain-like protease ubiquitin-like domain and catalytic domain regulate antagonism of IRF3 and NF-kappaB signaling. J Virol 83(13):6689–6705
+o  
+o  
+o  
+o  
+o  
+93. 93.
+Kopecky-Bromberg SA et al (2007) Severe acute respiratory syndrome coronavirus open reading frame (ORF) 3b, ORF 6, and nucleocapsid proteins function as interferon antagonists. J Virol 81(2):548–557
+o  
+o  
+o  
+o  
+94. 94.
+Lu XL et al (2011) SARS-CoV nucleocapsid protein antagonizes IFN-beta response by targeting initial step of IFN-beta induction pathway, and its C-terminal region is critical for the antagonism. Virus Genes 42(1):37–45
+o  
+o  
+o  
+o  
+95. 95.
+Siu KL et al (2014) Suppression of innate antiviral response by severe acute respiratory syndrome coronavirus M protein is mediated through the first transmembrane domain. Cell Mol Immunol 11(2):141–149
+o  
+o  
+o  
+o  
+o  
+96. 96.
+Lui PY et al (2016) Middle East respiratory syndrome coronavirus M protein suppresses type I interferon expression through the inhibition of TBK1-dependent phosphorylation of IRF3. Emerg Microbes Infect 5:e39
+o  
+o  
+o  
+o  
+o  
+97. 97.
+Yang Y et al (2013) The structural and accessory proteins M, ORF 4a, ORF 4b, and ORF 5 of Middle East respiratory syndrome coronavirus (MERS-CoV) are potent interferon antagonists. Protein Cell 4(12):951–961
+o  
+o  
+o  
+o  
+o  
+98. 98.
+Chu CM et al (2004) Initial viral load and the outcomes of SARS. CMAJ 171(11):1349–1352
+o  
+o  
+o  
+o  
+99. 99.
+Ng ML et al (2003) Proliferative growth of SARS coronavirus in Vero E6 cells. J Gen Virol 84(Pt 12):3291–3303
+o  
+o  
+o  
+o  
+100. 100.
+Oh MD et al (2016) Viral load kinetics of MERS coronavirus infection. N Engl J Med 375(13):1303–1305
+o  
+o  
+o  
+101. 101.
+Herold S et al (2008) Lung epithelial apoptosis in influenza virus pneumonia: the role of macrophage-expressed TNF-related apoptosis-inducing ligand. J Exp Med 205(13):3065–3077
+o  
+o  
+o  
+o  
+o  
+102. 102.
+Hogner K et al (2013) Macrophage-expressed IFN-beta contributes to apoptotic alveolar epithelial cell injury in severe influenza virus pneumonia. PLoS Pathog 9(2):e1003188
+o  
+o  
+o  
+o  
+103. 103.
+Rodrigue-Gervais IG et al (2014) Cellular inhibitor of apoptosis protein cIAP2 protects against pulmonary tissue necrosis during influenza virus infection to promote host survival. Cell Host Microbe 15(1):23–35
+o  
+o  
+o  
+o  
+104. 104.
+Zhao J et al (2010) T cell responses are required for protection from clinical disease and for virus clearance in severe acute respiratory syndrome coronavirus-infected mice. J Virol 84(18):9318–9325
+o  
+o  
+o  
+o  
+o  
+105. 105.
+Kim KD et al (2007) Adaptive immune cells temper initial innate responses. Nat Med 13(10):1248–1252
+o  
+o  
+o  
+o  
+o  
+106. 106.
+Palm NW, Medzhitov R (2007) Not so fast: adaptive suppression of innate immunity. Nat Med 13(10):1142–1144
+o  
+o  
+o  
+o  
+107. 107.
+Zornetzer GA et al (2010) Transcriptomic analysis reveals a mechanism for a prefibrotic phenotype in STAT1 knockout mice during severe acute respiratory syndrome coronavirus infection. J Virol 84(21):11297–11309
+o  
+o  
+o  
+o  
+o  
+108. 108.
+Page C et al (2012) Induction of alternatively activated macrophages enhances pathogenesis during severe acute respiratory syndrome coronavirus infection. J Virol 86(24):13334–13349
+o  
+o  
+o  
+o  
+o  
+109. 109.
+Gralinski LE et al (2015) Genome wide identification of SARS-CoV susceptibility loci using the collaborative cross. PLoS Genet 11(10):e1005504
+o  
+o  
+o  
+o  
+o  
+110. 110.
+Drosten C et al (2013) Clinical features and virological analysis of a  e of Middle East respiratory syndrome coronavirus infection. Lancet Infect Dis 13(9):745–751
+o  
+o  
+o  
+111. 111.
+Lew TW et al (2003) Acute respiratory distress syndrome in critically ill patients with severe acute respiratory syndrome. JAMA 290(3):374–380
+o  
+o  
+o  
+112. 112.
+Jiang Y et al (2005) Characterization of cytokine/chemokine profiles of severe acute respiratory syndrome. Am J Respir Crit Care Med 171(8):850–857
+o  
+o  
+o  
+113. 113.
+Reghunathan R et al (2005) Expression profile of immune response genes in patients with Severe Acute Respiratory Syndrome. BMC Immunology 6:2
+114. 114.
+Stockman LJ et al (2006) SARS: systematic review of treatment effects. PLoS Med 3(9):e343
+o  
+o  
+o  
+o  
+o  
+115. 115.
+Al-Tawfiq JA et al (2014) Ribavirin and interferon therapy in patients infected with the Middle East respiratory syndrome coronavirus: an observational study. Int J Infect Dis 20:42–46
+o  
+o  
+o  
+o  
+116. 116.
+Falzarano D et al (2013) Treatment with interferon-alpha2b and ribavirin improves outcome in MERS-CoV-infected rhesus macaques. Nat Med 19(10):1313–1317
+o  
+o  
+o  
+o  
+o  
+117. 117.
+Omrani AS et al (2014) Ribavirin and interferon alfa-2a for severe Middle East respiratory syndrome coronavirus infection: a retrospective cohort study. Lancet Infect Dis 14(11):1090–1095
+o  
+o  
+o  
+o  
+118. 118.
+Auyeung TW et al (2005) The use of corticosteroid as treatment in SARS was associated with adverse outcomes: a retrospective cohort study. J Infect 51(2):98–102
+o  
+o  
+o  
+119. 119.
+Ho JC et al (2003) High-dose pulse versus nonpulse corticosteroid regimens in severe acute respiratory syndrome. Am J Respir Crit Care Med 168(12):1449–1456
+o  
+o  
+o  
+120. 120.
+Yam LY et al (2007) Corticosteroid treatment of severe acute respiratory syndrome in Hong Kong. J Infect 54(1):28–39
+o  
+o  
+o  
+121. 121.
+Haagmans BL et al (2004) Pegylated interferon-alpha protects type 1 pneumocytes against SARS coronavirus infection in macaques. Nat Med 10(3):290–293
+o  
+o  
+o  
+o  
+122. 122.
+Zumla A et al (2016) Coronaviruses—drug discovery and therapeutic options. Nat Rev Drug Discov 15(5):327–47
+123. 123.
+Davidson S et al (2016) IFNlambda is a potent anti-influenza therapeutic without the inflammatory side effects of IFNalpha treatment. EMBO Mol Med 8(9):1099–1112
+o  
+o  
+o  
+o  
+o  
+124. 124.
+Blazek K et al (2015) IFN-lambda resolves inflammation via suppression of neutrophil infiltration and IL-1beta production. J Exp Med 212(6):845–853
+o  
+o  
+o  
+o  
+o  
+125. 125.
+Imai Y et al (2008) Identification of oxidative stress and Toll-like receptor 4 signaling as a key pathway of acute lung injury. Cell 133(2):235–249
+o  
+o  
+o  
+o  
+126. 126.
+Shirey KA et al (2013) The TLR4 antagonist Eritoran protects mice from lethal influenza infection. Nature 497(7450):498–502
+o  
+o  
+o  
+o  
+o  
+127. 127.
+Teijaro JR et al (2011) Endothelial cells are central orchestrators of cytokine amplification during influenza virus infection. Cell 146(6):980–991
+o  
+o  
+o  
+o  
+o  
+128. 128.
+Walsh KB et al (2011) Suppression of cytokine storm with a sphingosine analog provides protection against pathogenic influenza virus. Proc Natl Acad Sci U S A 108(29):12018–12023
+o  
+o  
+o  
+o  
+o  
+129. 129.
+Leuschner F et al (2015) Silencing of CCR2 in myocarditis. Eur Heart J 36(23):1478–1488
+o  
+o  
+o  
+130. 130.
+Leuschner F et al (2011) Therapeutic siRNA silencing in inflammatory monocytes in mice. Nat Biotechnol 29(11):1005–1010
+o  
+o  
+o  
+o  
+o  
+131. 131.
+Darwish I et al (2011) Immunomodulatory therapy for severe influenza. Expert Rev Anti-Infect Ther 9(7):807–822
+o  
+o  
+o  
+o  
+132. 132.
+McDermott JE et al (2016) The effect of inhibition of PP1 and TNFalpha signaling on pathogenesis of SARS coronavirus. BMC Syst Biol 10(1):93
+o  
+o  
+o  
+o  
+Download references
+Acknowledgements
+We thank Dr. Anthony Fehr for careful review of this manuscript. This work was supported in part by grants from the N.I.H. (PO1 AI060699, RO1 AI091322).
+Author information
+

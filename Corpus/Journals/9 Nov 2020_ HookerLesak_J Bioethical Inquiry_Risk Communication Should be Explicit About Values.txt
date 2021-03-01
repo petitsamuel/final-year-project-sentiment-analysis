@@ -1,0 +1,377 @@
+Risk Communication Should be Explicit About Values. A Perspective on Early Communication During COVID-19
+Claire Hooker & Julie Leask 
+Journal of Bioethical Inquiry (2020)
+Abstract
+This   explores the consequences of failure to communicate early, as recommended in risk communication scholarship, during the first stage of the COVID-19 pandemic in Australia and the United Kingdom. We begin by observing that the principles of risk communication are regarded as basic best practices rather than as moral rules. We argue firstly, that they nonetheless encapsulate value commitments, and secondly, that these values should more explicitly underpin communication practices in a pandemic. Our focus is to explore the values associated with the principle of communicating early and often and how use of this principle can signal respect for people’s self-determination whilst also conveying other values relevant to the circumstances. We suggest that doing this requires communication that explicitly acknowledges and addresses with empathy those who will be most directly impacted by any disease-control measures. We suggest further that communication in a pandemic should be more explicit about how values are expressed in response strategies and that doing so may improve the appraisal of new information as it becomes available.
+
+Risk communication has been defined as a two-way exchange of information between interested parties about the nature, significance, and/or control of a risk (Lowbridge and Leask 2011). Communication is a key determinant of how outbreaks and pandemics play out (World Health Organization [WHO] 2020). It is communication that transmits vital information, maintains trust, and enables stakeholders to interact over key decisions. Guidelines for effective communication in a pandemic have been available from leading health organizations such as WHO and the Centers for Disease Control (CDC) (CDC 2018; WHO 2018) and have drawn from extensive research in risk management (Arvai and Rivers 2014; Fischhoff 2013; Lundgren 2009; Seeger, Sellnow, and Ulmer 2008) since the 1990s, and pandemic planning documents typically include recommendations for communication (Australian Government Department of Health 2019; CDC 2020).
+
+A set of “rules” or principles for risk communication have shown their utility though more than three decades of health emergencies (Arvai and Rivers 2014; Covello 2003; Covello, Pavlova, and Fisher 1991; Fischhoff 2013). These principles arose from psychological research that identified cognitive heuristics and biases as determinants of risk perception and response, challenging rational-choice models of decision-making (Slovic 1987) and social and cultural analyses of risk. The main objectives of these principles are reinstating a sense of control and building and maintaining trust with audiences (CDC 2018; WHO 2018), because perceived “control” (Slovic 1987) and trust (Siegrist and Zingg 2014) are factors identified as strongly influencing risk perception, willingness to listen, and appraisal of information. The principles of risk communication include advice to: communicate early and often; be open, transparent and honest; and accept and involve the public as a legitimate partner—and hence to engage in “two-way and multi-directional” (Gamhewage 2014) communication, listen to people, and communicate with compassion (Covello 2003). These principles are present or implied in many pandemic planning documents, including in Australia (Australian Government Department of Health 2019).
+
+The principles of risk communication are regarded as effective practices in the extensive risk communication literature (Arvai and Rivers 2014; Covello and Milligan n.d.; Fischhoff 2013). Until recently they have been neither treated nor explored as values or moral rules (Thompson 2012). We contend that they nonetheless encapsulate value commitments and that these values may be key to communication impact.
+
+In this paper we argue that the principles of risk communication in a pandemic should be extended to include being explicit about values. What these values are will be somewhat context dependent. We begin to explore here why values-explicit, values-framed, or values-oriented communication might be useful and what this might look like.
+
+In relation to the principle of “communicating early and often,” we suggest that this will involve conveying respect for people’s self-determination (Renn 2014) as one key value while simultaneously conveying other values relevant to the specific situation.
+
+We use “self-determination” to mean “the ability to shape and enact one’s self”—a definition that incorporates but is not limited to, and does not centralize, liberty to act as one chooses (Tesón 2016). While we identify self-determination as a key value, important to convey in risk messages, we do not intend it to be sole, dominant, or simple. “Self-determination,” like “autonomy” and “freedom” (terms with which it is often used interchangeably), is multifaceted (e.g., Forst 2005), and this complexity fits with how people perceive COVID-19’s threats to selfhood and identity. We consider that it is this complex “loss of control” that impacts risk perception and that can be partially expressed in behavioural responses—both practicing recommended behaviours (such as putting on a mask) and the refusal to do so are reactions to perceive loss of control (Jetten et al. 2020; Wong 2020). “Self-determination” is used in relation to communities as much as to individuals, which may provide new understandings or representations for relations between individual and communal self-shaping in the context of pandemics (Eichler 2019). Given the extensive and growing data that reveals values and ideologies as often the strongest determinants of people’s attitudes to health protection behaviours (e.g., Dryhurst et al. 2020; Seale et al. 2020), we suggest that rich accounts of self-determination, autonomy, and/or freedom beyond “thin” versions of liberty (e.g., to travel or not wear masks) will have much to offer pandemic ethics in future research.
+
+In this paper we make a modest beginning on exploring what adding a “values perspective” to risk communication might look like by examining one risk communication principle, “communicate early and often,” in the very first stages of the pandemic. Our argument is that use of this principle could have minimized some of the negative impacts seen in Australia and the United Kingdom in February and March 2020. We contend that a hitherto undiscussed reason for why this principle is effective is because it conveys value for people’s self-determination, even as this is threatened by both disease and the measures needed to control the disease. We discuss how proactive communication might have improved community preparedness but also suggest that being more explicit about this value should have involved better acknowledgement of, and empathetic engagement with, those who were most directly impacted by control measures at that time. As a result, the Australian government could have better addressed stigma, racism, and xenophobia during late January and February and mitigated or avoided food and hygiene product stock-outs in early March. We conclude with a brief discussion of how communication of values might have avoided the loss of trust and misunderstandings associated with the misnamed strategy of achieving “herd immunity” when discussion of this emerged in the United Kingdom.
+
+We conclude by suggesting that the communication of values can improve the quality of pandemic response and can increase the degree of trust placed in responding authorities.
+
+Pandemic Risk Communication and Self-Determination
+When people face the heightened fear of a novel, uncontrolled, and uncertain risk such as the pandemic of SARS-CoV_2, self-determination in multiple dimensions is compromised and well-being is reliant on the knowledge and decisions of experts and governments (Siegrist and Zingg 2014). Risk communication must connect as much as possible with people’s sense of self-determination, even (perhaps especially) in contexts where individual liberties may become limited. How can this be done? The principles of risk communication—for example communicating early and often, being open and transparent, and not dismissing concerns as “panic”—are all means of affording some sense of control in people facing a situation of high concern and uncertainty.
+
+Transparency is a core recommendation for pandemic risk communication (van Der Weerd et al. 2011), because it enables citizens’ knowledge and confidence (Earle, Siegrist, and Gutscher 2007; Siegrist and Zingg 2014) that the response strategy will occur as expected. Because values and moral commitments are intrinsic to all pandemic responses, we argue that true transparency requires that pandemic risk communication is explicit about the values that guide it. Further, we suggest that part of the task of managing a pandemic is to cultivate public convergence (Kahan 2012) on the guiding values. This is important because a pandemic response, and communicating about it, are not actually separable: action is, in itself, a very powerful form of communication (Amabile and Kabat 1982), as we discuss below.
+
+We suggest that conveying respect for self-determination involves early, proactive communication with those who are directly affected by any response strategy. This will involve addressing issues of fairness or justice, since these are present in virtually all ethical frameworks for pandemic response (Australian Government Department of Health 2019; Kinlaw, Barrett, and Levine 2009; New Zealand National Ethics Advisory Committee— K?hui Matatika o te Motu 2007; Thomas, Dasgupta, and Martinot 2007) and have also been shown to strongly influence peoples’ perceptions of, and responses to, risk (Siegrist, Connor, and Keller 2012).
+
+I.
+Early Representations of COVID-19 in Australian and United Kingdom Media
+
+The earliest representations of the new coronavirus in media coverage of the disease in Australia and the United Kingdom conformed to what Priscilla Wald has identified as “the outbreak narrative,” in which a disease emanating from a non-White, non-Western nation is eventually contained as a result of the scientific and technologic prowess of democratic Western societies (Wald 2008).
+
+Through January and February 2020, health risk communicators from WHO and government health authorities balanced communication of the potential seriousness of the new disease (Clun 2020; The Sydney Morning Herald 2020), with caution about acting too strongly or too soon. Nonetheless several elements in news media coverage of the novel coronavirus disease in this period together tended to frame the disease as unlikely to significantly threaten Australia or the United Kingdom (The Guardian 2020). These included comparisons with SARS, MERS, and Ebola, and associations of the new disease with Chinese political authoritarianism, which somewhat signalled that these diseases were unlikely to cause widespread disease in Western nations (Boseley 2020). The discourse of “technology as saviour” (Hooker, King, and Leask 2012; Wald 2008), in the form of early and frequent expectation that a vaccine and effective treatment would be rapidly developed by scientists, was prominent (Garcia 2020; Mannix 2020).
+
+Media coverage identified that mortality was strongly associated with the elderly and those with comorbidities. Media commentators have noted that this reporting often portrayed the elderly, and those with significant health issues, as a passive, vulnerable minority, even one that was expendable or burdensome (Ashimoni 2020). These representations have continued to raise considerable concern (see, for example, People With Disability Australia (PWDA) et al. 2020) and provides an important context for later discussions of “herd immunity.”
+
+II.
+“Communicate Early and Often”
+
+In this discursive media environment, we argue that earlier, proactive communication signalling that nations outside China might become affected and about the possibility of a pandemic was needed. Early communication could have supported earlier sense-making, encouraged citizen engagement, and provided potential convergence towards a response strategy.
+
+By 20–25 February, the WHO and other health authorities were considering the possibility of a pandemic increasingly likely (Callaway 2020). Yet in Australia there was little proactive public communication at this time—indeed, Australian government websites only contained advice pertinent to travellers. The Australian Health Sector Emergency Response Plan for Novel Coronavirus (COVID-19) was released on February 27 (Grattan 2020) but was accompanied by little transparent communication about what was being done or which elements of the plan were receiving attention. This created a “risk communication vacuum” (Leiss 2001).
+
+In this vacuum, messages came from sources not privy to government planning. One was virologist Dr Ian Mackay, who recognized and attempted to fill the space by publishing an opinion piece in the Sydney Morning Herald (Mackay 2020). This advised Australians to prepare for a pandemic and suggested that Australians moderately stock up on basic consumer items and medicine, urging people to “prepare, but do not panic.” A steeply-increasing, sometimes harmful, and prolonged period of stockpiling of basic supplies like hand sanitizer, toilet paper, and flour swiftly followed in Australia, fed by escalating public anxiety.
+
+We contend that earlier and values-oriented communication could have reduced the anxiety that was later expressed in stockpiling behaviours by enabling longer and more moderated preparation for what could be ahead. Respect for citizens’ complex self-determination within the context of potential outbreaks could be conveyed in the cautious communication of concrete scenarios concerning what people might consider in their own family preparation (for example, of how to manage if somebody became sick). This period of sense-making and preparation can allow proactive communication of values around which people might shape their responses, such as providing support for neighbours (e.g., New Zealand National Ethics Advisory Committee—Ka ? hui Matatika o te Motu 2007). Proactive early communication with supermarket managers could have limited or avoided stockpiling (Poloyo 2020).
+
+In attempting to avoid early overreactions, which unintentionally communicates a lack of trust in the public, government effectively intensified a problem, rather than reducing it.
+
+III.
+Racism and Containment Strategies
+
+Early communication centred on ideas of self-determination (acknowledging individual and communal aspects of this) could have helped address the challenge that most pandemic response measures affect people unequally (Howse et al. 2020; Vaughan and Tinker 2009). Racism and stigmatization have been a feature of almost every epidemic in history (Wailoo 2006), with anti-Asian prejudice and Sinophobia widespread during the outbreaks of SARS in 2003 (Leung 2008). Explicitly confronting this through communication is crucial, not only to reduce violence and injustice but because these issues are entangled in epistemic judgements, as occurred in debates in Australia during February, concerning racism in relation to containment measures.
+
+As reports of racism and a range of Sinophobic behaviours (including avoidance of Chinese businesses, suburbs, and people) began to appear in the media from the end of January (Vrajlal 2020; Young 2020), a range of containment measures that primarily, but not exclusively, affected Chinese people were enacted. A number of wealthy, independent secondary schools in Australia had unilaterally acted to temporarily exclude students who had recently travelled in China (most of whom were Chinese), including imposing segregated quarantine, in contravention of Commonwealth government health advice (Hooker, Silva, and Anderson 2020). On February 1, the Australian government announced that foreign national travellers from mainland China would not be allowed entry into Australia; Australian citizens (most of whom were Chinese) returning from China were quarantined in offshore detention facilities notorious for their use with refugees. While it is now generally agreed that early border measures to limit transmission of disease into Australia were effective, at the time, school exclusions, selective border controls, and travel-related quarantines in immigration detention camps were questioned as unnecessary and were sometimes perceived as forms of racism (Bedo and McPhee 2020; Hooker, Silva, and Anderson 2020).
+
+To convey respect for people’s self-determination, leaders should reflexively examine how their actions might also be interpreted as disrespectful and discriminatory. Actions such as containment (border control) measures are strong forms of communication (Sandman and Lanard 2009). While we do not suggest that this was not an important measure at the time, communication needed to address (particular through pre-established two-way channels) those likely to be directly affected by containment measures—in this case, Chinese and other Asian Australians. The predictable harms of stigmatization needed to have been explicitly acknowledged alongside the scientific rationale (Major et al. 2018). Risk communication handbooks should urge authorities to be open and honest about the potential for discrimination, in the same way they are encouraged to be explicit about uncertainty.
+
+Early communication proactively addressing the potential for stigmatization and racism might have not only limited some of the direct racism experienced by Asian Australians and U.K. nationals but helped to clarify judgements around containment measures by ensuring they were not confused with forms of racism. We note that sometimes violent racism is continuing in Australia at the time of writing (Fang, Yang, and Zhou 2020).
+
+IV.
+How Communicating Values Could Help Make Sense of Pandemic Response Strategies
+
+Perhaps the most intractable feature of COVID-19 in its early stages was the persistent framing of pandemic response strategies as a choice between “the economy” and “saving lives.” This frequently contested (Hamilton et al. 2020; Zeballos-Riog 2020) framing exemplified the tendency toward values-based polarization in views about the best response to COVID-19 (Kahan 2012). Early communication with the groups most likely to be affected by any given containment strategy could help with this seemingly incommensurable choice. We discuss how improved communication might have contributed to the pandemic response in the United Kingdom when this was first announced on March 12, the day after the WHO formally declared a pandemic.
+
+A crucial period for communication about COVID-19 in Australia and the United Kingdom were the first two weeks of March 2020: the period in which the reality and likelihood of a pandemic was dawning, exponential growth feared in both countries (Churley 2020), and news of crisis from Iran and Italy were fresh. This period of adjustment was critical for sense-making amid uncertainty, through which convergence on a response strategy could occur.
+
+In the United Kingdom there was reportedly heated disagreement between members of the Scientific Advisory Group for Emergencies over what response strategy to pursue. Such disagreement is a predictable but highly confounding feature of emergency response (Christensen and Painter 2004). These differences were epistemic—they involved different appraisals of the evidence available and different assumptions about “herd immunity”—but they were fundamentally driven by different values. How the term “herd immunity” was constructed and interpreted in relation to COVID-19 is worthy of a study in itself. The indirect protection of susceptible individuals resulting from high levels of immunity across a population (D’Souza and Dowdy 2020), “herd immunity” is a concept associated most with vaccination (Hanage 2020; MacIntyre 2020).
+
+For the first two weeks of March, the U.K. government pursued a “mitigation” (Wickham 2020) strategy with little social restriction under the belief that there was ultimately little the government can do to stop the virus (Shipman and Wheeler 2020); social distancing restrictions would incur a high economic cost, be unsustainable for a long period, and would produce a more severe second wave of infection in winter (Wickham 2020). This approach assumed that reaching “herd immunity” through widespread infection would resolve the pandemic (The Times 2020). This strategy fitted with Prime Minister Boris Johnson’s values of limiting state intervention and government spending (Wickham 2020); we note that it also fitted with the cluster of values termed “hierarchical individualism” in cultural cognition theory (Kahan 2012).
+
+Within twenty-four hours of Johnson’s announcement of this policy on March 12, outrage was rising as the strategy’s scientific credibility was disputed by epidemiologists and others (Sandle and Boyd 2020), who pointed out that the “mitigation” strategy would result in an overwhelmed National Health Service and that achieving high exposure across the population should not be anticipated to achieve long lasting population immunity and thus conclude the pandemic. The mitigation strategy was perceived as a callous sacrifice of lives, with the media widely reporting that top government aide Dominic Cummings had told a private meeting that the government’s strategy was “herd immunity, protect the economy and if that means some pensioners die, too bad” (Buchan 2020).
+
+A “crisis of trust” (Smyth 2020) followed. Even though modelling from Imperial College, London (Ferguson et al. 2020), indicated how swiftly the NHS would be overwhelmed, and convinced the U.K. Government to introduce a “suppression” strategy (Wickham 2020) from Monday March 16, doubts remained. The government was urged to “come clean” about the sources of the information on which the mitigation strategy was based (Smyth 2020), and media investigations followed.
+
+Earlier communication in this case, where values-driven disputes existed between experts (Kahan 2012), likely would not have prevented political crisis, but it would have allowed more time for sense-making processes in scientific, medical, and public communities. We recommend a commitment in pandemic planning documents to sharing sources, models, and evidence at the time of deliberation, and with it, the questions advisors are asking (such as, will the same number of deaths occur regardless of strategy over the long term?) Earlier public discussion of these questions might at least have somewhat disrupted simplistic framing and use of “herd immunity,” by enabling early and public scientific challenge from epidemiologists, as occurred from mid-March (Armitage and Hawke 2020; Barr 2020; MacIntyre 2020). We note that the simplistic expectation that “herd immunity” would end the pandemic remains widespread (e.g., Hasan 2020).
+
+Earlier communication that explicitly discussed values might have enabled better public sense-making about the “mitigation” and “suppression” strategies. Because each strategy invoked values differently and prioritized different values, we suggest that better communication is needed to explain how values such as being “proportionate” (Australian Government Department of Health 2019) are expressed in these strategies. Because the costs of different strategies tend to fall on different members of the community, values-explicit communication could more effectively engage with the concerns and needs of those most affected when a strategy is selected.
+
+V.
+A Speculative Conclusion
+
+This paper offers some early thoughts for why the principles of risk communication should include the recommendation to be explicit about values. We are not suggesting that better communication alone can prevent or resolve either epistemic or political disagreements in pandemic management nor alleviate every anxiety nor uncertainty. But we do suggest that, given that disagreements about pandemic responses are very often driven by different value commitments, a “values turn” in risk communication (Feinberg and Willer 2019) is likely to produce significant benefits, including clearer communication, with greater impact. With regard to the principle of communicating early, we have shown that this is a means of conveying respect for peoples’ threatened sense of self-determination, understood broadly. We suggest that this communication of value offers a richer explanation for why early communication, especially where directed with empathy at those most affected by response measures, is important. Values-based risk communication will enable a more effective pandemic response.
+
+References
+Amabile, T., and L.G. Kabat. 1982. When self-descriptions contradict behavior: Actions do speak louder than words. Social Cognition 1(4): 311–335.
+
+ 
+ 
+ 
+ 
+
+Armitage, R., and J. Hawke. 2020. What is herd immunity and could it slow the spread of coronavirus COVID-19 around the world? ABC News, March 19. https://www.abc.net.au/news/2020-03-19/what-is-herd-immunity-and-could-it-stop-coronavirus/12059968.
+
+Arvai, J., and L. Rivers. 2014. Effective risk communication. Abingdon, Oxon: Routledge.
+
+ 
+ 
+
+Ashimoni, S. 2020. How coronavirus exposes the way we regard ageing and old people. The Conversation, April 1. https://theconversation.com/how-coronavirus-exposes-the-way-we-regard-ageing-and-old-people-135134.
+
+Australian Government Department of Health. 2019. Australian Health Management Plan for Pandemic Influenza. https://www1.health.gov.au/internet/main/publishing.nsf/Content/519F9392797E2DDCCA257D47001B9948/$File/w-AHMPPI-2019.PDF.
+
+Barr, S. 2020. What is herd immunity and is it a possibility for the UK? The Independent, April 15. https://www.independent.co.uk/life-style/health-and-families/coronavirus-herd-immunity-meaning-definition-what-vaccine-immune-covid-19-a9397871.html.
+
+ 
+ 
+
+Bedo, S., and S. McPhee. 2020. Stranded Chinese students confused and angry over Australia’s coronavirus travel ban. News.com.au, February 5. https://www.news.com.au/national/stranded-chinese-students-confused-and-angry-over-australias-coronavirus-travel-ban/news-story/2c2e2c9571730dd36637f8687d625441.
+
+Boseley, S. 2020. WHO declares coronavirus a global health emergency The Guardian, January 31. https://www.theguardian.com/world/2020/jan/30/who-declares-coronavirus-a-global-health-emergency.
+
+ 
+ 
+
+Buchan, L. 2020. Coronavirus: Downing Street denies claim Dominic Cummings wanted to protect economy over elderly. The Independent, March 22. https://www.independent.co.uk/news/uk/politics/dominic-cummings-boris-johnson-coronavirus-elderly-economy-a9417246.html.
+
+Callaway, E. 2020. Time to use the p-word? Coronavirus enters dangerous new phase. Nature, February 25 (Clarification February 27). https://www.nature.com/ s/d41586-020-00551-1.
+
+Centers for Disease Control and Prevention (CDC). 2018. Crisis and Emergency Risk Communication Manual. https://emergency.cdc.gov/cerc/manual/index.asp.
+
+———. 2020. National Pandemic Strategy. https://www.cdc.gov/flu/pandemic-resources/national-strategy/index.html.
+
+Christensen, T., and M. Painter. 2004. The politics of SARS—rational responses or ambiguity, symbols and chaos? Policy and Society 23(2): 18–48.
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+Churley, M. 2020. It is a shock to realise everything is not going to be OK. The Times, March 10.
+
+Clun, R. 2020. Health system responds to virus threats. The Sydney Morning Herald, January 20.
+
+Covello, V.T. 2003. Best practices in public health risk and crisis communication. Journal of Health Communication 8(sup.1): 5–8.
+
+Covello, V.T., and Milligan, P.  Risk communication—principles, tools, and techniques. Paper presented at the Presentation for the United States Nuclear Regulatory Commission, in Rockville, MD. No date. https://www.nrc.gov/docs/ML1015/ML101590283.pdf
+
+Covello, V.T., M. Pavlova, and A. Fisher. 1991. Evaluation and effective risk communication: Workshop proceedings. Washington: U.S. Environmental Protection Agency.
+
+ 
+ 
+
+D’Souza, G., and D. Dowdy. 2020. What is herd immunity and how can we achieve it with COVID-19? COVID-19 School of Public Health Expert Insights. April 10. Johns Hopkins Bloomberg School of Public Health. https://www.jhsph.edu/covid-19/ s/achieving-herd-immunity-with-covid19.html.
+
+ 
+ 
+
+Dryhurst, S., C.R. Schneider, J. Kerr, et al. 2020 Risk perceptions of COVID-19 around the world. Journal of Risk Research. ePub ahead of print, May 5. doi:https://doi.org/10.1080/13669877.2020.1758193.
+
+Earle, T.C., M. Siegrist, and H. Gutscher. 2007. Trust, risk perception and the TCC model of cooperation. In Trust in cooperative risk management. Uncertainty and scepticism in the public mind, edited by M. Siegrist, T.C. Earle, and H. Gutscher, 1–49. London: Earthscan.
+
+Eichler, J. 2019. Reconciling indigenous peoples’ individual and collective rights: Participation, prior consultation and self-determination in Latin America. New York, NY: Routledge.
+
+Fang, J., S. Yang, and C. Zhou. 2020. Coronavirus has fuelled racism against Asian-Australians, but why isn’t official data showing it? ABC News, May 8. https://www.abc.net.au/news/2020-05-05/coronavirus-racist-attacks-asian-australians-missing-data/12211630?nw=0.
+
+Feinberg, M., and R. Willer. 2019. Moral reframing: A technique for effective and persuasive communication across political divides. Social and Personality Psychology Compass 13(12): e12501.
+
+ 
+ 
+ 
+ 
+
+Ferguson, N., D. Laydon, G. Nedjati Gilani, et al. 2020. Report 9: Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand. Imperial College London. https://spiral.imperial.ac.uk:8443/handle/10044/1/77482.
+
+Fischhoff, B. 2013. Risk perception and communication unplugged: Twenty years of process. Taylor and Francis.
+
+Forst, R. 2005. Political liberty: Integrating five conceptions of autonomy. In Autonomy and the challenges to liberalism: New essays, edited by J.P. Christman and J. Anderson, 226–242. Cambridge: Cambridge University Press.
+
+Gamhewage, G. 2014. An introduction to risk communication. World Health Organization. https://www.who.int/publications/i/item/an-introduction-to-risk-communication.
+
+Garcia, J. 2020. “We thought we had three years”: UQ team to fast-track coronavirus vaccine. The Sydney Morning Herald, January 24.
+
+Grattan, M. 2020. Government triggers emergency plan for COVID-19 pandemic, and considers economic assistance. The Conversation, February 27. https://theconversation.com/government-triggers-emergency-plan-for-covid-19-pandemic-and-considers-economic-assistance-132610.
+
+The Guardian. 2020. The Guardian view on herd immunity: Yes it was “part of the plan.” April 30. https://www.theguardian.com/commentisfree/2020/apr/29/the-guardian-view-on-herd-immunity-yes-it-was-part-of-the-plan.
+
+Hamilton, S., B. Preston, C. Edmond, and R. Holden. 2020. Open letter from 265 Australian economists: Don’t sacrifice health for “the economy”. The Conversation, April 20. https://theconversation.com/open-letter-from-265-australian-economists-dont-sacrifice-health-for-the-economy-136686.
+
+Hanage, W. 2020. I’m an epidemiologist. When I heard about Britain’s “herd immunity” coronavirus plan, I thought it was satire. The Guardian, March 15. https://www.theguardian.com/commentisfree/2020/mar/15/epidemiologist-britain-herd-immunity-coronavirus-covid-19.
+
+Hasan, M. 2020. Coronavirus and the threat to South Asian democracy. The Interpreter, March 27. https://www.lowyinstitute.org/the-interpreter/coronavirus-and-threat-south-asian-democracy.
+
+Hooker, C., C. King, and J. Leask. 2012. Journalists’ views about reporting avian influenza and a potential pandemic: A qualitative study. Influenza and Other Respiratory Viruses 6(3): 224–229.
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+Hooker, C., D. Silva, and M. Anderson. 2020. Coronavirus fears can trigger anti-Chinese prejudice. Here’s how schools can help. The Conversation, January 31. https://theconversation.com/coronavirus-fears-can-trigger-anti-chinese-prejudice-heres-how-schools-can-help-130945.
+
+Howse, E., M. Irving, L. Rychetnik, and A. Wilon. 2020. Chronic disease, health equity and COVID-19. Intouch Public Health, April 30. https://intouchpublichealth.net.au/2020/04/30/disease-health-equity/.
+
+Jetten, J., S. Reicher, S.A. Haslam, and T. Cruwys. 2020. Together apart: The psychology of COVID-19. London: Sage.
+
+ 
+ 
+
+Kahan, D.M. 2012. Cultural cognition as a conception of the cultural theory of risk. Dordrecht: Springer Netherlands.
+
+ 
+ 
+
+Kinlaw, K., D.H. Barrett, and R.J. Levine. 2009. Ethical guidelines in pandemic influenza: Recommendations of the Ethics Subcommittee of the Advisory Committee of the Director, Centers for Disease Control and Prevention. Disaster Medicine and Public Health Preparedness 3(sup.2): S185-S192.
+
+Leiss, W. 2001. In the chamber of risks: Understanding risk controversies. Montreal: McGill-Queen’s University Press.
+
+ 
+ 
+
+Leung, C. 2008. The yellow peril revisited: The impact of SARS on Chinese and Southeast Asian communities. Resources for Feminist Research 33(1-2): 135–149, 155.
+
+ 
+ 
+
+Lowbridge, C.P., and J. Leask. 2011. Risk communication in public health. NSW Public Health Bulletin 22(1-2): 34.
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+Lundgren, R.E. 2009. Risk communication: A handbook for communicating environmental, safety, and health risks, 4th ed. Piscataway, NJ: IEEE Press.
+
+ 
+ 
+
+MacIntyre, R. 2020. Busting the myths about COVID-19 herd immunity, children and lives vs jobs. NHMRC Centre for Research Excellence Integrated Systems for Epidemic Response. Blog. March 28. https://iser.med.unsw.edu.au/blog/busting-myths-about-covid-19-herd-immunity-children-and-lives-vs-jobs.
+
+Mackay, I. 2020. You and I may get coronavirus—and live with it: Here’s how to prepare for a pandemic. The Sydney Morning Herald, February 27. https://www.smh.com.au/national/you-and-i-may-get-coronavirus-and-live-with-it-here-s-how-to-prepare-for-a-pandemic-20200226-p544jg.html.
+
+Major, B., J.F. Dovidio, B.G. Link, A.L. Fairchild, and R. Bayer. 2018. Public health with a punch: Fear, stigma, and hard-hitting media campaigns. Oxford University Press.
+
+Mannix, L. 2020. CSIRO to begin testing coronavirus vaccines within weeks. The Sydney Morning Herald, January 31.
+
+New Zealand National Ethics Advisory Committee—K?hui Matatika o te Motu. 2007. Getting through together: Ethical values for a pandemic. https://neac.health.govt.nz/publications-and-resources/neac-publications/getting-through-together-ethical-values-pandemic.
+
+People With Disability Australia (PWDA), Women with Disabilities Australia (WWDA), National Ethnic Disability Alliance (NEDA), et al. 2020. Statement of Concern – COVID-19: Human rights, disability and ethical decision-making. https://dpoa.org.au/statement-of-concern-covid-19-human-rights-disability-and-ethical-decision-making/.
+
+Poloyo, A. 2020. A toilet paper run is like a bank run. The economic fixes are about the same. The Conversation, March 6. https://theconversation.com/a-toilet-paper-run-is-like-a-bank-run-the-economic-fixes-are-about-the-same-133065.
+
+Renn, O. 2014. Four questions for risk communication: A response to Roger Kasperson. Journal of Risk Research 17(10): 1277–1281.
+
+ 
+ 
+ 
+ 
+
+Sandle, P., and M. Boyd. 2020. Coronavirus: Boris Johnson warns “many families will lose loved ones” because of virus. The Mirror, March 12. https://www.mirror.co.uk/news/uk-news/coronavirus-boris-johnson-warns-many-21682932.
+
+Sandman, P., and J. Lanard. 2009. Containment as signal: Swine flu risk miscommunication. Peter Sandman Risk Communication Website. https://www.psandman.com/col/swineflu2.htm
+
+ 
+ 
+
+Seale, H., A. Heywood, J. Leask, et al. 2020. COVID-19 is rapidly changing: Examining public perceptions and behaviors in response to this evolving pandemic. PLoS One 15(6): e0235112.
+
+CAS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Seeger, M., T. Sellnow, and R. Ulmer. 2008. Crisis communication and the public health. Cresskill, NJ: Hampton Press.
+
+ 
+ 
+
+Shipman, T., and C. Wheeler. 2020. Coronavirus: Ten days that shook Britain—and changed the nation for ever. Sunday Times, 22 March.
+
+Siegrist, M., M. Connor, and C. Keller. 2012. Trust, confidence, procedural fairness, outcome fairness, moral conviction, and the acceptance of GM field experiments. Risk Analysis 32(8): 1394–1403.
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+Siegrist, M., and A. Zingg. 2014. The role of public trust during pandemics: Implications for crisis communication. European Psychologist 19(1): 23–32.
+
+ 
+ 
+ 
+ 
+
+Slovic, P. 1987. Perception of risk. Science 236(4799): 280–285.
+
+CAS
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Smyth, C. 2020. Ministers urged to come clean on model for British response. The Times, March 14.
+
+The Sydney Morning Herald. 2020. Keep coronavirus risk in perspective. January 26. https://www.smh.com.au/national/keep-coronavirus-risk-in-perspective-20200126-p53uv0.html.
+
+Tesón, F.R., ed. 2016. The theory of self-determination. Cambridge: Cambridge University Press.
+
+Thomas, J.C., N. Dasgupta, and A. Martinot. 2007. Ethics in a pandemic: A survey of the state pandemic influenza plans. American Journal of Public Health 97(sup.1): S26–S31.
+
+Thompson, P.B. 2012. Ethics and risk communication. Science Communication 34(5): 618–641.
+
+ 
+ 
+ 
+ 
+
+The Times. 2020. The Times view on Boris Johnson’s handling of the coronavirus crisis: No immunity. March 13. https://www.thetimes.co.uk/ /the-times-view-on-boris-johnsons-handling-of-the-coronavirus-crisis-no-immunity-h6qh50jgk.
+
+Vaughan, E., and T. Tinker. 2009. Effective health risk communication about pandemic influenza for vulnerable populations. American Journal of Public Health 99(sup.2): S324.
+
+Vrajlal, A. 2020, Chinese-Australians facing racism after coronavirus outbreak. Huffington Post, January 31. https://www.huffingtonpost.com.au/entry/coronavirus-australia-racism_au_5e33a522c5b6f2623326d72b.
+
+Wailoo, K. 2006. Stigma, race, and disease in 20th century America. The Lancet 367(9509): 531–533.
+
+ 
+ 
+ 
+ 
+
+Wald, P. 2008. Contagious: Cultures, carriers, and the outbreak narrative. Durham: Duke University Press.
+
+ 
+ 
+
+van der Weerd, W., D.R. Timmermans, D.J. Beaujean, J. Oudhoff, and J.E. van Steenbergen 2011. Monitoring the level of government trust, risk perception and intention of the general public to adopt protective measures during the influenza A (H1N1) pandemic in The Netherlands. BMC Public Health 11(1): 575–575.
+
+ 
+ 
+Wickham, A. 2020. 10 days that changed Britain: “Heated” debate between scientists forced Boris Johnson to act on coronavirus. BuzzFeed News, March 21, updated March 24. https://www.buzzfeed.com/alexwickham/10-days-that-changed-britains-coronavirus-approach.
+
+Wong, B. 2020. The psychology behind why some people refuse to wear face masks. Huffington Post, July 2. https://www.huffingtonpost.com.au/entry/psychology-why-people-refuse-wear-face-masks_l_5efb723cc5b6ca970915bc53.
+
+World Health Organization (WHO). 2018. Communicating risk in public health emergencies: A WHO guideline for emergency risk communication (ERC) policy and practice. https://www.who.int/risk-communication/guidance/download/en/.
+
+———. 2020. Pandemic influenza risk communication: Delivering results in 2016. https://www.who.int/risk-communication/pandemic-influenza-preparedness/delivering-results-2016/en/.
+
+Young, E. 2020. “This is racism”: Chinese-Australians say they’ve faced increased hostility since the coronavirus outbreak began. SBS News, January 31. https://www.sbs.com.au/news/this-is-racism-chinese-australians-say-they-ve-faced-increased-hostility-since-the-coronavirus-outbreak-began.
+
+Zeballos-Riog, J., 2020. Top economists are deriding the “false choice” between saving lives from coronavirus and maximizing economic growth. Here’s why the situation isn’t so cut-and-dry. Business Insider, March 31. https://www.businessinsider.com.au/economists-coronavirus-economy-growth-versus-saving-lives-trump-false-choice-2020-3?r=US&IR=T.
+
+Download references
+
+Acknowledgments
+No funding or conflicts of interest are associated with this manuscript. The authors wish to gratefully acknowledge the very useful feedback provided by two reviewers of this  .
+
+Author Statement
+All authors contributed to the study conception and design. Media analysis and the first draft of the manuscript was written by Claire Hooker. Both authors edited and discussed subsequent versions of the manuscript. Claire Hooker completed the revisions in response to reviewers. All authors read and approved the final manuscript.
+
+Author information
+Affiliations
+Sydney Health Ethics, University of Sydney, Level 1, Medical Foundation Building K25, Camperdown, NSW, 2006, Australia
+
+Claire Hooker
+
+Susan Wakil School of Nursing and Midwifery, University of Sydney, 88 Mallet St, Camperdown, NSW, 2050, Australia
+
+Julie Leask

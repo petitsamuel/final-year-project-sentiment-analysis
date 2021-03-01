@@ -1,0 +1,29 @@
+Term	Iran Crisis	strait of hormuz	iran armed forces	uk armed forces	eu armed force	armed forces	vessels	crisis
+Hormuz	Iran Crisis	strait of hormuz						
+oil	Iran Crisis							crisis
+hormuz strait	Iran Crisis	strait of hormuz						
+strait of hormuz	Iran Crisis	strait of hormuz						
+uk navy	Iran Crisis			uk armed forces		armed forces		
+iranian revolutionary guard	Iran Crisis		iran armed forces			armed forces		
+european navy	Iran Crisis				eu armed force	armed forces		
+Alireza Tangsiri	Iran Crisis		iran armed forces			armed forces		
+IranUSTension	Iran Crisis							crisis
+StraitofHormuz	Iran Crisis	strait of hormuz						
+IranWar	Iran Crisis							crisis
+IRGC	Iran Crisis		iran armed forces			armed forces		
+Artesh Navy	Iran Crisis		iran armed forces			armed forces		
+Sepah Navy Special Force	Iran Crisis		iran armed forces			armed forces		
+SNSF	Iran Crisis		iran armed forces			armed forces		
+S.N.S.F	Iran Crisis		iran armed forces			armed forces		
+Takavar	Iran Crisis		iran armed forces			armed forces		
+Sepah-e Pasdaran-e Enqelab-e Eslami	Iran Crisis		iran armed forces			armed forces		
+Islamic Revolutionary Guard Corps	Iran Crisis		iran armed forces			armed forces		
+IRGC-QF	Iran Crisis		iran armed forces			armed forces		
+Islamic Revolutionary Guard Corps - Qods Force	Iran Crisis		iran armed forces			armed forces		
+Maritime Security	Iran Crisis							crisis
+Stena Impero	Iran Crisis						vessels	
+Grace 1	Iran Crisis						vessels	
+DefenceHQ	Iran Crisis					armed forces		
+RoyalNavy	Iran Crisis			uk armed forces		armed forces		
+USNavy	Iran Crisis					armed forces		
+EUROMARFOR	Iran Crisis				eu armed force	armed forces		

@@ -1,0 +1,426 @@
+Term	Crime	CrimeCat1	CrimeCat2	CrimeCat3	CrimeCat4	CrimeCat5	CrimeCat6	CrimeCat7	CrimeCat8	CrimeCat9	CrimeCat10	CrimeCat11	CrimeCat12	CrimeCat13	CrimeCat14	CrimeCat15	CrimeCat16	DangerousDrivingRemove	DangerousDrivingTotal
+crime	Crime																		
+criminal	Crime																		
+kill	Crime	CrimeCat1																	
+gang	Crime																		
+cartel	Crime										CrimeCat10								
+stabbed	Crime	CrimeCat1																	
+altercation	Crime																		
+victim	Crime																		
+homicide	Crime	CrimeCat1																	
+murder	Crime	CrimeCat1																	
+murdering	Crime	CrimeCat2																	
+Manslaughter	Crime	CrimeCat1																	
+Infanticide	Crime	CrimeCat1																	
+traffic fatality	Crime	CrimeCat1																	
+Dangerous driving leading to death	Crime	CrimeCat1																DangerousDrivingRemove	
+Dangerous driving causing death	Crime	CrimeCat1																DangerousDrivingRemove	
+Dangerous driving causing the death	Crime	CrimeCat1																DangerousDrivingRemove	
+dangerous driving causing her death	Crime	CrimeCat1																DangerousDrivingRemove	
+death cause by dangerous driving	Crime	CrimeCat1																DangerousDrivingRemove	
+death by dangerous driving	Crime	CrimeCat1																DangerousDrivingRemove	
+Sexual offence	Crime		CrimeCat2																
+rape	Crime		CrimeCat2																
+raping	Crime		CrimeCat3																
+child sexual abuse	Crime		CrimeCat2																
+sexual assault	Crime		CrimeCat2																
+defilement	Crime		CrimeCat2																
+Incest	Crime		CrimeCat2																
+child porn	Crime		CrimeCat2																
+Child Pornography	Crime		CrimeCat2																
+child abuse images	Crime		CrimeCat2																
+kiddie porn	Crime		CrimeCat2																
+Gross Indecency	Crime		CrimeCat2																
+attempt to murder	Crime			CrimeCat3															
+murder attempt	Crime			CrimeCat3															
+threat to murder	Crime			CrimeCat3															
+threat' to murder	Crime			CrimeCat3															
+murder-attempt	Crime			CrimeCat3															
+murder-threat	Crime			CrimeCat3															
+attempting to murder	Crime			CrimeCat3															
+conspiring to murder	Crime			CrimeCat3															
+attempts to murder	Crime			CrimeCat3															
+conspired to murder	Crime			CrimeCat3															
+attempted murder	Crime			CrimeCat3															
+minor assault	Crime			CrimeCat3															
+assault a garda	Crime			CrimeCat3															
+garda assault	Crime			CrimeCat3															
+assault against a serving garda	Crime			CrimeCat3															
+assault causing harm to a garda	Crime			CrimeCat3															
+assault of a garda	Crime			CrimeCat3															
+assault on a garda	Crime			CrimeCat3															
+assault of an off-duty garda	Crime			CrimeCat3															
+assault of an on-duty garda	Crime			CrimeCat3															
+assault on garda	Crime			CrimeCat3															
+assault on the garda	Crime			CrimeCat3															
+assault on the unarmed garda	Crime			CrimeCat3															
+obstruction of garda	Crime			CrimeCat3															
+resisting arrest	Crime			CrimeCat3															
+Obstruction of official	Crime			CrimeCat3															
+assault on official	Crime			CrimeCat3															
+assault of official	Crime			CrimeCat3															
+assault occasioning actual bodily harm	Crime			CrimeCat3															
+assault intending to cause serious harm	Crime			CrimeCat3															
+assault causing serious harm	Crime			CrimeCat3															
+assault causing him harm	Crime			CrimeCat3															
+assault causing harm	Crime			CrimeCat3															
+threats to kill	Crime			CrimeCat3															
+assault causing the harm	Crime			CrimeCat3															
+minor assault	Crime			CrimeCat3															
+harassment	Crime			CrimeCat3															
+stalking	Crime			CrimeCat3															
+threats	Crime			CrimeCat3															
+coercion	Crime			CrimeCat3															
+harassing	Crime			CrimeCat3															
+coercing	Crime			CrimeCat3															
+bogus phonecall	Crime			CrimeCat3															
+menacing phone calls	Crime			CrimeCat3															
+incitement	Crime			CrimeCat3															
+demanding payment	Crime			CrimeCat3															
+Speeding	Crime				CrimeCat4														
+drunk driving	Crime				CrimeCat4														
+drink driving	Crime				CrimeCat4														
+dangerous driving	Crime				CrimeCat4														DangerousDrivingTotal
+driving a car with excess alcohol	Crime				CrimeCat4														
+drinkdriving	Crime				CrimeCat4														
+driving without a licence or insurance	Crime				CrimeCat4														
+driving without insur-ance	Crime				CrimeCat4														
+driving after having taken drugs	Crime				CrimeCat4														
+drug driving	Crime				CrimeCat4														
+drug-driving	Crime				CrimeCat4														
+drink-driving	Crime				CrimeCat4														
+drug impaired driving	Crime				CrimeCat4														
+alcohol impaired driving	Crime				CrimeCat4														
+driving under the influence	Crime				CrimeCat4														
+driving while over the legal alcohol	Crime				CrimeCat4														
+driving while over the alcohol	Crime				CrimeCat4														
+driving with excess alcohol	Crime				CrimeCat4														
+driving without insurance	Crime				CrimeCat4														
+driving without a licence	Crime				CrimeCat4														
+endangerment	Crime				CrimeCat4														
+child cruelty	Crime				CrimeCat4														
+child neglect	Crime				CrimeCat4														
+abandoning a child	Crime				CrimeCat4														
+child abuse	Crime				CrimeCat4														
+endangering traffic offences	Crime				CrimeCat4														
+false alarm	Crime				CrimeCat4														
+negligent operation of vehicle	Crime				CrimeCat4														
+dangerous use of boat	Crime				CrimeCat4														
+dangerous use of ship	Crime				CrimeCat4														
+disrupt the airport	Crime				CrimeCat4														
+Interference with aircraft	Crime				CrimeCat4														
+Interference with air transport facilities 	Crime				CrimeCat4														
+false imprisonment	Crime					CrimeCat5													
+abduction	Crime					CrimeCat5													
+human trafficking	Crime					CrimeCat5													
+trafficking in human beings	Crime					CrimeCat5													
+human smuggling	Crime					CrimeCat5													
+human-trafficking	Crime					CrimeCat5													
+robbery	Crime						CrimeCat6												
+extortion	Crime						CrimeCat6												
+blackmail	Crime						CrimeCat6												
+carjacking	Crime						CrimeCat6												
+hijacking	Crime						CrimeCat6												
+unlawful seizure of aircraft	Crime						CrimeCat6												
+unlawful seizure of vessel	Crime						CrimeCat6												
+burglary	Crime							CrimeCat7											
+posession of an article with intent to burgle	Crime							CrimeCat7											
+posession of an article with intent to steal	Crime							CrimeCat7											
+posession of an article with intent to demand	Crime							CrimeCat7											
+possession of articles with intent to burgle	Crime							CrimeCat7											
+possession of articles with intent to steal	Crime							CrimeCat7											
+possession of articles with intent to demand	Crime							CrimeCat7											
+theft	Crime								CrimeCat8										
+taking of vehicle	Crime								CrimeCat8										
+taking a vehicle without consent	Crime								CrimeCat8										
+taking a motor vehicle without authority	Crime								CrimeCat8										
+Interfering with vehicle	Crime								CrimeCat8										
+interfering with a vehicle	Crime								CrimeCat8										
+taking the vehicle	Crime								CrimeCat8										
+aggravated vehicle taking	Crime								CrimeCat8										
+aggravated vehicle theft	Crime								CrimeCat8										
+taking of a vehicle	Crime								CrimeCat8										
+taking of a motor vehicle	Crime								CrimeCat8										
+taking of the vehicle	Crime								CrimeCat8										
+interference with mail	Crime								CrimeCat8										
+interfering with mail	Crime								CrimeCat8										
+stealing of a bike	Crime								CrimeCat8										
+taking of a pedal cycle	Crime								CrimeCat8										
+taking of a bicycle	Crime								CrimeCat8										
+taking of a bike	Crime								CrimeCat8										
+stealing of a pedal cycle	Crime								CrimeCat8										
+stealing of a bicycle	Crime								CrimeCat8										
+handling stolen	Crime								CrimeCat8										
+handling of stolen	Crime								CrimeCat8										
+possession of stolen	Crime								CrimeCat8										
+Fraud	Crime									CrimeCat9									
+deception	Crime									CrimeCat9									
+false pretence offence	Crime									CrimeCat9									
+Forging an instrument to defraud	Crime									CrimeCat9									
+Possession of an article for use in fraud	Crime									CrimeCat9									
+Possession of an article for use in deception	Crime									CrimeCat9									
+Possession of an article for use in extortion	Crime									CrimeCat9									
+false instrument	Crime									CrimeCat9									
+Falsification	Crime									CrimeCat9									
+Offences under the Companies Act	Crime									CrimeCat9									
+Offences under the Investment Intermediaries Act	Crime									CrimeCat9									
+Offences under the Stock Exchange Act	Crime									CrimeCat9									
+Money laundering	Crime									CrimeCat9									
+laundering money	Crime									CrimeCat9									
+laundering cash	Crime									CrimeCat9									
+laundering (EURO)	Crime									CrimeCat9									
+money-laundering	Crime									CrimeCat9									
+false documents	Crime									CrimeCat9									
+Embezzlement	Crime									CrimeCat9									
+Importation of tobacco	Crime									CrimeCat9									
+Sale of tobacco	Crime									CrimeCat9									
+Supply of tobacco	Crime									CrimeCat9									
+Counterfeiting	Crime									CrimeCat9									
+Counterfeit	Crime									CrimeCat9									
+corruption	Crime									CrimeCat9									
+bribery	Crime									CrimeCat9									
+possession and supply of drugs	Crime										CrimeCat10								
+sale of drugs	Crime										CrimeCat10								
+sale and supply of controlled drugs	Crime										CrimeCat10								
+supply of drugs	Crime										CrimeCat10								
+distribution of drugs	Crime										CrimeCat10								
+posession of the class B	Crime										CrimeCat10								
+posession of class B	Crime										CrimeCat10								
+supply of the class B	Crime										CrimeCat10								
+supply of class B	Crime										CrimeCat10								
+sale of the class B	Crime										CrimeCat10								
+sale of class B	Crime										CrimeCat10								
+producing the class B	Crime										CrimeCat10								
+posessing the class B	Crime										CrimeCat10								
+supply class B	Crime										CrimeCat10								
+sell class B	Crime										CrimeCat10								
+produce class B	Crime										CrimeCat10								
+posessing the class B	Crime										CrimeCat10								
+posession of the class A	Crime										CrimeCat10								
+posession of class A	Crime										CrimeCat10								
+supply of the class A	Crime										CrimeCat10								
+supply of class A	Crime										CrimeCat10								
+sale of the class A	Crime										CrimeCat10								
+sale of class A	Crime										CrimeCat10								
+producing the class A	Crime										CrimeCat10								
+posessing the class A	Crime										CrimeCat10								
+supply class A	Crime										CrimeCat10								
+sell class A	Crime										CrimeCat10								
+produce class A	Crime										CrimeCat10								
+posessing the class A	Crime										CrimeCat10								
+supply of controlled drugs	Crime										CrimeCat10								
+produce class B	Crime										CrimeCat10								
+produce class A	Crime										CrimeCat10								
+sale of illegal drugs	Crime										CrimeCat10								
+posession of drugs	Crime										CrimeCat10								
+having drugs for sale	Crime										CrimeCat10								
+having drugs for personal	Crime										CrimeCat10								
+posessing drugs	Crime										CrimeCat10								
+having the drug	Crime										CrimeCat10								
+having the drugs	Crime										CrimeCat10								
+distribution of controlled drugs	Crime										CrimeCat10								
+drug posession	Crime										CrimeCat10								
+posessing the drugs	Crime										CrimeCat10								
+supply of illegal drugs	Crime										CrimeCat10								
+intent to sell drugs	Crime										CrimeCat10								
+intent to supply drugs	Crime										CrimeCat10								
+altered prescription offences	Crime										CrimeCat10								
+forged prescription offences	Crime										CrimeCat10								
+Obstruction under the Drugs Act	Crime										CrimeCat10								
+Causing an explosion	Crime											CrimeCat11							
+Making of explosives	Crime											CrimeCat11							
+Possession of explosives	Crime											CrimeCat11							
+transporting explosives	Crime											CrimeCat11							
+posessing explosives	Crime											CrimeCat11							
+making or use of explosives	Crime											CrimeCat11							
+causing of an explosiong	Crime											CrimeCat11							
+causing an explosion	Crime											CrimeCat11							
+causing the explosion	Crime											CrimeCat11							
+firing of the weapon	Crime											CrimeCat11							
+discharging a firearm	Crime											CrimeCat11							
+firing his weapon	Crime											CrimeCat11							
+firing a weapon	Crime											CrimeCat11							
+posession of an offensive weapon	Crime											CrimeCat11							
+posession of a weapon	Crime											CrimeCat11							
+having an offensive weapon	Crime											CrimeCat11							
+with a loaded firearm	Crime											CrimeCat11							
+negligent discharge of his weapon	Crime											CrimeCat11							
+posessing an offensive weapon	Crime											CrimeCat11							
+posession of fireworks	Crime											CrimeCat11							
+illegal fireworks	Crime											CrimeCat11							
+sale of fireworks	Crime											CrimeCat11							
+use of firewords	Crime											CrimeCat11							
+Arson	Crime												CrimeCat12						
+Criminal damage	Crime												CrimeCat12						
+environmental damage	Crime												CrimeCat12						
+litter offences	Crime												CrimeCat12						
+littering	Crime												CrimeCat12						
+Affray	Crime													CrimeCat13					
+Riot	Crime													CrimeCat13					
+Violent disorder	Crime													CrimeCat13					
+Disorderly Conduct	Crime													CrimeCat13					
+convictions for Public order	Crime													CrimeCat13					
+Drunkeness offences	Crime													CrimeCat13					
+Air rage	Crime													CrimeCat13					
+public order act	Crime													CrimeCat13					
+(public order) act	Crime													CrimeCat13					
+public order and criminal damage	Crime													CrimeCat13					
+public order (and other	Crime													CrimeCat13					
+public order (and other social code offences)	Crime													CrimeCat13					
+public order and other offences	Crime													CrimeCat13					
+charged with public order	Crime													CrimeCat13					
+criminal damage and public order	Crime													CrimeCat13					
+public order bail	Crime													CrimeCat13					
+including for public order	Crime													CrimeCat13					
+public order convictions	Crime													CrimeCat13					
+public order crimes	Crime													CrimeCat13					
+public order incident	Crime													CrimeCat13					
+public order incidents	Crime													CrimeCat13					
+public order issues	Crime													CrimeCat13					
+public order offence	Crime													CrimeCat13					
+public order offences	Crime													CrimeCat13					
+trespass	Crime													CrimeCat13					
+trespassing	Crime													CrimeCat13					
+Forcible entry and occupation	Crime													CrimeCat13					
+Provision of Intoxicating Liquor to Under 18 Year Olds 	Crime													CrimeCat13					
+Purchase or Consumption of Alcohol by Under 18 Year Olds 	Crime													CrimeCat13					
+Sale of Intoxicating Liquor to Under 18 Year Olds	Crime													CrimeCat13					
+sale alcohol to underage	Crime													CrimeCat13					
+underage drinking	Crime													CrimeCat13					
+liquor licensing offences	Crime													CrimeCat13					
+Registered clubs offences	Crime													CrimeCat13					
+Special restaurant offences	Crime													CrimeCat13					
+Brothel keeping	Crime													CrimeCat13					
+brothel being operated	Crime													CrimeCat13					
+keeping a brothel	Crime													CrimeCat13					
+ran the brothel	Crime													CrimeCat13					
+pop-up brothel	Crime													CrimeCat13					
+prostitution was being conducted	Crime													CrimeCat13					
+organised prostitution	Crime													CrimeCat13					
+prostitution racket	Crime													CrimeCat13					
+prostitution offences	Crime													CrimeCat13					
+controlling prostitution	Crime													CrimeCat13					
+Offences under the Betting Acts	Crime													CrimeCat13					
+Collecting money without permit	Crime													CrimeCat13					
+unauthorised collection	Crime													CrimeCat13					
+Offences under Gaming Acts	Crime													CrimeCat13					
+Offences under lotteries Acts	Crime													CrimeCat13					
+Offences under Gaming Act	Crime													CrimeCat13					
+Offences under lotteries Act	Crime													CrimeCat13					
+street trading offence	Crime													CrimeCat13					
+casual trading	Crime													CrimeCat13					
+casual trading act	Crime													CrimeCat13					
+Bestiality	Crime													CrimeCat13					
+Indecency	Crime													CrimeCat13					
+Bigamy	Crime													CrimeCat13					
+Begging	Crime													CrimeCat13					
+failure to produce driving licence	Crime														CrimeCat14				
+without a license	Crime														CrimeCat14				
+failure to have driving licence	Crime														CrimeCat14				
+without insurance	Crime														CrimeCat14				
+no insurance	Crime														CrimeCat14				
+no license	Crime														CrimeCat14				
+failure to have insurance	Crime														CrimeCat14				
+No tax	Crime														CrimeCat14				
+non-display of tax	Crime														CrimeCat14				
+unregistered vehicle	Crime														CrimeCat14				
+Misuse of Trade Licence	Crime														CrimeCat14				
+no tax on the car	Crime														CrimeCat14				
+no tax displayed	Crime														CrimeCat14				
+no insurance displayed	Crime														CrimeCat14				
+Misuse of Trade Licence	Crime														CrimeCat14				
+Misuse of Trade Licence	Crime														CrimeCat14				
+"Misuse of trailers, weight and other offences"	Crime														CrimeCat14				
+Obstruction under Road Traffic Acts	Crime														CrimeCat14				
+Other road offences	Crime														CrimeCat14				
+Road Transport - carriage of goods offences	Crime														CrimeCat14				
+Public Service Vehicle offences	Crime														CrimeCat14				
+Light rail offences 	Crime														CrimeCat14				
+luas offences	Crime														CrimeCat14				
+Light rail offence	Crime														CrimeCat14				
+Public Service Vehicle offence	Crime														CrimeCat14				
+Treason	Crime															CrimeCat15			
+Breaches of Offences against the State Acts	Crime															CrimeCat15			
+Breaches of Official Secrets Act	Crime															CrimeCat15			
+Impersonating member of An Garda SÆochçna	Crime															CrimeCat15			
+Electoral offences including personation	Crime															CrimeCat15			
+Public mischief-annoying phone calls and wasting police time	Crime															CrimeCat15			
+Criminal Assets Bureau offences	Crime															CrimeCat15			
+Non compliance with Garda direction	Crime															CrimeCat15			
+Garda Siochana Act Offences	Crime															CrimeCat15			
+Offences Against Government and its agents	Crime															CrimeCat15			
+impersonation	Crime															CrimeCat15			
+public mischief	Crime															CrimeCat15			
+non-compliance	Crime															CrimeCat15			
+CAB investigation	Crime															CrimeCat15			
+organised crime	Crime															CrimeCat15			
+Criminal organisation offences	Crime															CrimeCat15			
+Conspiracy to commit	Crime															CrimeCat15			
+interfering with witnesses	Crime															CrimeCat15			
+embracery	Crime															CrimeCat15			
+Assisting offenders	Crime															CrimeCat15			
+Interfering with a jury	Crime															CrimeCat15			
+Perjury	Crime															CrimeCat15			
+Public mischief	Crime															CrimeCat15			
+pervert course of justice	Crime															CrimeCat15			
+conceal offence	Crime															CrimeCat15			
+escape from garda custody	Crime															CrimeCat15			
+escape from lawful custody	Crime															CrimeCat15			
+escape from lawful Garda custody	Crime															CrimeCat15			
+attempted to escape custody	Crime															CrimeCat15			
+Prison offences	Crime															CrimeCat15			
+Breach of Domestic Violence Order 	Crime															CrimeCat15			
+Domestic Violence Order breach	Crime															CrimeCat15			
+breach of bail	Crime															CrimeCat15			
+breach of his bail conditions	Crime															CrimeCat15			
+bail breach	Crime															CrimeCat15			
+breach of bail conditions	Crime															CrimeCat15			
+breach of his bail conditions	Crime															CrimeCat15			
+breach his bail conditions	Crime															CrimeCat15			
+breach of the bail conditions	Crime															CrimeCat15			
+breach of bail conditions	Crime															CrimeCat15			
+breach their bail conditions	Crime															CrimeCat15			
+breach of bail	Crime															CrimeCat15			
+breach of the bail laws	Crime															CrimeCat15			
+breach of terms of bail	Crime															CrimeCat15			
+breach of his bail terms	Crime															CrimeCat15			
+Failure to comply under Sex Offenders Act	Crime															CrimeCat15			
+Breach of Order under Family Law Act	Crime															CrimeCat15			
+failure to attend court	Crime															CrimeCat15			
+failure to comply with warrant	Crime															CrimeCat15			
+failure to comply with court order	Crime															CrimeCat15			
+failure to comply with jury summons	Crime															CrimeCat15			
+Illegal importation of animals	Crime																CrimeCat16		
+cruelty against horses	Crime																CrimeCat16		
+Control of horses offences	Crime																CrimeCat16		
+failing to remove	Crime																CrimeCat16		
+unnecessary suffering to a dog	Crime																CrimeCat16		
+offence to allow your dog to be dangerously out of control	Crime																CrimeCat16		
+Dog ownership offences	Crime																CrimeCat16		
+Offences against animals	Crime																CrimeCat16		
+offence under the Animal Welfare Act	Crime																CrimeCat16		
+Breaches of EU fishing quota and related EU regulation	Crime																CrimeCat16		
+Merchant shipping	Crime																CrimeCat16		
+Maritime safety offences	Crime																CrimeCat16		
+Maritime safety act	Crime																CrimeCat16		
+Unauthorised accessing of data	Crime																CrimeCat16		
+"Recording, possession or distribution of counterfeit material"	Crime																CrimeCat16		
+Unauthorised broadcasting and illegal signal reception	Crime																CrimeCat16		
+illegal signal reception	Crime																CrimeCat16		
+Unauthorised broadcasting	Crime																CrimeCat16		
+distribution of counterfeit material	Crime																CrimeCat16		
+possession of counterfeit material	Crime																CrimeCat16		
+Recording of counterfeit material	Crime																CrimeCat16		
+Abortion	Crime																CrimeCat16		
+Concealment of birth	Crime																CrimeCat16		
+concealment of the birth	Crime																CrimeCat16		
+disposing of the body	Crime																CrimeCat16		
+disposing of body	Crime																CrimeCat16		
+Destroying / Disposing of a dead body	Crime																CrimeCat16		
+Pawnbroking offences	Crime																CrimeCat16		
+Offences in connection with rail travel	Crime																CrimeCat16		
+immigration offences	Crime																CrimeCat16		
+Employment permit offences	Crime																CrimeCat16		
+Immigration offences/carrier liability	Crime																CrimeCat16		
+Private Security Services Act 2004	Crime																CrimeCat16		
+Offences in connection with money lending	Crime																CrimeCat16		

@@ -1,0 +1,76 @@
+Trump owes us an apology.’ Chinese scientist at the center of COVID-19 origin theories speaks out
+By Jon Cohen
+Jul. 24, 2020 , 3:45 PM
+
+Science’s COVID-19 reporting is supported by the Pulitzer Center and the Heising-Simons Foundation.
+
+The coronavirus pandemic has thrust virologist Shi Zhengli into a fierce spotlight. Shi, who’s been nicknamed “Bat Woman,” heads a group that studies bat coronaviruses at the Wuhan Institute of Virology (WIV), in the city in China where the pandemic began, and many have speculated that the virus that causes COVID-19 accidentally escaped from her lab—a theory promoted by U.S. President Donald Trump. Some have even suggested it could have been engineered there.
+
+China has forcefully rejected such claims, but Shi (pronounced SHIH) herself has said very little publicly.
+Now, Shi has broken her silence about the details of her work. On 15 July, she emailed Science answers to a series of written questions about the virus’ origin and the research at her institute. In them, Shi hit back at speculation that the virus leaked from WIV. She and her colleagues discovered the virus in late 2019, she says, in samples from patients who had a pneumonia of unknown origin. “Before that, we had never been in contact with or studied this virus, nor did we know of its existence,” Shi wrote.
+
+“U.S. President Trump’s claim that SARS-CoV-2 was leaked from our institute totally contradicts the facts,” she added. “It jeopardizes and affects our academic work and personal life. He owes us an apology.”
+
+Shi stressed that over the past 15 years, her lab has isolated and grown in culture only three bat coronaviruses related to one that infected humans: the agent that causes severe acute respiratory syndrome (SARS), which erupted in 2003. The more than 2000 other bat coronaviruses the lab has detected, including one that is 96.2% identical to SARS-CoV-2—which means they shared a common ancestor decades ago—are simply genetic sequences that her team has extracted from fecal samples and oral and anal swabs of the animals. She also noted that all of the staff and students in her lab were recently tested for SARS-CoV-2 and everyone was negative, challenging the notion that an infected person in her group triggered the pandemic.
+
+Shi was particularly chagrined about the 24 April decision by the U.S. National Institutes of Health (NIH), made at the White House’s behest, to ax a grant to the EcoHealth Alliance in New York City that included bat virus research at WIV. “We don’t understand [it] and feel it is absolutely absurd,” she said.
+
+Science shared Shi’s responses—available here in full (PDF)—with several leading researchers in other countries. “It’s a big contribution,” says Daniel Lucey of Georgetown University, an outbreak specialist who blogs about SARS-CoV-2 origin issues. “There are a lot of new facts that I wasn’t aware of. It’s very exciting to hear this directly from her.”
+
+Shi’s answers were coordinated with public information staffers at the Chinese Academy of Sciences, of which WIV is part, and it took her 2 months to prepare them. Evolutionary biologist Kristian Andersen of Scripps Research says he suspects Shi’s answers were “carefully vetted” by the Chinese government. “But they’re all logical, genuine, and stick to the science as one would have expected from a world-class scientist and one of the leading experts on coronaviruses,” Andersen says.
+SIGN UP FOR OUR DAILY NEWSLETTER
+Get more great content like this delivered right to you!
+
+Email Address *
+
+However, Richard Ebright, a molecular biologist at Rutgers University, New Brunswick, who from the early days of the pandemic has urged that an investigation look into the possibility that SARS-CoV-2 entered humans through a laboratory accident, was decidedly unimpressed. “Most of these answers are formulaic, almost robotic, reiterations of statements previously made by Chinese authorities and state media,” Ebright says.
+
+Shi’s responses come at a time when questions about how the pandemic began are increasingly causing international tensions. Trump frequently calls SARS-CoV-2 “the China virus” and has said China could have stopped the pandemic in its tracks. China, for its part, has added an extra layer of review for any researchers who want to publish papers on the pandemic’s origins and has asserted without evidence that SARS-CoV-2 may have originated in the United States.Calls for an independent, international probe into the origin questions are mounting, and China has invited two researchers from the World Health Organization to visit the country to discuss the scope and scale of a future mission. They are now in China working through those details. Lucey says Shi’s answers to Science’s questions could help guide the investigation team. (Here are related questions Science has suggested the mission should address.)
+
+A virus hunter
+Peter Daszak of the EcoHealth Alliance has worked with Shi for more than 15 years. He describes her as social, open, and something of a goodwill ambassador for China at international meetings, where she converses in both French and English. (She’s also a renowned singer of Mandarin folk songs.) “What I really like about Zhengli is that she is frank and honest and that just makes it easier to solve problems,” he says.
+Born in Henan province in central China, Shi studied at Wuhan University and WIV, then earned a Ph.D. in France at the University of Montpellier II. She returned to WIV in 2000. Initially, the vast majority of her research focused on viruses in shrimp and crabs, and her papers all appeared in specialty publications such as Virologica Sinica and the Journal of Fish Diseases.
+
+But in 2005, a study she published in Science with Daszak and other researchers from China, Australia, and the United States became a turning point in her career. The paper reported the first evidence that bats harbored coronaviruses closely related to the lethal virus that jumped from civets to humans and caused the worldwide outbreak of SARS in 2003.
+
+With NIH funding, Daszak has continued to work with Shi and her WIV team to trap wild animals and take samples to hunt for more coronaviruses. They have published 18 more papers together about viruses discovered in bats and rodents. Shi is “is extremely driven to produce high-quality work,” Daszak says. “She will go out in the field, and gets involved in the work, but her real skills are in the lab, and she’s one of the best I’ve worked with in China, probably globally.”
+
+Shi told Science her lab was thrust into the pandemic on 30 December 2019, the day her team first received patient samples. “Subsequently, we rapidly conducted research in parallel with other domestic institutions, and quickly identified the pathogen,” she wrote.
+
+It didn’t long take for suspicions and rumors to arise. They spread on China’s social media sites and then in the United Kingdom’s Daily Mail and The Washington Times in the United States. On 2 February, Shi posted a note on her own social media site that said SARS-CoV-2 was “nature punishing the uncivilized habits and customs of humans,” and she was willing to “bet my life that [the outbreak] has nothing to do with the lab.” Partly as a show of support for Shi, Daszak and 26 other scientists from eight countries outside of China published a statement of solidarity with Chinese scientists and health professionals in The Lancet in February. In a 17 March Nature Medicine paper that analyzed SARS-CoV-2’s genetic makeup, Andersen and other evolutionary biologists argued against it being engineered in a lab.
+
+Yet the possibility that her lab had played a role worried Shi, she revealed in a March Scientific American profile that briefly touched on origin questions. “She frantically went through her own laboratory’s records from the past few years to check for any mishandling of experimental materials, especially during disposal,” the story said. None of the sequences of bat viruses her lab had found closely matched SARS-CoV-2, the article noted. “That really took a load off my mind,” she told Scientific American. “I had not slept a wink for days.”
+
+No accident
+In her written answers to Science, Shi explained in great detail why she thinks her lab is blameless. WIV has identified hundreds of bat viruses over the years, but never anything close to SARS-CoV-2, she says. Although much speculation has centered on RaTG13, the bat virus that most closely resembles SARS-CoV-2, differences in the sequences of the two viruses suggest they diverged from a common ancestor somewhere between 20 and 70 years ago. Shi notes that her lab never cultured the bat virus, making an accident far less likely.
+
+Some suspicions have focused on a naming inconsistency. In 2016, Shi described a partial sequence of a bat coronavirus that she dubbed 4991. That small part of the genome exactly matches RaTG13, leading some to speculate that Shi never revealed the full sequence of 4991 because it actually is SARS-CoV-2. In her replies, Shi explained that 4991 and RaTG13 are one and the same. The original name, she says, was for the bat itself, and her team switched to RaTG13 when they sequenced the entire virus. “We changed the name as we wanted it to reflect the time and location for the sample collection,” she said, adding that TG stands for Tongguan (the town in Yunnan province where they trapped that bat) and 13 is short for the year, 2013.
+
+That’s “a very logical explanation,” says Edward Holmes, an evolutionary biologist at the University of Sydney who co-authored the Nature Medicine paper with Andersen. Shi’s reply also clarified to him why 4991 held such little interest to her team that they didn’t even bother to sequence it fully until recently: That short genetic sequence was very different from SARS-CoV, the virus that caused the 2003 SARS outbreak. “In reading this the penny dropped: Of course, they would have been mainly interested in bat viruses closely related to SARS-CoV, because this virus emerged and caused a human epidemic … not some random bat virus that is more distant,” Holmes says.
+
+
+With help from France’s Mérieux Institute, the Wuhan Institute of Virology built a biosafety level 4 laboratory, which is used to study highly dangerous pathogens—and isn’t needed for most coronavirus experiments. HECTOR RETAMAL/AFP VIA GETTY IMAGES
+Shi mentioned several other factors that she says exonerate her lab. Their research meets strict biosafety rules, she said, and the lab is subject to periodic inspections “by a third-party institution authorized by the government.” Antibody tests have shown there is “zero infection” among institute staff or students with SARS-CoV-2 or SARS-related viruses. Shi said WIV has never been ordered to destroy any samples after the pandemic erupted and she was sure the virus didn’t come from the Wuhan Center for Disease Control and Prevention—or another lab in the city—either: “Based on daily academic exchanges and discussion, I can rule out such a possibility.”
+
+Labs that presumably had strict biosafety rules have had accidents: The SARS virus escaped from several labs after the global outbreak was contained in 2003. And even if everyone in the institute tested negative for the virus today, an infected person could have left WIV months ago. Still, Holmes says, the answers are “a clear, comprehensive, and believable account” of what occurred at WIV.
+
+Mysterious origins
+But then where did the virus come from? Shi is unsure but concurs with the scientific consensus that it originated in bats and jumped to humans either directly or, more likely, via an intermediate host.
+
+When the outbreak surfaced, Wuhan health officials believed the jump occurred at the Huanan Seafood Wholesale Market because many of the first known COVID-19 patients had links to it. Shi’s lab tested samples from the market and found RNA fragments from the virus in “door handles, the ground and sewage,” she wrote—but not in “frozen animal samples.”
+
+However, two papers published in late January revealed that up to 45% of the first confirmed patients—including four of the five earliest cases—did not have any ties to the market, casting doubt on the theory that it was the origin. Shi agrees: “The Huanan seafood market may just be a crowded location where a cluster of early novel coronavirus patients were found.”
+
+Researchers from WIV and Huazhong Agricultural University didn’t find the virus in samples from farmed animals and livestock taken around Wuhan and in other places in Hubei province, she wrote. Shi added that many years of surveillance in Hubei have never turned up bat coronaviruses close to SARS-CoV-2, which leads her to believe the jump from animals to humans happened elsewhere.
+
+
+Shi Zhengli’s team takes samples from bats trapped in the wild. The team never found SARS-CoV-2, the pandemic virus, in bats, Shi says. ECOHEALTH ALLIANCE
+Andersen would like more specifics. Limiting the search at the market to “frozen” animal samples is an “obvious gap,” he says: “What were these? Did they look at any live animals? I’m still a bit puzzled by the statement that the only role of the market was that it was a crowded location, yet so many of the environmental samples were positive so early on.”
+
+Shi provided few details on China’s efforts to pin down the origin. “Many groups in China are carrying out such studies,” she wrote. “We are publishing papers and data, including those about the virus’s origins. We are tracing the origin of the virus in different directions and through multiple approaches.”
+
+Daszak supports the push for an international research effort—which he cautions could take years—and says Shi’s group should play a prominent role in it. “I hope and believe that she will be able to help WIV and China show the world that there is nothing to these lab escape theories, and help us all to find the true origins of this viral strain,” he says.
+
+Shi ended her answers to Science on a similar note. “Over the past 20 years, coronaviruses have been disrupting and impacting human lives and economies,” she said. “Here, I would like to make an appeal to the international community to strengthen international cooperation on research into the origins of emerging viruses. I hope scientists around the world can stand together and work together.”
+
+Read Shi Zhengli's answers to Science's questions in full here.

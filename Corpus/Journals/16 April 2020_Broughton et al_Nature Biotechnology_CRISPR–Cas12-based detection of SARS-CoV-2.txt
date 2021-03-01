@@ -1,0 +1,184 @@
+CRISPR–Cas12-based detection of SARS-CoV-2
+* James P. Broughton, 
+* Xianding Deng, 
+* Guixia Yu, 
+* Clare L. Fasching, 
+* Venice Servellita, 
+* Jasmeet Singh, 
+* Xin Miao, 
+* Jessica A. Streithorst, 
+* Andrea Granados, 
+* Alicia Sotomayor-Gonzalez, 
+* Kelsey Zorn, 
+* Allan Gopez, 
+* Elaine Hsu, 
+* Wei Gu, 
+* Steve Miller, 
+* Chao-Yang Pan, 
+* Hugo Guevara, 
+* Debra A. Wadford, 
+* Janice S. Chen & 
+* Charles Y. Chiu 
+Nature Biotechnology (2020)Cite this article
+* 151k Accesses
+* 2 Citations
+* 2903 Altmetric
+* Metricsdetails
+Abstract
+An outbreak of betacoronavirus severe acute respiratory syndrome (SARS)-CoV-2 began in Wuhan, China in December 2019. COVID-19, the disease associated with SARS-CoV-2 infection, rapidly spread to produce a global pandemic. We report development of a rapid (<40?min), easy-to-implement and accurate CRISPR–Cas12-based lateral flow assay for detection of SARS-CoV-2 from respiratory swab RNA extracts. We validated our method using contrived reference samples and clinical samples from patients in the United States, including 36 patients with COVID-19 infection and 42 patients with other viral respiratory infections. Our CRISPR-based DETECTR assay provides a visual and faster alternative to the US Centers for Disease Control and Prevention SARS-CoV-2 real-time RT–PCR assay, with 95% positive predictive agreement and 100% negative predictive agreement.
+Main
+Over the past 40 years, there have been recurrent large-scale epidemics from emerging viruses such as HIV, SARS and Middle East respiratory syndrome coronaviruses, 2009 pandemic influenza H1N1 virus, Ebola virus, Zika virus and most recently SARS-CoV-2 (refs. 1,2). All of these epidemics most likely resulted from an initial zoonotic animal-to-human transmission event, with either clinically apparent or occult spread into vulnerable human populations. Each time, a lack of rapid, accessible and accurate molecular diagnostic testing has hindered the public health response to the emerging viral threat.
+In early January 2020, a cluster of cases of pneumonia from a new coronavirus, SARS-CoV-2 (with the disease referred to as COVID-19), was reported in Wuhan, China1,2. This outbreak has spread rapidly, with over 1.2 million reported cases and 64,500 deaths worldwide as of 4 April 2020 (ref. 3). Person-to-person transmission from infected individuals with no or mild symptoms has been reported4,5. Assays using quantitative RT–PCR (qRT–PCR) approaches for detection of the virus in 4–6?h have been developed by several laboratories, including an emergency use authorization (EUA)-approved assay developed by the US Centers for Disease Control and Prevention (CDC)6. However, the typical turnaround time for screening and diagnosing patients with suspected SARS-CoV-2 has been >24?h, given the need to ship samples overnight to reference laboratories. Although serology tests are rapid and require minimal equipment, their utility may be limited for diagnosis of acute SARS-CoV-2 infection, because it can take several days to weeks following symptom onset for a patient to mount a detectable antibody response7. To accelerate clinical diagnostic testing for COVID-19 in the United States, on 28 February 2020, the US Food and Drug Administration (FDA) permitted individual clinically licensed laboratories to report the results of in-house-developed SARS-CoV-2 diagnostic assays while awaiting results of an EUA submission for approval8.
+Here we report the development and initial validation of a CRISPR–Cas12-based assay9,10,11,12,13 for detection of SARS-CoV-2 from extracted patient sample RNA, called SARS-CoV-2 DNA Endonuclease-Targeted CRISPR Trans Reporter (DETECTR). This assay performs simultaneous reverse transcription and isothermal amplification using loop-mediated amplification (RT–LAMP)14 for RNA extracted from nasopharyngeal or oropharyngeal swabs in universal transport medium (UTM), followed by Cas12 detection of predefined coronavirus sequences, after which cleavage of a reporter molecule confirms detection of the virus. We first designed primers targeting the E (envelope) and N (nucleoprotein) genes of SARS-CoV-2 (Fig. 1a). The primers amplify regions that overlap the World Health Organization (WHO) assay (E gene region) and US CDC assay (N2 region in the N gene)6,15, but are modified to meet design requirements for LAMP. We did not target the N1 and N3 regions used by the US CDC assay, as these regions lacked suitable protospacer adjacent motif sites for the Cas12 guide RNAs (gRNAs). Next, we designed Cas12 gRNAs to detect three SARS-like coronaviruses (SARS-CoV-2 (accession NC_045512), bat SARS-like coronavirus (bat-SL-CoVZC45, accession MG772933) and SARS-CoV (accession NC_004718)) in the E gene and specifically detect only SARS-CoV-2 in the N gene (Supplementary Fig. 1). This design is similar to those used by the WHO and US CDC assays, which use multiple amplicons with probes that are either specific to SARS-CoV-2 or are capable of identifying related SARS-like coronaviruses.
+Fig. 1: A CRISPR–Cas12-based assay for detection of SARS-CoV-2.
+
+a, Genome map showing primers, probes and gRNAs. Visualization of primers and probes on the SARS-CoV-2 genome. RT–LAMP primers are indicated by black rectangles, the binding position of the F1c and B1c half of the forward inner primer (FIP) (gray) is represented by a striped rectangle with dashed borders. b, gRNA specificity. Cas12 gRNAs are programmed to specifically target SARS-CoV-2 or broadly detect related coronavirus strains. The N gene gRNA used in the assay (left) was specific for SARS-CoV-2, whereas the E gene gRNA was able to detect three SARS-like coronavirus strains (right). A separate N gene gRNA designed to target SARS-CoV and a bat coronavirus failed to detect SARS-CoV-2 (middle). c, The minimum equipment needed to run the protocol. With appropriate biosafety level 2 requirements, the minimum equipment required to run the protocol following RNA extraction includes Eppendorf tubes with reagents, heat blocks or water bath (37?°C and 62?°C), nuclease-free water, pipettes and tips and lateral flow strips. d, Schematic of SARS-CoV-2 DETECTR workflow. Conventional RNA extraction can be used as an input to DETECTR (LAMP preamplification and Cas12-based detection for E gene, N gene and RNase P), which is visualized by a fluorescent reader or lateral flow strip. e, Lateral flow strip assay readout. A positive result requires detection of at least one of the two SARS-CoV-2 viral gene targets (N gene or E gene, as indicated in the interpretation matrix). QC, quality control.
+Full size image
+Using synthetic, in vitro-transcribed (IVT) SARS-CoV-2 RNA gene targets in nuclease-free water, we demonstrated that CRISPR–Cas12-based detection can distinguish SARS-CoV-2 with no cross-reactivity for related coronavirus strains using N gene gRNA and with expected cross-reactivity for E gene gRNA (Fig. 1b and Supplementary Fig. 2). We then optimized conditions for the SARS-CoV-2 DETECTR assay on the E gene, N gene and human RNase P gene as a control, which consists of an RT–LAMP reaction at 62?°C for 20–30?min and Cas12 detection reaction at 37?°C for 10?min. The DETECTR assay can be run in approximately 30–40?min and visualized on a lateral flow strip (Fig. 1c,d). The SARS-CoV-2 DETECTR assay is considered positive if there is detection of both the E and N genes or presumptive positive if there is detection of either the E or N gene (Fig. 1e). This interpretation is consistent with that of current US FDA EUA guidance and recently approved point-of-care diagnostics under the EUA16.
+Visualization of the Cas12 detection reaction is achieved using a FAM-biotin reporter molecule and lateral flow strips designed to capture labeled nucleic acids (Fig. 2a)12. Uncleaved reporter molecules are captured at the first detection line (control line), whereas indiscriminate Cas12 cleavage activity generates a signal at the second detection line (test line). To compare the signal generated by Cas12 when using fluorescence or lateral flow, we carried out RT–LAMP using 5-fM or 0-fM IVT template using N gene primers and monitored the performance of the Cas12 readout on identical amplicons using a fluorescent plate reader and by lateral flow at 0, 2.5, 5 and 10?min (Fig. 2b,c). The Cas12 fluorescent signal was detectable in <1?min and a visual signal by lateral flow was achieved within 5?min.
+Fig. 2: Detection of SARS-CoV-2 in contrived and clinical nasopharyngeal or oropharyngeal swab samples.
+
+a, Schematic of DETECTR coupled with lateral flow readout. The intact FAM-biotinylated reporter molecule flows to the control capture line. Upon recognition of the matching target, the Cas–gRNA complex cleaves the reporter molecule, which flows to the target capture line. b,c, Comparison of fluorescence to lateral flow. Fluorescence signal of LbCas12a detection assay on RT–LAMP amplicon for SARS-CoV-2 N gene saturates within 10?min (b). RT–LAMP amplicon generated from 2?µl of 5 fM or 0 fM SARS-CoV-2 N gene IVT RNA by amplifying at 62?°C for 20?min. LbCas12a on the same RT–LAMP amplicon produces visible signal through lateral flow assay within 5?min (c). d, LoD for CDC qPCR and DETECTR assays. Ct values using the CDC qPCR assay (n?=?3) and fluorescence values using SARS-CoV-2 DETECTR assay (n?=?6) using SARS-CoV-2 N2 gene IVT RNA. Representative lateral flow results for the assay shown for 0 copies per µl and 10 copies per µl. e, Patient sample DETECTR data from lateral flow readout. Clinical samples from six patients with COVID-19 infection (n?=?11, 5 replicates) and 12 patients infected with influenza or one of the four seasonal coronaviruses (HCoV-229E, HCoV-HKU1, HCoV-NL63, HCoV-OC43) (n?=?12) were analyzed using SARS-CoV-2 DETECTR assay. Signal intensities from lateral flow strips were quantified using ImageJ and normalized to the highest value within the N gene, E gene or RNase P set, with a positive threshold set at 5?×?s.d. above background. The final determination for SARS-CoV-2 test results was based on the interpretation matrix in Fig. 1e, with results indicated above the heat map. f, Lateral flow strips showing SARS-CoV-2 DETECTR assay results. Two replicate assays were performed using 2?µl of extracted RNA for each reaction (titer 12 copies per µl). Positive controls used IVT RNA for SARS-CoV-2 targets and total human RNA for RNase P. LbCas12a detection assays were run on lateral flow strips (TwistDx) and imaged after 3?min. g, Performance characteristics of fluorescent SARS-CoV-2 DETECTR assay. A total of 83 clinical samples (41 COVID-19 positive and 42 negative) were evaluated using the fluorescent version of the SARS-CoV-2 DETECTR assay (Supplementary Fig. 7a,c,d). One sample (COVID19-3) was omitted due to failing assay quality control. Positive and negative calls are based on criteria described in Fig. 1e. fM, femtomolar; NTC, no-template control; FLUA, influenza A virus; FLUB, influenza B virus; HCoV, human coronavirus; PPA, positive predictive agreement; NPA, negative predictive agreement.
+Full size image
+We next compared the analytic limit of detection (LoD) of the RT–LAMP/Cas12 DETECTR fluorescent assay relative to the US FDA EUA-approved CDC assay for detection of SARS-CoV-2 (Table 1 and Fig. 2d). A standard curve for quantitation was constructed using seven dilutions of a control IVT viral nucleoprotein RNA (‘CDC VTC nCoV Transcript’)6, with three replicates at each dilution (Fig. 2d and Extended Data 1). Ten twofold serial dilutions of the same control nucleoprotein RNA were then used to run the fluorescent DETECTR assay, with six replicates at each dilution (Fig. 2d and Supplementary Fig. 3). We confirmed the ability of the assay to generate a visual signal by lateral flow at the LoD (Fig. 2d). In comparison to the CDC qRT–PCR assay, our DETECTR lateral flow assay generates an easy-to-interpret qualitative readout for the presence or absence of the virus. The estimated LoD for the CDC assay tested by the California Department of Public Health is 1 copy per µl reaction, which is consistent with the analytic performance in the US FDA package insert, versus 10 copies per µl reaction for the DETECTR assay.
+Table 1 Comparison of the DETECTR (RT–LAMP/Cas12) assay with the CDC qRT–PCR assay for detection of SARS-CoV-2
+Full size table
+We then assessed the capability of the RT–LAMP assay to amplify SARS-CoV-2 nucleic acid directly from the raw sample matrix consisting of nasopharyngeal swabs from asymptomatic donors placed in UTM or phosphate-buffered saline and spiked with SARS-CoV-2 IVT target RNA. Assay performance was diminished at reaction concentrations of ?10% UTM and ?10% phosphate-buffered saline by volume, with estimated LoDs decreasing to 15,000 and 500 copies per µl, respectively (Supplementary Fig. 4).
+We next tested extracted RNA from 11 respiratory swab samples collected from six PCR-positive COVID-19 patients (COVID19-1A/B to COVID19-5A/B, where A refers to a nasopharyngeal swab and B refers to a oropharyngeal swab and COVID19-6 refers to a single nasopharyngeal swab) and 12 nasopharyngeal swab samples from patients with influenza (n?=?5) and common human seasonal coronavirus infections (n?=?7, representing OC43, HKU1, 229E and NL63) using SARS-CoV-2 DETECTR assay with fluorescence-based and lateral flow strip readouts (Fig. 2e,f and Supplementary Figs. 5–7). SARS-CoV-2 was detected in 9 of 11 patient swabs and did not cross-react with other respiratory viruses. Two negative swabs from COVID-19 patients were confirmed to be below the established LoD.
+Given the high concordance between lateral flow and fluorescence-based readouts (23 of 24 tests, or 95.8%) (Supplementary Figs. 7 and 8), we used a fluorescence-based readout to blindly test an additional 60 nasopharyngeal swab samples from patients with acute respiratory infection for SARS-CoV-2 using our DETECTR assay. Of the 60 samples, 30 were positive for COVID-19 infection by qRT–PCR testing and 30 were negative for COVID-19 infection but either positive for another viral respiratory infection by respiratory virus panel multiplex PCR testing or negative by all testing. The positive predictive agreement and negative predictive agreement of SARS-CoV-2 DETECTR relative to the CDC qRT–PCR assay were 95% and 100%, respectively, for detection of the coronavirus in 83 total respiratory swab samples.
+Here we combined isothermal amplification with CRISPR–Cas12 DETECTR technology to develop a rapid (30–40?min) test for detection of SARS-CoV-2 in clinical samples. The use of existing qRT–PCR-based assays is hindered by the need for expensive laboratory instrumentation and availability is currently restricted to public health laboratories. Notaby, the DETECTR assay developed here has comparable accuracy to qRT–PCR and uses routine protocols and commercially available ‘off-the-shelf’ reagents. As the DETECTR assay uses similar sample collection and RNA extraction methods as the CDC assay and other qRT–PCR assays, it is subject to the same potential limitations with regard to the availability of personal protective equipment17, extraction kits and reagents18. However, some key advantages of our approach over qRT–PCR include isothermal signal amplification obviating the need for thermocycling, rapid turnaround time, single nucleotide target specificity, integration with accessible and easy-to-use reporting formats such as lateral flow strips and no requirement for complex laboratory infrastructure. The time taken to develop and validate this SARS-CoV-2 DETECTR assay (<2 weeks for SARS-CoV-2; Supplementary Fig. 9) shows that this technology can be quickly mobilized to diagnose infections from emerging zoonotic viruses.
+Although most cases of COVID-19 during the first month of the epidemic were traced back to the city of Wuhan in Hubei province in China, the ongoing increase in cases around the world seems now to be driven by local community transmission19,20. Therefore, there is an urgent public health need for rapid diagnostic tests for SARS-CoV-2 infection. The documented cases of asymptomatic infection and transmission in patients with COVID-19 (refs. 4,5) greatly increase the pool of individuals who need to be screened. Viral titers in hospitalized patients can fluctuate day-to-day with no correlation with disease severity21,22,23 and a single negative qRT–PCR test for SARS-CoV-2 does not exclude infection. SARS-CoV-2 is shed in stool24, raising the possibility of environmental contamination that might contribute to local disease outbreaks. Tests such as the DETECTR assay reported here are amenable to periodic repeat testing of patient samples. Clinical validation of this assay in response to recent draft guidance from the US FDA8 is ongoing in a Clinical Laboratory Improvement Amendments (CLIA)-certified microbiology laboratory.
+The major pandemics and large-scale epidemics of the past half century have all been caused by zoonotic viruses. A diagnostic method that can be readily adapted to detect infection from emergent viruses is urgently needed. We report that our CRISPR-based DETECTR technology can be reconfigured within days to detect SARS-CoV-2 (Supplementary Fig. 9). The future development of portable microfluidic-based cartridges and lyophilized reagents to run the assay could enable point-of-care testing outside of the clinical diagnostic laboratory, such as airports, local emergency departments and clinics and other locations.
+Methods
+Nucleic acid preparation
+SARS-CoV-2 target sequences were designed using all available genomes available from GISAID25 as of 27 January 2020. Viral genomes were aligned using Clustal Omega. Next, LbCas12a target sites on the SARS-CoV-2 genome were filtered against SARS-CoV, two bat SARS-like CoV genomes and common human coronavirus genomes. Compatible target sites were compared to those used in current protocols from the CDC and WHO. LAMP primers for SARS-CoV-2 were designed against regions of the N gene and E gene using PrimerExplorer v.5 (https://primerexplorer.jp/e/) with compatible gRNAs. As a sample control, a compatible gRNA was designed to previously published RNase P POP7 RT–LAMP primers26.
+Target RNAs were generated from synthetic gene fragments of the viral genes of interest. First a PCR step was performed on the synthetic gene fragment with a forward primer that contained a T7 promoter. Next, the PCR product was used as the template for an IVT reaction at 37?°C for 2?h. The IVT reaction was then treated with TURBO DNase (Thermo Fisher Scientific) for 30?min at 37?°C, followed by a heat-denaturation step at 75?°C for 15?min. RNA was purified using RNA Clean and Concentrator 5 columns (Zymo Research). RNA was quantified by Nanodrop and Qubit and diluted in nuclease-free water to working concentrations.
+DETECTR assays
+DETECTR assays were performed using RT–LAMP for preamplification of viral or control RNA targets and LbCas12a for the trans-cleavage assay. RT–LAMP was prepared as suggested by New England Biolabs (www.neb.com/protocols/2014/10/09/typical-rt-lamp-protocol) with a MgSO4 concentration of 6.5?mM and a final volume of 10?µl. LAMP primers were added at a final concentration of 0.2?µM for F3 and B3, 1.6?µM for forward inner and backward inner primers and 0.8?µM for loop forward and loop backward primers. Reactions were performed independently for N gene, E gene and RNase P using 2?µl of input RNA at 62?°C for 20–30?min.
+LbCas12a trans-cleavage assays were performed similarly to those previously described9. A total of 50?nM LbCas12a (NEB) was preincubated with 62.5?nM gRNA in 1× NEBuffer 2.1 for 10?min at 37?°C. After formation of the RNA–protein complex, the lateral flow cleavage reporter (/56-FAM/TTATTATT/3Bio/, IDT) was added to the reaction at a final concentration of 500?nM. RNA–protein complexes were used immediately or stored at 4?°C for up to 24?h before use.
+Lateral flow readout
+After completion of the preamplification step, 2?µl of amplicon was combined with 18?µl of LbCas12a-gRNA complex and 80?µl of 1× NEBuffer 2.1. The 100-µl LbCas12a trans-cleavage assay was allowed to proceed for 10?min at 37?°C.
+A lateral flow strip (Milenia HybriDetect 1, TwistDx) was then added to the reaction tube and a result was visualized after approximately 2?min. A single band, close to the sample application pad indicated a negative result, whereas a single band close to the top of the strip or two bands indicated a positive result (see Supplementary Fig. 6 for additional details on interpretation of lateral flow strips). Lateral flow strips were interpreted visually or were quantified using ImageJ’s gel analyzer tool and signal was normalized to the maximum signal intensity.
+Optimized DETECTR method for patient samples
+The patient-optimized DETECTR assays were performed using the RT–LAMP method as described above with the following modifications: a DNA-binding dye, SYTO9 (Thermo Fisher Scientific) was included in the reaction to monitor the amplification reaction and the incubation time was extended to 30?min to capture data from lower titer samples.
+The fluorescence-based patient-optimized LbCas12a trans-cleavage assays were performed as described above with modifications; 40?nM LbCas12a was preincubated with 40?nM gRNA, after which 100?nM of a fluorescent reporter molecule compatible with detection in the presence of the SYTO9 dye (/5Alex594N/TTATTATT/3IAbRQSp/) was added to the complex. A total of 2?µl of amplicon was combined with 18?µl of LbCas12a-gRNA complex in a black 384-well assay plate and monitored for fluorescence using a Tecan plate reader.
+Contrived sample preparation
+In vitro-transcribed RNA (gift from the California Department of Public Health, CDPH), with a titer of 10,000 copies per ?l (Ct value of 21) was diluted into 2,500 copies per ?l first, then serially diluted in water to concentration of 1,250, 625, 312, 156, 78, 39, 10 and 2.5 copies per ?l.
+Human clinical sample collection and preparation
+Negative nasopharyngeal swabs were acquired from healthy donors in the Chiu laboratory with the approval of the University of California, San Francisco (UCSF) Institutional Review Board. Clinical nasopharyngeal and oropharyngeal swab samples from patients infected with SARS-CoV-2, influenza or other coronaviruses were collected in UTM and transported to the CDPH or UCSF laboratory. Sample RNA of SARS-CoV-2 was extracted following instructions as described in the CDC EUA-approved protocol6 (input 120?µl, elution of 120?µl) using Qiagen DSP Viral RNA Mini kit (Qiagen) at CDPH and the MagNA Pure 24 instrument (Roche Life Science) at UCSF. Nasopharyngeal swab samples of influenza and common coronavirus were extracted at UCSF using the MagNA Pure 24 instrument.
+CDC real-time qRT–PCR assay
+The CDC assay was performed using the ABI 7500 Fast DX (Applied Biosystems) or Roche Lightcycler 480 (Roche) instruments according to the CDC EUA-approved protocol6.
+Bioinformatic analyses
+Multiple sequence alignments to generate viral consensus sequences were performed using Clustal Omega v.1.2.4 (ref. 27) and Jalview v.2.11 (ref. 28) software. RT–LAMP primer design was performed using PrimerExplorer v.5 software (Eiken Chemical Co).
+Reporting Summary
+Further information on research design is available in the Nature Research Reporting Summary linked to this article.
+Data availability
+All reagents used in this manuscript are available from commercial sources.
+Code availability
+Generation of viral consensus sequences and RT–LAMP primer design were performed using publicly available software, including Clustal Omega v.1.2.4, Jalview v.2.11 and Primer Explorer v.5 (Methods).
+References
+1. 1.
+Wang, C., Horby, P. W., Hayden, F. G. & Gao, G. F. A novel coronavirus outbreak of global health concern. Lancet 395, 470–473 (2020).
+o Article
+o Google Scholar
+2. 2.
+Zhu, N. et al. A novel coronavirus from patients with pneumonia in China, 2019. N. Engl. J. Med. 382, 727–733 (2020).
+o CAS
+o Article
+o Google Scholar
+3. 3.
+World Health Organization. Coronavirus disease 2019 (COVID-19) Situation Report 44. 8 (World Health Organization, 2020).
+4. 4.
+Bai, Y. et al. Presumed asymptomatic carrier transmission of COVID-19. JAMA https://doi.org/10.1001/jama.2020.2565 (2020).
+5. 5.
+Rothe, C. et al. Transmission of 2019-nCoV infection from an asymptomatic contact in Germany. N. Engl. J. Med. 382, 970–971 (2020).
+o Article
+o Google Scholar
+6. 6.
+Centers for Disease Control and Prevention. Real-time RT–PCR Panel for Detection 2019-nCoV (US Centers for Disease Control and Prevention, 2020); https://www.cdc.gov/coronavirus/2019-ncov/lab/rt-pcr-detection-instructions.html
+7. 7.
+Zhang, W. et al. Molecular and serological investigation of 2019-nCoV infected patients: implications of multiple shedding routes. Emerg. Microbes Infect. 9, 386–389 (2020).
+o CAS
+o Article
+o Google Scholar
+8. 8.
+Food and Drug Administration. Policy for Diagnostics Testing in Laboratories Certified to Perform High Complexity Testing Under CLIA Prior to Emergency Use Authorization for Coronavirus Disease-2019 During the Public Health Emergency (US Food and Drug Administration, 2020).
+9. 9.
+Chen, J. S. et al. CRISPR-Cas12a target binding unleashes indiscriminate single-stranded DNase activity. Science 360, 436–439 (2018).
+o CAS
+o Article
+o Google Scholar
+10. 10.
+Chiu, C. Cutting-edge infectious disease diagnostics with CRISPR. Cell Host Microbe 23, 702–704 (2018).
+o CAS
+o Article
+o Google Scholar
+11. 11.
+Gootenberg, J. S. et al. Nucleic acid detection with CRISPR-Cas13a/C2c2. Science 356, 438–442 (2017).
+o CAS
+o Article
+o Google Scholar
+12. 12.
+Myhrvold, C. et al. Field-deployable viral diagnostics using CRISPR-Cas13. Science 360, 444–448 (2018).
+o CAS
+o Article
+o Google Scholar
+13. 13.
+Li, S.-Y. et al. CRISPR-Cas12a-assisted nucleic acid detection. Cell Discov. 4, 20 (2018).
+o Article
+o Google Scholar
+14. 14.
+Notomi, T. et al. Loop-mediated isothermal amplification of DNA. Nucleic Acids Res. 28, E63 (2000).
+o CAS
+o Article
+o Google Scholar
+15. 15.
+World Health Organization. Diagnostic Detection of Wuhan Coronavirus 2019 by Real-time RT–PCR (World Health Organization, 2020); https://www.who.int/docs/default-source/coronaviruse/wuhan-virus-assay-v1991527e5122341d99287a1b17c111902.pdf
+16. 16.
+Cepheid. Package insert, Xpress, SARS-CoV-2 (Cepheid, 2020); https://www.fda.gov/media/136315/download
+17. 17.
+Bauchner, B., Fontanarosa, P. W. & Livingston, E. H. Conserving supply of personal protective equipment – a call for ideas. JAMA https://doi.org/10.1001/jama.2020.4770 (2020).
+18. 18.
+Herper, M. & Branswell, H. Shortage of crucial chemicals creates new obstacle to US coronavirus testing. STATNews https://www.statnews.com/2020/03/10/shortage-crucial-chemicals-us-coronavirus-testing/ (2020).
+19. 19.
+Liu, J. et al. Community transmission of severe acute respiratory syndrome coronavirus 2, Shenzhen, China, 2020. Emerg. Infect. Dis. 26 https://doi.org/10.3201/eid2606.200239 (2020).
+20. 20.
+California Department of Public Health. CDC Confirms Possible First Instance of COVID-19 Community Transmission in California (California Department of Public Health, 2020); https://www.cdph.ca.gov/Programs/OPA/Pages/NR20-006.aspx
+21. 21.
+Holshue, M. L. et al. First case of 2019 novel coronavirus in the United States. N. Engl. J. Med. 382, 929–936 (2020).
+o CAS
+o Article
+o Google Scholar
+22. 22.
+Pan, Y., Zhang, D., Yang, P., Poon, L. L. M. & Wang, Q. Viral load of SARS-CoV-2 in clinical samples. Lancet Infect. Dis. 20, 411–412 (2020).
+o CAS
+o Article
+o Google Scholar
+23. 23.
+Zou, L. et al. SARS-CoV-2 viral load in upper respiratory specimens of infected patients. N. Engl. J. Med. 382, 1177–1179 (2020).
+o Article
+o Google Scholar
+24. 24.
+Young, B. E. et al. epidemiologic features and clinical course of patients infected with SARS-CoV-2 in Singapore. JAMA https://doi.org/10.1001/jama.2020.3204 (2020).
+25. 25.
+Elbe, S. & Buckland-Merrett, G. Data, disease and diplomacy: GISAID’s innovative contribution to global health. Glob. Chall. 1, 33–46 (2017).
+o Article
+o Google Scholar
+26. 26.
+Curtis, K. A. et al. A multiplexed RT–LAMP assay for detection of group M HIV-1 in plasma or whole blood. J. Virol. Methods 255, 91–97 (2018).
+o CAS
+o Article
+o Google Scholar
+27. 27.
+Waterhouse, A. M. et al. Jalview version 2 – a multiple sequence alignment editor and analysis workbench. Bioinformatics 25, 1189–1191 (2009).
+o CAS
+o Article
+o Google Scholar
+28. 28.
+McWilliam, H. et al. Analysis Tool Web Services from the EMBL-EBI. Nucleic Acids Res. 41, W597–W600 (2013).
+o Article
+o Google Scholar
+Download references
+Acknowledgments
+This work was funded by National Institutes of Health grants R33-AI129455 (C.Y.C.) from the National Institute of Allergy and Infectious Diseases and R01-HL105704 (C.Y.C.) from the National Heart, Lung and Blood Institute, the Charles and Helen Schwab Foundation, and Mammoth Biosciences, Inc. We thank J. Hakim and D. Glasner for assisting with sample collection and V. Joshi and M. Tsaloglou for helpful discussions in the preparation of this manuscript.
+

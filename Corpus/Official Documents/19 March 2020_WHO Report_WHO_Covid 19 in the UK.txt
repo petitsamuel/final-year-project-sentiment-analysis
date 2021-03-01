@@ -1,0 +1,230 @@
+The 2019–20 coronavirus outbreak was confirmed to have spread to the United Kingdom on 31 January 2020 from China when the first two cases with the respiratory disease COVID-19, caused by the new coronavirus SARS-CoV-2, were confirmed in Newcastle upon Tyne in a family of Chinese nationals staying in a hotel in York.[2][3]
+
+On 12 January the World Health Organization (WHO) confirmed that a new coronavirus was the cause of a respiratory illness in a cluster of people in Wuhan, Hubei Province, China, who had initially come to the attention of the WHO on 31 December 2019.[2] The UK subsequently developed a prototype specific laboratory test for the new disease.[4] In response to the outbreak, Heathrow Airport received additional clinical support and tightened surveillance of the three direct flights that it received from Wuhan every week.[5] The four UK Chief Medical Officers (CMOs) raised the UK risk level from low to moderate on 30 January, upon the WHO's announcement of the disease as a Public Health Emergency of International Concern (PHEIC).[4]
+
+As soon as cases appeared in the UK on 31 January a public health information campaign was launched to advise people how to lessen the risk of spreading the virus.[4] Further cases in early February prompted the Secretary of State for Health and Social Care, Matt Hancock, to introduce the Health Protection (Coronavirus) Regulations 2020 statutory instrument.[2] Guidance on infection prevention and control, how to detect and diagnose COVID-19, and daily updates, including advice to travellers have been published by the UK's Department of Health and Social Care (DHSC) and Public Health England (PHE).[2] In addition, the NHS set up COVID-19 drive-through screening centres at multiple hospitals.[6][7] Chief Medical Adviser to the UK Government, Chris Whitty has explained a strategy to tackle the outbreak, based upon four aims: contain, delay, research and mitigate.[8]
+
+The earliest documented transmission within the UK occurred on 28 February 2020; all of the cases detected previously had been infected abroad.[9] By 1 March, cases had been detected in England, Wales, Northern Ireland and Scotland.[2][10] Subsequently, Prime Minister Boris Johnson unveiled the Coronavirus Action Plan,[2] and the government declared the coronavirus outbreak as a "level 4 incident".[11] On 11 March, the WHO declared the outbreak a pandemic.[12] Other responses included some schools in England choosing to close.[13] Some airlines announced a number of flight cancellations,[14] and some online retailers have reported consumers placing unusually large orders.[15] On 12 March, the UK risk level was raised from moderate to high.[16] Four days later, following the experience in Italy and based on evidence including forecasting by epidemiologists at Imperial College London,[17] the government advised on further measures on social distancing and advised people in the UK against "non-essential" travel and contact with others, as well as suggesting people should avoid pubs, clubs and theatres, and work from home if possible. Pregnant women, people over the age of 70 and those with certain health conditions were urged to consider the advice "particularly important", and would be asked to self-isolate. On 18 March, it was announced that the UK will close all schools.[18]
+
+As of 18 March, after performing 56,221 tests, there have been 2,626 confirmed cases of COVID-19 in the United Kingdom.[nb 3][1] 103 people in the UK with confirmed infection have died,[nb 1][1] and one further death has been confirmed in the British Overseas Territory of the Cayman Islands.[21] Additionally, one British citizen died in the outbreak on the Diamond Princess cruise ship.
+Background
+On 12 January, the World Health Organization (WHO) confirmed that a new coronavirus was the cause of a respiratory illness in a cluster of people in Wuhan City, Hubei Province, China, who had initially come to the attention of the WHO on 31 December 2019. This cluster was initially linked to the Huanan Seafood Wholesale Market in Wuhan City. However, some of those first cases with laboratory confirmed results had no link to the market, and the source of the epidemic is unknown.[22][23]
+
+Unlike SARS of 2003, the case fatality ratio for COVID-19, a disease also classified as a high consequence infectious disease (HCID),[24][25] has been much lower, but the transmission has been significantly greater, with a significant total death toll.[26][24] COVID-19 typically appears with about seven days of flu-like symptoms followed by some people progressing to symptoms of a viral pneumonia requiring admission to hospital.[24]
+
+Timeline
+COVID-19 cases in the United Kingdom  (vte)
+     Deaths        Recoveries        Active cases
+Date
+# of cases
+# of deaths
+2020-01-31	?	2	
+?	?	2(=)	
+2020-02-06	?	3(+50%)	
+?	?	3(=)	
+2020-02-09	?	4(+33%)	
+2020-02-10	?	8(+100%)	
+?	?	8(=)	
+2020-02-13	?	9(+13%)	
+?	?	9(=)	
+2020-02-24	?	13(+44%)	
+?	?	13(=)	
+2020-02-28	?	19(+46%)	
+2020-02-29	?	23(+21%)	
+2020-03-01	?	35(+52%)	
+2020-03-02	?	40(+14%)	
+2020-03-03	?	51(+28%)	
+2020-03-04	??	85(+67%)	
+2020-03-05	???	114(+34%)	1
+2020-03-06	???	160(+40%)	2(+100%)
+2020-03-07	???	206(+29%)	2(=)
+2020-03-08	???	271(+32%)	3(+50%)
+2020-03-09	???	321(+18%)	5(+67%)
+2020-03-10	???	373(+16%)	6(+20%)
+2020-03-11	???	456(+22%)	8(+67%)
+2020-03-12	???	590(+29%)	8(=)
+2020-03-13	???	797(+35%)	10(+25%)
+2020-03-14	???	1,061(+33%)	21(+110%)
+2020-03-15	???	1,391(+31%)	35(+67%)
+2020-03-16	???	1,543(+11%)	55(+57%)
+2020-03-17	???	1,950(+26%)	60(+27%)
+2020-03-18	???	2,626(+35%)	103(+72%)
+2020-03-19	???	3,269(+24%)	144(+40%)
+Based on confirmed cases reported daily by Public Health England correct as of 9am the morning of the update.[27]
+Figures do not include the cases from British Overseas Territories and Crown Dependencies.
+January 2020
+On 22 January, following a confirmed case of COVID-19 in the United States the previous day, in a man returning to Washington from Wuhan, China, where there were 440 confirmed cases at the time, the DHSC and PHE raised the risk level from "very low" to "low". As a result, Heathrow Airport received additional clinical support and tightened surveillance of the three direct flights that it receives from Wuhan every week; each were to be met by a Port Health team. In addition, all airports in the UK were to make written guidance (in English, Mandarin, and Cantonese) available for unwell travellers.[5][28] Simultaneously, efforts to trace 2,000 people who had flown into the UK from Wuhan over the previous 14 days were made.[29]
+
+On 31 January, two members of a family of Chinese nationals staying in a hotel in York, one of whom studied at the University of York, became the first confirmed cases of COVID-19 in the UK. Upon confirmation, they were transferred from Hull University Teaching Hospital to a specialist isolation facility, a designated High Consequence Infectious Diseases Unit in Newcastle upon Tyne.[3][30]
+
+On the same day, an evacuation flight from Wuhan landed at RAF Brize Norton and the passengers, none of whom were showing symptoms, were taken to quarantine, in a staff residential block at Arrowe Park Hospital on the Wirral.[31] There had previously been contention over whether the government should assist the repatriation of UK passport holders from the most affected areas in China, or restrict travel from affected regions altogether.[32][33] Some British nationals in Wuhan had been informed that they could be evacuated but any spouses or children with mainland Chinese passports could not.[34] This was later overturned, but the delay meant that some people missed the flight.[31]
+
+February 2020
+On 6 February, a third confirmed case, a man who had recently travelled to Singapore prior to visiting a ski resort in the Haute-Savoie, France, was reported in Brighton. He had been the source of infection to six of his relatives during a stay in France, before returning to the UK on 28 January.[35][36] Following confirmation of his result, the UK's CMOs expanded the number of countries where a history of previous travel associated with flu-like symptoms – such as fever, cough and difficulty breathing – in the previous 14 days would require self-isolation and calling NHS 111. These countries included China, Hong Kong, Japan, Macau, Malaysia, Republic of Korea, Singapore, Taiwan, Thailand.[37]
+
+On 10 February, the total number of cases in the UK reached eight as four further cases were confirmed in people linked to the affected man from Brighton.[38][39] Globally, the virus had spread to 28 countries.[40] On the morning of 10 February, the Secretary of State for Health and Social Care, Matt Hancock, announced the Health Protection (Coronavirus) Regulations 2020, to give public health professionals "strengthened powers" to keep affected people and those believed to be a possible risk of having the virus, in isolation.[40] That day, the Arrowe Park Hospital, Merseyside, and the Kents Hill Park hotel and conference centre, Milton Keynes became designated isolation units.[2][40] The following day, two of the eight confirmed cases in the UK were reported by BBC News to be general practitioners.[38] A ninth case was confirmed in London on 11 February.[41]
+
+On 23 February, the DHSC confirmed a total of 13 cases in the UK as four new cases in passengers on the cruise ship Diamond Princess were detected. Two were transferred to the Royal Hallamshire Hospital in Sheffield, one to the Royal Liverpool University Hospital and one to the Royal Victoria Infirmary in Newcastle upon Tyne.[42]
+
+On 27 February, the total number of confirmed cases in the UK were reported as 16, including the first case in Northern Ireland – a woman who had travelled from the outbreak area in northern Italy, having also stopped in Dublin.[43][44]
+
+On 28 February, the first case in Wales was confirmed in a person who had returned from Northern Italy, and then transferred to a specialist NHS infection centre at the Royal Free Hospital in London.[45][46][47] The same day, two further cases were confirmed in England, one of whom was a man who was taken to Guy's and St Thomas' and who became the 20th case of COVID-19 in the UK and the first case who did not contract the disease from abroad. He was a resident in Surrey and registered at the Haslemere Health Centre, which had previously been closed for "deep cleaning".[9]
+
+On 29 February, three further cases of the virus were confirmed bringing the total number of confirmed cases to 23, after testing 10,483 people.[2] The three cases are from Gloucestershire, Hertfordshire and Berkshire. Two of the three affected people had recently returned from Italy while the third had come back from Asia.[48] On the same day, Scottish CMO, Catherine Calderwood announced that surveillance would begin at some hospitals and 41 GP surgeries in Scotland.[49]
+
+442,675 calls were made to the non-emergency line 111 in the last week of February.[50]
+
+March 2020
+
+Soap almost sold out, London, 12 March
+On 1 March a further 13 cases were reported, adding Greater Manchester and Scotland to the list of areas affected and bringing the total to 36, three of which are believed to be contacts of the case in Surrey who had no history of travel abroad.[51][52]
+
+On 2 March, four further people in England tested positive. All four had recently travelled from Italy; they are from Hertfordshire, Devon and Kent.[2] The total number of UK cases was reported as having reached 40, though this was revised to 39 after additional testing.[14] The following day, when the total number of confirmed cases in the UK stood at 51, the UK Government unveiled their Coronavirus Action Plan, which outlines what the UK has done already and what it plans to do next.[2]
+
+On 4 March, the total number of confirmed cases increased to 85.[2] Local press announced that an affected person is being treated at the Royal Stoke University Hospital.[53] On the same day, a case was confirmed in Gibraltar in a person who had travelled from Northern Italy.[19] On 5 March, three further cases were announced by the CMO for Scotland Catherine Calderwood, located in the areas of Forth Valley, Grampian and Greater Glasgow and Clyde.[10] That day, the total number of confirmed cases in the UK were reported by officials as 115,[2] and a woman in her 70s with an existing medical condition, was reported to be the first fatality within the UK.[54] A further 48 were confirmed on 6 March,[55] with the total being over 200 the next day,[56] and adding a further 64 new cases on 8 March, the biggest increase in cases until that day.[57]
+
+On 9 March, three cases were discovered in Dorset.[58]
+
+On 10 March, Evangelos Marinakis, owner of football clubs Nottingham Forest and Olympiacos, announced on his Instagram feed that he had been infected with the virus.[59] It was announced the same day that mental health minister Nadine Dorries MP had tested positive for the virus and was self isolating.[60][61] Nine more cases were also discovered in Wales bringing the total to 15.[62]
+
+
+Some supermarkets began to limit purchases of items in high demand. 12 March.
+On 11 March, 83 more cases were discovered in the UK bringing the total to 456. It was announced later that day that four new cases in Wales had been discovered, bringing the total to 19.[63] On the same day, the WHO declared the outbreak a pandemic,[12] and it was discussed in the UK government's annual budget.[61]
+
+On 12 March, the first confirmed case was found in Sheffield, South Yorkshire, where previously a man was isolated, raising the number of cases in South Yorkshire to 12. Later that day 6 new cases were discovered in Wales, bringing the total to 25. Meanwhile, the total of cases in the UK was reported to be 590.[2] On the same day, the UK CMOs raised the risk to the UK from moderate to high.[16] The government advised that anyone with a new continuous cough or a fever should self-isolate for seven days. Schools were asked to cancel trips abroad, and people over 70 and those with pre-existing medical conditions were advised to avoid cruises.[64][65]
+
+On 13 March, the number of confirmed cases rose by 208 to 798 confirmed cases,[66] with the first death from Coronavirus being reported in Scotland.[67] Many sporting fixtures including the London Marathon,[68] the Six Nations Wales vs Scotland fixture,[69] and all Premier League and EFL football games[70] were postponed and the 2020 United Kingdom local elections were postponed for a year.[71] Similarly, the Country to Country music festival due to take place between 13–15 March at London's O2 Arena was also postponed.[72] The UK Government restricted the export of three drugs being administered to Covid-19 patients in clinical trials in China: Kaletra, Chloroquine Phosphate, and Hydroxychloroquine [73]
+
+On 14 March, the number of confirmed cases rose to 1,140 and the total number of people who had died in the UK had increased to 21.[74]
+
+
+Shopping in rubber gloves and a face mask, London, 15 March 2020
+On 15 March, the Secretary of State for Health and Social Care, Matt Hancock announced that everyone in Britain over the age of 70 would be told to self-isolate "within the coming weeks".[75] That day, the number of cases rose to 1,372 and the number of deaths increased to 35.[76]
+
+On 16 March, the UK death toll rose to 55, with the number of cases of the illness passing 1,500.[77] The deaths included the first to be reported in Wales.[78] Also on 16 March, Prime Minister Boris Johnson advised everyone in the UK against "non-essential" travel and contact with others, as well as suggesting people should avoid pubs, clubs and theatres, and work from home if possible. Pregnant women, people over the age of 70 and those with certain health conditions were urged to consider the advice "particularly important", and would be asked to self-isolate within days.[77] On the same day, the second Member of Parliament was diagnosed with the virus. The new Labour MP for Jarrow, County Durham Kate Osborne tested positive after a period of self-isolation.[79][80][81][82]
+
+On 17 March, NHS England announced that all non-urgent operations in England would be postponed from 15 April to free up 30,000 beds.[83] Also on 17 March, Chancellor Rishi Sunak announced that £330bn would be made available in loan guarantees for businesses affected by the pandemic.[84][85] On that day the UK death toll rose to 71, while the number of confirmed cases increased to 1,950.[86][87]
+
+On 18 March, Labour MP for Brighton Kemptown Lloyd Russell-Moyle announced that he had tested positive for with the virus, becoming the third MP to be diagnosed with the disease.[88]
+
+On 19 March the first death was confirmed in Northern Ireland.[89]
+
+Testing and surveillance
+
+Warning notices at a London doctor's surgery, 13 March 2020
+Shortly after confirming that the cause of the cluster of pneumonia in Wuhan was a new coronavirus, Chinese authorities had shared its genetic sequence for international developments of diagnostic kits.[5] The UK subsequently developed a prototype specific laboratory test for the new disease, performed on a sample from the nose, throat, and respiratory tract and tested at PHE's Colindale laboratories in London.[40] By 3 February, 326 tests had been performed in the UK.[4] Over the following few weeks, PHE made the test available to 12 other laboratories in the UK, making it possible to test 1000 people a day.[40]
+
+Following 300 staff being asked to work from home on 26 February 2020 in London, while a suspected person was awaiting a test result for the virus, PHE announced it was to increase surveillance by widening testing around the UK to include people with flu-like symptoms at 100 GP surgeries and eight hospitals: the Royal Brompton and Harefield, Guy's and St Thomas' and Addenbrookes Hospital, as well as hospitals at Brighton and Sussex, Nottingham, South Manchester, Sheffield, Leicester.[90][91] Surveillance was shortly extended to some hospitals and GP surgeries in Scotland.[49]
+
+Drive-through screening centres were set up by Central London Community Healthcare NHS Trust at Parsons Green Health Centre on 24 February 2020,[6] and by NHS Lothian at the Western General Hospital in Edinburgh.[7]
+
+On 11 March NHS England announced that testing in NHS laboratories would increase from testing 1,500 to 10,000 per day.[61] The test consists of taking a sample from the nose, throat, deeper lung samples, blood or stool, and transporting the packed samples to the listed PHE regional laboratory designated for the referring laboratory region.[92][93] As of 12/13 March 2020, 29,764 tests had been conducted in the UK, corresponding to 450.8 tests per million people.[94]
+
+Forecasting
+Reports from the Medical Research Council's Centre for Global Infectious Disease Analysis at Imperial College, London have been providing mathematically calculated estimates of cases and cases fatality rates.[40][95] In February, the team at Imperial, led by epidemiologist Neil Ferguson, reported about two-thirds of cases in travellers from China were not detected and that some of these may have begun "chains of transmission within the countries they entered."[96][97][98] This translates to only one in three cases coming into the UK being detected.[99] They forecast that the new coronavirus could infect up to 60% of the UK's population, in the worst-case scenario.[100]
+
+In a paper released but not yet published on 16 March, the Imperial team provided detailed forecasts of the potential impacts of the epidemic in the UK and USA.[17][101] Their paper details the potential outcomes of an array of 'non-pharmaceutical interventions' such as contact tracing and case isolation, home self quarantine, closure of bars, social venues or schools, and social distancing. Two potential overall strategies outlined were: mitigation, in which the aim is to reduce the health impact of the epidemic but not to stop transmission completely; and suppression, where the aim is to reduce transmission rates to a point where case numbers fall. Until this point government actions had been based on a strategy of mitigation, but the modelling predicted that while this would reduce deaths by approximately 2/3, it would still lead to approximately 250,000 deaths from the disease and the health systems becoming overwhelmed.[17] On the same day as the report was published, the Prime Minister announced in a press conference significant changes to the government advice, extending self isolation to whole households, advising social distancing particularly for vulnerable groups, and indicating that further measures were likely to be required in the future.[77][101]
+
+Response by sector
+Government
+
+English NHS coronavirus poster, February 2020[102]
+Guidance has altered in line with the number of cases detected and changes in where affected people have contracted the virus, as well as with what has been happening in other countries.[35] In February, Chief Medical Adviser to the UK Government, Chris Whitty explained "we basically have a strategy which depends upon four tactical aims: the first one is to contain; the second of these is to delay; the third of these is to do the science and the research; and the fourth is to mitigate so we can brace the NHS."[8] These aims equate to four phases; specific actions involved in each of these phases are:
+
+Contain: detect early cases, follow up close contacts, and prevent the disease taking hold in this country for as long as is reasonably possible
+Delay: slow the spread within the UK, and (if it does take hold) lower the peak impact and push it away from the winter season
+Research: better understand the virus and the actions that will lessen its effect on the UK population; innovate responses including diagnostics, drugs and vaccines; use the evidence to inform the development of the most effective models of care
+Mitigate: provide the best care possible for people who become ill, support hospitals to maintain essential services and ensure ongoing support for people ill in the community, to minimise the overall impact of the disease on society, public services and on the economy.[103]
+The four UK CMOs raised the UK risk level from low to moderate on 30 January 2020, upon the World Health Organization's announcement of the disease as a Public Health Emergency of International Concern.[2][4] As soon as cases appeared in the UK on 31 January 2020, a public health information campaign, similar to the previous "Catch it, Bin it, Kill it" campaign, was launched in the UK, to advise people how to lessen the risk of spreading the virus.[4] Travellers from Hubei province in China, including the capital Wuhan were advised to self-isolate, "stay at home, not go to work, school or public places, not use public transport or taxis, ask friends, family members or delivery services to do errands",[104] and call NHS 111 if they had arrived in the UK in previous 14 days, regardless of whether they were unwell or not.[4] Further cases in early February prompted the Secretary of State for Health and Social Care, Matt Hancock, to announce the Health Protection (Coronavirus) Regulations 2020.[2] Daily updates have been published by the DHSC.[2] NHS Digital in the meanwhile, have been collecting data.[105]
+
+
+Poster for the "Catch it, Bin it, Kill it" slogan which has been revived in the fight against coronavirus
+On 25 February 2020, the UK's CMOs advice for all travellers (unwell or not) who had returned to the UK from Hubei province in the previous 14 days, Iran, specific areas designated by the Italian government as quarantine areas in northern Italy and special care zones in South Korea since 19 February, to self-isolate and call NHS 111.[37] This advice was also advocated for any person who has flu-like symptoms with a history of travelling from Vietnam, Cambodia, Laos, Myanmar and areas in Italy north of Pisa, Florence and Rimini, returning to the UK since 19 February. Later, self-isolation was recommended for anyone returning from any part of Italy from 9 March.[2][37]
+
+Prime Minister Boris Johnson has largely kept Britain open, opting for a solution of herd immunity. This involves enough people getting infected, upon which they develop immunity to the disease.[106][107] The UK's chief scientific adviser has said that 60% of the UK's population will need to become infected for herd immunity to be achieved.[108][107]
+
+On 2 March, Boris Johnson said in an interview with BBC News: "The most important thing now is that we prepare against a possible very significant expansion of coronavirus in the UK population". This came after the 39th case in the UK was confirmed and over a month after the first confirmed case in the UK.[109] The same day, a BBC One programme Coronavirus: Everything You Need to Know addressed questions from the public on the outbreak.[110] The following day, the Coronavirus Action Plan was unveiled.[2] The next day, as the total number of cases in the UK stood at 51, the government declared the coronavirus outbreak as a "level 4 incident",[11] permitting NHS England to take command of all NHS resources.[11][111] Planning has been made for behaviour changing publicity including good hygiene and respiratory hygiene ("catch it, bin it, kill it"),[112] a simple measure which helps in delaying the peak of the infection and buys time for the testing of drugs and initial development of vaccines.[103] Primary care has been issued guidance.[113]
+
+Public Health England has also been involved with efforts to support the British Overseas Territories against the outbreak.[114][115]
+
+Regulations and legislation
+The government published the Health Protection (Coronavirus) Regulations 2020[116] on 10 February 2020, a statutory instrument covering the legal framework behind the government's initial containment and isolation strategies and its organisation of the national reaction to the virus. Other published regulations include changes to Statutory Sick Pay (into force on 13 March),[117] and changes to Employment and Support Allowance and Universal Credit (also 13 March).[118]
+
+On 19 March, the government introduced the Coronavirus Bill 2019–21, which would grant the government discretionary emergency powers in the areas of the NHS, social care, schools, police, the Border Force, local councils, funerals and courts.[119] The bill is expected to pass all stages of parliamentary consideration on 23 March.[120]
+
+National Health Service
+In March, hospitals begin to prepare for the cancellation of all non-urgent elective procedures.[121]
+
+Aviation
+From the latter half of January, Heathrow Airport received additional clinical support and tightened surveillance of the three direct flights that it receives from Wuhan every week; each were to be met by a Port Health team.[5] Later, airlines including British Airways and Ryanair announced a number of flight cancellations for March.[14]
+
+Regional airline Flybe had been brought to the brink of collapse following prior financial trouble earlier in the year. This, combined with decreased ticket sales as a result of the outbreak, caused the airline to stop ticket sales on 4 March 2020.[122][123] The company entered administration and ceased operations the following day.[124][125]
+
+Consumer response
+
+The almost empty pasta section in a London Tesco, 7 March 2020
+It was reported in The Guardian that British supermarkets and their suppliers had developed a plan to ensure a consistent supply of a range of basic goods if there was panic-buying by consumers. Tesco, the country's largest supermarket chain, was said to have carried out simulation exercises to plan for events such as a pandemic flu outbreak which could be used to deal with the coronavirus outbreak.[15] There have been reports of hand sanitiser and anti-bacterial products selling out at some supermarkets.[126] Online retailers reported consumers placing unusually large orders while the managing director of the frozen food chain Iceland reported increased sales of "multibuy deals and larger packs".[15]
+
+Some supermarkets and other shops responded by limiting the amount customers brought of popular items, whilst others had a blanket limit across their entire range. Sainsburys announced on 18 March that they would prioritise disabled customers and those over 70 years old when it came to online shopping. They also announced that like Iceland and Lidl (in Northern Ireland only) that the first trading hour of the day would be for those who fitted in to the aforementioned categories.
+
+Amazon stopped sellers from sending non essential products to their warehouses and Selfridges closed all its stores, however customers can still buy their products from their website.[127]
+
+Food and Hospitality
+Fast food & drink outlets, Pret a Manger and McDonalds[128] announced that they would not permit customers to sit and eat in stores, however customers can still order products to takeaway and consume off the premises.
+
+Pub chain, J D Wetherspoon will remain open, despite government advice for the public to avoid places of social activity, including pubs. The chain will keep all pubs open "unless the government states otherwise"[129] The chain has also taken measures to help prevent the spread of the virus, including:
+
+Encouraging customers to remain at their tables
+Use "alternate" tables to respect other customers
+Use the Wetherspoons app to order provisions to tables
+Space out tables further.[130]
+In addition, customers staying in a Wetherspoons hotel can now move their reservation to another date. If a customer feels unwell during their stay, customers are advised to stay in their room and contact the hotel they are staying at by telephone, hotel staff will then advise the customer what to do next.[131]
+
+Economics
+The governor of the Bank of England called on the British government to provide support to businesses affected by the virus[132] and was reported to be working with the Treasury to provide a stimulus package to prevent the British economy falling into recession.[133] Companies listed on the London stock markets have fallen in value with commentators citing worries about the virus.[134] To stimulate the economy, the Bank of England cut interest rates from 0.75 to 0.25 percent.[135] On 19 March the interest rate was again cut this time to 0.10% - the lowest rate in the banks 325 year existence.[136]
+
+Education
+See also: Impact of the 2019–20 coronavirus pandemic on education § United Kingdom
+Following cases in Italy, the Cransley School in Northwich, Cheshire, and Trinity Catholic College in Middlesbrough closed, as some of their pupils had returned with symptoms from Italy. 14 schools in England had closed by 28 February.[13] Loughborough University reported a student confirmed to have the virus after recent travel to Italy, and indicated that several staff members and students began self-isolation.[137]
+
+Coventry University first suspended all graduation ceremonies due to be held in March and April, [138] and from 20 March, suspended all face-to-face teaching, in favour of on-line delivery.[139] Many other higher education institutions took similar steps at around the same time.[140]
+
+On 18 March, the Welsh government announced that all schools in Wales would be closing by 20 March.[141] On the same day, Nicola Sturgeon announced that Scottish schools would be closing from the end of the week, and may not reopen before the summer.[142] Later that day, it was announced that schools in Northern Ireland would close to pupils immediately and to staff on 20 March.[143] Shortly thereafter, the UK Education Secretary Gavin Williamson announced that schools in England would close from 20 March for an unspecified length of time.[144] Prime Minister Boris Johnson said, however, that schools will still look after the children of keyworkers, and vulnerable children.
+
+Law and order
+There have been isolated reports of hate incidents against Italian and Chinese persons and a Singaporean student was assaulted in London in an attack that police linked to coronavirus fears.[145] On 17 March trials lasting longer than three days were postponed until May in England and Wales, while Scottish courts were not starting any new trial indefinitely. In England and Wales those cases already running would continue in the hope of reaching a conclusion.[146][147]
+
+Prisons
+On 18 March, the first coronavirus case was reported in a UK prison. The prisoner, who had been serving time in HMP Manchester (commonly referred to as Strangeways), was moved to a hospital. While no other prisoners or staff tested positive for the virus, thirteen prisoners and four members of staff were put into isolation as a precaution.[148] Prison visits remained open, but the situation is being monitored.[149]
+
+Sport
+On 5 March the England–Italy fixtures in the mens' and womens' Six Nations tournaments set to be played in Rome on 14 and 15 March were postponed by tournament organisers after the Italian government introduced restrictions on attendances to sporting events.[150] Scotland's Women's Six Nations home fixture against France on 7 March was also postponed after one Scotland player tested positive for the virus.[151]
+
+To contain the spread of the virus the Premier League announced on 6 March an end to pre-match fair play handshakes between players and officials.[152] On 10 March, the Premier League match between Manchester City and Arsenal was postponed in light of confirmation that Nottingham Forest and Olympiacos owner Evangelos Marinakis had contracted the virus. Marinakis had met with several Arsenal players when the London side hosted Olympiacos in a Europa League round of 32 match.[153] The four-day Cheltenham Festival however continued as planned from 10 March with enhanced hygiene measures in place.[154]
+
+On 12 March it was announced that Arsenal manager Mikel Arteta had tested positive to COVID-19,[155] and the next day Chelsea midfielder Callum Hudson-Odoi became the first Premier League player to test positive for coronavirus.[156] Professional football was later suspended across the United Kingdom on 13 March, with the Premier League, English Football League, Women's Super League, and Welsh and Northern Irish football leagues delaying matches until the beginning of April[157] and the Scottish Professional Football League suspending matches indefinitely.[158] Professional football in England was later postponed until the end of April.[159] The same day saw the postponement of the London Marathon from its scheduled date of 24 April to 6 October.[160] The Manchester and Brighton Marathons were also delayed from their April dates until the autumn.[160]
+
+The next five days saw a flurry of sporting cancellations. Five fixtures set to be played on Saturday 14 March in the National League were abandoned,[161] with all matches across both the National League and the Northern Premier League suspended two days later and the Football Association recommending the postponement of grassroots level football "for the foreseeable future".[162] The Welsh Rugby Union discontinued all rugby matches across Wales from Saturday evening until the end of the month.[163] On Sunday 15 March the Netball Superleague was postponed.[164] Premiership Rugby was suspended for five weeks on Monday 16 March, with all rugby activities in England being delayed until 14 April.[165] Monday also saw the first peacetime cancellation of the Boat Race,[166] the postponement of the Edinburgh Marathon from May to September,[167] and the cancellation of the Grand National.[168]
+
+On 17 March all motor racing sanctioned by the national governing body Motorsport UK were cancelled until May.[169] All horse racing events were suspended the following day.[168] Also on the same day the British Boxing Board of Control (BBBofC) confirmed that all Boxing events would be cancelled until further notice with a review taking place sometime in April.[170]
+
+Arts and entertainment
+On 13 March BBC Radio 1 announced that it would cancel its Big Weekend music festival, scheduled to take place in Dundee over the Spring Bank Holiday weekend at the end of May.[171] Other music events to be cancelled included the C2C: Country to Country festival, the UK's largest country music event,[172] and the 2020 Glastonbury Festival which was cancelled on 18 March.[173] Among the artists and bands to postpone or cancel UK gigs or tours were Avril Lavigne and The Who.[172][174] Others, including Chris Martin of Coldplay, Yungblud, Keith Urban and Christine And The Queens responded to the situation by live-streaming gigs through social media.[175]
+
+On 15 March, London's Old Vic became the first West End theatre to cancel a performance when it ended its run of Samuel Beckett's Endgame two weeks early.[176] On 16 March, other theatres in London, as well as elsewhere around the UK, closed following Boris Johnson's advice that people should avoid such venues.[177] On 17 March, cinema chains Odeon, Cineworld, Vue and Picturehouse announced they would be closing all of their UK outlets.[178]
+
+Television programmes to be affected included forthcoming series of Peaky Blinders and Line of Duty, which had their filming schedules delayed.[179] On 13 March, ITV announced that the 2020 series finale of Ant & Dec's Saturday Night Takeaway, scheduled to be broadcast from Walt Disney World in Florida would no longer go ahead after the resort announced its intention to close as a precautionary measure.[180] On 16 March, ITV announced that the filming schedule for its two soaps, Coronation Street and Emmerdale had not been affected by the pandemic, but said the programmes would "remind people of important public health issues" like hand-washing.[179] Two days later ITV said that the filming schedule for Coronation Street would change, and the number of weekly episodes be reduced,[181] while the semi-final of the ninth series of The Voice UK, scheduled for Saturday 28 March, would be postponed until later in the year.[182] Also on 16 March, the BBC delayed the implementation of its planned changes to TV licences for those aged over 75 from June to August.[183]
+
+On 17 March the BBC announced major changes to the schedule across the network. While programmes such as Politics Live, Victoria Derbyshire, The Andrew Neil Show, Newswatch, The Travel Show and HARDtalk were suspended, others such as Newsnight and The Andrew Marr Show would continue with a smaller number of production staff. Question Time would be moved to an earlier timeslot and be broadcast without an audience from a fixed location. Podcasts programmes Americast, Beyond Today and The Next Episode were also suspended.[184] On 18 March it was announced that filming on the sets of Casualty, Doctors, EastEnders, Holby City, Pobol y Cwm and River City would be suspended. The broadcaster additionally announced that the number of weekly episodes of EastEnders would be reduced to ensure that it remained on screen for as long as possible.[181] The BBC also said that it would show more educational programmes to cater for children not attending school, and that it was in talks with the Department for Education and schools to support GCSE and A Level curriculums with extra programmes on BBC Four and the BBC Red Button service.[185] The BBC would also broadcast more programmes focused on health, fitness, education, religion and food recipes, while both the BBC and ITV would produce a weekly prime-time programme giving the public information about the coronavirus pandemic.[182] On the same day the 2020 Eurovision Song Contest, scheduled to be held in Rotterdam in May, was also cancelled.[186]
+
+On radio the BBC World Service programmes The World This Week, World Update and Weekend were all suspended. Radio news summaries on Radio 2, Radio 3, Radio 4 and Radio 5 Live were merged into a single output, with BBC 6 Music using the same script. The BBC Asian Network and Newsbeat worked together to maintain production of stories. Week in Westminster which broadcasts on Radio 4 was also suspended.[184] On 18 March, the BBC announced that its local radio stations in England would broadcast a virtual church service, led initially by the Archbishop of Canterbury, but with plans to expand religious services to cover other faiths.[182] On the same day Radio News Hub, a radio news bulletin provider based in Leeds announced that it would produce a daily ten-minute programme giving a round-up of information about the pandemic and that would be made available free of charge to radio stations.[187]
+
+Royal Family
+On 19 March the Queen issued a message to the nation noting that the country and the world was entering a period of great concern and uncertainty.[188] The Queen's grandsons Harry and William both sent messages out via social media.[189] While Princess Beatrice cancelled her wedding reception at Buckingham Palace and was taking further advice whether to carry on with a private wedding ceremony.[190]
+
+Spread to other countries and territories
+Sophie Grégoire Trudeau, the wife of Canadian Prime Minister Justin Trudeau, tested positive for Covid-19 upon her return from WE Day events in the UK; on 12 March 2020 the Trudeau family entered two weeks of self-isolation.[191] The first patient in Mauritius was a 59-year-old man who returned from the United Kingdom on 7 March 2020. When he arrived in Mauritius, the Mauritian had no symptoms.[192] Other cases of the novel coronavirus resulting from travel to the UK were subsequently reported in India,[193][194] Nigeria,[195] and Jamaica[196] among other countries.
+
+Statistics
+The figures in the table below represent laboratory confirmed cases only; however, as indicated by the UK Government's Chief Scientific Adviser Sir Patrick Vallance, it is likely that other cases in the UK are not reflected in these figures (with the national total estimated at 5,000–10,000 as of 12 March 2020)
+

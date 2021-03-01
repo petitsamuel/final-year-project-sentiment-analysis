@@ -1,0 +1,119 @@
+
+Detection of an Infectious Retrovirus, XMRV, in Blood Cells of Patients with Chronic Fatigue Syndrome
+Vincent C. Lombardi1,*, Francis W. Ruscetti2,*, Jaydip Das Gupta3, Max A. Pfost1, Kathryn S. Hagen1, Daniel L. Peterson1, Sandra K. Ruscetti4, Rachel K. Bagni5, Cari Petrow-Sadowski6, Bert Gold2, Michael Dean2, Robert H. Silverman3, Judy A. Mikovits1,†
+1Whittemore Peterson Institute, Reno, NV 89557, USA.
+2Laboratory of Experimental Immunology, National Cancer Institute–Frederick, Frederick, MD 21701, USA.
+3Department of Cancer Biology, The Lerner Research Institute, The Cleveland Clinic Foundation, Cleveland, OH 44195, USA.
+4Laboratory of Cancer Prevention, National Cancer Institute–Frederick, Frederick, MD 21701, USA.
+5Advanced Technology Program, National Cancer Institute–Frederick, Frederick, MD 21701, USA.
+6Basic Research Program, Scientific Applications International Corporation, National Cancer Institute–Frederick, Frederick, MD 21701, USA.
+?†To whom correspondence should be addressed. E-mail: judym@wpinstitute.org
+ Hide authors and affiliations
+
+Science  23 Oct 2009:
+Vol. 326, Issue 5952, pp. 585-589
+DOI: 10.1126/science.1179052
+Article
+Figures & Data
+Info & Metrics
+eLetters
+ PDF
+This article has been retracted. Please see:
+Is retracted by - December 23, 2011
+Is retracted by - October 14, 2011
+Abstract
+Chronic fatigue syndrome (CFS) is a debilitating disease of unknown etiology that is estimated to affect 17 million people worldwide. Studying peripheral blood mononuclear cells (PBMCs) from CFS patients, we identified DNA from a human gammaretrovirus, xenotropic murine leukemia virus–related virus (XMRV), in 68 of 101 patients (67%) as compared to 8 of 218 (3.7%) healthy controls. Cell culture experiments revealed that patient-derived XMRV is infectious and that both cell-associated and cell-free transmission of the virus are possible. Secondary viral infections were established in uninfected primary lymphocytes and indicator cell lines after their exposure to activated PBMCs, B cells, T cells, or plasma derived from CFS patients. These findings raise the possibility that XMRV may be a contributing factor in the pathogenesis of CFS.
+
+SIGN UP FOR THE SCIENCE eTOC
+Get the latest issue of Science delivered right to you!
+
+Email
+Email address*
+
+Chronic fatigue syndrome (CFS) is a disorder of unknown etiology that affects multiple organ systems in the body. Patients with CFS display abnormalities in immune system function, often including chronic activation of the innate immune system and a deficiency in natural killer cell activity (1, 2). A number of viruses, including ubiquitous herpesviruses and enteroviruses, have been implicated as possible environmental triggers of CFS (1). Patients with CFS often have active ? herpesvirus infections, suggesting an underlying immune deficiency.
+
+The recent discovery of a gammaretrovirus, xenotropic murine leukemia virus–related virus (XMRV), in the tumor tissue of a subset of prostate cancer patients prompted us to test whether XMRV might be associated with CFS. Both of these disorders, XMRV-positive prostate cancer and CFS, have been linked to alterations in the antiviral enzyme RNase L (3–5). Using the Whittemore Peterson Institute’s (WPI’s) national tissue repository, which contains samples from well-characterized cohorts of CFS patients, we isolated nucleic acids from PBMCs and assayed the samples for XMRV gag sequences by nested polymerase chain reaction (PCR) (5, 6). Of the 101 CFS samples analyzed, 68 (67%) contained XMRV gag sequence. Detection of XMRV was confirmed in 7 of 11 WPI CFS samples at the Cleveland Clinic by PCR-amplifying and sequencing segments of XMRV env [352 nucleotides (nt)] and gag (736 nt) in CFS PBMC DNA (Fig. 1A) (6). In contrast, XMRV gag sequences were detected in 8 of 218 (3.7%) PBMC DNA specimens from healthy individuals. Of the 11 healthy control DNA samples analyzed by PCR for both env and gag, only one sample was positive for gag and none for env (Fig. 1B). In all positive cases, the XMRV gag and env sequences were more than 99% similar to those previously reported for prostate tumor–associated strains of XMRV (VP62, VP35, and VP42) (fig. S1) (5).
+
+
+ Download high-res image
+ Open in new tab
+ Download Powerpoint
+Fig. 1
+XMRV sequences in PBMC DNA from CFS patients. Single-round PCR results for gag, env, and gapdh sequences in PBMCs of (A) CFS patients and (B) healthy controls are shown. The positions of the amplicons are indicated and DNA markers (ladder) are shown. These are representative results from one group of 20 patients.
+
+Sequences of full-length XMRV genomes from two CFS patients and a partial genome from a third patient were generated (table S1). CFS XMRV strains 1106 and 1178 each differed by 6 nt from the reference prostate cancer strain XMRV VP62 (EF185282), and with the exception of 1 nt, the variant nucleotides mapped to different locations within the XMRV genome, suggesting independent infections. In comparison, prostate cancer–derived XMRV strains VP35 and VP42 differed from VP62 by 13 and 10 nt, respectively. Thus, the complete XMRV genomes in these CFS patients were >99% identical in sequence to those detected in patients with prostate cancer. To exclude the possibility that we were detecting a murine leukemia virus (MLV) laboratory contaminant, we determined the phylogenetic relationship among endogenous (non-ecotropic) MLV sequences, XMRV sequences, and sequences from CFS patients 1104, 1106, and 1178 (fig. S2). XMRV sequences from the CFS patients clustered with the XMRV sequences from prostate cancer cases and formed a branch distinct from non-ecotropic MLVs common in inbred mouse strains. Thus, the virus detected in the CFS patients’ blood samples is unlikely to be a contaminant.
+
+To determine whether XMRV proteins were expressed in PBMCs from CFS patients, we developed intracellular flow cytometry (IFC) and Western blot assays, using antibodies (Abs) with novel viral specificities. These antibodies included, among others, (i) rat monoclonal antibody (mAb) to the spleen focus-forming virus (SFFV) envelope (Env), which reacts with all polytropic and xenotropic MLVs (7); (ii) goat antisera to whole mouse NZB xenotropic MLV; and (iii) a rat mAb to MLV p30 Gag (8). All of these Abs detected the human VP62 XMRV strain grown in human Raji, LNCaP, and Sup-T1 cells (fig. S3) (5). IFC of activated lymphocytes (6, 9) revealed that 19 of 30 PBMC samples from CFS patients reacted with the mAb to MLV p30 Gag (Fig. 2A). The majority of the 19 positive samples also reacted with antisera to other purified MLV proteins (fig. S4A). In contrast, 16 healthy control PBMC cultures tested negative (Fig. 2A and fig. S4A). These results were confirmed by Western blots (Fig. 2, B and C) (6) using Abs to SFFV Env, mouse xenotropic MLV, and MLV p30 Gag. Samples from five healthy donors exhibited no expression of XMRV proteins (Fig. 2C). The frequencies of CFS cases versus healthy controls that were positive and negative for XMRV sequences were used to calculate a Pearson ?2 value of 154 (two-tailed P value of 8.1 × 10?35). These data yield an odds ratio of 54.1 (a 95% confidence interval of 23.8 to 122), suggesting a nonrandom association with XMRV and CFS patients.
+
+
+ Download high-res image
+ Open in new tab
+ Download Powerpoint
+Fig. 2
+Expression of XMRV proteins in PBMCs from CFS patients. (A) PBMCs were activated with phytohemagglutinin and interleukin-2, reacted with a mAb to MLV p30 Gag, and analyzed by IFC. (B) Lysates of activated PBMCs from CFS patients (lanes 1 to 5) were analyzed by Western blots with rat mAb to SFFV Env (top panel), goat antiserum to xenotropic MLV (middle panel), or goat antiserum to MLV p30 Gag (bottom panel). Lane 7, lysate from SFFV-infected HCD-57 cells. Molecular weight markers in kilodaltons are at left. (C) Lysates of activated PBMCs from healthy donors (lanes 1, 2, 4, 5, and 7) or from CFS patients (lanes 3 and 6) were analyzed by Western blots using rat mAb to SFFV Env (top panel) or goat antiserum to MLV p30 Gag (bottom panel). Lane 8, SFFV-infected HCD-57 cells. Molecular weight (MW) markers in kilodaltons are at left. (D) CD4+ T cells (left) or CD19+ B cells (right) were purified, activated, and examined by flow cytometry for XMRV Gag with a mAb to MLV p30 Gag.
+
+To determine which types of lymphocytes in blood express XMRV, we isolated B and T cells from one patient’s PBMCs (6). Using mAb to MLV p30 Gag and IFC, we found that both activated T and B cells were infected with XMRV (Fig. 2D and fig. S4A). Furthermore, using mAb to SFFV Env, we found that >95% of the cells in a B cell line developed from another patient were positive for XMRV Env (fig. S4B). XMRV protein expression in CFS patient–derived activated T and B cells grown for 42 days in culture was confirmed by Western blots (fig. S4C) using Abs to SFFV Env and xenotropic MLV.
+
+We next investigated whether the viral proteins detected in PBMCs from CFS patients represent infectious XMRV. Activated lymphocytes (6) were cocultured with LNCaP, a prostate cancer cell line with defects in both the JAK-STAT and RNase L pathways (10, 11) that was previously shown to be permissive for XMRV infection (12). After coculture with activated PBMCs from CFS patients, LNCaP cells expressed XMRV Env and multiple XMRV Gag proteins when analyzed by Western blot (Fig. 3A) and IFC (fig. S5A). Transmission electron microscopy (EM) of the infected LNCaP cells (Fig. 3B), as well as virus preparations from these cells (Fig. 3C), revealed 90- to 100-nm-diameter budding particles consistent with a gamma (type C) retrovirus (13).
+
+
+ Download high-res image
+ Open in new tab
+ Download Powerpoint
+Fig. 3
+Infectious XMRV in PBMCs from CFS patients. (A) Lysates of LNCaP cells cocultured with PBMCs from CFS patients (lanes 1, 3, and 5) or healthy donors (lanes 2 and 4) were analyzed by Western blots with rat mAb to SFFV Env (top panel) or goat antiserum to xenotropic MLV (bottom panel). Lane 6, uninfected LNCaP; lane 7, SFFV-infected HCD-57 cells. MW markers in kilodaltons are at left. (B) Transmission electron micrograph of a budding viral particle from LNCaP cells infected by incubation with an activated T cell culture from a CFS patient. (C) Transmission electron micrograph of virus particles released by infected LNCaP cells.
+
+We also found that XMRV could be transmitted from CFS patient plasma to LNCaP cells when we applied a virus centrifugation protocol to enhance infectivity (6, 14, 15). Both XMRV gp70 Env and p30 Gag were abundantly expressed in LNCaP cells incubated with plasma samples from 10 of 12 CFS patients, whereas no viral protein expression was detected in LNCaP cells incubated with plasma samples from 12 healthy donors (Fig. 4A). Likewise, LNCaP cells incubated with patient plasma tested positive for XMRV p30 Gag in IFC assays (fig. S5B). We also observed cell-free transmission of XMRV from the PBMCs of CFS patients to the T cell line SupT1 (Fig. 4B) and both primary and secondary transmission of cell-free virus from the activated T cells of CFS patients to normal T cell cultures (Fig. 4C). Together, these results suggest that both cell-associated and cell-free transmission of CFS-associated XMRV are possible.
+
+
+ Download high-res image
+ Open in new tab
+ Download Powerpoint
+Fig. 4
+Infectious XMRV and antibodies to XMRV in CFS patient plasma. (A) Plasma from CFS patients (lanes 1 to 6) were incubated with LNCaP cells and lysates were prepared after six passages. Viral protein expression was detected by Western blots with rat mAb to SFFV Env (top panel) or goat antiserum to MLV p30 Gag (bottom panel). Lane 7, uninfected LNCaP; lane 8, SFFV-infected HCD-57 cells. MW markers in kilodaltons are at left. (B) Cell-free transmission of XMRV to the SupT1 cell line was demonstrated using transwell coculture with patient PBMCs, followed by nested gag PCR. Lane 1, MW marker. Lane 2, SupT1 cocultured with Raji. Lanes 3 to 7, SupT1 cocultured with CFS patient PBMCs. Lane 8, no template control (NTC). (C) Normal T cells were exposed to cell-free supernatants obtained from T cells (lanes 1, 5, and 6) or B cells (lane 4) from CFS patients. Lanes 7 and 8 are secondary infections of normal activated T cells. Initially, uninfected primary T cells were exposed to supernatants from PBMCs of patients WPI-1220 (lane 7) and WPI-1221 (lane 8). Lanes 2 and 3, uninfected T cells; lane 9, SFFV-infected HCD-57 cells. Viral protein expression was detected by Western blot with a rat mAb to SFFV Env. MW markers in kilodaltons are at left. (D) Plasma samples from a CFS patient or from a healthy control as well as SFFV Env mAb or control were reacted with BaF3ER cells (top) or BaF3ER cells expressing recombinant SFFV Env (bottom) and analyzed by flow cytometry. IgG, immunoglobulin G.
+
+We next investigated whether XMRV stimulates an immune response in CFS patients. For this purpose, we developed a flow cytometry assay that allowed us to detect Abs to XMRV Env by exploiting its close homology to SFFV Env (16). Plasma from 9 out of 18 CFS patients infected with XMRV reacted with a mouse B cell line expressing recombinant SFFV Env (BaF3ER-SFFV-Env) but not to SFFV Env negative control cells (BaF3ER), analogous to the binding of the SFFV Env mAb to these cells (Fig. 4D and S6A). In contrast, plasma from seven healthy donors did not react (Fig. 4D and fig. S6A). Furthermore, all nine positive plasma samples from CFS patients but none of the plasma samples from healthy donors blocked the binding of the SFFV Env mAb to SFFV Env on the cell surface (fig. S6B). These results are consistent with the hypothesis that CFS patients mount a specific immune response to XMRV.
+
+Neurological maladies and immune dysfunction with inflammatory cytokine and chemokine up-regulation are some of the most commonly reported features associated with CFS. Several retroviruses, including the MLVs and the primate retroviruses HIV and HTLV-1, are associated with neurological diseases as well as cancer (17). Studies of retrovirus-induced neurodegeneration in rodent models have indicated that vascular and inflammatory changes mediated by cytokines and chemokines precede the neurological pathology (18, 19). The presence of infectious XMRV in lymphocytes may account for some of these observations of altered immune responsiveness and neurological function in CFS patients.
+
+We have discovered a highly significant association between the XMRV retrovirus and CFS. This observation raises several important questions. Is XMRV infection a causal factor in the pathogenesis of CFS or a passenger virus in the immunosuppressed CFS patient population? What is the relationship between XMRV infection status and the presence or absence of other viruses that are often associated with CFS (e.g., herpesviruses)? Conceivably these viruses could be cofactors in pathogenesis, as is the case for HIV-mediated disease, in which co-infecting pathogens play an important role (20). Patients with CFS have an elevated incidence of cancer (21). Does XMRV infection alter the risk of cancer development in CFS? As noted above, XMRV has been detected in prostate tumors from patients expressing a specific genetic variant of the RNASEL gene (5). In contrast, in our study of this CFS cohort, we found that XMRV infection status does not correlate with the RNASEL genotype (6) (table S2).
+
+Finally, it is worth noting that 3.7% of the healthy donors in our study tested positive for XMRV sequences. This suggests that several million Americans may be infected with a retrovirus of as yet unknown pathogenic potential.
+
+Supporting Online Material
+www.sciencemag.org/cgi/content/full/1179052/DC1
+
+Materials and Methods
+
+Figs. S1 to S6
+
+Tables S1 and S2
+
+References
+
+?* These authors contributed equally to this work.
+
+References and Notes
+? L. D. Devanur, J. R. Kerr, J. Clin. Virol. 37, 139 (2006). doi:10.1016/j.jcv.2006.08.013 pmid:16978917CrossRefPubMedWeb of ScienceGoogle Scholar
+? T. L. Whiteside, D. Friberg, Am. J. Med. 105, 27S (1998). doi:10.1016/S0002-9343(98)00155-7 pmid:9790479PubMedGoogle Scholar
+? R. J. Suhadolnik et al., J. Interferon Cytokine Res. 17, 377 (1997). doi:10.1089/jir.1997.17.377 pmid:9243369PubMedWeb of ScienceGoogle Scholar
+G. Casey et al., Nat. Genet. 32, 581 (2002). doi:10.1038/ng1021 pmid:12415269CrossRefPubMedGoogle Scholar
+? A. Urisman et al., PLoS Pathog. 2, e25 (2006). doi:10.1371/journal.ppat.0020025CrossRefPubMedGoogle Scholar
+?
+Materials and methods are available as supporting material on Science Online.
+? R. Wolff, S. Koller, J. Ruscetti, Virology 43, 472 (1982).Web of ScienceGoogle Scholar
+? B. Chesebro et al., Virology 127, 134 (1983). doi:10.1016/0042-6822(83)90378-1 pmid:6305011CrossRefPubMedWeb of ScienceGoogle Scholar
+? K. A. Smith, F. W. Ruscetti, Adv. Immunol. 31, 137 (1981). doi:10.1016/S0065-2776(08)60920-7 pmid:6172026PubMedWeb of ScienceGoogle Scholar
+? G. Dunn, K. Sheehan, L. Old, R. Schreiber, Cancer Res. 65, 3447 (2005). pmid:15833880Abstract/FREE Full TextGoogle Scholar
+? Y. Xiang et al., Cancer Res. 63, 6795 (2003). pmid:14583476Abstract/FREE Full TextGoogle Scholar
+? B. Dong et al., Proc. Natl. Acad. Sci. U.S.A. 104, 1655 (2007). doi:10.1073/pnas.0610291104 pmid:17234809Abstract/FREE Full TextGoogle Scholar
+? B. J. Poiesz et al., Proc. Natl. Acad. Sci. U.S.A. 77, 7415 (1980). doi:10.1073/pnas.77.12.7415 pmid:6261256Abstract/FREE Full TextGoogle Scholar
+? G. R. Pietroboni, G. B. Harnett, M. R. Bucens, J. Virol. Methods 24, 85 (1989). doi:10.1016/0166-0934(89)90010-4 pmid:2668317CrossRefPubMedWeb of ScienceGoogle Scholar
+? S. M. Yoo et al., J. Virol. Methods 154, 160 (2008). doi:10.1016/j.jviromet.2008.07.026 pmid:18755221CrossRefPubMedWeb of ScienceGoogle Scholar
+? L. Wolff, E. Scolnick, S. Ruscetti, Proc. Natl. Acad. Sci. U.S.A. 80, 4718 (1983). doi:10.1073/pnas.80.15.4718 pmid:6308646Abstract/FREE Full TextGoogle Scholar
+? C. Power, Trends Neurosci. 24, 162 (2001). doi:10.1016/S0166-2236(00)01737-9 pmid:11182456CrossRefPubMedWeb of ScienceGoogle Scholar
+? X. Li, C. Hanson, J. Cmarik, S. Ruscetti, J. Virol. 83, 4912 (2009). doi:10.1128/JVI.02343-08 pmid:19279110Abstract/FREE Full TextGoogle Scholar
+? K. E. Peterson, B. Chesebro, Curr. Top. Microbiol. Immunol. 303, 67 (2006). doi:10.1007/978-3-540-33397-5_4 pmid:16570857PubMedWeb of ScienceGoogle Scholar
+? A. Lisco, C. Vanpouille, L. Margolis, Curr. HIV/AIDS Rep. 6, 5 (2009). doi:10.1007/s11904-009-0002-3 pmid:19149991CrossRefPubMedGoogle Scholar
+? P. H. Levine et al., Cancer Res. 52, 5516s (1992). pmid:1394166Abstract/FREE Full TextGoogle Scholar
+We thank D. Bertolette, Y. Huang, C. Hanson, and J. Troxler for technical assistance; K. Nagashima for EM; and C. Ware and K. Hunter for discussions. Funded by the Whittemore Peterson Institute and the Whittemore Family Foundation; the National Cancer Institute (NCI); NIH (under contract HHSN26120080001E); and grants to R.H.S. from NCI/NIH (CA104943), the U.S. DoD Prostate Cancer Research Program (W81XWH-07-1338), the V Foundation for Cancer Research, the Charlotte Geyer Foundation, and Mal and Lea Bank. The content of this publication does not reflect the views or policies of the U.S. DHHS, nor does mention of trade names, commercial products, or organizations imply endorsement by the U.S. government. R.H.S. may receive royalty payments in the future from Abbott Laboratories. GenBank accession numbers are as follows: WPI-1130, GQ483508; WPI-1138, GQ483509; WPI-1169, GQ483510; WPI-1178, GQ497343; WPI-1106, GQ497344; and WPI-1104, GQ497345.Note added in proof: V.C.L. is operations manager of Viral Immune Pathologies Laboratory, which is in negotiations with the Whittemore Peterson Institute to offer a dianostic test for XMRV.

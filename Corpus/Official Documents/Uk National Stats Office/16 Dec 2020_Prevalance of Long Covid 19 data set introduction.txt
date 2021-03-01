@@ -1,0 +1,44 @@
+The Office for National Statistics (ONS) has announced plans for estimating the prevalence of, and risk factors for, "long COVID" symptoms and health complications following coronavirus (COVID-19) infection. An initial set of early experimental results has also been released.
+
+Background
+There has been a number of reports of COVID-19 symptoms extending beyond the acute phase of infection, colloquially termed "long COVID". A range of multiorgan complications following COVID-19 infection – including respiratory, cardiovascular, metabolic and renal impairments – have also been hypothesised among commentators. There is currently a lack of robust evidence on the prevalence of these symptoms or conditions with which to inform government policy and treatment provision.
+
+The ONS plans to estimate the prevalence of long COVID symptoms using the national Coronavirus (COVID-19) Infection Survey (CIS). We will also make use of linked healthcare and Census datasets to investigate health complications following COVID-19 infection. Our plans for both these research avenues, as well as experimental results obtained to date, are summarised below. Although this research is in its infancy, we felt it important to publish our early results in order to fill an important gap in the evidence base, and to provide a basis for discussion from which to inform the future direction of the research.
+
+We have engaged with several organisations and patient groups while forming our research plans and will continue to do so as we conduct our analysis. If you would like to share your thoughts on our proposals and help shape our research, please contact us by email at health.data@ons.gov.uk (quoting “long COVID” in the subject line).
+
+Estimating the prevalence of long COVID symptoms
+This research strand aims to quantify the prevalence of, and risk factors for, long COVID symptoms following a confirmed or suspected infection. The Coronavirus (COVID-19) Infection Survey is a nationally-representative sample of the UK community population, and data items collected include COVID-19 test results and respondent-reported data on symptoms. To date, we have estimated that:
+
+Around 1 in 5 respondents testing positive for COVID-19 exhibit symptoms for a period of 5 weeks or longer
+
+Around 1 in 10 respondents testing positive for COVID-19 exhibit symptoms for a period of 12 weeks or longer
+
+Using these estimates (along with the equivalent proportions for durations of 6 to 11 weeks) and the published weekly incidence rates from the COVID-19 Infection Survey (see Table 2a in the data tables section of that release), we estimate that during the week commencing 22 November 2020, around 186,000 people in private households in England were living with symptoms that had persisted for between 5 and 12 weeks, with a 95% confidence interval of 153,000 to 221,000.
+
+More detailed results can be found in the accompanying data tables.
+
+This is our first attempt at producing these estimates, and the analysis is very much a work in progress. We will seek to further refine the estimates, for example by using more sophisticated statistical techniques to account for the possibility of relapse and, should sample sizes allow, investigate symptoms persisting beyond 12 weeks.
+
+Early next year, a new long COVID question will be added to the COVID-19 Infection Survey, allowing respondents to state the impact long COVID has had on their day-to-day activities, and including an expanded list of symptoms. This new data will allow us to enrich our analysis, for example by estimating the proportion of people with long COVID symptoms who are burdened by the condition.
+
+Investigating COVID-19 complications
+This research strand aims to characterise the nature of complications following COVID-19 infection and diagnosis using linked primary care and hospital records, national COVID-19 testing data, death registrations, and data from the 2011 Census of England and Wales.
+
+To date, we have analysed the healthcare records of patients in hospital with COVID-19 until the end of August 2020. We have compared the rates of adverse events experienced by these patients (until the end of September 2020) with those of a group of matched control patients; that is, patients similar to those in hospital with COVID-19 in terms of their demographic and clinical characteristics, but who themselves have not been in hospital with COVID-19. Full results can be found in Tables 4 and 5 of the accompanying data tables. In summary:
+
+patients in hospital with COVID-19 experienced elevated rates of metabolic, cardiovascular, kidney and liver disease compared with patients of similar demographic and clinical profiles over the same period
+
+the rates of diabetes and cardiovascular disease were particularly pronounced at: 179 and 112 per 1,000 patient-years, respectively, among patients in critical care; and 131 and 162 per 1,000 patient-years, respectively, among patients outside of critical care
+
+While these results do not confirm the presence of a causal relationship between COVID-19 hospitalisation and subsequent adverse health events, they are suggestive of a statistical association that warrants further investigation.
+
+Our plans for developing this research stream include:
+
+updating the analysis to include more recent observations, including those from the "second wave" of infection
+
+utilising new long COVID diagnosis information that has recently started being collected in computer systems used by General Practitioners
+
+linking to national testing data, so that the analysis can be extended to community settings and not just people in hospital with COVID-19
+
+linking data from the 2011 Census of England and Wales, allowing us to consider a broad range of socio-economic risk factors for COVID-19 complications

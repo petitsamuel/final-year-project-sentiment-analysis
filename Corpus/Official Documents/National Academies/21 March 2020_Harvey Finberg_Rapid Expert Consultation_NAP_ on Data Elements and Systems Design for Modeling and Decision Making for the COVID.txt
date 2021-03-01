@@ -1,0 +1,70 @@
+Rapid Expert Consultation on Data Elements and Systems Design for Modeling and Decision Making for the COVID-19 Pandemic (March 21, 2020)
+March 21, 2020
+
+Kelvin Droegemeier, Ph.D.
+
+Office of Science and Technology Policy
+
+Executive Office of the President
+
+Eisenhower Executive Office Building
+
+1650 Pennsylvania Avenue, NW
+
+Washington, DC 20504
+
+Dear Dr. Droegemeier:
+
+This letter responds to your question about necessary data elements, sources of data, gaps in collection, and suggestions for data system design and integration to improve modeling and decision making for COVID-19.
+
+We enumerate eight basic points of perspective on the question you posed.
+
+Utilizing existing databases and focusing on accessibility, usability, interoperability, and scalability will lead more rapidly to functional data systems than attempting to build systems from scratch.
+It is better to start with basic functions that cover only the fundamental needs for viral tracking, epidemic monitoring and modeling, clinical management, resource deployment, and public communication.
+Depending on the intended range of users and uses, the relevant data may include disease surveillance, longitudinal clinical health information, human genomic data, viral genomic data, medical supplies and logistics, and sociodemographic and behavioral data.
+Choices about system architecture, design elements, and desired outputs are best made in concert with choices of software and system platforms.
+Integration will be a challenge across public and private sources; clinical care and public health; and local, state, and national levels.
+Anticipate the need to fill gaps in currently available data systems, including in public health information currently collected by individual states and local authorities.1
+Attempt to design so as to reduce tradeoffs across accessibility and security, ease of use and comprehensiveness, and local utility and scalability.
+Clarity about the prospective users and purposes of the system will greatly aid making sensible design choices and tradeoffs. A data system intended to serve all needs for everyone is liable to end up satisfying no one’s basic needs.
+We can use data systems to (1) determine community spread and impact; (2) monitor the clinical spectrum of illness to include response to treatment; and (3) provide accurate, up-to-date information to feed into models to forecast disease rates and subsequent clinical and logistical needs and the effectiveness of mitigation plans. All three contribute to the public health and clinical and logistical response to an epidemic.
+
+Useful community patient data precede specific diagnoses of a COVID-19 infection. Available systems illustrate the richness of current data gathering and the opportunity for integration and interoperability. At a syndromic level (symptoms and signs prior to a final diagnosis), the Centers for Disease Control and Prevention’s (CDC’s) National Syndromic Surveillance Program (NSSP) collects emergency room visit data across the United States, including the reason for the visit and, as appropriate, a diagnosis.2 Collaborating commercial laboratories are providing SARS-CoV-2 testing and results into the NSSP in a near-real-time basis. In addition, using traditional influenza surveillance programs that track influenza-like symptoms along with confirmed laboratory tests (CDC’s FluView), the NSSP is comparing emergency room symptoms with test results to assess divergence, which could indicate COVID-19 infections in those communities. The Flu Near You program out of HealthMap and the American Public Health Association is a participatory surveillance program that allows the public to report symptoms by geographic location. This program is being relaunched as a COVID Near You program that can also evaluate human behaviors along with health status. These programs illustrate the richness of existing data-gathering systems, to include smartphone technology and social media outreach, and an opportunity to take fuller advantage of the complementary information they provide.
+
+Complete and accurate clinical data may include exposure information, reliable markers of disease progression and severity, important comorbidities such as diabetes and heart and lung disease, relevant conditions such as pregnancy (and obstetric outcomes), treatment protocols, geo-locations, and mortality. These data ideally will come from trusted sources. Most hospitals use electronic data records that can differ across institutions, localities, and states. Deploying a system of systems, it may be possible to consolidate clinical data and augment these programs to include additional elements. The use of natural language processing on narrative notes and sharing the analysis through a distributed query architecture has been accomplished regionally for clinical research and could be expanded. Programs such as the Shared Health Research
+
+Information Network,3 the Patient-Centered Outcomes Research Institute’s Clinical Data Research Network4 and the Observational Health Data Sciences and Informatics’ Observational Medical Outcomes Partnership Common Data Model5 all support interoperability of core datasets. Starting with basic descriptive statistics of patients and expanding as more data and techniques are available can assist with triage and identify important biological themes. Whether for a known infectious pathogen or a novel one, the ability to model the pathogenesis, transmission, effective control strategies, and spread of a disease can provide crucial information to those needing to make decisions about the distribution of limited resources. An example of a successful collaborative effort is the Models of Infectious Disease Agent Study (MIDAS).6 This effort, funded by the National Institute of General Medical Sciences at the National Institutes of Health, is a global network of research scientists and practitioners who develop and use computational, statistical, and mathematical models to understand infectious disease dynamics. MIDAS has an online portal to share data and information regarding the COVID-19 pandemic and could be used as a resource for decision makers. To assist with forecasting disease progression and identifying important clinical markers before we obtain more data on COVID-19 in the United States, data from other countries, such as the daily number of hospitalizations, intensive care admissions, ventilator use, and deaths, can be used in forecasting expected epidemic progression and assist with clinical care decisions.
+
+Assessing the capacity of medical facilities to provide intensive care to those in need will facilitate the allocation of ICU beds and ventilators. Programs at local and regional levels currently monitor the availability of hospital beds and other resources, and expanding these programs would provide a national view of areas most in need. Tracking mortality from disease in relation to resources can aid in the interpretation of fatality rates and inform future pandemic preparedness.
+
+Current estimates surrounding the use of social interventions can be examined, evaluated, and adjusted using social data. The number of contacts being isolated and monitored and facility closings by state and region can be monitored along with de-identified social media postings that correlate with behaviors. Some insight into the impact of isolation and closings of schools, worksites, and volunteer programs can also be monitored through social media and voluntary reporting.
+
+Knowing how a virus mutates as it moves through a population is vital to understanding possible changes in disease severity or transmissibility, amenity to diagnosis, and responsiveness to vaccine. This is an issue of global interest and will involve scientists from many parts of the world. International data sharing and enlisting tech companies that have the ability to provide data acquisition and processing would be important components of a comprehensive data system.
+
+Moving forward, data collection tools can be designed to improve consolidation and sharing. For basic public health data, working with organizations that bring together local and state health
+departments (such as the Association of State and Territorial Health Officials [ASTHO], the National Association of County & City Health Officials [NACCHO], and the Council of State and Territorial Epidemiologists [CSTE]) would be a good starting point to ensure participation from across the public health community.
+
+By following these principles, we believe it will be possible to rapidly assemble data systems that can inform decisions on managing the epidemic.
+
+This response was prepared by staff of the National Academies of Sciences, Engineering, and Medicine based on input from Georges Benjamin, Ellen Embrey, Peggy Hamburg, Kent Kester, Patricia King, Jonna Mazet, Alexandra Phelan, Mark Smolinksi, David Walt, and me. Ned Calonge, The Colorado Trust; Marie Griffin and Kevin Johnson, Vanderbilt University Medical Center; Sandro Galea, Boston University; and Isaac Kohane, Harvard Medical School, reviewed this document, and Ellen Wright Clayton, Vanderbilt University, approved the document as monitor on behalf of the Report Review Committee.
+
+Should you desire more substantive and detailed recommendations on system design and content, we would be happy to take this up over a suitable time frame. My colleagues and I hope this input is helpful to you as you continue to guide the nation’s response in this ongoing public health crisis.
+
+Respectfully,
+
+Harvey V. Fineberg, M.D., Ph.D.
+
+Chair
+
+Standing Committee on Emerging Infectious Diseases and 21st Century Health Threats
+1 Local public health authorities can invoke section 45 CFR 164.512(b) of the Health Insurance Portability and Accountability Act (HIPAA) to obtain protected health information without authorization in order to prevent or control COVID-19.
+
+2 For additional information on the NSSP, see https://www.cdc.gov/nssp/images/nsspinfo/Final_NSSPInfographic.pdf.
+3 McMurry et al. 2013. SHRINE: Enabling nationally scalable multi-site disease studies. PLOS ONE 8(3):e55811. DOI: 10.1371/journal.pone.0055811.
+
+4 See https://www.pcori.org/research-results/pcornet%C2%AE-national-patient-centered-clinical-research-network.
+
+5 See https://www.ohdsi.org/data-standardization/the-common-data-model.
+
+6 See https://midasnetwork.us.
+

@@ -1,0 +1,68 @@
+Term	Department	S&IDep	SCODep	NRDep	WRDep	DMRDep	SRDep	SEDep	ERDep	RP&MEMDep	CE&PSDep	G&ADep	S&TDep	L&CDep	ES&CSDep
+Analysis Service	Department	S&IDep													
+Liason & Protection	Department	S&IDep													
+Liason and Protection	Department	S&IDep													
+Garda security & intelligence	Department	S&IDep													
+security & intelligence section	Department	S&IDep													
+security and intelligence section	Department	S&IDep													
+Garda security and intelligence	Department	S&IDep													
+security and intelligence branch	Department	S&IDep													
+security and intelligence agency	Department	S&IDep													
+Special Detective Unit	Department	S&IDep													
+Special Crime Operations	Department		SCODep												
+Drugs and organised crime bureau	Department		SCODep												
+organised crime unit	Department		SCODep												
+Drug and organised crime bureau	Department		SCODep												
+organised crime unit	Department		SCODep												
+organised crime branch	Department		SCODep												
+organised crime bureau	Department		SCODep												
+organised crime division	Department		SCODep												
+organised crime task force	Department		SCODep												
+drugs unit	Department		SCODep												
+Drugs & organised crime bureau	Department		SCODep												
+Drug & organised crime bureau	Department		SCODep												
+Economic Crime Unit	Department		SCODep												
+Economic Crime Bureau	Department		SCODep												
+Economic Crime Investigation Unit	Department		SCODep												
+National Immigration Bureau	Department		SCODep												
+Bureau of Criminal Investigation	Department		SCODep												
+Criminal Investigation Branch	Department		SCODep												
+Protective Services Bureau	Department		SCODep												
+Protective Service Bureau	Department		SCODep												
+Protective Services unit	Department		SCODep												
+Protective Service unit	Department		SCODep												
+Technical Bureau	Department		SCODep												
+criminal assets bureau	Department		SCODep												
+CAB	Department		SCODep												
+cyber crime bureau	Department		SCODep												
+Northern Region	Department			NRDep											
+Western Region	Department				WRDep										
+Dublin Metropolitan Region	Department					DMRDep									
+Southern Region	Department						SRDep								
+South Eastern Region	Department							SEDep							
+Eastern Region	Department								ERDep						
+Roads Policing Bureau	Department									RP&MEMDep					
+Fixed Charge Processing	Department									RP&MEMDep					
+Operational Support Services	Department									RP&MEMDep					
+Major Event Management	Department									RP&MEMDep					
+Crime Prevention Bureau	Department										CE&PSDep				
+Bureau of Community Engagement	Department										CE&PSDep				
+"Bureau of Community, Diversity & Integration"	Department										CE&PSDep				
+"Bureau of Community, Diversity and Integration"	Department										CE&PSDep				
+Public Safety Bureau	Department										CE&PSDep				
+crime prevention unit	Department										CE&PSDep				
+Professional Standards Unit	Department											G&ADep			
+Professional Standards Department	Department											G&ADep			
+Internal Affairs Unit	Department											G&ADep			
+Risk Management Unit	Department											G&ADep			
+Strategic Transformation Office	Department												S&TDep		
+Organisation Performance unit	Department												S&TDep		
+Strategic Planning unit	Department												S&TDep		
+Strategic Transformation unit	Department												S&TDep		
+Legal Services unit	Department													L&CDep	
+Human Rights unit	Department													L&CDep	
+Policy Development Implementation & Monitoring	Department													L&CDep	
+Policy Development Implementation and Monitoring	Department													L&CDep	
+Information Management unit	Department														ES&CSDep
+Stakeholder Management unit	Department														ES&CSDep
+Corporate Communications unit	Department														ES&CSDep

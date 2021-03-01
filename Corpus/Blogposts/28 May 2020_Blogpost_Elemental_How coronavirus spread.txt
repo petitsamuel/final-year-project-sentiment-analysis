@@ -1,0 +1,50 @@
+https://elemental.medium.com/how-covid-19-really-spreads-f9627bb93645How Covid-19 Really Spreads
+Infected surfaces, airborne plumes, AC systems, toilet flushes, and close proximity may all be involved
+
+
+
+Robert Roy Britt
+Follow
+May 28 · 7 min read
+
+
+Photo: GabrielPevide/Getty Images
+The primary means of transmission for SARS-CoV-2, the coronavirus that causes Covid-19, has been somewhat up in the air ever since it emerged. It’s clear the virus can spread by direct contact with an infected person. But do we really pick it up on doorknobs, packages, and other surfaces? Can we catch it when somebody briefly invades the forbidden six-foot radius? Is the coronavirus literally wafting through the air after an infected person merely talks?
+The answer, several infectious disease experts say, is probably “all of the above.” And you can likely add toilet flushing to the list. Such a variety of transmission methods would explain why so many people are catching the virus. And it would mean the latest advice from the U.S. Centers for Disease Control and Prevention (CDC) is a bit out of sync with a lot of experts.
+The CDC recently updated its webpage on the subject, making this fresh statement: “The virus is thought to spread mainly from person-to-person,” in these ways:
+* “Between people who are in close contact with one another (within about six feet).
+* “Through respiratory droplets produced when an infected person coughs, sneezes, or talks.
+* “These droplets can land in the mouths or noses of people who are nearby or possibly be inhaled into the lungs.”
+The CDC also updated the ways it says the virus does not spread easily, including this: “It may be possible that a person can get Covid-19 by touching a surface or object that has the virus on it and then touching their own mouth, nose, or possibly their eyes,” the agency states. “This is not thought to be the main way the virus spreads, but we are still learning more about this virus.”
+Infectious disease experts worry the language of the new guidelines might discourage people from taking basic precautions like hand-washing. Others take issue with the suggestion that airborne transmission doesn’t occur beyond six feet.
+“A persistent problem in this pandemic has been lack of clear messaging from governmental leadership, and this is another unfortunate example of that trend,” Angela Rasmussen, PhD, a virologist at the Columbia University Mailman School of Public Health, tells the Washington Post. “It could even have a detrimental effect on hand hygiene and encourage complacency about physical distancing or other measures.”
+Rasmussen says she continues to wash her hands after handling packages, and she continues to disinfect shared surfaces.
+Is the coronavirus in the air?
+Whether SARS-CoV-2 remains airborne and viable in respiratory droplets beyond a few feet has been much debated for months now. But multiple studies and several experts say the virus can definitely remain in the air for several minutes and infect people well beyond six feet from the source, possibly even circulating infectiously through air-conditioning systems.
+A January study in China, published by the CDC, concluded that the coronavirus was spread by one person in a restaurant to 10 others who were in the plume of an AC unit, while other diners out of the plume were not infected.
+
+
+Arrangement of restaurant tables and AC airflow at the site of an outbreak of Covid-19 in Guangzhou, China. Red circles indicate people who were infected. The yellow spot, A1, was the source. Open circles indicate diners who were not infected. Image: CDC
+When a person infected with the virus talks, sings, coughs, or sneezes, droplets containing the virus are emitted. The CDC and all leading experts agree on this, and this is why face masks are so vital — not so much to protect the wearer, but to protect others. The droplets come in a range of sizes, from tiny to tinier. The smallest, called aerosols, have been likened to hair spray that lingers and can be smelled if you walk through a plume even minutes later.
+“Shorter adults and children could be at higher risk if they are located within the trajectory of the traveling saliva droplets.”
+One new study found the same basic thing happens with the coronavirus, sans the smell. Simply talking produces 2,600 tiny droplets per second, and when a person is infected, around 1,000 of those droplets can contain the virus, and the droplets can remain in the air for up to 14 minutes.
+“These observations confirm that there is a substantial probability that normal speaking causes airborne virus transmission in confined environments,” the researchers concluded May 13 in the Proceedings of the National Academy of Science.
+A more recent study, published May 19 in the journal Physics of Fluids, found that a slight breeze can carry saliva droplets up to 18 feet. However, the results are based on computer modeling and do not address whether the droplets would be infectious. And in general, experts agree that a breeze is a good thing, dispersing the virus, and that the risk of infection is much lower outside than indoors.
+“The droplet cloud will affect both adults and children of different heights,” says study team member Dimitris Drikakis with the Defense and Security Research Institute at the University of Nicosia in Greece. “Shorter adults and children could be at higher risk if they are located within the trajectory of the traveling saliva droplets.”
+
+
+Saliva droplets can travel large distances, depending on environmental conditions such as wind speed, temperature, pressure, and humidity. Wind shown blowing left to right at speeds of 2.5 mph (4 kph) in the top image and 9.3 mph (15 kph) at bottom can transport saliva droplets up to 18 feet (6 meters). Image: Talib Dbouk and Dimitris Drikakis
+These findings add to other evidence for airborne spread of the coronavirus, including a March 17 study in the New England Journal of Medicine that indicated the coronavirus can remain viable in aerosols that can drift about for many minutes or hours. “This is adequate time for exposure, inhalation, and infection to occur both near and far from a source,” says Lisa Brosseau, ScD, an expert on respiratory protection and infectious diseases and a retired professor from the University of Illinois at Chicago.
+Meanwhile, a recent case study showed how easily the coronavirus can spread when people are in close quarters. One person carrying the virus into a choir practice infected 53 others, leading to two deaths. Such “superspreaders,” who may not even know they are sick but are in fact infectious, remain a big concern for infectious disease experts, some of whom think the CDC is being too cautious in emphasizing only a six-foot rule with no mention of the broader risk of aerosol spreading.
+The six-foot rule is based on studies done in the 1930s, when the technology didn’t exist to detect aerosols.
+Joseph Allen, DSc, assistant professor of exposure assessment science at Harvard T.H. Chan School of Public Health, has long contended that SARS-CoV-2 is airborne, advocating for upgraded air filters in offices and other public buildings to help prevent the disease’s spread. He also suggests opening windows to improve ventilation.
+“There are many of us in my field that are convinced that the science says airborne transmission is happening,” Allen said earlier this month. “It’s frustrating that neither the CDC nor the WHO has issued guidance on the potential for airborne transmission,” he said more recently.
+Other research has found that how much of the virus a person takes in—the viral dose—can affect whether they get sick, and how sick.
+Kimberly Prather, an atmospheric chemist at the Scripps Institution of Oceanography, agrees. In a perspective published May 27 by the journal Science, Prather and colleagues point out that the six-foot rule is based on studies done in the 1930s, when the technology to detect aerosols didn’t exist. A “large proportion” of the spread of the coronavirus “appears to be occurring through airborne transmission of aerosols produced by asymptomatic individuals during breathing and speaking,” they write.
+Does fecal matter matter?
+The CDC guidance ignores possible fecal transmission of the coronavirus. While it’s not proven this is occurring, Harvard’s Joseph Allen, author of the book Healthy Buildings, advises organizations and individuals to take precautions to prevent the spread of virus particles that can become airborne with the flushing of a toilet and float around for up to 30 minutes, research finds.
+His viewpoint got support from a new study. Researchers in China examined feces in Covid-19 patients and found viable SARS-CoV-2 virus particles, “indicating that infectious virus in feces is a common manifestation of COVID-19,” the researchers conclude in the journal Emerging Infectious Diseases. “Our findings indicate the need for appropriate precautions to avoid potential transmission of SARS-CoV-2 from feces.”
+In a separate analysis, researchers have reviewed other studies on possible fecal transmission of the coronavirus. “Most of the studies that have been done so far are picking up viral RNA in the feces rather than infectious virus,” says E. Susan Amirian, PhD, an epidemiologist at Rice University and lead author of the paper to be published in the International Journal of Infectious Diseases. “However, a few studies have shown that infectious virus may be present in stool samples.”
+More research is needed to determine whether the coronavirus is spreading in poop, but since other diseases, like the “stomach flu” bug called norovirus, definitely do, there’s no reason not to be cautious, Amirian says.
+That means keep washing your hands, of course. And, as Allen suggests: Close toilet lids before flushing, keep the bathroom fan running, and don’t rush in to use a bathroom just after someone else.
+

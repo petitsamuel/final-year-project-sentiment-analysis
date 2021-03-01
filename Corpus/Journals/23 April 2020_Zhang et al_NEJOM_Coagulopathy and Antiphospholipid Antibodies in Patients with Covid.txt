@@ -1,0 +1,45 @@
+Coagulopathy and Antiphospholipid Antibodies in Patients with Covid-19
+We describe a patient with Covid-19 and clinically significant coagulopathy, antiphospholipid antibodies, and multiple infarcts. He was one of three patients with these findings in an intensive care unit designated for patients with Covid-19. This unit, which was managed by a multidisciplinary team from Peking Union Medical College Hospital in the Sino–French New City Branch of Tongji Hospital in Wuhan, China, was set up on an emergency basis to accept the most critically ill patients during the outbreak of Covid-19. Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection was confirmed in all the patients by reverse-transcriptase–polymerase-chain-reaction (RT-PCR) assay or serologic testing.
+A 69-year-old man with a history of hypertension, diabetes, and stroke presented with fever, cough, dyspnea, diarrhea, and headache. Covid-19 was diagnosed in the patient on January 25, 2020, on the basis of RT-PCR testing that detected SARS-CoV-2. The initial treatment was supportive; however, the illness subsequently progressed to hypoxemic respiratory failure warranting the initiation of invasive mechanical ventilation.
+Table 1.Demographic and Clinical Characteristics and Laboratory Findings.
+On examination, the patient had evidence of ischemia in the lower limbs bilaterally as well as in digits two and three of the left hand. Computed tomographic imaging of the brain showed bilateral cerebral infarcts in multiple vascular territories. Pertinent laboratory results on admission of the patient (Patient 1) to the intensive care unit are summarized in Table 1. They included leukocytosis, thrombocytopenia, an elevated prothrombin time and partial thromboplastin time, and elevated levels of fibrinogen and D-dimer. Subsequent serologic testing showed the presence of anticardiolipin IgA antibodies as well as anti–?2-glycoprotein I IgA and IgG antibodies.
+Two other patients with similar findings were seen at the specialized intensive care unit for patients with Covid-19 at Tongji Hospital. Serologic tests in these patients were positive for anticardiolipin IgA antibodies as well as anti–?2-glycoprotein I IgA and IgG antibodies. Further clinical details are summarized in Table 1. Lupus anticoagulant was not detected in any of the patients, although testing was performed while the patients were acutely ill.
+Antiphospholipid antibodies abnormally target phospholipid proteins, and the presence of these antibodies is central to the diagnosis of the antiphospholipid syndrome. However, these antibodies can also arise transiently in patients with critical illness and various infections.1 The presence of these antibodies may rarely lead to thrombotic events that are difficult to differentiate from other causes of multifocal thrombosis in critically patients, such as disseminated intravascular coagulation, heparin-induced thrombocytopenia, and thrombotic microangiopathy.
+Yan Zhang, M.D.
+Meng Xiao, M.Sc.
+Shulan Zhang, M.D.
+Peng Xia, M.D.
+Wei Cao, M.D.
+Wei Jiang, M.D.
+Huan Chen, M.D.
+Xin Ding, M.D.
+Hua Zhao, M.D.
+Hongmin Zhang, M.D.
+Chunyao Wang, M.D.
+Jing Zhao, M.D.
+Xuefeng Sun, M.D.
+Ran Tian, M.D.
+Wei Wu, M.D.
+Dong Wu, M.D.
+Jie Ma, M.D.
+Yu Chen, B.S.
+Dong Zhang, M.Sc.
+Jing Xie, Ph.D.
+Xiaowei Yan, M.D.
+Xiang Zhou, M.D.
+Zhengyin Liu, M.D.
+Jinglan Wang, M.D.
+Bin Du, M.D.
+Yan Qin, M.D.
+Peng Gao, M.D.
+Xuzhen Qin, M.D.
+Yingchun Xu, M.D.
+Wen Zhang, M.D.
+Taisheng Li, M.D.
+Fengchun Zhang, M.D.
+Yongqiang Zhao, M.D.
+Yongzhe Li, M.D.
+Shuyang Zhang, M.D.
+Peking Union Medical College Hospital, Beijing, China
+yongzhelipumch@126.com, shuyangzhang103@163.com
+

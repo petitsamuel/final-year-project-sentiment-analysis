@@ -1,0 +1,6 @@
+TERM	CATEGORY	sonoma	russian river	sonoma county	russian river flooding	atmospheric river
+sonoma	keywords	sonoma				
+russian river	keywords		russian river			
+sonoma county	keywords			sonoma county		
+russian river flooding	keywords				russian river flooding	
+atmospheric river	keywords					atmospheric river

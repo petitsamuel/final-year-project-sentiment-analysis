@@ -1,0 +1,34 @@
+Flu drug used in Japan shows promise in treating COVID-19
+By Jeanna Bryner - Live Science Editor-in-Chief a day ago
+
+Doctors find "clear evidence" it improves coronavirus symptoms.
+
+ 
+ 
+ 
+ 
+ 
+ Comments (1)
+3D illustration of an RNA virus, influenza, coronavirus.
+(Image: © Shutterstock)
+A drug used in Japan to treat influenza seems to be effective at treating the novel coronavirus that causes COVID-19, according to news reports.
+
+The antiviral drug, called Favipiravir or Avigan, showed positive outcomes in clinical trials involving 340 individuals in Wuhan and Shenzhen, said Zhang Xinmin, of China's science and technology ministry, The Guardian reported.
+
+"It has a high degree of safety and is clearly effective in treatment," Zhang said Tuesday (March 17), The Guardian reported.
+
+Developed by Fujifilm Toyama Chemical, the antiviral drug is being manufactured by Zhejiang Hisun Pharmaceutical for treating influenza viruses. Last month, the drug reportedly received approval as an experimental treatment for COVID-19 infections, Pharmaceutical Technology reported.
+
+Patients in Shenzhen who had tested positive for COVID-19 and who were given the drug got a negative virus test back four days later, as a median (half showed a negative test earlier and half later than four days). That was compared with a negative test about 11 days later, as a median, for patients not on the drug, according to news reports. In that same trial, lung conditions (as shown in X-rays) improved in about 91% of patients taking Favipiravir, compared with just 62% who weren't taking the antiviral drug. 
+
+In the Wuhan trial, the drug also seemed to shorten the duration of a patient's fever from an average of 4.2 days to 2.5 days, according to Pharmaceutical Technology.
+
+The drug is specifically made to treat RNA viruses like SARS-CoV-2; these are viruses whose main genetic material is RNA, rather than DNA. The drug stops some viruses from replicating by crippling the enzyme (a substance that gets chemical reactions going) called RNA polymerase, which builds RNA. Without that enzyme intact, the virus can't duplicate its genetic material efficiently once inside a host cell, according to an article describing the drug that was published in 2017 in the journal Proceedings of the Japan Academy, Ser. B, Physical and Biological Sciences.
+
+However, the drug seems less effective in patients with severe symptoms. "We've given Avigan to 70 to 80 people, but it doesn't seem to work that well when the virus has already multiplied," a source from the Japanese Health Ministry told the Mainichi Shimbun newspaper, according to The Guardian.
+
+Doctors are using the same drug in Japan to treat coronavirus patients with mild to moderate symptoms, The Guardian reported. In addition, results from these trials have not been published in a peer-reviewed scientific journal and seem to be just preliminary findings.
+
+To date, there is no approved or known drug to treat SARS-CoV-2. However, antiviral drugs developed to treat other illnesses are being tested for their use in treating the coronavirus. For instance, Remdesivir was developed to treat Ebola but it has shown promise in treating monkeys infected with another coronavirus, the Middle East respiratory syndrome (MERS); that drug is currently being tested in China and the U.S., according to NBC News.
+
+In addition, clinical trials have begun to test an experimental coronavirus vaccine in humans. Over the next six weeks, about 45 participants are expected to enroll in the vaccine trial in Seattle, which is testing the safety of the vaccine and its ability to trigger the body's immune response to fight off the coronavirus. If all goes well in that trial and the following two clinical trial phases, the vaccine could be ready for public use in about 12 to 18 months, Dr. Anthony Fauci, director of the National Institute of Allergy and Infectious Diseases, said March 12.

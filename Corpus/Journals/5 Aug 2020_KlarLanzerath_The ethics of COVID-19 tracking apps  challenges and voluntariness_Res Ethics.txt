@@ -1,0 +1,166 @@
+The ethics of COVID-19 tracking apps – challenges and voluntariness
+Renate Klar, Dirk Lanzerath
+August 5, 2020 
+Abstract
+As COVID-19 continues to spread, a variety of COVID-19 tracking apps (CTAs) have been introduced to help contain the pandemic. Deployment of this technology poses serious challenges of effectiveness, technological problems and risks to privacy and equity. The ethical use of CTAs depends heavily on the protection of voluntariness. Voluntary use of CTAs implies not only the absence of a legal obligation to employ the app but also the absence of more subtle forms of coercion such as enforced exclusion from certain social and work activities. The protection of individual rights to voluntary use can be enhanced through an ethics by design approach in the development of CTAs that treat the introduction of CTAs for what it is: a complete novelty that is being tested for the first time in democracies.
+
+Keywords COVID-19, digital contact tracing, voluntariness, ethics by design
+The possible benefits of CTAs
+On 11 March 2020, the World Health Organisation (WHO) declared the COVID-19 outbreak a pandemic. Many countries imposed measures to contain or mitigate the effects of the pandemic including lockdowns of entire economies (Buchholz, 2020). By March/April 2020, approximately one-third of the world population was in quarantine (Klenk and Duijf, 2020). Lockdowns create two major challenges. First, they impose severe rights-restrictions on individuals, unknown in modern democracies. Second, they incur vast economic, social and psychological costs. Hence, there is high pressure upon governments to find strategies to contain the pandemic and simultaneously exit the lockdown. One such strategy is the use of digital contact tracing.
+
+Contact tracing is a tried and tested method for containing epidemics. It involves the identification of persons who have come into close contact with an infected person, testing them for infection and, in case of an infection, tracing their own contacts to reduce the spread of infection throughout the population (Williams et al., 2020). However, traditional, labour-intensive, manual contact tracing is not considered sufficient for handling COVID-19 because of the high level of infectiousness and the significant amount of transmission from individuals without symptoms (Ferretti et al., 2020). Hence the sudden and extensive interest in the development and implementation of digital COVID-19 tracking apps (CTAs).
+
+Most CTAs combine proximity tracing and contact tracing. Proximity tracing tools normally use Bluetooth to measure and record the spatial proximity between users. If a person reports that they are positive for COVID-19, an automatic alert is sent to those who have been in proximity to this user for a certain time interval. As part of the alert, the app may provide relevant information from health authorities such as advice for testing, advice for self-isolation or who can be contacted (European Commission, 2020).
+
+The widespread use of devices such as CTAs is novel in the fight against pandemics and, at first glance, might appear to offer an alluring solution. However, there are two main caveats. First, nearly all inferences about the potential benefits of CTAs are based on epidemiological models and not on controlled trials (Klenk and Duijf, 2020). Hence, the use of CTAs is still experimental, and success cannot be taken for granted. Second, CTAs pose serious ethical challenges. The next section provides an overview of the main challenges for CTAs.
+
+Challenges for CTAs
+Any technology is only as good as the environment that supports it. CTAs will only work if virus tests are available to verify the alerts, if quarantine is possible and if an adequate health infrastructure exists for treatment. Hence, they would be pointless in places like refugee camps, overcrowded worker dormitories or informal settlements. Table 1 shows challenges for CTAs where the technology can reasonably be deployed.
+
+Table
+Table 1. Main Challenges for CTAs.
+
+Table 1. Main Challenges for CTAs.
+
+
+View larger version
+Effectiveness – Developing and using a technology requires investment and time. If the technology is not effective, this poses a serious challenge. The effectiveness of CTAs is dependent upon sufficient and correct usage. It has been calculated that a minimum of 60% uptake is necessary for the effectiveness of CTAs (Ferretti et al., 2020). However, such high numbers of usage are highly unlikely (Williams et al., 2020; Zhang et al., 2020). Even assuming sufficiently high uptake, effectiveness also depends on the speedy response of users. If users do not respond to alerts immediately, CTAs are not fast enough to contain the pandemic (Klenk and Duijf, 2020; McLachlan et al., 2020)
+
+Technical problems – Some CTAs do not work on smartphones that are older than two years (McLachlan et al., 2020). In addition, false alarms are a serious problem. Bluetooth-based proximity detection carries a risk of over-reporting interactions, leading to ‘a huge number of false positives’ (Leprince-Ringuet, 2020). False-positives could result in needless self-isolation or might cause users to ignore warnings if they are perceived as unreliable (Leprince-Ringuet, 2020).
+
+Privacy – An overlap of technical problems and privacy concerns are security risks, given that CTAs can be hacked (Boutet et al., 2020). Scientists have warned against creation of tools that enable large-scale data collection as the data is vulnerable to cyberattack and/or serious misuse in the form of unprecedented surveillance of society at large (Open letter, 2020). Moving beyond usage for COVID-19 containment via ‘surveillance creep’, governments might exploit the crisis to establish and retain tracking data from citizens which could, in theory, be used in other contexts such as law enforcement (Klar, 2020). Or the data might be used to monitor the overall health of citizens, which could lead to a ‘health dictatorship’ in the long run (Zeh, 2010).
+
+Inequities – CTA access is predictably unequal. For instance, the elderly who may not have access to smartphones are excluded from the use of the technology. Thus, CTAs could deepen the digital divide (Floridi, 2020). In addition, the burdens and benefits of the use of CTAs are likely to be distributed unequally amongst the population. Disadvantaged workers are less likely to work from home and thus run a higher risk of infection. The same is often true for their contacts. Thus, in the case of a selective quarantine due to CTAs, a larger proportion of them will be sent into quarantine. ‘It follows that, in addition to being disadvantaged already, these workers are more likely to bear the social, economic, and psychological ill effects of being quarantined’ (Klenk and Duijf, 2020: 18).
+
+Given that CTAs might not work due to effectiveness and technical challenges, whilst they simultaneously raise serious privacy and inequity concerns, they should not be tried experimentally without precautions. In this regard, they are different from some other countermeasures like face masks, which do not raise major concerns. Instead, careful ethical design of CTAs and voluntary use are essential. Indeed, there appears to be broad agreement in democracies that the use of CTAs should be voluntary. At the time of writing 47 CTAs are in use in 28 countries (Woodhams, 2020). In India, the only democracy in which the contact tracing app ‘Aarogya Setu’ is mandatory, this is heavily challenged (Clarance, 2020; O’Neill, 2020).
+
+Voluntariness
+Voluntariness can be understood as a choice that is made in accord with a person’s free will, as opposed to being made under coercive influences or duress. For the use of CTAs to be truly voluntary, each step of digital contact tracing must be voluntary, including:
+
+the decision to carry a smartphone,
+
+the decision to download and install the CTA on the smartphone,
+
+the decision to leave the CTA operating in the background all the time,
+
+the decision to react to its alerts, and
+
+the decision to share the contact logs when tested positive (Dubov and Shoptaw, 2020 : 3).
+
+In addition, users should be free to uninstall the CTA at any time and remove any data that has already been collected. Hence, the CTA should not be embedded in the operating system of the smartphone.
+
+Voluntariness also requires that sufficient information is provided to the potential user to make informed decisions. This includes information about:
+
+the functioning of the CTA (the code should be open source so that it can be verified),
+
+which data will be transmitted,
+
+who will have access to the data (including third parties), and
+
+what the data will be used for
+
+Only when this information is available can users understand what they are agreeing to when they use a CTA.
+
+A further important aspect of voluntariness is that people who decide not to use or de-install the CTA are not sanctioned or restricted in any way (economically or socially), which would constitute a form of coercion (Ponce, 2020). In China, individuals are required to use CTAs1 if they want to use public areas, such as subways, malls and markets. The CTA assigns each user a coloured code (green, amber, red), which determines access. Green codes grant unrestricted movement; a yellow code requires seven days of quarantine; red means 14 days of quarantine. To receive a rating, users must download a CTA. The colour code is based on personal information including the national identity number, the location, basic health information and recent travel history. If this is not provided, green code access is denied. Proof of use of the Chinese CTA is also required by many shops and cafés. Even though the CTA is pro forma voluntary, the implied restrictions make it de facto compulsory, at least if people do not want to be excluded from public life. The possibility of this happening in Europe cannot be ruled out. The same is true if CTA use is required at a workplace (Ponce, 2020).
+
+The voluntariness of using CTAs can also be impaired when anxiety levels are raised. If a government threatens to impose a second lockdown if not enough people download the CTA, voluntariness is impeded. Equally, the threat that a CTA will become mandatory if not enough people use it voluntarily is also problematic. Forms of nudging, as happened in France where the use of the CTA was discussed in parliament alongside easing of the lockdowns, constitute indirect coercion. Additionally, peer pressure and societal expectations can engender a climate in which people feel compelled to act (Floridi, 2020). Incentives might increase usage of CTAs but should be handled with care because not all will be able to benefit equally; only smartphone users would have access to the incentives (Parker et al., 2020).
+
+Would enough people download and use a CTA if it is voluntary? To date, the Rakning C-19 app has the greatest penetration rate of all contact trackers in the world, having been downloaded by 38% of Iceland’s population (O’Neill et al., 2020). For the Icelandic app, all steps are voluntary, opt-out is possible and all data is deleted after a specified time. It is clearly specified who has access to the data and how long it is kept. Moreover, the CTA will cease to be effective after the pandemic (Hamilton, 2020). Thus, it is clear that the data will not be repurposed, and mission creep and privacy infringements will be prevented. The guarantee that rights are not violated, and the ensuing trust in the CTA and the institutions that handle the data, seem to be a prerequisite for the successful voluntary uptake of a CTA.
+
+Ethical design of CTAs
+Used correctly, CTAs may support the fight against COVID-19 provided that the above challenges are addressed, and voluntariness of use is preserved. The following describes what this entails for ethical research and development of CTAs.
+
+Morley et al. (2020) suggest a framework for ascertaining the ethical design of CTAs. It is intended to help designers and deployers of CTA systems to determine the extent to which an app is ethically justifiable. For ethical use, CTAs must be a necessary component of the disease management, proportionate to the seriousness of the public health threat, scientifically sound and time-bound (EDPB, 2020). In addition to these high-level principles, the following questions (enabling factors) must be answered positively:
+
+Is the use voluntary?
+
+Is consent required to share the data?
+
+Is the data kept private?
+
+Can the data be erased by users?
+
+Is the purpose defined?
+
+Is it used for prevention only?
+
+Is it equally available and accessible?
+
+Is there an end of life process to decommission the CTA? (Morley et al., 2020)
+
+Only if these criteria are fulfilled can the CTA be developed and deployed ethically.
+
+Ethical norms can be built into the design of technologies. For instance, decisions about design can be taken that influence the way that the data is collected (geolocation data or Bluetooth signals) or how the data is stored (locally on the phone or centrally on a server to which government and health authorities have access). Decisions about who can access the data, user control over data management and deletion can also be taken during the design phase and built into the technology.
+
+But ethical design alone is not sufficient. The implementation of CTAs can be likened to a population-wide experiment and, given that they might not work due to effectiveness and technical challenges, whilst they simultaneously raise serious privacy and inequity issues, it would be unethical to conduct such an experiment without further safeguards. Lucivero et al. (2020) suggest that CTAs should not be considered as technological quick-fixes to the current emergency. Instead, they should be introduced ‘as societal experimental trials whose effectiveness and consequences need to be closely and independently monitored with the same level of precaution and safeguards that social experimentation require’ (Lucivero et al., 2020: 1). Citizens who take part in these experiments must know the risks and be protected from harm by additional ethical and legal measures that prohibit or restrict the described forms of mandatory use, sanction them and guarantee the above ethical principles. Furthermore, if the end of the epidemic cannot be clearly determined, the use and effects of CTAs should be revisited at a given time and the continuation of their use must be reviewed.
+
+Conclusion
+CTAs are not a panacea in the fight against the COVID-19 pandemic (Bay, 2020). The challenges of effectiveness, technological problems and risks to privacy and equity are considerable. CTAs should only be developed if their use is absolutely voluntary and they have inbuilt ethics compliance by design. Given that the implementation of CTAs in society is tantamount to a grand social and scientific experiment, citizens who take part in this experiment need to be protected.
+
+As the initial wave of the COVID-19 pandemic is in decline in many regions, there is already talk of a second or even repeated waves, and a realisation that even high-income countries with good healthcare systems are not immune to epidemics. Hence, there will, inevitably, be further investigation and development of tracking apps. It is vital that their use remains voluntary and that lessons are learned from the current experimental use. The findings from this experiment should be critically reviewed periodically and shared openly to enhance ethics by design and ethical implementation. Only then can trust in CTA usage be cultivated, hoping to achieve the magic 60% voluntary uptake required for effectiveness.
+
+Acknowledgements
+Thanks to Kate Chatfield and Doris Schroeder for reviewer and editorial comments.
+
+Funding
+This research was funded by the European Union’s Horizon 2020 Research and Innovation Programme under Grant Agreement No. 786641 (SHERPA).
+
+ORCID iDs
+Renate Klar  https://orcid.org/0000-0002-5130-267X
+
+Dirk Lanzerath  https://orcid.org/0000-0003-0652-8829
+
+Notes
+1.The apps were developed by Alipay (a mobile and online payment platform, established by Alibaba Group co-founder Jack Ma) and Tencent Holdings Ltd.’s WeChat.
+
+References
+Bay, J (2020) Automated contact tracing is not a coronavirus panacea. Government digital services. Available at: https://blog.gds-gov.tech/automated-contact-tracing-is-not-a-coronavirus-panacea-57fb3ce61d98 (accessed 10 June 2020).
+
+Boutet, A, Bielova, N, Castelluccia, C, et al. (2020) Proximity tracing approaches - comparative impact analysis. Available at: https://hal.inria.fr/hal-02570676/ (accessed 16 June 2020).
+
+Buchholz, K (2020) What share of the world population is already on COVID-19 Lockdown? Statista Topics. Available at: https://www.statista.com/chart/21240/enforced-covid-19-lockdowns-by-people-affected-per-country/ (accessed 15 June 2020).
+
+Clarance, A (2020) Aarogya Setu: why India’s COVID-19 contact tracing app is controversial. BBC News, 15 May. Available at: https://www.bbc.co.uk/news/world-asia-india-52659520 (accessed 14 June 2020).
+
+Dubov, A, Shoptaw, S (2020) The value and ethics of using technology to contain the COVID-19 epidemic. The American Journal of Bioethics. DOI: 10.1080/15265161.2020.1764136.
+
+EDPB (2020) Statement by the EDPB chair on the processing of personal data in the context of the COVID-19 outbreak 2020. Available at: https://edpb.europa.eu/news/news/2020/statement-edpb-chair-processing-personal-data-context-covid-19-outbreak_en (accessed 1 June 2020).
+
+European Commission (2020) Coronavirus: a common approach for safe and efficient mobile tracing apps across the EU. Available at: https://ec.europa.eu/commission/presscorner/detail/en/qanda_20_869 (accessed 1 June 2020).
+
+Ferretti, L, Wymant, C, Kendall, M, et al. (2020) Quantifying SARS-CoV-2 transmission suggests epidemic control with digital contact tracing. Science 368(6491): eabb6936.
+
+Floridi, L (2020) Mind the app - considerations on the ethical risks of COVID-19 apps. The Living Library. Available at: http://thelivinglib.org/mind-the-app-considerations-on-the-ethical-risks-of-covid-19-apps-april-18-2020/ (accessed 15 June 2020).
+
+Hamilton, IA (2020) Iceland had the most-downloaded contact-tracing app for its population size. Authorities there say it hasn’t made much difference. Business Insider, 12 May. Available at: https://www.businessinsider.com/iceland-contact-tracing-not-gamechanger-2020-5?r=DE&IR=T (accessed 13 June 2020).
+
+Klar, R (2020) Ethical dimensions of COVID-19 tracking apps: privacy-preserving proximity tracing Pepp-Pt and data protection. SHERPA Blog. Available at: https://www.project-sherpa.eu/ethical-dimensions-of-covid-19-tracking-apps-privacy-preserving-proximity-tracing-pepp-pt-and-data-protection/ (accessed 15 June 2020).
+
+Klenk, M, Duijf, H (2020) Ethics of digital contact tracing and COVID-19: who is (not) free to go? Social Science Research Network. Epub ahead of print 28 May. Available at: http://dx.doi.org/10.2139/ssrn.3595394 (accessed 20 June 2020).
+
+Leprince-Ringuet, D (2020) Contact-tracing apps: why the NHS said no to Apple and Google’s plan. ZDNet. Available at: https://www.zdnet.com/article/contact-tracing-apps-why-the-nhs-said-no-to-apple-and-googles-plan/ (accessed 30 May 2020).
+
+Lucivero, F, Hallowell, N, Johnson, S, et al. (2020) COVID-19 and contact tracing apps: technological fix or social experiment? Available at: https://ssrn.com/abstract=3590788 (accessed 22 June 2020).
+
+McLachlan, S, Lucas, P, Kudakwashe, D, et al. (2020) Bluetooth smartphone apps: are they the most private and effective solution for COVID-19 contact tracing? arXiv. Epub ahead of print 15 May. Available at: https://arxiv.org/abs/2005.06621 (accessed 16 July 2020).
+
+Morley, J, Cowls, J, Taddeo, M, et al. (2020) Ethical guidelines for SARS-CoV-2 digital tracking and tracing systems. Available at: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3582550 (accessed 15 June 2020).
+
+O’Neill, P (2020) India is forcing people to use its covid app, unlike any other democracy. MIT Technology Review, 7 May. Available at: https://www.technologyreview.com/2020/05/07/1001360/india-aarogya-setu-covid-app-mandatory/ (accessed 10 June 2020).
+
+O’Neill, P, Ryan-Mosley, T, Johnson, B (2020) A flood of coronavirus apps are tracking us. Now it’s time to keep track of them. MIT Technology Review, 7 May. Available at: https://www.technologyreview.com/2020/05/07/1000961/launching-mittr-covid-tracing-tracker/ (accessed 10 June 2020).
+
+Open letter (2020) Joint statement on contact tracing. Available at: https://drive.google.com/file/d/1OQg2dxPu-x-RZzETlpV3lFa259Nrpk1J/view (accessed 20 June 2020).
+
+Parker, M, Fraser, C, Abeler-Dörner, L, et al. (2020) Ethics of instantaneous contact tracing using mobile phone apps in the control of the COVID-19 pandemic. Journal of Medical Ethics. 46: 427–431.
+
+Ponce, A (2020) COVID-19 contact-tracing apps: how to prevent privacy from becoming the next victim. ETUI Research Paper - Policy Brief 5/2020. Epub ahead of print 5 May 2020. Available at: https://ssrn.com/abstract=3593405 or http://dx.doi.org/10.2139/ssrn.3593405 (accessed 15 June 2020).
+
+Williams, S, Armitage, C, Tampe, T, et al. (2020) Public attitudes towards COVID-19 contact tracing apps: a UK-based focus group study. medRxiv. DOI: 10.1101/2020.05.14.20102269.
+
+Woodhams, S (2020) COVID-19 digital rights tracker. Available at: https://www.top10vpn.com/research/investigations/covid-19-digital-rights-tracker/ (accessed 15 June 2020).
+
+Zeh, J (2010) Corpus Delicti: Ein Prozess. Frankfurt: Schöffling & Co.
+
+Zhang, B, Kreps, S, McMurry, N (2020) Americans’ perceptions of privacy and surveillance in the COVID-19 pandemic. Center for Open Science. Epub ahead of print 13 May 2020. DOI: 10.31219/osf.io/9wz3y.
+

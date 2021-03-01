@@ -1,0 +1,67 @@
+Shots of Hope
+Desperately needed vaccines against COVID-19, developed and tested at record speed, are 2020's breakthrough.
+
+
+Embedded Image
+Alexandre Schleier speaks with his 81-year-old grandmother, Olivia Schleier, through a window at Brazil's Hospital Premier in São Paulo.
+
+PHOTO: NELSON ALMEIDA/AFP VIA GETTY IMAGES
+In March, when cases of COVID-19 began to overwhelm hospitals in the United States, I told my 90-year-old mother that she had to shelter in place. She lives alone in Los Angeles, and to keep her company, I FaceTimed her every night. In the role reversal that happens with time, I became the forever-worried, nagging parent, and she was the ever-doubting, defiant child.
+
+Over my increasingly loud objections, she'd gone to the mall with her sister, had her nails done, and lost 56 cents playing mahjong with “the girls.” The world she knew was dying, and after a few weeks of denial, bargaining, and anger, she finally entered the grief stages of depression and acceptance and quarantined herself.
+
+My mother's loneliness, fear, and boredom sometimes make me feel like our chats are jailhouse visits on phones separated by a glass wall. “I didn't leave my house today—again,” she says, day after day, as though it were my fault. “Same everything. Same nothing.” And she plaintively asks the same question.
+
+SIGN UP FOR THE SCIENCE eTOC
+Get the latest issue of Science delivered right to you!
+
+Email
+Email address*
+
+“When is this going to end?”
+
+FOR MY MOTHER and countless others, life was put on hold this year. But in biomedicine, progress has been astonishingly fast. Just weeks ago it culminated in what the world needs to answer my mother's question: safe, effective vaccines against COVID-19.
+
+On 31 December 2019, health officials in Wuhan, China, reported a mysterious cluster of pneumonia cases that had sickened 27 people. By 8 January, The Wall Street Journal revealed that Chinese researchers had linked the disease to a novel coronavirus; 2 days later, scientists posted online the genetic sequence of what is now known as SARS-CoV-2. Within hours, the search for a COVID-19 vaccine began.
+
+That first month, confusion reigned. No one knew how deadly SARS-CoV-2 was or how it might threaten global health. China obscured early evidence of human-to-human transmission, and the seemingly limited spread to other countries delayed the World Health Organization from declaring an international health emergency. But as January ended, the global threat had become clear.
+
+By February, several companies had launched aggressive COVID-19 vaccine projects. In China, CanSino Biologics, Sinovac Biotech, and state-owned Sinopharm were first out of the gate. In the United States, the front-runners were Moderna and Inovio Pharmaceuticals. In Europe, BioNTech, a German biotechnology company, developed a candidate it would later share with pharmaceutical giant Pfizer. At the University of Oxford, an academic group created a vaccine that eventually attracted another Big Pharma partner, AstraZeneca. Janssen and Sanofi Pasteur also joined the race.
+
+Two of the Chinese contenders made vaccine candidates with the entire virus, whereas every other effort singled out the SARS-CoV-2 surface protein, spike, which structural biologists were quick to map and study. Spike initiates infection by attaching to receptors that stud human cells. A vaccine might “neutralize” the virus if it could train the body to create antibodies that would glom onto spike at the precise spot where it engages with its receptor.
+
+Developers tapped into a dazzling array of technologies to make an effective vaccine. Moderna and the Pfizer-BioNTech collaboration banked on a strategy that had never before brought any medicine to market: labmade messenger RNA (mRNA). They designed snippets of the genetic code for the spike protein and swathed them in a jacket of fats so they could slip into humans cells, which would then make the viral protein.
+
+Inovio opted instead for DNA encoding spike. Still others, including CanSino, Oxford,and Janssen, jiggered harmless viral vectors—most often the cold-causing adenoviruses—to shuttle the spike gene into the body's cells. Sanofi Pasteur, Novavax, and Clover Biopharmaceuticals genetically engineered spike in cell cultures so their vaccines could present the protein itself.
+
+But making a vaccine isn't just a matter of choosing a technology. It has to be tested, first for safety and then for efficacy, in thousands of people who receive the shot or a placebo and are monitored to see who gets sick. “You're not just going to pull a vaccine out of your pocket,” said Anthony Fauci, head of the U.S. National Institute of Allergy and Infectious Diseases, on 11 February. Fauci, who said it typically took “6, 7, 8 years” to develop a vaccine, predicted that small clinical trials would begin in March, but larger trials not until June. In the best-case scenario, he said, “It would take at least 6 or 8 months to know if it works.”
+
+But the best-case scenario was even better than Fauci expected.
+
+The field received a jolt of good news in April, when Sinovac showed for the first time that a COVID-19 vaccine safely protected monkeys from an intentional “challenge” with the virus. The company used an old, and, some thought, outmoded technology: whole, killed virus. But the concept itself now had proof. A flood of other monkey challenge successes followed.
+
+By 20 April, the day after the first report of a monkey success, five companies had vaccines in clinical trials, and no fewer than 71 other candidates were in preclinical development. By the end of the month, U.S. President Donald Trump was touting a project called Operation Warp Speed, which he promised would invest billions in COVID-19 vaccine R&D. “We're going to fast-track it like you've never seen before,” said Trump, whose administration would eventually pump about $11 billion into the program. That proved an unusually truthful claim from the reality-bending president.
+
+The race took several surprising turns in July. Because China had so successfully stopped the spread of the virus, its vaccine candidates had to be tested abroad, slowing their advance. On 27 July, the Moderna and Pfizer-BioNTech candidates both entered efficacy trials that quickly enrolled more participants in hard-hit locales than the Chinese vaccine studies. Those mRNA vaccines became the first to cross the finish line, each reporting roughly 95% efficacy in November.
+
+NINETY-FIVE PERCENT. That's higher than almost anyone dared hope for. (Influenza vaccines, in a good year, hit 60% effectiveness.) A confluence of forces propelled science from zero to a COVID-19 vaccine at revolutionary speed. Never before have researchers so quickly developed so many experimental vaccines against the same foe. Never before have so many competitors collaborated so openly and frequently. Never before have so many candidates advanced to large-scale efficacy trials virtually in parallel. And never before have governments, industry, academia, and nonprofits thrown so much money, muscle, and brains at the same infectious disease in such short order.
+
+Biology, however, may have been the overriding factor in the success of COVID-19 vaccines. In 1990, I set out to write a book that chronicled 1 year in the search for a vaccine that could thwart the AIDS virus. Eleven years later, I published Shots in the Dark: The Wayward Search for an AIDS Vaccine. After recounting one failure after another, I proposed a Warp Speed–like program. But even such a crash effort might not have delivered an AIDS vaccine. HIV, which slowly destroys the T cells that coordinate an immune response, also outwits the body's other immune warriors.
+
+SARS-CoV-2 is different. Early in the pandemic it became clear that most people developed only mild disease, suggesting the immune system can hold the virus in check—and that vaccine-stimulated immunity might prove an effective defense. HIV or hepatitis C, in contrast, cause lifelong infections.
+
+If SARS-CoV-2 is an easy mark, the mRNA vaccines that delivered the most spectacular early results may soon be joined by many others. One, from Russia's Gamaleya Research Institute of Epidemiology and Microbiology, reported efficacy results that nearly match those of the mRNA vaccines. Then there are promising, if still confusing, data from China's Sinopharm and on the AstraZeneca-Oxford candidate, which alone could supply 3 billion doses—more than both mRNA vaccines combined.
+
+As of 10 December, 162 candidates were in development and 52 were already in clinical trials. If even a fraction of those work, different countries may get to choose the vaccines that best fit their budgets and delivery capabilities—and separate vaccines could be available for children, pregnant women, young adults, and the elderly.
+
+To be sure, the clinical trial results reported to date have mainly come from glowing company press releases, not the full presentations of data that could reveal caveats. Vaccine doses will be scarce for even the wealthiest countries until at least spring, and the world's poor will surely wait longer, despite the creation of a global alliance, the COVID-19 Vaccines Global Access Facility, to increase access.
+
+In other ways, too, the pandemic-battered world has a long trip ahead on a steep mountain road with no guardrails. Vaccine hesitancy, manufacturing problems, and breakdowns in supply chains could botch ambitious rollouts. SARS-CoV-2 might mutate to evade protective immune responses. Vaccines might prevent disease, but not transmission, delaying the end of the pandemic. Worst of all, rare, serious side effects could surface when vaccines move from efficacy trials to entire populations.
+
+STILL, WHEN I FOUND OUT on 15 November—1 day before the news went public—that early data from Moderna matched the hard-to-believe preliminary report from Pfizer and BioNTech that came out the week before, my optimism overflowed, for the first time since the pandemic began. I swore my mother to secrecy and shared the good news.
+
+Over the past few weeks, several countries, including the United States, have granted emergency use authorization to the Pfizer-BioNTech vaccine. More will follow. Moderna's candidate looks likely to pass regulatory muster over the next few weeks, too.
+
+What a joyous way to end this year. I can stop worrying about my mom dying alone in an intensive care unit, away from all who love her. And she can stop asking whether I'll let her play mahjong with the girls. I imagine the news spreading between other children and their aging parents, in the break rooms of nursing homes, in hospital hallways, and among the staff who run schools, grocery stores, restaurants, and places of worship.
+
+Normal won't return for a long time. But in the coming months, as vaccines are rolled out and a fuller picture of their promise emerges, we may finally be able to answer the question, “When is this going to end?”

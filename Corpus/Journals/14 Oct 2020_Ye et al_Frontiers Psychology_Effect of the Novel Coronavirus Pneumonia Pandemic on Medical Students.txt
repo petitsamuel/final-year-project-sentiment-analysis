@@ -1,0 +1,327 @@
+Effect of the Novel Coronavirus Pneumonia Pandemic on Medical Students’ Psychological Stress and Its Influencing Factors
+Wan Ye, Xinxin Ye2, Yuanyuan Liu, Qixi Liu, Somayeh Vafaei, Yuzhen Gao, Huiqin Yu, Yanxia Zhong and Chenju Zhan
+Department of Nursing, Xiamen Medical College, Xiamen, China
+School of Public Health, Zhejiang University School of Medicine, Hangzhou, China
+Department of Nursing, Nanjing Hospital of Chinese Medicine Affiliated to Nangjing University of Chinese Medicine, Nanjing, China
+Department of Nursing, Mindong Hospital of Fujian Medical University, Fuan, China
+Department of Molecular Medicine, Faculty of Advanced Technologies in Medicine, Iran University of Medical Sciences, Tehran, Iran
+Department of Clinical Laboratory, Sir Run Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, China
+Department of Nursing, Shijiazhuang Medical College, Shijiazhuang, China
+In December 2019, an outbreak of the novel coronavirus pneumonia infection occurred in Wuhan City, Hubei Province, China, and it has received substantial attention globally. Few studies have investigated the psychological stress of students in Health University during the COVID-19 outbreak, and almost no work has attended to the influencing factors that may cause their psychological stress risk. This cross-sectional, survey-based, region-stratified study collected demographic data and mental measurement from 2,498 medical students and 1,177 non-medical students in 31 provinces from March 5, 2020, to March 10, 2020, in China. The psychological stress was measured using the Chinese Perceived Stress Scales (CPSS) under a self-design questionnaire. Sociodemographic, major characteristics, and knowledge of the novel coronavirus pneumonia were also identified as potential influencing factors of stress. The study revealed that medical students are suffering from more stress than non-medical students almost in all provinces of China. Four influencing factors including level of familiarity with the novel coronavirus, family income, major of students, and status of the intern student can be significantly related to students’ stress in the medical group by using the univariate and multivariate analysis. Further analysis showed that students with low stress had a greater number of positive psychological emotions and a lower number of negative psychological emotions than with medical students with high stress. In addition, high stress caused low enthusiasm for learning in these medical students and lead to little/no willingness to do professional medical work in the future. In conclusion, we need to increase the level of our knowledge related to the novel coronavirus pneumonia to reduce stress and strongly focus on the special populations in medical students with certain features, such as intern students, clinical nursing students, and low-income families, to improve their learning attitudes and establish positive professional mental outlooks.
+
+Introduction
+In December 2019, an outbreak of the novel coronavirus pneumonia infection occurred in Wuhan City, Hubei Province, China, and has spread to the rest of the country. This speedy onset crisis was accompanied with strong infectivity, rapid rate of course changes of the disease, and the general susceptibility of the population. On January 20, 2020, the National Health Committee included pneumonia caused by the new coronavirus infection as a Class B infectious disease under Category A of Infectious Disease Management (Drosten et al., 2003; Zaki et al., 2012; Chang et al., 2020). The World Health Organization 2020 has identified the novel coronavirus infection as a Public Health Emergency of International Concern and named it “COVID-19” (World Health Organization [WHO], 2020). As of March 6, 2020, more than 3000 medical staff in Hubei Province have been infected with COVID-19, of which 40 and 60% have been infected in hospitals and communities, respectively. All of them were local medical staff in Hubei Province, and most of them specialize in non-communicable diseases (The State Council Information Office of the People’s Republic of China, 2020). As of 19:00 on March 25, 2020, China had confirmed 81,896 cases of COVID-19, including 3287 dead and 73,793 recovered (National Health Commission of the People’s Republic of China, 2020).
+
+From January 25, 2020, 30 provincial-level administrative units have initiated major public health emergency level responses for effective prevention and control (Li Z. et al., 2020). On January 27, 2020, the Minister of Education issued a notice on the extension of the spring semester (Ministry of Education of the People’s Republic of China, 2020). Colleges and universities in each region have to start in accordance with the control of the local epidemic and the unified deployment of the local education administration and government (Rothe et al., 2020). Many college students would be required to take home isolation because of the implementation of strict traffic control and the postponement of the opening of colleges. However, these young students in the learning stage are still in the mature period of psychological development. In the face of such a ferocious epidemic and heavy academic work, they will be burdened by the pressure caused by COVID-19 or social isolation and interruption of normal school activities. In addition, cyberspace rumors can exacerbate psychological stress on students due to being unfamiliar with the novel disease. The widespread news also causes more concerns related to the severity of the disease. Lazarus and Folkman showed that when someone has to face huge hazards that are beyond their ability to handle, the physical and mental health are affected directly (Liu et al., 2015). As the first mental problem, stress can change students’ feelings through further physical and mental symptoms (Yuan and Lin, 2009). Therefore, focusing on the particularity of stress is helpful to improve the ability of early prevention of mental illness.
+
+Among these students, medical students are considered a special population. Although the COVID-19 epidemic is very dangerous, there are still many other factors that would affect students’ psychological stress. Firstly, during the outbreak response, online teaching approaches have been launched successively to avoid delays in study progress. But the lack of interaction and teaching materials and the unfamiliar classroom environment increase the concerns and discomfort among the students (Yang et al., 2020). Secondly, based on expectations for the future, medical students may suffer more stress than other professional students in academic and employment in the current environment (McGuire, 1966; Dyrbye and Shanafelt, 2011; Dyrbye et al., 2011; Voltmer et al., 2012). Furthermore, some medical interns were even required to be on the frontline to fight the COVID-19 in some cities of China. The poor situation of frontline medical workers has attracted much more attention from medical students, which furtherly enhance the stress perception of medical students. Additionally, a lot of basal characteristics of personal students can also change the personal psychological stress, such as family incoming, student’s age and gender, etc. For these factors, seeking the sources of students’ stress with a great importance are worth exploring.
+
+As we know, psychological stress can effect the overall mental health of these medical students (Al-Rabiaah et al., 2020), such as anxiety and depression, etc. (Cao et al., 2020; Liu J. N. et al., 2020). This outbreak has highlighted the fragility of mental resilience. For now, there are many researches focusing on the mental health of medical care workers who were exposed to COVID-19 with increasing frequencies of mental symptoms (Liu C. Y. et al., 2020). The rates of anxiety and depression among medical students are almost 12.5–23.48% (Chen et al., 2014; Zhao et al., 2018) and 13.2–48.7% (Chi et al., 2019; Xiong et al., 2019), respectively. Meanwhile, the researchers also show that the numbers of psychological mental health are generally increasing among college students (Cao et al., 2020). Therefore, to explore the correlation analysis between these mental health symptoms in medical students would bring huge benefits to the comprehensive management of students in the pandemic period.
+
+Of note, if high psychological stress and poor employment environment both were part of a vicious circle, it may lead to the decline of academic and employment performance and obviously reduce the quality of life of medical students (Dyrbye et al., 2005). To clarify, if the perceived stress of medical students has existed for a long time, it would directly affect the choice of medical career (McGuire, 1966; Kumar et al., 2019). In extreme cases, mental illness of these students during this period may even lead to students’ suicide (Singh et al., 2016; Kumar et al., 2019; Li H. Y. et al., 2020).
+
+Despite the importance of these issues, only a few studies have investigated the psychological stress of medical students in Health University in the COVID-19 outbreak in China. Therefore, this study’s aim is to design an online survey based on the CPSS questionnaire by collecting the demographic data (such as gender, age, educational background, nationality, monthly income of families and understanding of the disease, etc.) to describe the distribution of the psychological stress of medical students and to identify its influencing factors in China during the pandemic period. In addition, we also focus on exploring the relationship between stresses with psychologies phenomena and the changing of attitudes of learning and employment. Our findings might help governments, schools, or health authorities to recognize the causes of increased stress and their influences in medical students, and then to provide early effective measures to reduce that stress.
+
+Materials and Methods
+Study Population
+Using the cross-sectional research method, online students were investigated anonymously online by snowballing through questionnaires sent to WeChat and QQ. We restricted the IP address of each device (mobile phone, computer, and tablet) to answer the survey only once. The survey period is from March 5, 2020, to March 10, 2020. The questionnaire survey platform was developed by Changsha Ranxing Information Technology Co., Ltd. In total, 3,680 questionnaires were distributed and 3,675 valid questionnaires were recovered, with an effective rate of 99%. The inclusion criteria of this study were as follows: (1) Full-time college students aged 16?31 years old; (2) Be able to read and write; (3) Those who are willing to participate in this project. The exclusion criteria included: (1) Those who were unable to complete the study due to severe visual or hearing impairment, mental disorder, etc.; (2) Those with cognitive dysfunction.
+
+Pilot Survey
+Four medical administrators, four medical students, and four non-medical students were selected to conduct a pre-survey to understand the use of the questionnaires in this study. According to the feedback of the respondents, the questionnaire was modified appropriately.
+
+Data Collection
+Using the online questionnaire preparation method, the questionnaire items are entered one by one, and online release and questionnaire were collected. Before the input of the collected data, the errors were checked, and omissions were made up and the logic checked. Additionally, the questionnaires with obvious logic errors and more missing items were eliminated.
+
+Questionnaire Contents
+The first part included the general situation, such as gender, age, educational background, nationality, average monthly income of family members, learning attitude, and professional attitude. For the education background, we divided full-time college students into medical major and non-medical major. The medical major mainly includes clinical medicine and clinical nursing. Non-medical major mainly includes information management and high-speed rail crew, etc. The second part consisted of the Chinese version of perceived stress scale (CPSS). Previous PSS is widely accepted and used for psychological stress assessment. Cohen et al. (1983) developed the PSS in 1983. The Cronbach coefficient of the scale is 0.78, indicating good reliability and validity. Now, the scale has been sinologized by Yang Yanzhong of Zhejiang University (Yang and Huang, 2003). The CPSS can quickly judge the individual stress state through 14 designed questions. The 4, 5, 6, 7, 9, 10, and 13th questions were reverse items, and the total score range was 0–56. A high score indicates high psychological stress. A total score of ?25 points is defined as high stress. In the current study, we used the CPSS as the subjective index of psychological stress assessment. The Cronbach coefficient of this questionnaire was 0.827 to show good reliability.
+
+Statistical Analysis
+In this questionnaire, the continuous variables were reported as mean and standard deviation (SD) and compared by using the Student’s t-test or ANOVA test in two or more groups. LSD test was used to detect the multi-comparison after ANOVA test. The dichotomous data were presented as frequency (%) and compared by using the chi-square or the Fisher’s exact test in two groups. The distribution of mean CPSS score of the students from each province was also calculated. We firstly compared the CPSS score between the medical and non-medical student groups. Then, univariate analysis methods, such as the Student’s t-test and chi-square or Fisher’s exact test, were used to explore the candidate variables that related to the high CPSS score in the medical students. The standard mean difference (SMD) of these candidate variables between the two groups was calculated by the “tableone” package in R. Then, the multivariate logistics regression analysis was performed to determine the independent risk factors of the CPSS score. We presented the results of the multivariate analysis on a forest plot for all the comparative Odds Ratio (OR) values with it 95% confidence interval (CI) of the associations. Lastly, the bar plots of some potentially related variables were also used to analyze the differences between high CPSS and low CPSS groups. The main packages, including “forestplot,” “glm,” “ggolot2,” “maps,” “mapdata,” and “tableone,” were applied to visualize and analyze the results and conclusions. All the reported P-values with a significance level of 0.05 were defined based on two-sided tests. All statistical processes were performed in the R software (R Foundation for Statistical Computing, Vienna, Austria, and version 3.6.0).
+
+Results
+Questionnaires Collection and Study Design
+This is a cross-sectional, survey-based, region-stratified study and collected demographic data and CPSS measurement from 3,680 students in 31 provinces from March 5, 2020, to March 10, 2020, in China. Specifically, a total of 3,680 questionnaires were distributed and 3,675 valid questionnaires were recovered to analysis, with an effective recovery rate of 99%. To fully demonstrate the role of stress in medical students during the pandemic period, a comprehensive analysis with a flowchart was designed in Supplementary Figure S1.
+
+Distribution of CPSS Score of Medical and Non-medical Students in China
+Exactly 68.2% (2,498/3,675) of the students were medical students, whereas the remaining were non-medical students (31.8%, 1,177/3,675) in the questionnaire. First, we presented the distribution of CPSS score of all students in 31 provinces of China (Figure 1A), as well as the medical students (Figure 1B). Apparently, we found a regional heterogeneity in these provinces through the different depth of colors in the distribution map of CPSS score. From Figure 1C, we clearly found an increasing trend of CPSS score in the medical students by comparing with the total students in each Chinese province. The detailed digital results of these figures are included in Supplementary Table S1.
+
+FIGURE 1
+www.frontiersin.org
+Figure 1. The distribution and difference of the CPSS score of all students in each province of China. (A) The distribution of all students. (B) The distribution of the CPSS score of medical students. (C) CPSS score Changing from all students to medical students in each province of China.
+
+Demographic Comparison of Medical and Non-medical Students
+To detect the basal demographic characteristics of the medical and non-medical students, we compared collecting variables in Table 1. The differences of some variables, such as sex, age, race, source of the student, and the family income, also were detected between the two groups. By using the t-test the gaps between medical and non-medical students in the CPSS score were investigated. We found that the medical students had a higher mean CPSS score than the non-medical students (Figure 2A, CPSS score, medical: 24.14, non-medical: 22.63; P < 0.001). We stratified all the students into two groups, namely, the high- and low-CPSS group, by using the cutoff (value = 25) of the CPSS score (Yang and Huang, 2003). Therefore, based on the cut-off of CPSS in our study, the rate of high CPSS was 44.8% (1,648/3,676) in all students. Among them, the rate of medical students with high CPSS was 48.7% (1,219/2,499), and the rate of the students with low CPSS was 36.4% (429/1,178). The bar plot with the chi-square test can also detect the differences between two groups (Figure 2B, medical: 48.8%, non-medical: 36.4%; P < 0.001).
+
+TABLE 1
+www.frontiersin.org
+Table 1. The basal characteristics of medical and non-medical students in the design questionnaire.
+
+FIGURE 2
+www.frontiersin.org
+Figure 2. Comparison of medical students with non-medical students. (A) Continuous CPSS score; (B) category CPSS score (high > 25 vs. low ? 25).
+
+Univariate and Multivariate Analysis for High CPSS Score Among Medical Students
+To select the impact factors that related to the CPSS score among the medical students, we firstly compared the differences in the variables in the medical students with High CPSS score or Low CPSS score. Table 2 showed that five factors (i.e., age, family income, level of familiarity to COVID-19, major of students, and status of the intern student) could be the candidate variables related to the CPSS score in medical students (all P < 0.01). Then, we obtained the ranking of the five most relevant factors to CPSS by using the method of SMD in the package of “tableone” in R (Figure 3A). Thereafter, we included the five significantly related variables into multivariate logistic regression analysis. Finally, it showed that four variables were the independent risk factors of the CPSS score in the medical students (Figure 3B, all p < 0.05). As a supplement, we also tested the relationship between the continuous CPSS score with these factors by using the T-test and the LSD test and obtained results similar to those of the regression and general chi-square tests (Figures 3C–F, P < 0.05).
+
+TABLE 2
+www.frontiersin.org
+Table 2. The relationship of influencing factors with CPSS score (high vs. low) in medical students.
+
+FIGURE 3
+www.frontiersin.org
+Figure 3. Association of common variables with the CPSS score. (A) The SMD value of each variable between high CPSS score and low CPSS score in medical students. (B) The multivariable regression for the high CPSS score in medical students. (C–F) The significant difference of CPSS scores with four influencing factors.
+
+Relationship of CPSS Score With Psychological Phenomena Among Medical Students
+In general, stress and other emotions interacted in an individual person, and we still detected the relationship of the positive and negative effects of psychologies with CPSS score in our study. With the increasing number of positive psychologies, the frequency of high CPSS score is less and less in the medical students (Figure 4A, P < 0.001). Separately, we found that concern for other people (Figure 4C), keeping protection from COVID-19 (Figure 4D), and keeping good health (Figure 4F) could significantly reduce the CPSS score (P < 0.001) in the medical students, but not for unlike public morality (Figure 4B, P = 0.07) and following the epidemic news (Figure 4E, P = 0.36). Unlike positive phenomena, the negative phenomena of medical students including anxiety, depression, worried about health, boring, fear, helplessness, loneliness, and insomnia in the high CPSS score group were all higher than that in the low CPSS score group (Figures 5A–I, all P < 0.001).
+
+FIGURE 4
+www.frontiersin.org
+Figure 4. The relationship between CPSS score with different positive psychological phenomena in medical students. (A) The trend of the number of positive psychological phenomena in high or low CPSS score groups. (B–F) The individual positive psychological phenomenon.
+
+FIGURE 5
+www.frontiersin.org
+Figure 5. The relationship between CPSS score with different negative psychological phenomena in medical students. (A) The trend of the number of negative psychological phenomena in high or low CPSS score groups. (B–I) The individual negative psychological phenomenon.
+
+We also aimed to detect the relationship between CPSS and the attitude of learning and professional medical career. Then, learning and professional medical career attitudes with five levels were filled in by the subjects of the questionnaire. We could find that a high CPSS score led to the low enthusiasm for learning among medical students (Figure 6A, X2 = 196.49, P < 0.001). A five-level category for the attitude of professional medical career, including very, relatively, general, slightly willing, and unwilling, was further analyzed (Figure 6B). Although most of the medical students in the high- and the low-CPSS score groups (80.26 and 88.42%, respectively) continued their medical career, a high CPSS score still could cause a high proportion of students to be slightly willing and unwilling to do medicine-related work in the future (Figure 6B, X2 = 68.61, P < 0.001). To better comprehend the differences in the professional medical career attitude in the high- and the low-CPSS score groups in medical students, we also required the subjects to support the diversity of reasons for being unwilling to select the medical career in the questionnaire. Then, we divided these reasons into two parts, good and bad. The good reasons, such as “meaningful work” and “devotion of love,” were significantly higher in the medical student with low CPSS score. However, the poor reasons, such as “Disrespect by Patients,” “low salary,” “hard work and serving people,” “high academic requirements,” “Non-conformity for Career Planning,” and “Career without Future” were all higher in the medical students with high CPSS score (Table 3, all P < 0.05).
+
+FIGURE 6
+www.frontiersin.org
+Figure 6. The changing of the attitudes of learning and professional work in medical students with high or low CPSS score. (A) Learning; (B) the professional work (medical work).
+
+TABLE 3
+www.frontiersin.org
+Table 3. The differences of the diverse reasons for choosing the medical career in medical students with high or with low CPSS score.
+
+Discussion
+As we know, COVID-19 is highly contagious with 20% severe illness and 2% mortality rate. In such a short period, the sharply increasing number of COVID-19-infected people may lead to students who are suffering from psychological strain of disease outbreak, anxiety, and other disruptive emotions. As we can see in most cities in China, the government had to shut down schools and some entertainment or gathering place at all levels and did not allow students to participate in various forms of social activities and entertainment for nearly 2 months. “Homestay” was really against normal learning tools but was necessary in the pandemic period. Importantly, we can easily clarify the stress situations of college students by using the CPSS tool, which is a brief assessment of someone’s stress level in any aspect of life situation (Cohen et al., 1983). Considering that medical students suffer a huge amount of stress from academics and employment, they deeply need to learn medicine knowledge in the available online courses. Thus, these reasons would raise the levels of their stress during the pandemic, especially for medical students with their extensive duties (Arora, 2015). Of note, mild, moderate, and high levels of stress and even burnout have been reported among medical students and healthcare professionals in other countries (Al Khalidi and Wazaify, 2013; Muzafar et al., 2015; Aamir et al., 2017; Alkot et al., 2017; Syed et al., 2019). In total, understanding of the distribution and reasons of high stress in students during the COVID-19 outbreak may be helpful to governments, schools, or health authorities.
+
+This study firstly evaluated the distribution and huge differences of stress levels between medical and non-medical students in almost 31 provinces of China. To demonstrate the source of the high stress in medical students, we obtained four influencing factors, which could be significantly related to the progression of CPSS score in medical students by using the univariate and multivariate analysis, such as major of students, status of the intern student, family income, and level of familiarity with COVID-19. By comparing the female and older students with the male or young students, it was indicated that they have more mental problems, which is similar to the previous study (Cao et al., 2020; Li H. Y. et al., 2020; Liu C. Y. et al., 2020); however, statistical analysis showed no significant difference. In our study, approximately 85% of them were female medical students who could respond to the results. Among the population who answered the questionnaire, 66% of the students are nursing majors. Obviously, compared with other clinical majors, nursing students would face higher stress when they are undergoing the strictly learning and work environments (Magnavita and Chiorri, 2018). Additionally, medical interns have higher stress than the non-interns medical students (Babar et al., 2004; Liselotte et al., 2006; Guo et al., 2019; Shadid et al., 2020). Not only the clinical practice and emergencies in hospital, but also the task of publishing a graduation dissertation sends these intern students into a high-stress situation. What’s more, medical intern students need to avoid making mistakes because of the importance of patients’ life, because during the throat swab collection and medical operations, safety is uncertain all the time. Thus, responsible teachers and hospital managers should attend to these students, especially the nursing interns, regardless of school and hospital. It’s easy to understand that there is another reason that low family income tends to make students feel inferior, resulting in high stress in most instances (Wang et al., 2019). Finally, it is exceedingly profound to know that the higher level of familiarity with COVID-19 can lessen the anxiety and depression level of these students (Huang et al., 2020), as well as the stress in our study. People becoming familiar with things will significantly reduce psychological stress, fear, and other pessimistic moods. Therefore, it becomes much more important to reduce psychological stress through the comprehensive and accurate education of medical students in the prevention and control of the COVID-19 pandemic.
+
+The survey also asked students to fill other positive and negative psychological emotions in the form voluntarily in the study. The negative psychological emotions included depression, worry, boredom, fear, anxiety, helplessness, loneliness, and insomnia, and these were all significantly related to the higher CPSS score in the medical students. Previous studies have reported that stress is closely related to negative psychology that can lead adolescent students to avoid coping, and avoidance of coping enhances the severity of psychological stress (Ozawa, 2010; Arsenio and Loria, 2014). Positive psychological emotions including five psychological aspects, namely, “health protection measures,” “following the epidemic news,” “health condition,” “concern about public morality,” and “caring for others” were also related to psychological stress. It is obvious that the positive states of students are lower under the high pressure in the pandemic period. Therefore, it is equally important to find other psychological changes to improve the status of the students’ physical and mental health.
+
+The attitudes of learning and professional medical career were also reduced by the high stress brought by the epidemic. For the attitude of learning, medical students with low CPSS scores are more comfortable with learning than those with high CPSS scores. Researches showed that the lower psychological stress for learners who take the initiative to study in professional courses or read extracurricular books in online learning, the more efficient of the studying (Zhang et al., 2020). We also proved that most of the medical students both in the high- and the low-CPSS score groups would continue their medical careers. However, a higher proportion of medical students would be slightly willing and unwilling to do work related to medicine in the medical students with high stress. The medical students with low CPSS scores had a more stable professional mentality that was extremely helpful in controlling their occupational risks, and their motivation reasons are undeniable. In the pandemic period, for instance, from the arrival of the first medical team in Wuhan on New Year’s Eve on March 1 (Li Z. et al., 2020), a total of 42,322 medical staff used their spirit of selflessness and careers professionally, and this affected these medical students to reduce their stress. After COVID-19 in China, medical students would enhance their sense of social responsibility and professional attitude awareness. Thus, we strongly recommend that experts address these problems to improve the attitudes of learning and professional work by completing the formulation of sound incentive schemes.
+
+Limitations
+This cross-sectional study had certain limitations. Although we have collected much demographic information and made a lot of data analysis, we cannot determine the causal relationship between stress and these indicators, the same as the relationship between positive psychology and negative psychology and stress. Further longitudinal research is needed to obtain the final causality and improve decision-making ability. In addition, data was collected by using self-administered questionnaires/instruments. Hence, we cannot rule out information bias. To enhance the applicability of the research results, we should further expand the sample size and improve the representativeness in the follow-up research. Despite these limitations, this study provided invaluable information related to the students during the COVID-19 outbreak across 31 provinces and autonomous regions in China, and our results can be used as a historical reference.
+
+Conclusion
+Our study showed that the distribution of psychological stress (CPSS score) of the college students was obviously different among the different provinces in China during the outbreak of COVID-19. Among them, medical students suffer from higher stress than non-medical students in total and in most of the provinces. The top four independent risk factors related with psychological stress, including the lower level of familiarity with COVID-19, older age, lower family income, and the intern student, could significantly increase the psychological stress in the medical students in the pandemic period. Meanwhile, stress was related to some common positive and all the negative psychological phenomena significantly. Finally, timely decreasing of medical students’ stress can correct their learning attitudes and establish positive professional attitudes in the outbreak of COVID-19. The findings of the present study mainly could arouse the concern of policymakers, especially in the department of governments, schools, or health authorities.
+
+Data Availability Statement
+The raw data supporting the conclusions of this article will be made available by the authors, without undue reservation, to any qualified researcher.
+
+Ethics Statement
+The studies involving human participants were reviewed and approved by the Medical Ethics Committee of Xiamen Medical College. The patients/participants provided their written informed consent to participate in this study.
+
+Author Contributions
+WY and XY conceived, designed, and carried out the study and prepared the first draft of the manuscript. YL helped design and carry out the study and prepared the first draft of the manuscript. QL assisted in design, data extraction, and interpretation of results. SV helped design and revised this manuscript. XY and YG performed data analysis. XY, HY, YZ, and CZ critically evaluated earlier drafts of the manuscript. All authors contributed to the article and approved the submitted version.
+
+Conflict of Interest
+The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+
+Supplementary Material
+The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fpsyg.2020.548506/full#supplementary-material
+
+References
+Aamir, I. S., Aziz, H. W., Husnain, M. A. S., Syed, A. M. J., and Imad, U. D. (2017). Stress level comparison of medical and nonmedical students: a cross sectional study done at various professional colleges in Karachi, Pakistan. Acta Psychopathol. 03, 1–6. doi: 10.4172/2469-6676.100080
+
+ 
+
+Al Khalidi, D., and Wazaify, M. (2013). Assessment of pharmacists’ job satisfaction and job related stress in Amman. Int. J. Clin. Pharm. Net. 35, 821–828. doi: 10.1007/s11096-013-9815-7
+
+ 
+
+Alkot, M. M., Abdullah, Y. A., Abdulaziz, T. B., Adel, A. A., and Bawazeer, N. A. (2017). Depression among medical versus non-medical students in umm al-qura university, makkah al-mukaramah, Saudi Arabia. Am. J. Psychiatry Neurosci. 5, 1–5. doi: 10.11648/j.ajpn.20170501.11
+
+ 
+
+Al-Rabiaah, A., Temsah, M., Al-Eyadhy, A. A., Hasan, G. M., Al-Zamil, F., Al-Subaie, S., et al. (2020). Middle east respiratory syndrome-corona virus (MERS-CoV) associated stress among medical students at a university teaching hospital in Saudi Arabia. J. Infect. Public Health 13, 687–691.
+
+ 
+
+Arora, M. (2015). A comparative study between professional and non-professional course students: social adaptability. Int. J. Hum. Soc. Sci. Stud. 1, 26–31.
+
+ 
+
+Arsenio, W. F., and Loria, S. (2014). Coping with negative emotions: connections with adolescents’ academic performance and stress. J. Genet. Psychol. 175, 76–90. doi: 10.1080/00221325.2013.806293
+
+ 
+
+Babar, T., Arsalan, K., Muhammad, K., Hamza, K., Kiran, N., Nadia, K., et al. (2004). Students, stress and coping strategies: a case of pakistani medical school. Educ. Health 17, 346–353. doi: 10.1080/13576280400002585
+
+ 
+
+Cao, W., Fang, Z., Hou, G., Han, M., Xu, X., Dong, J., et al. (2020). The psychological impact of the COVID-19 epidemic on college students in China. Psychiatry Res. 287:112934. doi: 10.1016/j.psychres.2020.112934
+
+ 
+
+Chang, J. H., Yuan, Y. X., and Wang, D. (2020). Analysis of mental health status and influencing factors of college students in epidemic situation of new coronavirus pneumonia. J. Southern Med. Univ. 40, 171–176.
+
+ 
+
+Chen, F. X., Li, R., and Xu, C. Y. (2014). Status survey and verification analysis on anxiety among a certain medical university students in Shandong. Med. Soc. 7, 66–68.
+
+ 
+
+Chi, Y. N., Liu, X. Y., Ju, Y. L., and Yin, Z. Y. (2019). Reliability and validity of anxiety and depression stress scale in medical students. J. Shandong Univ. 57, 114–118.
+
+ 
+
+Cohen, S., Tom, K., and Robin, M. (1983). A global measure of perceived stress. J. Health Soc. Behav. 24, 385–396.
+
+ 
+
+Drosten, C., Günther, S., and Preiser, W. (2003). Identification of a novelcoronavirus in patients with severe acute respiratory syndrome. N. Engl. J. Med. 348, 1967–1976.
+
+ 
+
+Dyrbye, L. N., Harper, W., Durning, S. J., Moutier, C., Thomas, M. R., Massie, F. J., et al. (2011). Patterns of distress in US medical students. Med. Teach. 33, 834–839. doi: 10.3109/0142159X.2010.531158
+
+ 
+
+Dyrbye, L. N., and Shanafelt, T. D. (2011). Commentary: medical student distress: a call to action. Acad. Med. 86, 801–803. doi: 10.1097/ACM.0b013e31821da481
+
+ 
+
+Dyrbye, L. N., Thomas, M. R., and Shanafelt, T. D. (2005). Medical student distress: causes, consequences, and proposed solutions. Mayo Clin. Proc. 80, 1613–1622. doi: 10.4065/80.12.1613
+
+ 
+
+Guo, L., Jones, M. C., Liu, Y., Yv, S., Zhu, Y., and Guo, Y. (2019). Cross-cultural validation of the student nurse stress index scale: a descriptive survey targeting student nurses in China. J. Affect. Disord. 251, 31–38. doi: 10.1016/j.jad.2019.03.017
+
+ 
+
+Huang, Y. Z., Zhang, X. W., Xiao, Y., and Tao, X. N. (2020). Investigation on Novel Coronavirus Knowledge, Protective Skills and Stress Reaction of College Students. Available online at: http://kns.cnki.net/kcms/detail/11.5257.r.20200330.1619.002.html
+
+ 
+
+Kumar, B., Shah, M., Kumari, R., Kumar, A., Kumar, J., and Tahir, A. (2019). Depression, anxiety, and stress among final-year medical students. Cureus 11:e4257. doi: 10.7759/cureus.4257
+
+ 
+
+Li, H. Y., Cao, H., Leung, D., and Mak, Y. W. (2020). The psychological impacts of a COVID-19 outbreak on college students in china: a longitudinal study. Int. J. Environ. Res. Public Health 17:3933. doi: 10.3390/ijerph17113933
+
+ 
+
+Li, X., Zai, J., and Wang, X. (2020). Potential of large first generation human-to-human transmission of 2019-nCoV. J. Med. Virol. 92, 448–454. doi: 10.1002/jmv.25693
+
+ 
+
+Li, Z., Ge, J., Yang, M., Feng, J., Qiao, M., Jiang, R., et al. (2020). Vicarious traumatization in the general public, members, and non-members of medical teams aiding in COVID-19 control. Brain Behav. Immun. 88, 916–919. doi: 10.1016/j.bbi.2020.03.007
+
+ 
+
+Liselotte, N. D., Thomas, M. M. R., Karen, L. L., and Paul, J. N. (2006). Personal life events and medical student burnout: a multicenter study. Acad. Med. 81, 374–384.
+
+ 
+
+Liu, C. Y., Yang, Y. Z., Zhang, X. M., Xu, X., Dou, Q. L., Zhang, W. W., et al. (2020). The prevalence and influencing factors in anxiety in medical workers fighting COVID-19 in China: a cross-sectional survey. Epidemiol. Infect. 148:e98. doi: 10.1017/S0950268820001107
+
+ 
+
+Liu, J. N., Li, J. H., Li, L. P., and Al, E. (2020). Emergency management and diagnosis and treatment process of patients with oncology during new coronavirus epidemic. Cancer Res. 47, 1–4.
+
+ 
+
+Liu, W. T., Yi, J. Y., Zhong, M. T., and Zhu, X. Z. (2015). Measurement equivalence of stress perception scale in college students of different genders. Chinese J. Clin. Psychol. 23, 944–946.
+
+ 
+
+Magnavita, N., and Chiorri, C. (2018). Academic stress and active learning of nursing students: a cross-sectional study. Nurs. Educ. Today 68, 128–133. doi: 10.1016/j.nedt.2018.06.003
+
+ 
+
+McGuire, F. L. (1966). Psycho-social studies of medical students: a critical review. J. Med. Educ. 41, 424–445. doi: 10.1097/00001888-196605000-00002
+
+ 
+
+Ministry of Education of the People’s Republic of China (2020). Notice of the Ministry of Education on the Postponement of the Spring Semester of 2020. Beijing: Ministry of Education of the People’s Republic of China.
+
+ 
+
+Muzafar, Y., Khan, H. H., Ashraf, H., Hussain, W., Sajid, H., Tahir, M., et al. (2015). Burnout and its Associated Factors in Medical Students of Lahore, Pakistan. Cureus 7:e390. doi: 10.7759/cureus.390
+
+ 
+
+National Health Commission of the People’s Republic of China (2020). Update on Pneumonia of Novel Coronavirus Infections as of 19:00 on March 20,2020. Beijing: Ministry of Education of the People’s Republic of China.
+
+ 
+
+Ozawa, E. (2010). [Stress and attitudes toward negative emotions in adolescence]. Shinrigaku Kenkyu 81, 501–509. doi: 10.4992/jjpsy.81.501
+
+ 
+
+Rothe, C., Schunk, M., Sothmann, P., and Al, E. (2020). Transmission of 2019-nCoV infectionfrom an asymptomatic contact in germany(published online ahead of print,2020 Jan 30). N. Engl. J. Med. 382, 970–971. doi: 10.1056/NEJMc2001468
+
+ 
+
+Shadid, A., Shadid, A. M., Shadid, A., Almutairi, F. E., Almotairi, K. E., Aldarwish, T., et al. (2020). Stress, burnout, and associated risk factors in medical students. Cureus 12:e6633. doi: 10.7759/cureus.6633
+
+ 
+
+Singh, S., Prakash, J., Das, R. C., and Srivastava, K. (2016). A cross-sectional assessment of stress, coping, and burnout in the final-year medical undergraduate students. Ind. Psychiatry J. 25, 179–183. doi: 10.4103/ipj.ipj_68_16
+
+ 
+
+Syed, H. M., Naseer, A., Nada, Q. Q., Zohaib, A., Zahid, N., and Riaz, H. L. (2019). Burnout, job dissatisfaction, and mental health outcomes among medical students and health care professionals at a tertiary care hospital in pakistan: protocol for a multi-center cross-sectional Study. Front. Psychol. 10:2552. doi: 10.3389/fpsyg.2019.02552
+
+ 
+
+The State Council Information Office of the People’s Republic of China (2020). State Council of New China Holds Press Conference on Progress of New Crown Pneumonia Epidemic Prevention and Treatment. Zhongnanhai: The State Council Information Office of the People’s Republic of China.
+
+ 
+
+Voltmer, E., Kotter, T., and Spahn, C. (2012). Perceived medical school stress and the development of behavior and experience patterns in German medical students. Med. Teach. 34, 840–847. doi: 10.3109/0142159X.2012.706339
+
+ 
+
+Wang, D. Z., Zhang, T., and Tang, L. Q. (2019). Stressful events and family factors in college students. J Wannan Med. College 38, 486–489.
+
+ 
+
+World Health Organization [WHO] (2020). WHO Director-General’s remarks at the media briefing on 2019-nCoV on 11 February 2020. Geneva: WHO.
+
+ 
+
+Xiong, L., Wan, F., and Huang, M. E. (2019). Investigation and analysis on depression status of medic;al students in higher vocational college. Chongqing Med. 48, 1185–1187.
+
+ 
+
+Yang, H. J., Zhang, H. P., and Cheng, P. (2020). Analysis of online teaching in colleges and universities during the period of new crown pneumonia. Chinese J. Multimedia Netw. Teach. 19, 194–196.
+
+ 
+
+Yang, Y. T., and Huang, H. T. (2003). An epidemiological study on stress among urban residents in social transition period. Chinese J. Epidemiol. 24, 760–764.
+
+ 
+
+Yuan, L. X., and Lin, N. (2009). Factor structure of stress perception scale in college student samples. J. Guangdong Inst. Educ. 29, 45–49.
+
+ 
+
+Zaki, A. M., van Boheemen, S., and Bestebroer, T. M. (2012). Isolation of a novel coronavirus from a man with pneumonia in SaudiArabia. N. Engl. J. Med. 367, 1814–1820.
+
+ 
+
+Zhang, X. H., Ye, T. T., Yao, L. J., Song, L. G., and Wu, Z. D. (2020). Novel Coronavirus Pneumonia (COVID-19) During Psychological Outbreaks of Medical Students. Available online at: http://kns.cnki.net/kcms/detail/44.1503.R.20200306.1530.002.html
+
+ 
+
+Zhao, F., Pan, X. F., Yang, X., and Al, E. (2018). Prevalenc;e of anxiety symptoms and its correlates among Chinese medical students. Modern Prevent. Med. 22, 4114–4118.
+
+ 
+
+Keywords: novel coronavirus pneumonia, medical students, stress, perceived stress scales, influencing factors
+
+Citation: Ye W, Ye X, Liu Y, Liu Q, Vafaei S, Gao Y, Yu H, Zhong Y and Zhan C (2020) Effect of the Novel Coronavirus Pneumonia Pandemic on Medical Students’ Psychological Stress and Its Influencing Factors. Front. Psychol. 11:548506. doi: 10.3389/fpsyg.2020.548506
+
+Received: 03 April 2020; Accepted: 28 August 2020;
+Published: 14 October 2020.
+
+Edited by:
+
+Gianluca Castelnuovo, Catholic University of the Sacred Heart, Italy
+Reviewed by:
+
+Arslan Khalid, Shandong University, China
+Sara Molgora, Catholic University of the Sacred Heart, Italy

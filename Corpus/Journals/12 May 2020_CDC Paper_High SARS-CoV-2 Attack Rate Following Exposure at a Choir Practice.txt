@@ -1,0 +1,195 @@
+High SARS-CoV-2 Attack Rate Following Exposure at a Choir Practice — Skagit County, Washington, March 2020
+Weekly / May 15, 2020 / 69(19);606–610
+
+On May 12, 2020, this report was posted online as an MMWR Early Release.
+
+Lea Hamner, MPH1; Polly Dubbel, MPH1; Ian Capron1; Andy Ross, MPH1; Amber Jordan, MPH1; Jaxon Lee, MPH1; Joanne Lynn1; Amelia Ball1; Simranjit Narwal, MSc1; Sam Russell1; Dale Patrick1; Howard Leibrand, MD1 (View author affiliations)
+
+View suggested citation
+Summary
+What is already known about this topic?
+
+Superspreading events involving SARS-CoV-2, the virus that causes COVID-19, have been reported.
+
+What is added by this report?
+
+Following a 2.5-hour choir practice attended by 61 persons, including a symptomatic index patient, 32 confirmed and 20 probable secondary COVID-19 cases occurred (attack rate = 53.3% to 86.7%); three patients were hospitalized, and two died. Transmission was likely facilitated by close proximity (within 6 feet) during practice and augmented by the act of singing.
+
+What are the implications for public health practice?
+
+The potential for superspreader events underscores the importance of physical distancing, including avoiding gathering in large groups, to control spread of COVID-19. Enhancing community awareness can encourage symptomatic persons and contacts of ill persons to isolate or self-quarantine to prevent ongoing transmission.
+
+Article Metrics
+Altmetric:
+Article has an altmetric score of 8455
+News (157)
+Blogs (14)
+Twitter (11737)
+Facebook (24)
+Reddit (23)
+Citations:
+Views:
+Views equals page views plus PDF downloads
+
+Figure
+Tables
+Table 1
+
+Table 2
+
+References
+Related Materials
+PDF pdf icon[303K]
+The figure shows representation of 52 people who became sick after exposure to one symptomatic person with text describing ways to reduce the spread of COVID-19.
+ 
+
+On March 17, 2020, a member of a Skagit County, Washington, choir informed Skagit County Public Health (SCPH) that several members of the 122-member choir had become ill. Three persons, two from Skagit County and one from another area, had test results positive for SARS-CoV-2, the virus that causes coronavirus disease 2019 (COVID-19). Another 25 persons had compatible symptoms. SCPH obtained the choir’s member list and began an investigation on March 18. Among 61 persons who attended a March 10 choir practice at which one person was known to be symptomatic, 53 cases were identified, including 33 confirmed and 20 probable cases (secondary attack rates of 53.3% among confirmed cases and 86.7% among all cases). Three of the 53 persons who became ill were hospitalized (5.7%), and two died (3.7%). The 2.5-hour singing practice provided several opportunities for droplet and fomite transmission, including members sitting close to one another, sharing snacks, and stacking chairs at the end of the practice. The act of singing, itself, might have contributed to transmission through emission of aerosols, which is affected by loudness of vocalization (1). Certain persons, known as superemitters, who release more aerosol particles during speech than do their peers, might have contributed to this and previously reported COVID-19 superspreading events (2–5). These data demonstrate the high transmissibility of SARS-CoV-2 and the possibility of superemitters contributing to broad transmission in certain unique activities and circumstances. It is recommended that persons avoid face-to-face contact with others, not gather in groups, avoid crowded places, maintain physical distancing of at least 6 feet to reduce transmission, and wear cloth face coverings in public settings where other social distancing measures are difficult to maintain.
+
+Top
+
+Investigation and Findings
+The choir, which included 122 members, met for a 2.5-hour practice every Tuesday evening through March 10. On March 15, the choir director e-mailed the group members to inform them that on March 11 or 12 at least six members had developed fever and that two members had been tested for SARS-CoV-2 and were awaiting results. On March 16, test results for three members were positive for SARS-CoV-2 and were reported to two respective local health jurisdictions, without indication of a common source of exposure. On March 17, the choir director sent a second e-mail stating that 24 members reported that they had developed influenza-like symptoms since March 11, and at least one had received test results positive for SARS-CoV-2. The email emphasized the importance of social distancing and awareness of symptoms suggestive of COVID-19. These two emails led many members to self-isolate or quarantine before a delegated member of the choir notified SCPH on March 17.
+
+All 122 members were interviewed by telephone either during initial investigation of the cluster (March 18–20; 115 members) or a follow-up interview (April 7–10; 117); most persons participated in both interviews. Interviews focused on attendance at practices on March 3 and March 10, as well as attendance at any other events with members during March, other potential exposures, and symptoms of COVID-19. SCPH used Council of State and Territorial Epidemiologists case definitions to classify confirmed and probable cases of COVID-19 (6). Persons who did not have symptoms at the initial interview were instructed to quarantine for 14 days from the last practice they had attended. The odds of becoming ill after attending each practice were computed to ascertain the likelihood of a point-source exposure event.
+
+No choir member reported having had symptoms at the March 3 practice. One person at the March 10 practice had cold-like symptoms beginning March 7. This person, who had also attended the March 3 practice, had a positive laboratory result for SARS-CoV-2 by reverse transcription–polymerase chain reaction (RT-PCR) testing.
+
+In total, 78 members attended the March 3 practice, and 61 attended the March 10 practice (Table 1). Overall, 51 (65.4%) of the March 3 practice attendees became ill; all but one of these persons also attended the March 10 practice. Among 60 attendees at the March 10 practice (excluding the patient who became ill March 7, who also attended), 52 (86.7%) choir members subsequently became ill. Some members exclusively attended one practice; among 21 members who only attended March 3, one became ill and was not tested (4.8%), and among three members who only attended March 10, two became ill (66.7%), with one COVID-19 case being laboratory-confirmed.
+
+Because illness onset for 49 (92.5%) patients began during March 11–15 (Figure), a point-source exposure event seemed likely. The median interval from the March 3 practice to symptom onset was 10 days (range = 4–19 days), and from the March 10 practice to symptom onset was 3 days (range = 1–12 days). The odds of becoming ill after the March 3 practice were 17.0 times higher for practice attendees than for those who did not attend (95% confidence interval [CI] = 5.5–52.8), and after the March 10 practice, the odds were 125.7 times greater (95% CI = 31.7–498.9). The clustering of symptom onsets, odds of becoming ill according to practice attendance, and known presence of a symptomatic contagious case at the March 10 practice strongly suggest that date as the more likely point-source exposure event. Therefore, that practice was the focus of the rest of the investigation. Probable cases were defined as persons who attended the March 10 practice and developed clinically compatible COVID-19 symptoms, as defined by Council of State and Territorial Epidemiologists (6). The choir member who was ill beginning March 7 was considered the index patient.
+
+The March 10 choir rehearsal lasted from 6:30 to 9:00 p.m. Several members arrived early to set up chairs in a large multipurpose room. Chairs were arranged in six rows of 20 chairs each, spaced 6–10 inches apart with a center aisle dividing left and right stages. Most choir members sat in their usual rehearsal seats. Sixty-one of the 122 members attended that evening, leaving some members sitting next to empty seats. Attendees practiced together for 40 minutes, then split into two smaller groups for an additional 50-minute practice, with one of the groups moving to a smaller room. At that time, members in the larger room moved to seats next to one another, and members in the smaller room sat next to one another on benches. Attendees then had a 15-minute break, during which cookies and oranges were available at the back of the large room, although many members reported not eating the snacks. The group then reconvened for a final 45-minute session in their original seats. At the end of practice, each member returned their own chair, and in the process congregated around the chair racks. Most attendees left the practice immediately after it concluded. No one reported physical contact between attendees. SCPH assembled a seating chart of the all-choir portion of the March 10 practice (not reported here because of concerns about patient privacy).
+
+Among the 61 choir members who attended the March 10 practice, the median age was 69 years (range = 31–83 years); 84% were women. Median age of those who became ill was 69 years, and 85% of cases occurred in women. Excluding the laboratory-confirmed index patient, 52 (86.7%) of 60 attendees became ill; 32 (61.5%) of these cases were confirmed by RT-PCR testing and 20 (38.5%) persons were considered to have probable infections. These figures correspond to secondary attack rates of 53.3% and 86.7% among confirmed and all cases, respectively. Attendees developed symptoms 1 to 12 days after the practice (median = 3 days). The first SARS-CoV-2 test was performed on March 13. The last person was tested on March 26.
+
+Three of the 53 patients were hospitalized (5.7%), including two who died (3.8%). The mean interval from illness onset to hospitalization was 12 days. The intervals from onset to death were 14 and 15 days for the two patients who died.
+
+SCPH collected information about patient signs and symptoms from patient interviews and hospital records (Table 2). Among persons with confirmed infections, the most common signs and symptoms reported at illness onset and at any time during the course of illness were cough (54.5% and 90.9%, respectively), fever (45.5%, 75.8%), myalgia (27.3%, 75.0%), and headache (21.2%, 60.6%). Several patients later developed gastrointestinal symptoms, including diarrhea (18.8%), nausea (9.4%), and abdominal cramps or pain (6.3%). One person experienced only loss of smell and taste. The most severe complications reported were viral pneumonia (18.2%) and severe hypoxemic respiratory failure (9.1%).
+
+Among the recognized risk factors for severe illness, the most common was age, with 75.5% of patients aged ?65 years. Most patients (67.9%) did not report any underlying medical conditions, 9.4% had one underlying medical condition, and 22.6% had two or more underlying medical conditions. All three hospitalized patients had two or more underlying medical conditions.
+
+Top
+
+Public Health Response
+SCPH provided March 10 practice attendees with isolation and quarantine instructions by telephone, email, and postal mail. Contacts of patients were traced and notified of isolation and quarantine guidelines. At initial contact, 15 attendees were quarantined, five of whom developed symptoms during quarantine and notified SCPH.
+
+Before detection of this cluster on March 17, Skagit County had reported seven confirmed COVID-19 cases (5.4 cases per 100,000 population). At the time, SCPH informed residents that likely more community transmission had occurred than indicated by the low case counts.* On March 21, SCPH issued a press release to describe the outbreak and raise awareness about community transmission.† The press release emphasized the highly contagious nature of COVID-19 and the importance of following social distancing guidelines to control the spread of the virus.
+
+Top
+
+Discussion
+Multiple reports have documented events involving superspreading of COVID-19 (2–5); however, few have documented a community-based point-source exposure (5). This cluster of 52 secondary cases of COVID-19 presents a unique opportunity for understanding SARS-CoV-2 transmission following a likely point-source exposure event. Persons infected with SARS-CoV-2 are most infectious from 2 days before through 7 days after symptom onset (7). The index patient developed symptoms on March 7, which could have placed the patient within this infectious period during the March 10 practice. Choir members who developed symptoms on March 11 (three) and March 12 (seven) attended both the March 3 and March 10 practices and thus could have been infected earlier and might have been infectious in the 2 days preceding symptom onset (i.e., as early as March 9). The attack rate in this group (53.3% and 86.7% among confirmed cases and all cases, respectively) was higher than that seen in other clusters, and the March 10 practice could be considered a superspreading event (3,4). The median incubation period of COVID-19 is estimated to be 5.1 days (8). The median interval from exposure during the March 10 practice to onset of illness was 3 days, indicating a more rapid onset.
+
+Choir practice attendees had multiple opportunities for droplet transmission from close contact or fomite transmission (9), and the act of singing itself might have contributed to SARS-CoV-2 transmission. Aerosol emission during speech has been correlated with loudness of vocalization, and certain persons, who release an order of magnitude more particles than their peers, have been referred to as superemitters and have been hypothesized to contribute to superspeading events (1). Members had an intense and prolonged exposure, singing while sitting 6–10 inches from one another, possibly emitting aerosols.
+
+The findings in this report are subject to at least two limitations. First, the seating chart was not reported because of concerns about patient privacy. However, with attack rates of 53.3% and 86.7% among confirmed and all cases, respectively, and one hour of the practice occurring outside of the seating arrangement, the seating chart does not add substantive additional information. Second, the 19 choir members classified as having probable cases did not seek testing to confirm their illness. One person classified as having probable COVID-19 did seek testing 10 days after symptom onset and received a negative test result. It is possible that persons designated as having probable cases had another illness.
+
+This outbreak of COVID-19 with a high secondary attack rate indicates that SARS-CoV-2 might be highly transmissible in certain settings, including group singing events. This underscores the importance of physical distancing, including maintaining at least 6 feet between persons, avoiding group gatherings and crowded places, and wearing cloth face coverings in public settings where other social distancing measures are difficult to maintain during this pandemic. The choir mitigated further spread by quickly communicating to its members and notifying SCPH of a cluster of cases on March 18. When first contacted by SCPH during March 18–20, nearly all persons who attended the practice reported they were already self-isolating or quarantining. Current CDC recommendations, including maintaining physical distancing of at least 6 feet and wearing cloth face coverings if this is not feasible, washing hands often, covering coughs and sneezes, staying home when ill, and frequently cleaning and disinfecting high-touch surfaces remain critical to reducing transmission. Additional information is available at https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html.
+
+Top
+
+Acknowledgments
+Patients described in this report; health care personnel who cared for them; Skagit County Public Health staff members and leaders, particularly the Communicable Disease investigators; Washington State Department of Health.
+
+Top
+
+Corresponding author: Lea Hamner, leah@co.skagit.wa.us, 360-416-1500.
+
+Top
+
+1Skagit County Public Health, Mount Vernon, Washington.
+
+Top
+
+All authors have completed and submitted the International Committee of Medical Journal Editors form for disclosure of potential conflicts of interest. All authors report receipt of funding through Public Health Emergency Preparedness grant from the Washington State Department of Health during the conduct of the study. No other potential conflicts of interest were disclosed.
+
+Top
+
+
+* Skagit County, updated social distancing information. https://skagitcounty.net/departments/home/press/031620.htmexternal icon.
+
+† Skagit County, public health investigating cluster of related COVID-19 cases. https://skagitcounty.net/departments/home/press/032120.htmexternal icon.
+
+Top
+
+References
+Asadi S, Wexler AS, Cappa CD, Barreda S, Bouvier NM, Ristenpart WD. Aerosol emission and superemission during human speech increase with voice loudness. Sci Rep 2019;9:2348. CrossRefexternal icon PubMedexternal icon
+Wang D, Hu B, Hu C, et al. Clinical characteristics of 138 hospitalized patients with 2019 novel coronavirus-infected pneumonia in Wuhan, China. JAMA 2020;323:1061–9. CrossRefexternal icon PubMedexternal icon
+McMichael TM, Currie DW, Clark S, et al. Epidemiology of COVID-19 in a long-term care facility in King County, Washington. N Engl J Med 2020;NEJMoa2005412. CrossRefexternal icon PubMedexternal icon
+Ghinai I, Woods S, Ritger KA, et al. Community transmission of SARS-CoV-2 at two family gatherings—Chicago, Illinois, February–March 2020. MMWR Morb Mortal Wkly Rep 2020;69:446–50. CrossRefexternal icon PubMedexternal icon
+South Korean city on high alert as coronavirus cases soar at ‘cult’ church. The Guardian, US Edition. February 20, 2020. https://www.theguardian.com/world/2020/feb/20/south-korean-city-daegu-lockdown-coronavirus-outbreak-cases-soar-at-church-cult-clusterexternal icon
+Council of State and Territorial Epidemiologists. Interim-20-ID-01: standardized surveillance case definition and national notification for 2019 novel coronavirus disease (COVID-19). Atlanta, GA: Council of State and Territorial Epidemiologists; 2020. https://cdn.ymaws.com/www.cste.org/resource/resmgr/2020ps/interim-20-id-01_covid-19.pdfpdf iconexternal icon
+He X, Lau EHY, Wu P, et al. Temporal dynamics in viral shedding and transmissibility of COVID-19. Nat Med 2020;26:672–5. PubMedexternal icon
+Lauer SA, Grantz KH, Bi Q, et al. The incubation period of coronavirus disease 2019 (COVID-19) from publicly reported confirmed cases: estimation and application. Ann Intern Med 2020;172:577. CrossRefexternal icon PubMedexternal icon
+van Doremalen N, Bushmaker T, Morris DH, et al. Aerosol and surface stability of SARS-CoV-2 as compared with SARS-CoV-1. N Engl J Med 2020;382:1564–7. CrossRefexternal icon PubMedexternal icon
+Top
+
+TABLE 1. Number of choir members with and without COVID-19–compatible symptoms (N = 122)* and members’ choir practice attendance† — Skagit County, Washington, March 3 and 10, 2020Return to your place in the text
+Attendance	No. (row %)
+March 3 practice	March 10 practice
+Total	Symptomatic	Asymptomatic	Total	Symptomatic	Asymptomatic
+Attended	78	51 (65.4)	27 (34.6)	61	53§ (86.9)	8 (13.1)
+Did not attend	40	4 (10.0)	36 (90.0)	61	3 (4.9)	58 (95.1)
+Attendance information missing	4	1 (25.0)	3 (75.0)	0	0 (—)	0 (—)
+Attended only one practice	21	1 (4.8)	20 (95.2)	3	2 (66.7)	1 (33.3)
+Abbreviation: COVID-19 = coronavirus disease 2019.
+* No choir members were symptomatic at the March 3 practice.
+† Thirty-seven choir members attended neither practice; two developed symptoms, and 35 remained asymptomatic.
+§ Includes index patient; if the index patient excluded, 52 secondary cases occurred among the other 60 attendees (attack rate = 86.7%).
+
+Top
+
+Return to your place in the textFIGURE. Confirmed* and probable† cases of COVID-19 associated with two choir practices, by date of symptom onset (N = 53) — Skagit County, Washington, March 2020
+The figure is a histogram, an epidemiological curve showing 53 confirmed and probable cases of COVID-19 associated with two choir practices in Skagit County, Washington, by date of symptom onset, during March 2020.
+Abbreviation: COVID-19 = coronavirus disease 2019.
+
+* Positive reverse transcription–polymerase chain reaction test result.
+
+† Attendance at the March 10 practice and clinically compatible symptoms as defined by the Council of State and Territorial Epidemiologists, Interim-20-ID-01: Standardized surveillance case definition and national notification for 2019 novel coronavirus disease (COVID-19). https://cdn.ymaws.com/www.cste.org/resource/resmgr/2020ps/interim-20-id-01_covid-19.pdfpdf iconexternal icon.
+
+Top
+
+TABLE 2. Signs and symptoms reported at the onset of COVID-19 illness and during the course of illness among persons infected at a choir practice (N = 53)* — Skagit County, Washington, March 2020Return to your place in the text
+Sign or symptom	No. (%)	no./No. (%)
+Reported at onset of illness	Reported during course of illness
+All cases
+(N = 53)	Confirmed cases
+(N = 33)	All cases
+(N = 53)	Confirmed cases
+(N = 33)
+Cough	27 (50.9)	18 (54.5)	47/53 (88.7)	30/33 (90.9)
+Fever	28 (52.8)	15 (45.5)	36/53 (67.9)	25/33 (75.8)
+Myalgia	13 (24.5)	9 (27.3)	34/52 (65.4)	24/32 (75.0)
+Headache	10 (18.9)	7 (21.2)	32/53 (60.4)	20/33 (60.6)
+Chills or rigors	7 (13.2)	6 (18.2)	23/51 (45.1)	16/31 (51.6)
+Congestion	4 (7.5)	2 (6.1)	25/52 (48.1)	15/32 (46.9)
+Pharyngitis	2 (3.8)	2 (6.1)	12/52 (23.1)	8/32 (25.0)
+Lethargy	4 (7.5)	2 (6.1)	5/52 (9.6)	3/32 (9.4)
+Fatigue	3 (5.7)	1 (3.0)	24/52 (46.2)	15/32 (46.9)
+Aguesia (loss of taste)	1 (1.9)	1 (3.0)	11/48 (22.9)	5/28 (17.9)
+Anosmia (loss of smell)	1 (1.9)	1 (3.0)	10/48 (20.8)	5/28 (17.9)
+Chest congestion or tightness	1 (1.9)	1 (3.0)	5/52 (9.6)	4/32 (12.5)
+Weakness	1 (1.9)	1 (3.0)	3/52 (5.8)	2/32 (6.3)
+Eye ache	1 (1.9)	1 (3.0)	1/52 (1.9)	1/32 (3.1)
+Dyspnea	0 (—)	0 (—)	8/51 (15.7)	8/31 (25.8)
+Diarrhea	0 (—)	0 (—)	8/52 (15.4)	6/32 (18.8)
+Pneumonia	0 (—)	0 (—)	6/53 (11.3)	6/33 (18.2)
+Nausea	0 (—)	0 (—)	3/52 (5.8)	3/32 (9.4)
+Acute hypoxemic respiratory failure	0 (—)	0 (—)	3/53 (5.7)	3/33 (9.1)
+Abdominal pain or cramps	0 (—)	0 (—)	2/52 (3.8)	2/32 (6.3)
+Malaise	1 (1.9)	0 (—)	1/52 (1.9)	0/32 (—)
+Anorexia	0 (—)	0 (—)	1/52 (1.9)	0/32 (—)
+Vomiting	0 (—)	0 (—)	0/52 (—)	0/32 (—)
+Abbreviation: COVID-19 = coronavirus disease 19.
+* Including the index patient.
+
+Top
+
+
+Suggested citation for this article: Hamner L, Dubbel P, Capron I, et al. High SARS-CoV-2 Attack Rate Following Exposure at a Choir Practice — Skagit County, Washington, March 2020. MMWR Morb Mortal Wkly Rep 2020;69:606–610. DOI: http://dx.doi.org/10.15585/mmwr.mm6919e6external icon.
+
+MMWR and Morbidity and Mortality Weekly Report are service marks of the U.S. Department of Health and Human Services.
+Use of trade names and commercial sources is for identification only and does not imply endorsement by the U.S. Department of Health and Human Services.
+References to non-CDC sites on the Internet are provided as a service to MMWR readers and do not constitute or imply endorsement of these organizations or their programs by CDC or the U.S. Department of Health and Human Services. CDC is not responsible for the content of pages found at these sites. URL addresses listed in MMWR were current as of the date of publication.
+
+All HTML versions of MMWR articles are generated from final proofs through an automated process. This conversion might result in character translation or format errors in the HTML version. Users are referred to the electronic PDF version (https://www.cdc.gov/mmwr) and/or the original MMWR paper copy for printable versions of official text, figures, and tables.
