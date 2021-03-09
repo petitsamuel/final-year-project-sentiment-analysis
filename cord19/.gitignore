@@ -1,0 +1,5 @@
+changelog
+cord_19_embeddings_*.csv
+metadata.csv
+document_parses/*
+*.pyc

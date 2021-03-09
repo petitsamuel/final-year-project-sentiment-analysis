@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS metadata (
+   	cord_uid TEXT NOT NULL,
+   	sha TEXT DEFAULT NULL,
+   	source_x TEXT DEFAULT NULL,
+   	title TEXT NOT NULL,
+   	doi VARCHAR(64) NOT NULL,
+   	pmcid VARCHAR(64) DEFAULT NULL,
+   	pubmed_id INTEGER DEFAULT NULL,
+   	license VARCHAR(16) DEFAULT NULL,
+   	abstract TEXT DEFAULT NULL,
+   	publish_time DATE DEFAULT NULL,
+   	authors TEXT NOT NULL,
+   	journal TEXT DEFAULT NULL,
+    who_covidence_id VARCHAR(64) DEFAULT NULL,
+   	arxiv_id VARCHAR(64) DEFAULT NULL,
+   	pdf_json_files TEXT DEFAULT NULL,
+   	pmc_json_files TEXT DEFAULT NULL,
+   	url TEXT DEFAULT NULL,
+   	s2_id VARCHAR(64) DEFAULT NULL
+);
