@@ -1,0 +1,4 @@
+SELECT *
+from metadata
+ORDER BY RANDOM()
+LIMIT ? OFFSET ?

@@ -60,6 +60,21 @@ def show_db_count():
     return rows[0]
 
 
+def load_metadata(limit=20, offset=0, shuffled=False):
+    script = ''
+    if shuffled:
+        script = load_sql_script('sql/select_all_shuffled.sql')
+    else:
+        script = load_sql_script('sql/select_all.sql')
+    try:
+        cursor.execute(script, (limit, offset))
+        rows = cursor.fetchall()
+    except sqlite3.Error as err:
+        print_sql_err(err)
+        raise Exception('SQLite error: %s' % (' '.join(err.args)))
+    return rows
+
+
 def execute_sql(script):
     try:
         print('Executing SQL command...\n%s' % (script))
