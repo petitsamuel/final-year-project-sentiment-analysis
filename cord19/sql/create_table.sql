@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS metadata (
    	title TEXT NOT NULL,
    	doi VARCHAR(64) NOT NULL,
    	pmcid VARCHAR(64) DEFAULT NULL,
-   	pubmed_id INTEGER DEFAULT NULL,
+   	pubmed_id VARCHAR(64) DEFAULT NULL,
    	license VARCHAR(16) DEFAULT NULL,
    	abstract TEXT DEFAULT NULL,
    	publish_time DATE DEFAULT NULL,

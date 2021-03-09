@@ -42,7 +42,7 @@ def insert_metadata_row(row):
         cursor.execute(
             script,
             (row['cord_uid'], row['sha'], row['source_x'], row['title'],
-             row['doi'], row['pmcid'], int(row['pubmed_id']), row['license'],
+             row['doi'], row['pmcid'], row['pubmed_id'], row['license'],
              row['abstract'], date, row['authors'], row['journal'],
              row['who_covidence_id'], row['arxiv_id'], row['pdf_json_files'],
              row['pmc_json_files'], row['url'], row['s2_id']))
@@ -54,7 +54,7 @@ def insert_metadata_row(row):
 
 
 def show_db_count():
-    cursor.execute("SELECT COUNT(*) metadata")
+    cursor.execute("SELECT COUNT(*) FROM metadata")
     rows = cursor.fetchone()
     print("Total row count in metadata DB: %s" % (rows[0]))
     return rows[0]

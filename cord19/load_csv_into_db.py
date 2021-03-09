@@ -24,7 +24,7 @@ with open('metadata.csv') as f_in:
         try:
             insert_metadata_row(row)
         except Exception as err:
-            print('Could not insert row: %s' % ' '.join(err.args))
+            print('\nCould not insert row: %s' % ' '.join(err.args))
         bar.next()
 
 bar.finish()
