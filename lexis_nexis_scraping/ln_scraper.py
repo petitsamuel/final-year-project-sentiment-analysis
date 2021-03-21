@@ -1,0 +1,170 @@
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+import os
+import time
+import numpy as np
+
+searchTerms = r'Corona or Covid'
+url = r'http://elib.tcd.ie/login?url=https://advance.lexis.com/nexis?&identityprofileid=69Q2VF60797'
+username = 'petits'
+password = 'Tdmdrums81'
+root = r'/home/sam/dev/LexisNexis-Scraping'
+path_to_chromedriver = '/usr/bin/chromedriver'
+download_folder = r'/home/sam/dev/LexisNexis-Scraping/download'
+dead_time = 500
+page_size = 150
+
+
+def wait_for_download_triggered():
+    print("Waiting for download to trigger")
+    start_time = time.time()
+    while all([not filename.endswith(".crdownload") for filename in os.listdir(download_folder)]):
+        if time.time() - start_time > dead_time:
+            raise Exception({'error': 'delay expired'})
+    print("Download triggered!")
+
+
+def wait_for_download_done():
+    print("Waiting for download to complete")
+    start_time = time.time()
+    while any([filename.endswith(".crdownload") for filename in os.listdir(download_folder)]):
+        if time.time() - start_time > dead_time:
+            raise Exception({'error': 'delay expired'})
+        time.sleep(2)
+    print("File download finished!")
+
+
+def rename_downloaded_file(page, total):
+    print("Renaming file for indexing")
+    try:
+        files = [filename for filename in os.listdir(
+            download_folder) if filename.startswith("Files ") or filename == "ZIP"]
+        assert len(files) == 1
+        os.rename(download_folder + "/" +
+                  files[0], download_folder + '/%d_%d.zip' % (page, total))
+        print("File renamed to %s" % ('%d_%d.zip' % (page, total)))
+    except Exception as e:
+        print(e)
+        print("failed to rename file to be indexed")
+        exit(1)
+
+
+def clean_download_dir():
+    print("Cleaning download directory...")
+    for file in os.listdir(download_folder):
+        if file.endswith(".crdownload") or file.startswith("Files ") or file == "ZIP":
+            os.remove(os.path.join(download_folder, file))
+
+
+# Return True if a downloaded file does not exist for current page
+def should_download_page(page, total):
+    return not any([filename == '%d_%d.zip' % (page, total)
+                    for filename in os.listdir(download_folder)])
+
+
+def wait_is_rendered(selector):
+    # Wait for dialog to display
+    dialog = None
+    start_time = time.time()
+    while not dialog:
+        try:
+            if time.time() - start_time > dead_time:
+                raise Exception({'error': 'delay expired'})
+            dialog = browser.find_element_by_xpath(selector)
+            break
+        except:
+            time.sleep(0.1)
+            continue
+
+
+# Get Page Info
+total_number = 350904  # article count (found by hand)
+total_page = int(np.ceil(total_number/page_size))
+
+# Setup chrome driver
+chromeOptions = webdriver.ChromeOptions()
+prefs = {"download.default_directory": download_folder}
+chromeOptions.add_experimental_option("prefs", prefs)
+chromeOptions.headless = True
+browser = webdriver.Chrome(
+    executable_path=path_to_chromedriver, options=chromeOptions)
+browser.set_window_size(1800, 1000)
+
+# Login
+print("Loading login page")
+browser.get(
+    'https://advance-lexis-com.elib.tcd.ie/api/permalink/546fa9da-ab94-460c-9065-a069aa71c26a/?context=1519360&identityprofileid=69Q2VF60797')
+input_elements = browser.find_elements_by_id('entry')
+input_elements[0].send_keys(username)
+input_elements[1].send_keys(password)
+input_elements[1].send_keys(Keys.ENTER)
+
+try:
+    # Accept dialog page
+    time.sleep(1)
+    print("Accepting redirect page")
+    browser.find_element_by_xpath(
+        '//*[@id="kv7k"]/div/div/div/section/div/menu/input[1]').click()
+except:
+    # If page is not shown - continue to search
+    pass
+
+# Uncomment below if an information dialog is shown (pendo titled)
+# Wait for announcement dialog to display & close it
+dialog = None
+start_time = time.time()
+while not dialog:
+    try:
+        if time.time() - start_time > dead_time:
+            raise Exception({'error': 'delay expired'})
+        dialog = browser.find_elements_by_id(
+            'pendo-guide-container')
+        browser.find_element_by_xpath(
+            '/html/body/div[3]/div/div/div[3]/div/div[1]/button').click()
+        break
+    except:
+        time.sleep(0.2)
+        continue
+print("Starting download...")
+for page in range(total_page):
+    clean_download_dir()
+    if not should_download_page(page, total_page):
+        print("Page %d out of %d already downloaded, skipping" %
+              (page, total_page))
+        continue
+    print("Downloading page %d out of %d" % (page, total_page))
+    wait_is_rendered('//*[@id="content"]/header')
+    # Click download button
+    browser.find_element_by_xpath(
+        '//*[@id="results-list-delivery-toolbar"]/div/ul[1]/li[3]/ul/li[3]/button').click()
+
+    wait_is_rendered('//*[@id="SelectedRange"]')
+
+    browser.find_element_by_xpath('//*[@id="SelectedRange"]').send_keys(
+        "%d-%d" % (((page * page_size) + 1), ((page + 1) * page_size)))
+    browser.find_element_by_xpath('//*[@id="Rtf"]').click()
+    browser.find_element_by_xpath(
+        '//*[@id="SeparateFiles"]').click()
+    browser.find_element_by_xpath('//*[@id="FileName"]').clear()
+    browser.find_element_by_xpath(
+        '//*[@id="FileName"]').send_keys(str(page) + '_' + str(total_page))
+    browser.find_element_by_xpath(
+        '//*[@id="tab-FormattingOptions"]').click()
+    time.sleep(0.5)
+    if browser.find_element_by_xpath('//*[@id="EmbeddedReferences"]').get_attribute('checked') == 'true':
+        browser.find_element_by_xpath(
+            '//*[@id="EmbeddedReferences"]').click()
+
+    # click download
+    browser.find_element_by_xpath(
+        '/html/body/aside/footer/div/button[1]').click()
+
+    wait_for_download_triggered()
+    wait_for_download_done()
+    time.sleep(0.5)
+    rename_downloaded_file(page, total_page)
+
+    print('Finished page: ' + str(page) +
+          ' out of ' + str(total_page), end="\n\n\n")
+
+print("Finished downloading!")

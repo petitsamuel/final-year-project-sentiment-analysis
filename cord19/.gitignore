@@ -4,3 +4,4 @@ metadata.csv
 document_parses/*
 *.pyc
 *.db
+sqlite/

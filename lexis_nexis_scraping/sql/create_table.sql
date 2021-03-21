@@ -1,0 +1,19 @@
+CREATE TABLE IF NOT EXISTS articles (
+	id int NOT NULL AUTO_INCREMENT,
+	title TEXT NOT NULL,
+	source TEXT DEFAULT NULL,
+	date DATETIME DEFAULT NULL,
+	copyright TEXT DEFAULT NULL,
+	length INT UNSIGNED NOT NULL,
+	section TEXT DEFAULT NULL,
+	language TEXT DEFAULT NULL,
+	pubtype TEXT DEFAULT NULL,
+	subject TEXT DEFAULT NULL,
+	geographic TEXT DEFAULT NULL,
+	load_date DATETIME NOT NULL,
+	author TEXT DEFAULT NULL,
+	body TEXT NOT NULL,
+	PRIMARY KEY (id),
+	KEY `date_index` (`date`) USING BTREE,
+	KEY `source_index` (`source`(255)) USING BTREE
+) CHARACTER SET utf8 COLLATE utf8_general_ci;
