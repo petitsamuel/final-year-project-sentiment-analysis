@@ -29,10 +29,17 @@ except:
 
 def wait_for_download_triggered():
     print("Waiting for download to trigger")
+    # html = browser.find_element_by_tag_name('html')
+    # scroll = True
     start_time = time.time()
     while all([not filename.endswith(".crdownload") for filename in os.listdir(download_folder)]):
         if time.time() - start_time > dead_time:
             raise Exception({'error': 'delay expired'})
+        # if scroll:  # Scroll to trigger page update
+        #     html.send_keys(Keys.ARROW_DOWN)
+        # else:
+        #     html.send_keys(Keys.ARROW_UP)
+        # scroll = not scroll
     print("Download triggered!")
 
 
@@ -113,7 +120,7 @@ total_page = int(np.ceil(total_number/page_size))
 chromeOptions = webdriver.ChromeOptions()
 prefs = {"download.default_directory": download_folder}
 chromeOptions.add_experimental_option("prefs", prefs)
-chromeOptions.headless = True
+# chromeOptions.headless = True
 browser = webdriver.Chrome(
     executable_path=path_to_chromedriver, options=chromeOptions)
 browser.set_window_size(1800, 1000)
@@ -140,7 +147,7 @@ except:
 # Uncomment below if an information dialog is shown (pendo titled)
 # Wait for announcement dialog to display & close it
 # wait_is_rendered_click('pendo-guide-container',
-#                        '/html/body/div[3]/div[2]/div/button')
+#                        '/html/body/div[3]/div/div/button')
 wait_is_rendered_click('//*[@id="pendo-guide-container"]',
                        '/html/body/div[3]/div/div/button')
 
