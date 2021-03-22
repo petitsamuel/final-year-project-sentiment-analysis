@@ -90,6 +90,7 @@ def wait_is_rendered_click(selector, click_xpath):
             if time.time() - start_time > dead_time:
                 raise Exception({'error': 'delay expired'})
             dialog = browser.find_element_by_xpath(selector)
+            time.sleep(2)
             browser.find_element_by_xpath(click_xpath).click()
             break
         except:
@@ -146,10 +147,11 @@ except:
 
 # Uncomment below if an information dialog is shown (pendo titled)
 # Wait for announcement dialog to display & close it
-# wait_is_rendered_click('pendo-guide-container',
-#                        '/html/body/div[3]/div/div/button')
-wait_is_rendered_click('//*[@id="pendo-guide-container"]',
-                       '/html/body/div[3]/div/div/button')
+# wait_is_rendered_click('//*[@id="pendo-guide-container"]',
+#                        '/html/body/div[3]/div[2]/div/button')
+# time.sleep(1)
+# wait_is_rendered_click('//*[@id="pendo-guide-container"]',
+#                        '/html/body/div[4]/div/div/button')
 
 print("Starting download...")
 for page in range(total_page):

@@ -3,3 +3,6 @@ pandas
 dateparser
 progress
 python-dotenv
+setuptools
+wheel
+spacy

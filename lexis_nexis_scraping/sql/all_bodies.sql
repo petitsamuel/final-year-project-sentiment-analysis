@@ -1,0 +1,2 @@
+SELECT body
+FROM articles;

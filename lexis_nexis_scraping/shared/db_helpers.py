@@ -15,7 +15,7 @@ database = os.getenv('MYSQL_DATABASE')
 
 if host == None or user == None or password == None or database == None:
     print("MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD and MYSQL_DATABASE must be set in the .env file")
-    exit(1) 
+    exit(1)
 try:
     connection = mysql.connector.connect(host=host,
                                          user=user,
@@ -45,6 +45,25 @@ def init_db():
     script = load_sql_script('sql/create_table.sql')
     execute_sql(script)
     print('DB initiated')
+
+
+def load_titles():
+    print("Loading all titles...")
+    script = load_sql_script('sql/all_titles.sql')
+    try:
+        cursor.execute(script)
+        return cursor.fetchall()
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err)})
+
+def load_full_articles():
+    print("Loading all articles bodies...")
+    script = load_sql_script('sql/all_bodies.sql')
+    try:
+        cursor.execute(script)
+        return cursor.fetchall()
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err)})
 
 
 # Keep in memory for better performance

@@ -1,5 +1,11 @@
 # LexisNexis
 
+## Dependencies
+
+`python -m spacy download fr_core_news_sm`
+
+`source .penv/bin/activate`
+
 ## Requirement
 
 LexisNexis Uni subscription
