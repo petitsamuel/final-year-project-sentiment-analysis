@@ -12,8 +12,10 @@ CREATE TABLE IF NOT EXISTS articles (
 	geographic TEXT DEFAULT NULL,
 	load_date DATETIME NOT NULL,
 	author TEXT DEFAULT NULL,
-	body TEXT NOT NULL,
+	body LONGTEXT NOT NULL,
+	filename TEXT NOT NULL,
 	PRIMARY KEY (id),
 	KEY `date_index` (`date`) USING BTREE,
-	KEY `source_index` (`source`(255)) USING BTREE
+	KEY `source_index` (`source`(255)) USING BTREE,
+	KEY `filename_index` (`filename`(255)) USING BTREE
 ) CHARACTER SET utf8 COLLATE utf8_general_ci;

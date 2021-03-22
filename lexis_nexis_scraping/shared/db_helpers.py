@@ -3,12 +3,24 @@ import traceback
 import sys
 import mysql.connector
 from datetime import datetime
+from dotenv import load_dotenv
+import os
 
+load_dotenv(dotenv_path="/home/sam/dev/fyp/lexis_nexis_scraping/.env")
+
+host = os.getenv('MYSQL_HOST')
+user = os.getenv('MYSQL_USER')
+password = os.getenv('MYSQL_PASSWORD')
+database = os.getenv('MYSQL_DATABASE')
+
+if host == None or user == None or password == None or database == None:
+    print("MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD and MYSQL_DATABASE must be set in the .env file")
+    exit(1) 
 try:
-    connection = mysql.connector.connect(host="127.0.0.1",
-                                         user="admin",
-                                         password="password",
-                                         database="fr_covid_news")
+    connection = mysql.connector.connect(host=host,
+                                         user=user,
+                                         password=password,
+                                         database=database)
     if connection.is_connected():
         db_Info = connection.get_server_info()
         print("Connected to MySQL Server version ", db_Info)
@@ -51,12 +63,11 @@ def insert_row(row):
              row['language'], row['pubtype'],
              row['subject'], row['geographic'],
              datetime.fromisoformat(row['load_date']), row['author'],
-             row['body']))
+             row['body'], row['filename']))
         connection.commit()
         # print('Command successfully executed')
     except mysql.connector.Error as err:
-        print_sql_err(err)
-        raise Exception('MySQL error: %s' % (' '.join(err.args)))
+        raise Exception({'error': 'MySQL error: %s' % (err), 'doc': row})
 
 
 def execute_sql(script):

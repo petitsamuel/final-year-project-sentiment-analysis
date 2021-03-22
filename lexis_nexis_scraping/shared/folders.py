@@ -1,3 +1,2 @@
-test_folder = r'/home/sam/dev/LexisNexis-Scraping/test'
-output_folder = r'/home/sam/dev/LexisNexis-Scraping/output'
-download_folder = r'/home/sam/dev/LexisNexis-Scraping/download'
+output_folder = r'/home/sam/dev/fyp/lexis_nexis_scraping/output'
+download_folder = r'/home/sam/dev/fyp/lexis_nexis_scraping/download'

@@ -11,9 +11,11 @@ INSERT INTO articles (
         geographic,
         load_date,
         author,
-        body
+        body,
+        filename
     )
 VALUES (
+        %s,
         %s,
         %s,
         %s,

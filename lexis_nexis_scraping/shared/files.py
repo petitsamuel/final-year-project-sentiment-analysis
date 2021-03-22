@@ -1,26 +1,10 @@
+from .folders import output_folder
+from .file_extensions import is_index_file, is_rtf_file
 from difflib import SequenceMatcher, get_close_matches
 from striprtf.striprtf import rtf_to_text
 from operator import itemgetter
-from shared.file_extensions import ends_in_zip, is_index_file, is_rtf_file
-from shared.folders import test_folder, output_folder
 import os
-import zipfile
 import re
-
-
-def unzip():
-    print("Grabbing Zip Files")
-    zip_files = [filename for filename in os.listdir(
-        test_folder) if ends_in_zip(filename)]
-
-    count = 1
-    total = len(zip_files)
-    for file in zip_files:
-        print("Extracting file %d out of %d" % (count, total))
-        count += 1
-        with zipfile.ZipFile(os.path.join(test_folder, file), "r") as zip_ref:
-            zip_ref.extractall(output_folder)
-    print("Finished!")
 
 
 def remove_index_files():
@@ -38,18 +22,18 @@ def compute_similarity(a, b):
     return SequenceMatcher(None, a, b).ratio()
 
 
+def check_file_contents(a, b):
+    file_a = open(os.path.join(output_folder, a), "r")
+    file_b = open(os.path.join(output_folder, b), "r")
+    return compute_similarity(rtf_to_text(file_a.read()), rtf_to_text(file_b.read()))
+
+
 def to_file_dict(filename):
     return {
         'filename': filename,  # Keep for potentially removing
         # Use regex to remove (<any_text>) from file names
         'cleaned_name': re.sub(r'\(\S+\)', '', filename).lower()
     }
-
-
-def check_file_contents(a, b):
-    file_a = open(os.path.join(output_folder, a), "r")
-    file_b = open(os.path.join(output_folder, b), "r")
-    return compute_similarity(rtf_to_text(file_a.read()), rtf_to_text(file_b.read()))
 
 
 def remove_duplicates():
@@ -78,8 +62,3 @@ def remove_duplicates():
         output_folder) if is_rtf_file(filename)])
     print("\nFinished removing duplicated - total amount of files: %d, number of removed files: %d" %
           (new_len, (original_len - new_len)))
-
-
-unzip()
-remove_index_files()
-remove_duplicates()

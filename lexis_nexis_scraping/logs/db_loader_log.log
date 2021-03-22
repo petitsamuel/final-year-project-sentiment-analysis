@@ -1,3 +1,0 @@
-ERROR:root:Error inserting file Covid-19 _ _ _ mon r_veil, c'_tait terrifiant _;LE PUY-EN-VELAY_.RTF
-Error: sequence item 0: expected str instance, int found
-ERROR:root:{'title': "Covid-19 : « À mon réveil, c'était terrifiant »; LE PUY-EN-VELAY\u200b"}

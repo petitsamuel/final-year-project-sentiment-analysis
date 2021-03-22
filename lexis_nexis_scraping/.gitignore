@@ -1,6 +1,10 @@
 db/*
 *.zip
+*.crdownload
 *.pyc
 .env
 *.rft
 *.RFT
+__pycache__
+*.log
+logs/*

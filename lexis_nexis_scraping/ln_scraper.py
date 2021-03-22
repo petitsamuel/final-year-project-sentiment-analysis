@@ -1,18 +1,30 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from shared.folders import download_folder
 import os
 import time
 import numpy as np
+from dotenv import load_dotenv
 
-searchTerms = r'Corona or Covid'
-url = r'http://elib.tcd.ie/login?url=https://advance.lexis.com/nexis?&identityprofileid=69Q2VF60797'
-username = 'petits'
-password = 'Tdmdrums81'
-root = r'/home/sam/dev/LexisNexis-Scraping'
-path_to_chromedriver = '/usr/bin/chromedriver'
-download_folder = r'/home/sam/dev/LexisNexis-Scraping/download'
-dead_time = 500
-page_size = 150
+load_dotenv()
+
+url = os.getenv('URL')
+username = os.getenv('LN_USERNAME')
+password = os.getenv('LN_PASSWORD')
+path_to_chromedriver = os.getenv('CHROME_DRIVER')
+dead_time = os.getenv('TIMEOUT')
+page_size = os.getenv('PAGE_SIZE')
+
+# Parse settings from .env file
+if url == None or username == None or password == None or path_to_chromedriver == None or dead_time == None or page_size == None:
+    print("Expected the following variables to be set from .env file: URL, LN_USERNAME, LN_PASSWORD, CHROME_DRIVER, TIMEOUT, PAGE_SIZE")
+    exit(1)
+try:
+    dead_time = int(dead_time)
+    page_size = int(page_size)
+except:
+    print("TIMEOUT and PAGE_SIZE must be int values")
+    exit(1)
 
 
 def wait_for_download_triggered():
@@ -60,6 +72,22 @@ def clean_download_dir():
 def should_download_page(page, total):
     return not any([filename == '%d_%d.zip' % (page, total)
                     for filename in os.listdir(download_folder)])
+
+
+def wait_is_rendered_click(selector, click_xpath):
+    # Wait for dialog to display
+    dialog = None
+    start_time = time.time()
+    while not dialog:
+        try:
+            if time.time() - start_time > dead_time:
+                raise Exception({'error': 'delay expired'})
+            dialog = browser.find_element_by_xpath(selector)
+            browser.find_element_by_xpath(click_xpath).click()
+            break
+        except:
+            time.sleep(0.1)
+            continue
 
 
 def wait_is_rendered(selector):
@@ -111,20 +139,11 @@ except:
 
 # Uncomment below if an information dialog is shown (pendo titled)
 # Wait for announcement dialog to display & close it
-dialog = None
-start_time = time.time()
-while not dialog:
-    try:
-        if time.time() - start_time > dead_time:
-            raise Exception({'error': 'delay expired'})
-        dialog = browser.find_elements_by_id(
-            'pendo-guide-container')
-        browser.find_element_by_xpath(
-            '/html/body/div[3]/div/div/div[3]/div/div[1]/button').click()
-        break
-    except:
-        time.sleep(0.2)
-        continue
+# wait_is_rendered_click('pendo-guide-container',
+#                        '/html/body/div[3]/div[2]/div/button')
+wait_is_rendered_click('//*[@id="pendo-guide-container"]',
+                       '/html/body/div[3]/div/div/button')
+
 print("Starting download...")
 for page in range(total_page):
     clean_download_dir()

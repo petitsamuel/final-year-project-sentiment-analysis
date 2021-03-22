@@ -1,7 +1,7 @@
-from shared.db_helpers import init_db, insert_row
+from .db_helpers import init_db, insert_row
 from datetime import datetime
-from shared.folders import output_folder
-from shared.file_extensions import is_rtf_file
+from .folders import output_folder
+from .file_extensions import is_rtf_file
 from striprtf.striprtf import rtf_to_text
 from progress.bar import Bar
 import dateparser
@@ -19,7 +19,7 @@ def extractValue(data):
         return data.strip()
 
 
-def parse_rtf_contents(text):
+def parse_rtf_contents(text, filename):
     docBody = False
     counter = 0
     body = ''
@@ -36,7 +36,8 @@ def parse_rtf_contents(text):
         'geographic': None,
         'load_date': datetime.now().isoformat(),
         'author': None,
-        'body': None
+        'body': None,
+        'filename': filename
     }
     for line in text.split('\n'):
         tempLine = line.strip()
@@ -129,13 +130,12 @@ def load_files():
     bar = Bar('Processing', max=len(files))  # Show progress bar
     for file in files:
         content = load_file_content(file)
-        parsed_doc = parse_rtf_contents(content)
+        parsed_doc = parse_rtf_contents(content, file)
         try:
             insert_row(parsed_doc)
         except Exception as e:
-            logging.error('Error inserting file %s\nError: %s' % (file, e))
+            logging.error('%s - Error inserting file %s\nError: %s' % (datetime.now(), file, e))
         bar.next()
 
 
 init_db()
-load_files()
