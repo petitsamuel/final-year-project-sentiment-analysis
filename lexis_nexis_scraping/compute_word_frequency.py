@@ -24,7 +24,6 @@ def compute_frequencies(data):
         counter += Counter(cleaned)
         bar.next()
     print("\n")
-    print(counter.most_common(50))
     total_words = sum(counter.values())
     return {'counter': counter, 'total_words': total_words}
 
@@ -39,12 +38,16 @@ def compute_frequencies_by_month(data):
         cleaned = process_text(text)
         data_dict[get_key(month, year)] += Counter(cleaned)
         bar.next()
-    print("\nKeeping first 30 most common words for each month")
+    print("\nKeeping first 10 most common words for each month & computing relative frequencies...")
     for key in data_dict.keys():
         print("Processing %s" % (key))
-        data_dict[key] = Counter(
-            {k: v for k, v in data_dict[key].items() if k.strip(punctuation)})
-        data_dict[key] = data_dict[key].most_common(30)
+        # Get relative frequency & remove punctuation
+        total_word_count = sum(data_dict[key].values())
+        tmp_dict = {k: float(v)/float(total_word_count)
+                    for k, v in data_dict[key].items() if k.strip(punctuation)}
+        # keep last 10 elements (most frequent)
+        data_dict[key] = dict(
+            sorted(tmp_dict.items(), key=lambda item: item[1])[-10:])
     return data_dict
 
 
@@ -78,4 +81,5 @@ def compute_articles_freqs():
     print(output['total_words'])
 
 
+compute_title_freqs_by_month()
 compute_articles_freqs_by_month()
