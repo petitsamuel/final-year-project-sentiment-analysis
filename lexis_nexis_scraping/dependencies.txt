@@ -6,3 +6,5 @@ python-dotenv
 setuptools
 wheel
 spacy
+wordcloud
+matplotlib

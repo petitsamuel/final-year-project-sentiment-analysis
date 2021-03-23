@@ -5,7 +5,7 @@ services:
     image: mysql:5.7
     container_name: fr_news_db
     volumes:
-      - ${PWD}/../db/:/var/lib/mysql
+      - ${PWD}/db/:/var/lib/mysql
     environment:
       #to connect :
       #mysql --host=127.0.0.1 --port=3306 -uadmin -ppassword

@@ -46,6 +46,24 @@ def init_db():
     execute_sql(script)
     print('DB initiated')
 
+def load_titles_group_month():
+    print("Loading all titles...")
+    script = load_sql_script('sql/all_titles_group_month.sql')
+    try:
+        cursor.execute(script)
+        return cursor.fetchall()
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err)})
+
+def load_articles_group_month():
+    print("Loading all titles...")
+    script = load_sql_script('sql/all_articles_group_month.sql')
+    try:
+        cursor.execute(script)
+        return cursor.fetchall()
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err)})
+    
 
 def load_titles():
     print("Loading all titles...")
