@@ -29,7 +29,7 @@ def format_data(data, dates_map):
     index = 0
     for key, value in dates_map.items():
         data_at_date = data[key]
-        for word, count in data_at_date:
+        for word, count in data_at_date.items():
             if word not in output:
                 output[word] = [0 for _ in range(len(dates_map))]
             output[word][index] = count

@@ -1,4 +1,5 @@
 echo "Starting DB, this may take a while the first time as it will download mysql docker images and initialise the database"
+cd ..
 docker-compose up -d
 echo "Waiting on Database to be running and initialised."
 sleep 2

@@ -8,3 +8,5 @@ wheel
 spacy
 wordcloud
 matplotlib
+selenium
+striprtf
