@@ -46,6 +46,7 @@ def init_db():
     execute_sql(script)
     print('DB initiated')
 
+
 def load_titles_group_month():
     print("Loading all titles...")
     script = load_sql_script('sql/all_titles_group_month.sql')
@@ -55,6 +56,37 @@ def load_titles_group_month():
     except mysql.connector.Error as err:
         raise Exception({'error': 'MySQL error: %s' % (err)})
 
+
+def load_titles_group_week():
+    print("Loading all titles grouped by week...")
+    script = load_sql_script('sql/all_titles_group_week.sql')
+    try:
+        cursor.execute(script)
+        return cursor.fetchall()
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err)})
+
+
+def load_articles_group_week():
+    print("Loading all articles grouped by week...")
+    script = load_sql_script('sql/all_articles_group_week.sql')
+    try:
+        cursor.execute(script)
+        return cursor.fetchall()
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err)})
+
+
+def load_word_counts_weekly():
+    print("Loading all articles word counts by week...")
+    script = load_sql_script('sql/weekly_word_counts.sql')
+    try:
+        cursor.execute(script)
+        return cursor.fetchall()
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err)})
+
+
 def load_articles_group_month():
     print("Loading all titles...")
     script = load_sql_script('sql/all_articles_group_month.sql')
@@ -63,7 +95,7 @@ def load_articles_group_month():
         return cursor.fetchall()
     except mysql.connector.Error as err:
         raise Exception({'error': 'MySQL error: %s' % (err)})
-    
+
 
 def load_titles():
     print("Loading all titles...")
@@ -73,6 +105,7 @@ def load_titles():
         return cursor.fetchall()
     except mysql.connector.Error as err:
         raise Exception({'error': 'MySQL error: %s' % (err)})
+
 
 def load_full_articles():
     print("Loading all articles bodies...")
