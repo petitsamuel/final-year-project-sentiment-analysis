@@ -47,6 +47,28 @@ def init_db():
     print('DB initiated')
 
 
+def load_by_title(title):
+    script = load_sql_script('sql/find_by_title.sql')
+    try:
+        cursor.execute(script, [(title)])
+        return cursor.fetchall()
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err), 'title': title})
+
+def remove_by_ids(ids):
+    print("Loading all ids...")
+    print(ids)
+    script = load_sql_script('sql/remove_by_id_in.sql')
+    try:
+        for i in ids:
+            cursor.execute(script, (i,))
+        connection.commit()
+        print("record(s) deleted")
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err)})
+
+
+
 def load_titles_group_month():
     print("Loading all titles...")
     script = load_sql_script('sql/all_titles_group_month.sql')
@@ -110,6 +132,16 @@ def load_titles():
 def load_full_articles():
     print("Loading all articles bodies...")
     script = load_sql_script('sql/all_bodies.sql')
+    try:
+        cursor.execute(script)
+        return cursor.fetchall()
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err)})
+
+
+def load_duplicates():
+    print("Loading all duplicate titles...")
+    script = load_sql_script('sql/select_duplicate_titles.sql')
     try:
         cursor.execute(script)
         return cursor.fetchall()

@@ -17,3 +17,5 @@ pandas v0.20.1
 selenium v3.141
 
 chromedriver.exe
+
+to do: download per week

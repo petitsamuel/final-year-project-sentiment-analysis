@@ -29,17 +29,19 @@ except:
 
 def wait_for_download_triggered():
     print("Waiting for download to trigger")
-    # html = browser.find_element_by_tag_name('html')
-    # scroll = True
-    start_time = time.time()
+    start_time = int(time.time())
     while all([not filename.endswith(".crdownload") for filename in os.listdir(download_folder)]):
         if time.time() - start_time > dead_time:
             raise Exception({'error': 'delay expired'})
-        # if scroll:  # Scroll to trigger page update
-        #     html.send_keys(Keys.ARROW_DOWN)
-        # else:
-        #     html.send_keys(Keys.ARROW_UP)
-        # scroll = not scroll
+        # click on the loading window if present to trigger a status update
+        if (int(time.time()) - start_time) % 15 == 0:
+            try:
+                browser.find_element_by_xpath(
+                    '//*[@id="delivery-popin"]').click()
+                print("Clicked the loading spinner")
+            except:
+                print("Couldn't find loading window")
+        time.sleep(1)
     print("Download triggered!")
 
 
@@ -121,15 +123,14 @@ total_page = int(np.ceil(total_number/page_size))
 chromeOptions = webdriver.ChromeOptions()
 prefs = {"download.default_directory": download_folder}
 chromeOptions.add_experimental_option("prefs", prefs)
-# chromeOptions.headless = True
+chromeOptions.headless = True
 browser = webdriver.Chrome(
     executable_path=path_to_chromedriver, options=chromeOptions)
 browser.set_window_size(1800, 1000)
 
 # Login
 print("Loading login page")
-browser.get(
-    'https://advance-lexis-com.elib.tcd.ie/api/permalink/546fa9da-ab94-460c-9065-a069aa71c26a/?context=1519360&identityprofileid=69Q2VF60797')
+browser.get(url)
 input_elements = browser.find_elements_by_id('entry')
 input_elements[0].send_keys(username)
 input_elements[1].send_keys(password)
@@ -148,11 +149,10 @@ except:
 # Uncomment below if an information dialog is shown (pendo titled)
 # Wait for announcement dialog to display & close it
 # wait_is_rendered_click('//*[@id="pendo-guide-container"]',
-#                        '/html/body/div[3]/div[2]/div/button')
+#                        '/html/body/div[3]/div/div/button')
 # time.sleep(1)
 # wait_is_rendered_click('//*[@id="pendo-guide-container"]',
 #                        '/html/body/div[4]/div/div/button')
-
 print("Starting download...")
 for page in range(total_page):
     clean_download_dir()
@@ -162,10 +162,10 @@ for page in range(total_page):
         continue
     print("Downloading page %d out of %d" % (page, total_page))
     wait_is_rendered('//*[@id="content"]/header')
+
     # Click download button
     browser.find_element_by_xpath(
         '//*[@id="results-list-delivery-toolbar"]/div/ul[1]/li[3]/ul/li[3]/button').click()
-
     wait_is_rendered('//*[@id="SelectedRange"]')
 
     browser.find_element_by_xpath('//*[@id="SelectedRange"]').send_keys(
