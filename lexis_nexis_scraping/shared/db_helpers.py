@@ -149,6 +149,25 @@ def load_duplicates():
         raise Exception({'error': 'MySQL error: %s' % (err)})
 
 
+def load_sources():
+    print("Loading all sources...")
+    script = load_sql_script('sql/all_sources.sql')
+    try:
+        cursor.execute(script)
+        return cursor.fetchall()
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err)})
+
+def load_sources_count():
+    print("Loading count of all sources...")
+    script = load_sql_script('sql/count_sources.sql')
+    try:
+        cursor.execute(script)
+        return cursor.fetchall()
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err)})
+
+
 # Keep in memory for better performance
 insert_sql_script = load_sql_script('sql/insert_row.sql')
 
