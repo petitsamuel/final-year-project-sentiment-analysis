@@ -7,12 +7,13 @@ import os
 import re
 
 
-def remove_index_files():
+def remove_index_files(folder=output_folder):
     print("\nRemoving index files (non articles)")
-    index_files = [filename for filename in os.listdir(
-        output_folder) if is_index_file(filename)]
+    index_files = [
+        filename for filename in os.listdir(folder) if is_index_file(filename)
+    ]
     for file in index_files:
-        os.remove(os.path.join(output_folder, file))
+        os.remove(os.path.join(folder, file))
 
     print("Removed %d index files" % (len(index_files)))
     print("Finished!")
@@ -25,7 +26,8 @@ def compute_similarity(a, b):
 def check_file_contents(a, b):
     file_a = open(os.path.join(output_folder, a), "r")
     file_b = open(os.path.join(output_folder, b), "r")
-    return compute_similarity(rtf_to_text(file_a.read()), rtf_to_text(file_b.read()))
+    return compute_similarity(rtf_to_text(file_a.read()),
+                              rtf_to_text(file_b.read()))
 
 
 def to_file_dict(filename):
@@ -38,8 +40,10 @@ def to_file_dict(filename):
 
 def remove_duplicates():
     print("Listing all RTF files in output dir...")
-    files = [to_file_dict(filename) for filename in os.listdir(
-        output_folder) if is_rtf_file(filename)]
+    files = [
+        to_file_dict(filename) for filename in os.listdir(output_folder)
+        if is_rtf_file(filename)
+    ]
     # sort files by cleaned name order
     original_len = len(files)
     sorted_files = sorted(files, key=itemgetter('cleaned_name'))
@@ -48,17 +52,24 @@ def remove_duplicates():
     for i in range(len(sorted_files) - 1):
         for j in range(i + 1, len(sorted_files)):
             title_similarity = compute_similarity(
-                sorted_files[i]['cleaned_name'], sorted_files[j]['cleaned_name'])
+                sorted_files[i]['cleaned_name'],
+                sorted_files[j]['cleaned_name'])
             if title_similarity >= 0.8:
                 content_match = check_file_contents(
                     sorted_files[i]['filename'], sorted_files[j]['filename'])
                 if content_match >= 0.8:
-                    os.remove(os.path.join(output_folder,
-                              sorted_files[i]['filename']))
-                    print("Removed %s - title matching %.2f - content matching %.2f" %
-                          (sorted_files[i]['filename'], title_similarity, content_match))
+                    os.remove(
+                        os.path.join(output_folder,
+                                     sorted_files[i]['filename']))
+                    print(
+                        "Removed %s - title matching %.2f - content matching %.2f"
+                        % (sorted_files[i]['filename'], title_similarity,
+                           content_match))
                     break
-    new_len = len([to_file_dict(filename) for filename in os.listdir(
-        output_folder) if is_rtf_file(filename)])
-    print("\nFinished removing duplicated - total amount of files: %d, number of removed files: %d" %
-          (new_len, (original_len - new_len)))
+    new_len = len([
+        to_file_dict(filename) for filename in os.listdir(output_folder)
+        if is_rtf_file(filename)
+    ])
+    print(
+        "\nFinished removing duplicated - total amount of files: %d, number of removed files: %d"
+        % (new_len, (original_len - new_len)))

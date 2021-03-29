@@ -1,6 +1,6 @@
 from .db_helpers import init_db, insert_row
 from datetime import datetime
-from .folders import output_folder
+from .folders import output_folder, tmp_folder
 from .file_extensions import is_rtf_file
 from striprtf.striprtf import rtf_to_text
 from progress.bar import Bar
@@ -113,29 +113,34 @@ def parse_rtf_contents(text, filename):
     return document
 
 
-def load_file_content(name):
+def load_file_content(name, folder=output_folder):
     try:
-        file = open(os.path.join(output_folder, name), "r")
+        file = open(os.path.join(folder, name), "r")
         return rtf_to_text(file.read())
     except:
-        print("File %s not found in dir %s" % (name, output_folder))
+        print("File %s not found in dir %s" % (name, folder))
         return None
 
 
-def load_files():
+# Load files into the database
+def load_files(folder=output_folder):
     print("Loading data into database...")
-    files = [filename for filename in os.listdir(
-        output_folder) if is_rtf_file(filename)]
+    files = [
+        filename for filename in os.listdir(folder) if is_rtf_file(filename)
+    ]
     print("Found %d articles" % (len(files)))
     bar = Bar('Processing', max=len(files))  # Show progress bar
     for file in files:
-        content = load_file_content(file)
+        content = load_file_content(file, tmp_folder)
         parsed_doc = parse_rtf_contents(content, file)
         try:
             insert_row(parsed_doc)
         except Exception as e:
-            logging.error('%s - Error inserting file %s\nError: %s' % (datetime.now(), file, e))
+            logging.error('%s - Error inserting file %s\nError: %s' %
+                          (datetime.now(), file, e))
+        os.remove(os.path.join(folder, file))
         bar.next()
+    print("\n")
 
 
 init_db()

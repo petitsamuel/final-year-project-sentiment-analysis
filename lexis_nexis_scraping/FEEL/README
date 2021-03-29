@@ -1,0 +1,7 @@
+README
+
+FEEL is a CSV file with the following items:
+id;word;polarity;joy;fear;sadness;anger;surprise;disgust
+
+It can be used for sentiment analysis.
+

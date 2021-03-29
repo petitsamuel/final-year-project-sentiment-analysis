@@ -1,6 +1,7 @@
-output_folder = r'/home/sam/dev/fyp/lexis_nexis_scraping/output'
+output_folder = r'/home/sam/dev/fyp/lexis_nexis_scraping/download_monthly'
 download_folder = r'/home/sam/dev/fyp/lexis_nexis_scraping/download'
 data_folder = r'/home/sam/dev/fyp/lexis_nexis_scraping/data/'
+tmp_folder = r'/home/sam/dev/fyp/lexis_nexis_scraping/tmp'
 
 articles_words_freq = 'articles_body_frequencies.json'
 titles_words_freq = 'title_frequencies.json'
@@ -9,3 +10,6 @@ articles_monthly_frequencies = 'articles_monthly_frequencies.json'
 title_weekly_frequencies = 'title_weekly_frequencies.json'
 articles_weekly_frequencies = 'articles_weekly_frequencies.json'
 weekly_average_word_count = 'weekly_average_word_count.json'
+
+loaded_batches_full_path = '/home/sam/dev/fyp/lexis_nexis_scraping/data/loaded_batches.txt'
+current_batch_full_path = '/home/sam/dev/fyp/lexis_nexis_scraping/data/current_batch.txt'

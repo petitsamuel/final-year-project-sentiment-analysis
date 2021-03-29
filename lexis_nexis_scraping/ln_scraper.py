@@ -7,7 +7,6 @@ from dotenv import load_dotenv
 import sys
 from pathlib import Path
 
-
 URLS = [
     # "https://login.elib.tcd.ie/login?qurl=https://advance.lexis.com%2fapi%2fpermalink%2feb37d77e-e2b2-4601-9610-52f56f9e2fe5%2f%3fcontext%3d1519360%26identityprofileid%3d69Q2VF60797",
     "https://login.elib.tcd.ie/login?qurl=https://advance.lexis.com%2fapi%2fpermalink%2f1eba0e35-20c8-4255-835e-a6d2d5ce993e%2f%3fcontext%3d1519360%26identityprofileid%3d69Q2VF60797",
@@ -66,7 +65,6 @@ COUNTS = [
     22811
 ]
 
-
 # XPath selectors
 HEADER_SELECTOR = '//*[@id="content"]/header'
 PENGU_POPU_CONTAINER_SELECTOR = '//*[@id="pendo-guide-container"]//button'
@@ -92,7 +90,10 @@ def click_loading_spinner():
 def wait_for_download_triggered():
     print("Waiting for download to trigger")
     start_time = int(time.time())
-    while all([not filename.endswith(".crdownload") for filename in os.listdir(download_folder)]):
+    while all([
+            not filename.endswith(".crdownload")
+            for filename in os.listdir(download_folder)
+    ]):
         if time.time() - start_time > dead_time:
             raise Exception({'error': 'delay expired'})
         # click on the loading window if present to trigger a status update
@@ -106,7 +107,10 @@ def wait_for_download_triggered():
 def wait_for_download_done():
     print("Waiting for download to complete")
     start_time = time.time()
-    while any([filename.endswith(".crdownload") for filename in os.listdir(download_folder)]):
+    while any([
+            filename.endswith(".crdownload")
+            for filename in os.listdir(download_folder)
+    ]):
         if time.time() - start_time > dead_time:
             raise Exception({'error': 'delay expired'})
         time.sleep(2)
@@ -117,11 +121,14 @@ def wait_for_download_done():
 def rename_downloaded_file(page, total, batch_id):
     print("Renaming file for indexing")
     try:
-        files = [filename for filename in os.listdir(
-            download_folder) if filename.startswith("Files ") or filename == "ZIP"]
+        files = [
+            filename for filename in os.listdir(download_folder)
+            if filename.startswith("Files ") or filename == "ZIP"
+        ]
         assert len(files) == 1
-        os.rename(download_folder + "/" +
-                  files[0], output_folder + "/" + batch_id + '/%d_%d.zip' % (page + 1, total))
+        os.rename(
+            download_folder + "/" + files[0],
+            output_folder + "/" + batch_id + '/%d_%d.zip' % (page + 1, total))
         print("File renamed to %s" % ('%d_%d.zip' % (page + 1, total)))
     except Exception as e:
         print(e)
@@ -133,14 +140,17 @@ def rename_downloaded_file(page, total, batch_id):
 def clean_download_dir():
     print("Cleaning download directory...")
     for file in os.listdir(download_folder):
-        if file.endswith(".crdownload") or file.startswith("Files ") or file == "ZIP":
+        if file.endswith(".crdownload") or file.startswith(
+                "Files ") or file == "ZIP":
             os.remove(os.path.join(download_folder, file))
 
 
 # Return True if a downloaded file does not exist for current page & batch id
 def should_download_page(page, total, batch_id):
-    return not any([filename == '%d_%d.zip' % (page, total)
-                    for filename in os.listdir(output_folder + "/" + batch_id)])
+    return not any([
+        filename == '%d_%d.zip' % (page, total)
+        for filename in os.listdir(output_folder + "/" + batch_id)
+    ])
 
 
 # Wait for selector 1 to be rendered then click on the button (selected within the xpath provided)
@@ -151,8 +161,9 @@ def anti_pendo_popup(selector, render_wait_time=45):
     while not dialog:
         try:
             if time.time() - start_time > render_wait_time:
-                print("Element %s not found after over %d seconds... Moving on." % (
-                    selector, render_wait_time))
+                print(
+                    "Element %s not found after over %d seconds... Moving on."
+                    % (selector, render_wait_time))
                 break
             dialog = browser.find_element_by_xpath(selector)
             time.sleep(0.5)
@@ -211,7 +222,7 @@ def check_tcd_limit_reached():
         print("TCD Download limit was reached")
         print("Closing Browser and exiting")
         browser.close()
-        time.sleep(40 * 60)  # sleep 40 mins
+        time.sleep(30 * 60)  # sleep 30 mins
         exit(1)
 
 
@@ -254,24 +265,26 @@ def scrape(batch_id, url, total_page, total_number):
 
         # Click download button
         browser.find_element_by_xpath(
-            '//*[@id="results-list-delivery-toolbar"]/div/ul[1]/li[3]/ul/li[3]/button').click()
+            '//*[@id="results-list-delivery-toolbar"]/div/ul[1]/li[3]/ul/li[3]/button'
+        ).click()
 
         # Fill download form
         wait_is_rendered('//*[@id="SelectedRange"]')
         browser.find_element_by_xpath('//*[@id="SelectedRange"]').send_keys(
-            "%d-%d" % (((page * page_size) + 1), min(total_number, ((page + 1) * page_size))))
+            "%d-%d" % (((page * page_size) + 1),
+                       min(total_number, ((page + 1) * page_size))))
         browser.find_element_by_xpath('//*[@id="Rtf"]').click()
-        browser.find_element_by_xpath(
-            '//*[@id="SeparateFiles"]').click()
+        browser.find_element_by_xpath('//*[@id="SeparateFiles"]').click()
         browser.find_element_by_xpath('//*[@id="FileName"]').clear()
-        browser.find_element_by_xpath(
-            '//*[@id="FileName"]').send_keys(str(page) + '_' + str(total_page))
+        browser.find_element_by_xpath('//*[@id="FileName"]').send_keys(
+            str(page) + '_' + str(total_page))
         browser.find_element_by_xpath(
             '//*[@id="tab-FormattingOptions"]').click()
 
         time.sleep(0.2)
 
-        if browser.find_element_by_xpath('//*[@id="EmbeddedReferences"]').get_attribute('checked') == 'true':
+        if browser.find_element_by_xpath('//*[@id="EmbeddedReferences"]'
+                                         ).get_attribute('checked') == 'true':
             browser.find_element_by_xpath(
                 '//*[@id="EmbeddedReferences"]').click()
 
@@ -284,14 +297,19 @@ def scrape(batch_id, url, total_page, total_number):
         time.sleep(0.5)
         rename_downloaded_file(page, total_page, batch_id)
 
-        print('Finished page: ' + str(page + 1) +
-              ' out of ' + str(total_page), end="\n\n\n")
+        print('Finished page: ' + str(page + 1) + ' out of ' + str(total_page),
+              end="\n\n\n")
 
 
 def check_env_vars():
     # Parse settings from .env file - check they are all set
-    if has_none_values([username, password, output_folder, path_to_chromedriver, dead_time, page_size, download_folder]):
-        print("Expected the following variables to be set from .env file: LN_USERNAME, LN_PASSWORD, CHROME_DRIVER, TIMEOUT, PAGE_SIZE")
+    if has_none_values([
+            username, password, output_folder, path_to_chromedriver, dead_time,
+            page_size, download_folder
+    ]):
+        print(
+            "Expected the following variables to be set from .env file: LN_USERNAME, LN_PASSWORD, CHROME_DRIVER, TIMEOUT, PAGE_SIZE"
+        )
         exit(1)
 
 
@@ -306,8 +324,10 @@ def init_dirs(ids):
 
 
 def batch_is_done(batch_id, total_page):
-    files = [filename for filename in os.listdir(
-        output_folder + "/" + batch_id) if filename.lower().endswith(".zip")]
+    files = [
+        filename for filename in os.listdir(output_folder + "/" + batch_id)
+        if filename.lower().endswith(".zip")
+    ]
     return len(files) == total_page
 
 
@@ -316,7 +336,7 @@ def iterate_batches():
         batch_id = BATCH_IDS[i]
         total_number = COUNTS[i]
         url = URLS[i]
-        total_page = int(np.ceil(total_number/page_size))
+        total_page = int(np.ceil(total_number / page_size))
         print("Batch ID: %s" % (batch_id))
         if batch_is_done(batch_id, total_page):
             print("Batch already fully downloaded. Moving to the next.")
@@ -349,8 +369,8 @@ chromeOptions = webdriver.ChromeOptions()
 prefs = {"download.default_directory": download_folder}
 chromeOptions.add_experimental_option("prefs", prefs)
 chromeOptions.headless = True
-browser = webdriver.Chrome(
-    executable_path=path_to_chromedriver, options=chromeOptions)
+browser = webdriver.Chrome(executable_path=path_to_chromedriver,
+                           options=chromeOptions)
 browser.set_window_size(1800, 1000)
 
 init_download_and_out_dirs()
