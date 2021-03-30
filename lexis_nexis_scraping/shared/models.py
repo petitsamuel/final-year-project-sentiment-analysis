@@ -1,4 +1,4 @@
-class GouvSyntheseModel(Enum):
+class GouvSyntheseModel():
     casConfirmes = 'casConfirmes'
     deces = 'deces'
     decesEhpad = 'decesEhpad'
