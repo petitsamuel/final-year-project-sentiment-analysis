@@ -1,10 +1,9 @@
 from shared.db_helpers import load_titles, init_db, load_full_articles, load_titles_group_month, load_articles_group_month, load_titles_group_week, load_articles_group_week, load_word_counts_weekly
 from collections import Counter
 from shared.text_processing import process_text
-from shared.variable_loader import write_to_file
+from shared.file_read_write import write_to_file
 from shared.folders import articles_words_freq, titles_words_freq, title_monthly_frequencies, articles_monthly_frequencies, title_weekly_frequencies, articles_weekly_frequencies, weekly_average_word_count
 from progress.bar import Bar
-import json
 import string
 
 punctuation = r'«»‹›' + string.punctuation

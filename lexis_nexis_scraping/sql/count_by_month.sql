@@ -1,6 +1,6 @@
-select COUNT(id),
+SELECT COUNT(id),
     MONTH(date),
     YEAR(date)
-from articles
+FROM articles
 GROUP BY MONTH(date),
     YEAR(date);

@@ -1,7 +1,6 @@
-from shared.db_loader import load_files, load_files
+from shared.db_insert import load_files, load_files
 from shared.folders import loaded_batches_full_path, output_folder, tmp_folder, current_batch_full_path
-from shared.files import remove_index_files
-from pathlib import Path
+from shared.duplicates_helpers import remove_index_files
 from shared.file_extensions import is_rtf_file
 import os
 import glob

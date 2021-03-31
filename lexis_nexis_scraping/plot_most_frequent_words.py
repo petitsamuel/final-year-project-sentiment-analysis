@@ -1,4 +1,4 @@
-from shared.variable_loader import read_file
+from shared.file_read_write import read_file
 from shared.folders import titles_words_freq, articles_words_freq, title_monthly_frequencies, articles_monthly_frequencies, weekly_average_word_count, title_weekly_frequencies, articles_weekly_frequencies
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt

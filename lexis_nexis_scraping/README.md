@@ -2,9 +2,9 @@
 
 ## Dependencies
 
-`python -m spacy download fr_core_news_sm`
+`pip install -r dependencies.txt`
 
-`source .penv/bin/activate`
+`python -m spacy download fr_core_news_sm`
 
 ## Requirement
 
@@ -18,4 +18,16 @@ selenium v3.141
 
 chromedriver.exe
 
-to do: download per week
+### .env
+
+Create a .env file in this directory with the following parameters:
+
+```
+MYSQL_ROOT_PASSWORD=root
+MYSQL_USER=admin
+MYSQL_PASSWORD=password
+MYSQL_DATABASE=fr_covid_news
+MYSQL_HOST=127.0.0.1
+PAGE_SIZE=500
+TIMEOUT=300
+```

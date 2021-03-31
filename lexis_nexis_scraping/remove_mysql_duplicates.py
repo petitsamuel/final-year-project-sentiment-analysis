@@ -1,5 +1,6 @@
 from shared.db_helpers import init_db, load_duplicates, load_by_title, remove_by_ids
-from shared.files import compute_similarity
+from shared.duplicates_helpers import compute_similarity
+
 
 def remove_db_duplicates():
     init_db()
@@ -18,11 +19,13 @@ def remove_db_duplicates():
                 if compute_similarity(i_body, j_body) >= 0.90:
                     tmp_to_remove.append(j_id)
             to_remove = to_remove + tmp_to_remove
-            
+
             # Remove ids in tmp_to_remove from all_duplicates
             # these will be removed so we don't need to consider them anymore
-            all_duplicates = [(x, y) for x, y in all_duplicates if not x in tmp_to_remove]
+            all_duplicates = [(x, y)
+                              for x, y in all_duplicates if not x in tmp_to_remove]
         if len(to_remove):
             remove_by_ids(to_remove)
+
 
 remove_db_duplicates()

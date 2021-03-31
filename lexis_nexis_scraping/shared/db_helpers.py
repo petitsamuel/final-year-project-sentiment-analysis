@@ -47,6 +47,19 @@ def init_db():
     print('DB initiated')
 
 
+def fetch_script_from_db(script_name):
+    script = load_sql_script(os.path.join('sql/', script_name))
+    if not script:
+        print("Script %s not found" % (script_name))
+        return None
+    try:
+        cursor.execute(script)
+        return cursor.fetchall()
+    except mysql.connector.Error as err:
+        raise Exception(
+            {'error': 'MySQL error when running script: %s' % (err), 'script': script_name})
+
+
 def load_by_title(title):
     script = load_sql_script('sql/find_by_title.sql')
     try:
@@ -54,6 +67,7 @@ def load_by_title(title):
         return cursor.fetchall()
     except mysql.connector.Error as err:
         raise Exception({'error': 'MySQL error: %s' % (err), 'title': title})
+
 
 def remove_by_ids(ids):
     print("Loading all ids...")
@@ -66,7 +80,6 @@ def remove_by_ids(ids):
         print("record(s) deleted")
     except mysql.connector.Error as err:
         raise Exception({'error': 'MySQL error: %s' % (err)})
-
 
 
 def load_titles_group_month():
@@ -157,6 +170,7 @@ def load_sources():
         return cursor.fetchall()
     except mysql.connector.Error as err:
         raise Exception({'error': 'MySQL error: %s' % (err)})
+
 
 def load_sources_count():
     print("Loading count of all sources...")

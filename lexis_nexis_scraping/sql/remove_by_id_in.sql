@@ -1,1 +1,1 @@
-delete from articles where id = %s;
+DELETE FROM articles WHERE id = %s;

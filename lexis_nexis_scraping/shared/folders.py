@@ -11,5 +11,5 @@ title_weekly_frequencies = 'title_weekly_frequencies.json'
 articles_weekly_frequencies = 'articles_weekly_frequencies.json'
 weekly_average_word_count = 'weekly_average_word_count.json'
 
-loaded_batches_full_path = '/home/sam/dev/fyp/lexis_nexis_scraping/data/loaded_batches.txt'
-current_batch_full_path = '/home/sam/dev/fyp/lexis_nexis_scraping/data/current_batch.txt'
+loaded_batches_full_path = '/home/sam/dev/fyp/lexis_nexis_scraping/data/db/loaded_batches.txt'
+current_batch_full_path = '/home/sam/dev/fyp/lexis_nexis_scraping/data/db/current_batch.txt'

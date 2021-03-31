@@ -1,4 +1,4 @@
-from shared.variable_loader import read_file
+from shared.file_read_write import read_file
 import matplotlib.pyplot as plt
 from shared.models import GouvSyntheseModel
 import json

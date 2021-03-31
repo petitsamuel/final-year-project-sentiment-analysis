@@ -1,3 +1,4 @@
+# Model used to load data from the FR Gov Synthese dataset
 class GouvSyntheseModel():
     casConfirmes = 'casConfirmes'
     deces = 'deces'
@@ -20,4 +21,6 @@ class GouvSyntheseModel():
     prisesRendezVousSemaineRang1 = 'prisesRendezVousSemaineRang1'
     prisesRendezVousSemaineRang2 = 'prisesRendezVousSemaineRang2'
     stockEhpadNombreDosesPfizer = 'stockEhpadNombreDosesPfizer'
+    # The data below  was depreated
     testsRealises = 'testsRealises'
+    testsPositifs = 'testsPositifs'
