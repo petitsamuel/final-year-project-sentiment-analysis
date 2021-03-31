@@ -20,3 +20,4 @@ class GouvSyntheseModel():
     prisesRendezVousSemaineRang1 = 'prisesRendezVousSemaineRang1'
     prisesRendezVousSemaineRang2 = 'prisesRendezVousSemaineRang2'
     stockEhpadNombreDosesPfizer = 'stockEhpadNombreDosesPfizer'
+    testsRealises = 'testsRealises'
