@@ -117,7 +117,7 @@ def compute_title_freqs_by_month():
         output = compute_frequencies(titles)
         computed_data["%d-%d" % (year, month)] = output
 
-    write_to_file(output, title_monthly_frequencies)
+    write_to_file(computed_data, title_monthly_frequencies)
 
 
 
