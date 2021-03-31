@@ -2,6 +2,8 @@ from shared.db_helpers import load_sources_count, load_sources, fetch_script_fro
 import matplotlib.pyplot as plt
 import string
 from datetime import datetime
+from matplotlib import rcParams
+
 
 punctuation = r'«»‹›' + string.punctuation
 
@@ -26,7 +28,6 @@ def plot_sources_count():
     ax.set_ylabel("Article Count")
     ax.set_title(
         "Sources with the largest amount of articles (total %d sources)" % (total_sources))
-    ax.legend(loc='lower right')
 
 def plot_articles_count_monthly():
     data = fetch_script_from_db("count_by_month.sql")
@@ -43,12 +44,11 @@ def plot_articles_count_monthly():
     # Plot data
     fig = plt.figure()
     ax = fig.add_subplot(111)
-    ax.plot(dates, counts, label="Article Count")
+    ax.plot(dates, counts)
     ax.set_xlabel("Date")
     ax.set_ylabel("Article Count")
     ax.set_title(
-        "Number of articles published on COVID19 by Month")
-    ax.legend(loc='lower right')
+        "Number of articles published in France on COVID-19 by Month")
 
 def plot_articles_count_weekly():
     data = fetch_script_from_db("count_by_week.sql")
@@ -69,11 +69,11 @@ def plot_articles_count_weekly():
     ax.set_xlabel("Date")
     ax.set_ylabel("Article Count")
     ax.set_title(
-        "Number of articles published on COVID19 by Week")
+        "Number of articles published in France on COVID-19 by Week")
     ax.legend(loc='lower right')
 
 
-# plot_sources_count()
+plot_sources_count()
 plot_articles_count_monthly()
 plot_articles_count_weekly()
 plt.show()

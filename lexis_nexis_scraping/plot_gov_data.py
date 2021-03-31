@@ -36,8 +36,8 @@ def plot_vaccination():
     ax = fig.add_subplot(111)
     ax.bar(dates, values, label='First Vaccination Shot')
     ax.set_xlabel("Date")
-    ax.set_title("COVID19 First Vaccin Injections in France")
-    ax.legend(loc='lower right')
+    ax.set_title("COVID-19 First Vaccine Injections in France")
+    ax.legend(loc='upper left')
 
 
 def plot_cases_fr():
@@ -50,10 +50,9 @@ def plot_cases_fr():
     # plot data
     fig = plt.figure()
     ax = fig.add_subplot(111)
-    ax.plot(dates, values, label='Cases Count')
-    ax.set_xlabel("Date")
-    ax.set_title("COVID19 Cases in France")
-    ax.legend(loc='lower right')
+    ax.plot(dates, values, label='New cases')
+    ax.set_title("COVID-19 Cases in France")
+    ax.legend(loc='upper left')
 
 
 def plot_deaths_fr():
@@ -66,10 +65,9 @@ def plot_deaths_fr():
     # plot data
     fig = plt.figure()
     ax = fig.add_subplot(111)
-    ax.bar(dates, values, label='Deaths')
-    ax.set_xlabel("Date")
-    ax.set_title("COVID19 Related Deaths in France")
-    ax.legend(loc='lower right')
+    ax.bar(dates, values)
+    ax.set_ylabel("Number of Deaths")
+    ax.set_title("COVID-19 Deaths in France")
 
 
 def plot_hospitalise():
@@ -81,10 +79,9 @@ def plot_hospitalise():
     # plot data
     fig = plt.figure()
     ax = fig.add_subplot(111)
-    ax.bar(dates, values, label='Hospitalised')
-    ax.set_xlabel("Date")
-    ax.set_title("COVID19 Hospitalised Patients in France")
-    ax.legend(loc='lower right')
+    ax.bar(dates, values)
+    ax.set_ylabel("Number of Hospitalised Patients")
+    ax.set_title("COVID-19 Hospitalised Patients in France")
 
 
 def tests_quantite():
@@ -96,10 +93,9 @@ def tests_quantite():
     # plot data
     fig = plt.figure()
     ax = fig.add_subplot(111)
-    ax.bar(dates, values, label='testsRealises')
-    ax.set_xlabel("Date")
-    ax.set_title("COVID19 testsRealises in France")
-    ax.legend(loc='lower right')
+    ax.bar(dates, values, label='Tests')
+    ax.set_title("Number of COVID-19 Tests in France")
+    ax.legend(loc='upper left')
 
 
 tests_quantite()

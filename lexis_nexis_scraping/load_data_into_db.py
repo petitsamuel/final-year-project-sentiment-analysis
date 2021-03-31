@@ -43,16 +43,19 @@ def list_zip_files():
     return glob.glob(os.path.join(output_folder, '*/*.zip'))
 
 
+# Print paths but only contain the batch ID and filename.
 def format_path_str(s):
     return s.replace(output_folder, '')
 
 
+# Unzip file at provided path into output dir.
 def unzip(path):
     print("Unzipping file %s" % (path))
     with zipfile.ZipFile(path, "r") as zip_ref:
         zip_ref.extractall(tmp_folder)
 
 
+# Remove all files from output dir.
 def clean_output_dir():
     print("Cleaning Tmp folder")
     index_files = [filename for filename in os.listdir(tmp_folder)]
@@ -61,6 +64,9 @@ def clean_output_dir():
     print("Removed %d files" % (len(index_files)))
 
 
+
+# If a batch is currently being loaded and there are
+# RTF files in the output dir. Finish loading them.
 def check_was_interrupted():
     print("Checking if a batch was interrupted")
     loaded_files = load_batches_txt_file()
@@ -82,19 +88,24 @@ def check_was_interrupted():
 
 
 def import_to_db():
+    # Finish an interrupted batch if required
     check_was_interrupted()
+    # Get list of files to unzip
     zips = list_zip_files()
     for z in zips:
+        # Only load file into DB if it was not previously loaded
         loaded_files = load_batches_txt_file()
         if z in loaded_files:
             print("File %s already loaded - skipping" % (format_path_str(z)))
             continue
 
+        # Unzip file, clean dir and load into database
         print("Loading file %s" % (format_path_str(z)))
         unzip(z)
         remove_index_files(tmp_folder)
         write_current_batch(z)
         load_files(tmp_folder)
+        # Keep track of loaded files in txt file.
         write_batch_id_to_loaded_files(z)
         clear_current_batch_id()
         clean_output_dir()

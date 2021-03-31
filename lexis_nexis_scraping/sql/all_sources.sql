@@ -3,4 +3,4 @@ SELECT COUNT(*),
 FROM articles
 GROUP BY source
 ORDER BY count(id) DESC
-LIMIT 30;
+LIMIT 40;

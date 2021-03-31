@@ -1,14 +1,15 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from dotenv import load_dotenv
+from pathlib import Path
 import os
 import time
 import numpy as np
-from dotenv import load_dotenv
 import sys
-from pathlib import Path
+
 
 URLS = [
-    # "https://login.elib.tcd.ie/login?qurl=https://advance.lexis.com%2fapi%2fpermalink%2feb37d77e-e2b2-4601-9610-52f56f9e2fe5%2f%3fcontext%3d1519360%26identityprofileid%3d69Q2VF60797",
+    "https://login.elib.tcd.ie/login?qurl=https://advance.lexis.com%2fapi%2fpermalink%2feb37d77e-e2b2-4601-9610-52f56f9e2fe5%2f%3fcontext%3d1519360%26identityprofileid%3d69Q2VF60797",
     "https://login.elib.tcd.ie/login?qurl=https://advance.lexis.com%2fapi%2fpermalink%2f1eba0e35-20c8-4255-835e-a6d2d5ce993e%2f%3fcontext%3d1519360%26identityprofileid%3d69Q2VF60797",
     "https://login.elib.tcd.ie/login?qurl=https://advance.lexis.com%2fapi%2fpermalink%2fecbfadba-e745-47ff-8873-20cb8a448446%2f%3fcontext%3d1519360%26identityprofileid%3d69Q2VF60797",
     "https://login.elib.tcd.ie/login?qurl=https://advance.lexis.com%2fapi%2fpermalink%2fbef9bdc1-6500-411e-9571-7d29cc1db8ce%2f%3fcontext%3d1519360%26identityprofileid%3d69Q2VF60797",
@@ -27,7 +28,7 @@ URLS = [
     "https://advance-lexis-com.elib.tcd.ie/api/permalink/d7a93b42-e983-47d9-afdc-3626cae8d93d/?context=1519360&identityprofileid=69Q2VF60797",
 ]
 BATCH_IDS = [
-    # 'FEB_2020',
+    'FEB_2020',
     'MARCH_1_2020',
     'MARCH_2_2020',
     'APRIL_1_2020',
@@ -46,7 +47,7 @@ BATCH_IDS = [
     'MARCH_2_2021'
 ]
 COUNTS = [
-    # 2855,
+    2855,
     12973,
     20208,
     29377,
