@@ -91,6 +91,21 @@ def load_titles_group_month():
     except mysql.connector.Error as err:
         raise Exception({'error': 'MySQL error: %s' % (err)})
 
+def articles_by_month(month, year, limit=4000):
+    script = load_sql_script("sql/articles_where_month_year.sql")
+    try:
+        cursor.execute(script, (month, year, limit))
+        return cursor.fetchall()
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err), 'title': title})
+
+def titles_by_month(month, year, limit=4000):
+    script = load_sql_script("sql/titles_where_month_year.sql")
+    try:
+        cursor.execute(script, (month, year, limit))
+        return cursor.fetchall()
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err), 'title': title})  
 
 def load_titles_group_week():
     print("Loading all titles grouped by week...")
