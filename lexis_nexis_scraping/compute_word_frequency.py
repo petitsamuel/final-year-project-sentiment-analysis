@@ -1,8 +1,8 @@
-from shared.db_helpers import load_titles, init_db, load_full_articles, load_titles_group_month, load_articles_group_month, load_titles_group_week, load_articles_group_week, load_word_counts_weekly
+from shared.db_helpers import load_titles, init_db, load_full_articles, load_titles_group_month, load_articles_group_month, load_titles_group_week, load_articles_group_week, load_word_counts_weekly, fetch_script_from_db
 from collections import Counter
 from shared.text_processing import process_text
 from shared.file_read_write import write_to_file
-from shared.folders import articles_words_freq, titles_words_freq, title_monthly_frequencies, articles_monthly_frequencies, title_weekly_frequencies, articles_weekly_frequencies, weekly_average_word_count
+from shared.folders import articles_words_freq, titles_words_freq, title_monthly_frequencies, articles_monthly_frequencies, title_weekly_frequencies, articles_weekly_frequencies, weekly_average_word_count, monthly_average_word_count
 from progress.bar import Bar
 import string
 
@@ -74,18 +74,30 @@ def compute_frequencies_by_week(data):
 
 
 def format_weekly_word_count(data):
-    output = {}
-    for word_sum, article_count, average, week in data:
-        output[int(week)] = {
+    output = []
+    for word_sum, article_count, average, week, year in data:
+        output.append({
             'word_sum': int(word_sum),
             'article_count': int(article_count),
-            'average_word_count': float(average)
-        }
+            'average_word_count': float(average),
+            'week': week,
+            'year': year
+        })
     return output
 
+def format_monthly_word_count(data):
+    output = []
+    for word_sum, article_count, average, month, year in data:
+        output.append({
+            'word_sum': int(word_sum),
+            'article_count': int(article_count),
+            'average_word_count': float(average),
+            'month': month,
+            'year': year
+        })
+    return output
 
 def compute_title_freqs():
-    init_db()
     data = load_titles()
     output = compute_frequencies(data)
     write_to_file(output, titles_words_freq)
@@ -93,55 +105,57 @@ def compute_title_freqs():
 
 
 def compute_title_freqs_by_month():
-    init_db()
     data = load_titles_group_month()
     output = compute_frequencies_by_month(data)
     write_to_file(output, title_monthly_frequencies)
 
 
 def compute_title_freqs_by_week():
-    init_db()
     data = load_titles_group_week()
     output = compute_frequencies_by_week(data)
     write_to_file(output, title_weekly_frequencies)
 
 
 def compute_articles_freqs_by_month():
-    init_db()
     data = load_articles_group_month()
     output = compute_frequencies_by_month(data)
     write_to_file(output, articles_monthly_frequencies)
 
 
 def compute_articles_freqs_by_week():
-    init_db()
     data = load_articles_group_week()
     output = compute_frequencies_by_week(data)
     write_to_file(output, articles_weekly_frequencies)
 
 
+def compute_average_word_count_monthly():
+    data = fetch_script_from_db("monthly_word_counts.sql")
+    output = format_monthly_word_count(data)
+    write_to_file(output, monthly_average_word_count)
+
+
 def compute_average_word_count_weekly():
-    init_db()
     data = load_word_counts_weekly()
     output = format_weekly_word_count(data)
     write_to_file(output, weekly_average_word_count)
 
 
 def compute_articles_freqs():
-    init_db()
     data = load_full_articles()
     output = compute_frequencies(data)
     write_to_file(output, articles_words_freq)
     print(output['total_words'])
 
 
+init_db()
 # Compute list of most used words grouped monthly
 # compute_title_freqs_by_month()
 # compute_articles_freqs_by_month()
 
 # Compute list of most used words grouped weekly
-compute_title_freqs_by_week()
-compute_articles_freqs_by_week()
+# compute_title_freqs_by_week()
+# compute_articles_freqs_by_week()
 
 # Compute average word count per articles grouped weekly
 compute_average_word_count_weekly()
+compute_average_word_count_monthly()
