@@ -5,6 +5,14 @@ import json
 from datetime import datetime
 
 
+# Most of the data provided by the FR gov is cumulative
+# This method makes the data non-cumulative
+def de_sum_data(data):
+    for i in reversed(range(1, len(data))):
+        data[i] = data[i] - data[i - 1]
+    return data    
+
+
 def grab_metric_from_data(data, metric):
     selected_metric = []
     for d in data:
@@ -21,6 +29,7 @@ def plot_vaccination():
         data, GouvSyntheseModel.cumulPremieresInjections)
 
     dates, values = zip(*metrics)
+    values = de_sum_data(list(values))
 
     # plot data
     fig = plt.figure()
@@ -36,11 +45,12 @@ def plot_cases_fr():
     metrics = grab_metric_from_data(data, GouvSyntheseModel.casConfirmes)
 
     dates, values = zip(*metrics)
+    values = de_sum_data(list(values))
 
     # plot data
     fig = plt.figure()
     ax = fig.add_subplot(111)
-    ax.bar(dates, values, label='Cases Count')
+    ax.plot(dates, values, label='Cases Count')
     ax.set_xlabel("Date")
     ax.set_title("COVID19 Cases in France")
     ax.legend(loc='lower right')
@@ -51,6 +61,7 @@ def plot_deaths_fr():
     metrics = grab_metric_from_data(data, GouvSyntheseModel.deces)
 
     dates, values = zip(*metrics)
+    values = de_sum_data(list(values))
 
     # plot data
     fig = plt.figure()
@@ -97,3 +108,4 @@ plot_deaths_fr()
 plot_vaccination()
 plot_hospitalise()
 plt.show()
+
