@@ -14,3 +14,5 @@ monthly_average_word_count = 'monthly_average_word_count.json'
 
 loaded_batches_full_path = '/home/sam/dev/fyp/lexis_nexis_scraping/data/db/loaded_batches.txt'
 current_batch_full_path = '/home/sam/dev/fyp/lexis_nexis_scraping/data/db/current_batch.txt'
+titles_word_freq_wordcloud = '/home/sam/dev/fyp/lexis_nexis_scraping/data/plots/titles_word_freq_wordcloud.png'
+articles_word_freq_wordcloud = '/home/sam/dev/fyp/lexis_nexis_scraping/data/plots/articles_word_freq_wordcloud.png'
