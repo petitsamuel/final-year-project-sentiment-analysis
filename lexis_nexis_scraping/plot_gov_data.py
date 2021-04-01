@@ -9,7 +9,7 @@ from datetime import datetime
 # This method makes the data non-cumulative
 def de_sum_data(data):
     for i in reversed(range(1, len(data))):
-        data[i] = data[i] - data[i - 1]
+        data[i] = max(0, data[i] - data[i - 1])
     return data    
 
 

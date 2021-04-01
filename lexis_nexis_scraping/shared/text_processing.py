@@ -1,15 +1,9 @@
 import spacy
+from .models import punctuation
 
 print("Loading spacy language package...")
 nlp = spacy.load("fr_core_news_lg")
-print("Done")
-
-# camembert_tokenizer = CamembertTokenizer.from_pretrained("camembert-base")
-# camembert_tokenizer_fast = CamembertTokenizerFast.from_pretrained("camembert-base")
-
-# def process_text_camembert():
-#     tokenized_sentence = camembert_tokenizer.tokenize("Bonjour moi c'est samuel")
-#     print(tokenized_sentence)
+print("Loaded fr_core_news_lg")
 
 
 def process_text(text, remove_stop_words=True, vectorize=False):
@@ -21,3 +15,19 @@ def process_text(text, remove_stop_words=True, vectorize=False):
     except Exception as e:
         print(e)
         return []
+
+# Remove stop words and punctuations. Truncate tokens.
+def clean_text_for_tf_model(text, truncate=True):
+    doc = nlp(text)
+    tokens = [token.text for token in doc if not token.is_stop and token.text.strip(punctuation)]
+    if truncate and len(tokens) > 1024:
+        tokens = tokens[:1024]
+    return ' '.join(tokens)
+
+
+def clean_texts_for_tf_model(texts):
+    print("Removing stop words, punctuation and truncating texts")
+    output = []
+    for t in texts:
+        output.append(clean_text_for_tf_model(t[0]))
+    return output

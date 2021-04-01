@@ -10,3 +10,7 @@ wordcloud
 matplotlib
 selenium
 striprtf
+transformers
+tensorflow
+sentencepiece
+torch

@@ -157,11 +157,11 @@ def load_titles():
         raise Exception({'error': 'MySQL error: %s' % (err)})
 
 
-def load_full_articles():
-    print("Loading all articles bodies...")
-    script = load_sql_script('sql/all_bodies.sql')
+def load_articles_limit(limit=20):
+    print("Loading articles with limit %d" % (limit))
+    script = load_sql_script('sql/all_bodies_limit.sql')
     try:
-        cursor.execute(script)
+        cursor.execute(script, [(limit)])
         return cursor.fetchall()
     except mysql.connector.Error as err:
         raise Exception({'error': 'MySQL error: %s' % (err)})

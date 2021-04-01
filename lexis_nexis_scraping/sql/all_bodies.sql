@@ -1,2 +1,3 @@
 SELECT body
-FROM articles;
+FROM articles
+LIMIT %s;
