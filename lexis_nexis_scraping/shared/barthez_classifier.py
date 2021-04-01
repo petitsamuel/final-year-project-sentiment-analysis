@@ -20,5 +20,4 @@ def predict_sentiment_barthez(texts):
         result = classifier(t)[0]
         output.append(result)
         print("Predicted label: %s - Score %f" % (result['label'], result['score']))
-    
     return output

@@ -5,15 +5,15 @@ punctuation = r'«»‹›' + string.punctuation
 # Actual Lexicon Model
 class FEELLexiconItem():
     def __init__(self, id, word, polarity, joy, fear, sadness, anger, surprise, disgust):
-        self.id = id
-        self.word = word  
-        self.polarity = polarity  
-        self.joy = joy  
-        self.fear = fear  
-        self.sadness = sadness  
-        self.anger = anger  
-        self.surprise = surprise  
-        self.disgust = disgust  
+        self.id = int(id)
+        self.word = word 
+        self.polarity = polarity 
+        self.joy = int(joy)  
+        self.fear = int(fear)  
+        self.sadness = int(sadness)  
+        self.anger = int(anger)  
+        self.surprise = int(surprise)  
+        self.disgust = int(disgust)  
     
     def to_dict(self):
         return {

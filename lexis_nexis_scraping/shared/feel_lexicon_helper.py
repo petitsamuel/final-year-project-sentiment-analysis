@@ -7,10 +7,10 @@ def load_lexicon():
     data = read_file(FEEL_lexicon)
     lines = data.split("\n")[1:] # skip first row
     del data
-    output = []
+    output = {}
     for l in lines:
         if not l:
             continue
         values = l.split(";")
-        output.append(FEELLexiconItem(*values))
+        output[values[FEELModel.word.index]] = FEELLexiconItem(*values)
     return output

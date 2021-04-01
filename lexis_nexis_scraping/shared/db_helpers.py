@@ -44,6 +44,11 @@ def load_sql_script(file_name):
 def init_db():
     script = load_sql_script('sql/create_table.sql')
     execute_sql(script)
+    script = load_sql_script('sql/alter_table.sql')
+    try:
+        execute_sql(script)
+    except:
+        print("Script alter table failed - columns likely already exist")
     print('DB initiated')
 
 
@@ -80,6 +85,18 @@ def remove_by_ids(ids):
         print("record(s) deleted")
     except mysql.connector.Error as err:
         raise Exception({'error': 'MySQL error: %s' % (err)})
+
+
+def update_row_sentiment_scores(article_id, barthez_score, feel_score):
+    script = load_sql_script('sql/update_sentiment.sql')
+    try:
+        cursor.execute(script, (feel_score, barthez_score, article_id,))
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err)})   
+
+def commit_db_changes():
+    connection.commit()
+    print("Commited changes")
 
 
 def load_titles_group_month():
@@ -243,3 +260,8 @@ def print_sql_err(er):
     print('MySQL traceback: ')
     exc_type, exc_value, exc_tb = sys.exc_info()
     print(traceback.format_exception(exc_type, exc_value, exc_tb))
+
+def has_remaining_articles_for_sentiment():
+    result = fetch_script_from_db("count_remaining_articles_to_analyse.sql")
+    # returns an array of tuple
+    return result[0][0]

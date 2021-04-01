@@ -1,0 +1,3 @@
+ALTER TABLE articles
+ADD COLUMN feel_sentiment TINYINT(1) DEFAULT NULL,
+    ADD COLUMN barthez_sentiment TINYINT(1) DEFAULT NULL;
