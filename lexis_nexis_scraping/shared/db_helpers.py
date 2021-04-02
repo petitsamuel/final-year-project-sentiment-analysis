@@ -92,7 +92,16 @@ def update_row_sentiment_scores(article_id, barthez_score, feel_score):
     try:
         cursor.execute(script, (feel_score, barthez_score, article_id,))
     except mysql.connector.Error as err:
-        raise Exception({'error': 'MySQL error: %s' % (err)})   
+        raise Exception({'error': 'MySQL error: %s' % (err)})
+
+
+def update_row_feel_sentiment_scores(article_id, positive_count, negative_count):
+    script = load_sql_script('sql/update_sentiment_feel.sql')
+    try:
+        cursor.execute(script, (positive_count, negative_count, article_id,))
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err)})
+
 
 def commit_db_changes():
     connection.commit()
@@ -108,6 +117,7 @@ def load_titles_group_month():
     except mysql.connector.Error as err:
         raise Exception({'error': 'MySQL error: %s' % (err)})
 
+
 def articles_by_month(month, year, limit=4000):
     script = load_sql_script("sql/articles_where_month_year.sql")
     try:
@@ -116,13 +126,15 @@ def articles_by_month(month, year, limit=4000):
     except mysql.connector.Error as err:
         raise Exception({'error': 'MySQL error: %s' % (err), 'title': title})
 
+
 def titles_by_month(month, year, limit=4000):
     script = load_sql_script("sql/titles_where_month_year.sql")
     try:
         cursor.execute(script, (month, year, limit))
         return cursor.fetchall()
     except mysql.connector.Error as err:
-        raise Exception({'error': 'MySQL error: %s' % (err), 'title': title})  
+        raise Exception({'error': 'MySQL error: %s' % (err), 'title': title})
+
 
 def load_titles_group_week():
     print("Loading all titles grouped by week...")
@@ -174,9 +186,19 @@ def load_titles():
         raise Exception({'error': 'MySQL error: %s' % (err)})
 
 
-def load_articles_limit(limit=20):
+def load_articles_barthez_limited(limit=40):
     print("Loading articles with limit %d" % (limit))
-    script = load_sql_script('sql/all_bodies_limit.sql')
+    script = load_sql_script('sql/bodies_barthez_sentiment_limited.sql')
+    try:
+        cursor.execute(script, [(limit)])
+        return cursor.fetchall()
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err)})
+
+
+def load_articles_feel_limited(limit=100):
+    print("Loading articles with limit %d" % (limit))
+    script = load_sql_script('sql/bodies_feel_sentiment_limited.sql')
     try:
         cursor.execute(script, [(limit)])
         return cursor.fetchall()
@@ -261,7 +283,8 @@ def print_sql_err(er):
     exc_type, exc_value, exc_tb = sys.exc_info()
     print(traceback.format_exception(exc_type, exc_value, exc_tb))
 
-def has_remaining_articles_for_sentiment():
-    result = fetch_script_from_db("count_remaining_articles_to_analyse.sql")
+
+def has_remaining_articles_for_feel_sentiment():
+    result = fetch_script_from_db("count_remaining_articles_to_analyse_feel.sql")
     # returns an array of tuple
     return result[0][0]
