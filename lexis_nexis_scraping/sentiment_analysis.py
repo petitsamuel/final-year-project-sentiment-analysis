@@ -9,21 +9,30 @@ import queue
 import re
 
 
-def count_intersections(text, lexicon):
+def count_intersections(text):
     output = []
-    for x in lexicon:
-        count = len(re.findall(r"\b" + re.escape(x) + r"\b", text))
-        if count > 0:
-            output.append([x, count])
-    return output
+    matches = re_exact_match.findall(text)
+    occurrences = Counter(matches)
+    return dict(occurrences)
+    # Less efficient method
+    # for x in lexicon_words:
+    #     count = len(re.findall(r"\b" + re.escape(x) + r"\b", text))
+    #     if count > 0:
+    #         output.append([x, count])
+    # return output
 
 
 def compute_sentiment_feel(counts):
     output = FEELLexiconItem(0, 0, 0, 0, 0, 0, 0, 0, 0)
     positive_count = 0
     negative_count = 0
-    for w, c in counts:
-        feel_weights = feel_lexicon[w]
+    for w, c in counts.items():
+        try:
+            feel_weights = feel_lexicon[w]
+        except:
+            # if word is not in lexicon - ignore it
+            continue
+
         if feel_weights.polarity == 'positive':
             positive_count += c
         else:
@@ -53,7 +62,7 @@ def analyse_sentiment_feel(data, queue):
     output = []
     for text in data:
         cleaned_text = clean_text_for_analysis_lower(text[1])
-        counts = count_intersections(cleaned_text, lexicon_words)
+        counts = count_intersections(cleaned_text)
         output.append(compute_sentiment_feel(counts))
     queue.put(output)
 
@@ -75,8 +84,8 @@ def update_db_sentiment(data, barthez, feel):
 def update_db_sentiment_feel(data, feel):
     for i in range(len(data)):
         article_id = data[i][0]
-        positive_count = data[i]['positive_count']
-        negative_count = data[i]['negative_count']
+        positive_count = feel[i]['positive_count']
+        negative_count = feel[i]['negative_count']
         update_row_feel_sentiment_scores(
             article_id, positive_count, negative_count)
     commit_db_changes()
@@ -103,15 +112,14 @@ def perform_sentiment_analysis():
     # Grab outputs from threads
     # barthez_out = q.get()
     feel_out = q2.get()
-    print(feel_out)
-    exit() # TODO
+
     # update_db_sentiment(data, barthez_out, feel_out)
     update_db_sentiment_feel(data, feel_out)
     print("Done!")
 
 
 def perform_feel_sentiment_analysis():
-    data = load_articles_feel_limited(100)  # Make batches of 100 articles
+    data = load_articles_feel_limited(1000)  # Make batches of 100 articles
 
     # use a queue to grab the return value - this makes for easy threading
     q2 = queue.Queue()
@@ -126,11 +134,17 @@ def perform_feel_sentiment_analysis():
 
 def run_feel_sentiment_analysis_on_all_data():
     while has_remaining_articles_for_feel_sentiment() > 0:
-        perform_sentiment_analysis()
+        perform_feel_sentiment_analysis()
+
+
+def text_regex_mapper(s):
+    return "\\b%s\\b" % (re.escape(s))
 
 
 feel_lexicon = load_lexicon()
 lexicon_words = feel_lexicon.keys()
+re_exact_match = re.compile(r'%s' % '|'.join(
+    map(text_regex_mapper, lexicon_words)), flags=re.IGNORECASE)
 
 init_db()
 run_feel_sentiment_analysis_on_all_data()

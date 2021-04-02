@@ -95,10 +95,13 @@ def update_row_sentiment_scores(article_id, barthez_score, feel_score):
         raise Exception({'error': 'MySQL error: %s' % (err)})
 
 
+update_sentiment_feel_script = load_sql_script('sql/update_sentiment_feel.sql')
+
+
 def update_row_feel_sentiment_scores(article_id, positive_count, negative_count):
-    script = load_sql_script('sql/update_sentiment_feel.sql')
     try:
-        cursor.execute(script, (positive_count, negative_count, article_id,))
+        cursor.execute(update_sentiment_feel_script,
+                       (positive_count, negative_count, article_id,))
     except mysql.connector.Error as err:
         raise Exception({'error': 'MySQL error: %s' % (err)})
 
@@ -285,6 +288,7 @@ def print_sql_err(er):
 
 
 def has_remaining_articles_for_feel_sentiment():
-    result = fetch_script_from_db("count_remaining_articles_to_analyse_feel.sql")
+    result = fetch_script_from_db(
+        "count_remaining_articles_to_analyse_feel.sql")
     # returns an array of tuple
     return result[0][0]
