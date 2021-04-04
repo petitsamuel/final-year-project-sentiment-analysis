@@ -1,6 +1,8 @@
 from .folders import FEEL_lexicon, polarimots_lexicon
 from .file_read_write import read_file
+from .regex_helpers import count_intersections
 from .models import FEELModel, FEELLexiconItem, PolarimotsItem
+from .text_processing import clean_text_for_analysis_lower
 import json
 
 
@@ -29,4 +31,13 @@ def load_polarimots_lexicon(skip_neutral=True):
         model = PolarimotsItem(*values)
         if skip_neutral and model.polarity != 0:
             output[model.word] = model
+    return output
+
+
+def compute_sentiment(data, regexp, compute_output_from_counts):
+    output = []
+    for text in data:
+        cleaned_text = clean_text_for_analysis_lower(text[1])
+        counts = count_intersections(regexp, cleaned_text)
+        output.append(compute_output_from_counts(counts))
     return output

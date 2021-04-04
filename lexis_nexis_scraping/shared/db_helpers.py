@@ -98,6 +98,8 @@ def update_row_sentiment_scores(article_id, barthez_score, feel_score):
 update_sentiment_feel_script = load_sql_script('sql/update_sentiment_feel.sql')
 update_sentiment_barthez_script = load_sql_script(
     'sql/update_sentiment_barthez.sql')
+update_sentiment_polarimots_script = load_sql_script(
+    'sql/update_sentiment_polarimots.sql')
 
 
 def update_row_feel_sentiment_scores(article_id, positive_count, negative_count, emotions):
@@ -112,6 +114,14 @@ def update_row_barthez_sentiment_scores(article_id, output):
     try:
         cursor.execute(update_sentiment_barthez_script,
                        (output, article_id,))
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err)})
+
+
+def update_row_polarimots_sentiment_scores(article_id, positive_count, negative_count):
+    try:
+        cursor.execute(update_sentiment_polarimots_script,
+                       (positive_count, negative_count, article_id,))
     except mysql.connector.Error as err:
         raise Exception({'error': 'MySQL error: %s' % (err)})
 
@@ -317,5 +327,12 @@ def has_remaining_articles_for_feel_sentiment():
 def has_remaining_articles_for_model_sentiment():
     result = fetch_script_from_db(
         "count_remaining_articles_to_analyse_model.sql")
+    # returns an array of tuple
+    return result[0][0]
+
+
+def has_remaining_articles_polarimots():
+    result = fetch_script_from_db(
+        "count_remaining_articles_to_analyse_polarimots.sql")
     # returns an array of tuple
     return result[0][0]

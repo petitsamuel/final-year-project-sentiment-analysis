@@ -19,6 +19,9 @@ class PolarimotsItem():
         self.polarity = map_polarity_to_int(polarity.strip('"'))
         self.reliability = float(reliability.strip('"%').replace(',', '.'))
 
+        if self.reliability == 100:
+            self.reliability = 1
+
     def to_dict(self):
         return {
             'id': self.id,
