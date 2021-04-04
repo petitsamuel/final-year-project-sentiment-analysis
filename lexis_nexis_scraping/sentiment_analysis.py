@@ -1,5 +1,7 @@
-from shared.barthez_classifier import predict_sentiment_barthez
-from shared.db_helpers import load_articles_feel_limited, init_db, update_row_sentiment_scores, commit_db_changes, has_remaining_articles_for_feel_sentiment, update_row_feel_sentiment_scores
+# from shared.model_sentiment_classifier import compute_model_sentiment
+# from shared.barthez import run_barthez_classifier
+# from shared.barthez_classifier import predict_sentiment_barthez
+from shared.db_helpers import load_articles_feel_limited, load_articles_model_limited, init_db, update_row_sentiment_scores, commit_db_changes, has_remaining_articles_for_feel_sentiment, update_row_feel_sentiment_scores, has_remaining_articles_for_model_sentiment, update_row_barthez_sentiment_scores
 from shared.feel_lexicon_helper import load_lexicon
 from collections import Counter
 from shared.text_processing import clean_text_for_analysis_lower, lemmatize_lexicon
@@ -67,9 +69,10 @@ def analyse_sentiment_feel(data, queue):
     queue.put(output)
 
 
-def analyse_sentiment_barthez(data, queue):
-    predictions_barthez = predict_sentiment_barthez(data)
-    queue.put(predictions_barthez)
+# def analyse_sentiment_barthez(data, queue):
+#     predictions_barthez = predict_sentiment_barthez(
+#         data)  # run_barthez_classifier(data)
+#     queue.put(predictions_barthez)
 
 
 def update_db_sentiment(data, barthez, feel):
@@ -86,57 +89,61 @@ def update_db_sentiment_feel(data, feel):
         article_id = data[i][0]
         positive_count = feel[i]['positive_count']
         negative_count = feel[i]['negative_count']
+        emotions_output = feel[i]['emotions']
         update_row_feel_sentiment_scores(
-            article_id, positive_count, negative_count)
+            article_id, positive_count, negative_count, emotions_output)
     commit_db_changes()
 
 
-def perform_sentiment_analysis():
-    # use load_articles_barthez_limited for barthez analysis
-    data = load_articles_feel_limited(10)  # Make batches of 100 articles
-
-    # Pass queues as parameters to threads to grab return values
-    # q = queue.Queue()
-    q2 = queue.Queue()
-
-    # thread_barthez = Thread(target=analyse_sentiment_barthez, args =(data, q,))
-    thread_feel = Thread(target=analyse_sentiment_feel, args=(data, q2,))
-
-    print("Launching threads to run analysis")
-    # thread_barthez.start()
-    thread_feel.start()
-    # thread_barthez.join()
-    thread_feel.join()
-    print("All threads finished")
-
-    # Grab outputs from threads
-    # barthez_out = q.get()
-    feel_out = q2.get()
-
-    # update_db_sentiment(data, barthez_out, feel_out)
-    update_db_sentiment_feel(data, feel_out)
-    print("Done!")
+def update_db_sentiment_model(data, result):
+    for i in range(len(data)):
+        article_id = data[i][0]
+        output = 1 if result[i] == 'positive' else 0
+        update_row_barthez_sentiment_scores(
+            article_id, output)
+    commit_db_changes()
 
 
 def perform_feel_sentiment_analysis():
-    data = load_articles_feel_limited(1000)  # Make batches of 100 articles
+    data = load_articles_feel_limited(1500)  # Make batches of 1000 articles
 
     # use a queue to grab the return value - this makes for easy threading
-    q2 = queue.Queue()
-    analyse_sentiment_feel(data, q2,)
+    q = queue.Queue()
+    analyse_sentiment_feel(data, q,)
 
     # Grab output
-    feel_out = q2.get()
+    feel_out = q.get()
 
     update_db_sentiment_feel(data, feel_out)
+    print("Batch finished!")
+
+
+def perform_model_sentiment_analysis():
+    data = load_articles_model_limited(250)
+
+    # use a queue to grab the return value - this makes for easy threading
+    q = queue.Queue()
+    analyse_sentiment_barthez(data, q,)
+
+    # Grab output
+    model_out = q.get()
+    update_db_sentiment_model(data, model_out)
     print("Batch finished!")
 
 
 def run_feel_sentiment_analysis_on_all_data():
     while has_remaining_articles_for_feel_sentiment() > 0:
         perform_feel_sentiment_analysis()
+    print("Finished FEEL Sentiment Analysis")
 
 
+def run_model_sentiment_analysis_on_all_data():
+    while has_remaining_articles_for_model_sentiment() > 0:
+        perform_model_sentiment_analysis()
+    print("Finished Model Sentiment Analysis")
+
+
+# Escape all strings and wrap with \b (a regex word boundary)
 def text_regex_mapper(s):
     return "\\b%s\\b" % (re.escape(s))
 
@@ -147,4 +154,5 @@ re_exact_match = re.compile(r'%s' % '|'.join(
     map(text_regex_mapper, lexicon_words)), flags=re.IGNORECASE)
 
 init_db()
+# run_model_sentiment_analysis_on_all_data()
 run_feel_sentiment_analysis_on_all_data()

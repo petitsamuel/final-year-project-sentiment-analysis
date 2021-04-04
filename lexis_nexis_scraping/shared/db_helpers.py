@@ -96,12 +96,22 @@ def update_row_sentiment_scores(article_id, barthez_score, feel_score):
 
 
 update_sentiment_feel_script = load_sql_script('sql/update_sentiment_feel.sql')
+update_sentiment_barthez_script = load_sql_script(
+    'sql/update_sentiment_barthez.sql')
 
 
-def update_row_feel_sentiment_scores(article_id, positive_count, negative_count):
+def update_row_feel_sentiment_scores(article_id, positive_count, negative_count, emotions):
     try:
         cursor.execute(update_sentiment_feel_script,
-                       (positive_count, negative_count, article_id,))
+                       (positive_count, negative_count, emotions.joy, emotions.fear, emotions.sadness, emotions.anger, emotions.surprise, emotions.disgust, article_id,))
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err)})
+
+
+def update_row_barthez_sentiment_scores(article_id, output):
+    try:
+        cursor.execute(update_sentiment_barthez_script,
+                       (output, article_id,))
     except mysql.connector.Error as err:
         raise Exception({'error': 'MySQL error: %s' % (err)})
 
@@ -209,6 +219,16 @@ def load_articles_feel_limited(limit=100):
         raise Exception({'error': 'MySQL error: %s' % (err)})
 
 
+def load_articles_model_limited(limit=100):
+    print("Loading articles with limit %d" % (limit))
+    script = load_sql_script('sql/bodies_model_sentiment_limited.sql')
+    try:
+        cursor.execute(script, [(limit)])
+        return cursor.fetchall()
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err)})
+
+
 def load_duplicates():
     print("Loading all duplicate titles...")
     script = load_sql_script('sql/select_duplicate_titles.sql')
@@ -290,5 +310,12 @@ def print_sql_err(er):
 def has_remaining_articles_for_feel_sentiment():
     result = fetch_script_from_db(
         "count_remaining_articles_to_analyse_feel.sql")
+    # returns an array of tuple
+    return result[0][0]
+
+
+def has_remaining_articles_for_model_sentiment():
+    result = fetch_script_from_db(
+        "count_remaining_articles_to_analyse_model.sql")
     # returns an array of tuple
     return result[0][0]
