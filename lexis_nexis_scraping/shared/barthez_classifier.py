@@ -1,28 +1,26 @@
+import torch
 from transformers import (
     AutoTokenizer,
-    AutoModelForSequenceClassification,
-    pipeline,
-    CamembertTokenizer
+    AutoModelForSequenceClassification
 )
-from .text_processing import clean_texts_for_tf_model
 
-# Init language classifier
-tokenizer = AutoTokenizer.from_pretrained(
-    "moussaKam/barthez", add_special_tokens=True, do_lowercase=True, truncation=True, is_split_into_words=False)
-model = AutoModelForSequenceClassification.from_pretrained(
+barthez_tokenizer = AutoTokenizer.from_pretrained("moussaKam/barthez")
+barthez_model = AutoModelForSequenceClassification.from_pretrained(
     "moussaKam/barthez-sentiment-classification")
-classifier = pipeline('sentiment-analysis', model=model, tokenizer=tokenizer)
 
 
-def predict_sentiment_barthez(texts):
-    print("Analysis with Barthez model %d texts" % (len(texts)))
-    cleaned_texts = clean_texts_for_tf_model(texts)
-    print("Texts cleaned. Running classifier")
+def run_barthez_classifier(texts):
+    print("Running Barthez Classifier")
     output = []
-    for t in cleaned_texts:
-        result = classifier(t)
-        print(result)
+    for t in texts:
+        input_ids = torch.tensor(
+            # Encode tokenizes and maps to ids
+            [barthez_tokenizer.encode(
+                t[1], add_special_tokens=True, max_length=500, truncation=True)],
+        )
+        predict = barthez_model.forward(input_ids)[0]
+        result = "positive" if predict.argmax(
+            dim=-1).item() == 1 else "negative"
         output.append(result)
-        # print("Predicted label: %s - Score %f" %
-        #       (result['label'], result['score']))
+        print("Barthez Predicted %s" % (result))
     return output

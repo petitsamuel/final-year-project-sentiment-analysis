@@ -64,7 +64,6 @@ def clean_output_dir():
     print("Removed %d files" % (len(index_files)))
 
 
-
 # If a batch is currently being loaded and there are
 # RTF files in the output dir. Finish loading them.
 def check_was_interrupted():

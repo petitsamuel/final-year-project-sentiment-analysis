@@ -2,19 +2,47 @@ import string
 
 punctuation = r'«»‹›' + string.punctuation
 
+
+def map_polarity_to_int(polarimots_polarity):
+    if polarimots_polarity == 'POS':
+        return 1
+    if polarimots_polarity == 'NEG':
+        return -1
+    return 0
+
+
+class PolarimotsItem():
+    def __init__(self, id, word, word_type, polarity, reliability):
+        self.id = int(id)
+        self.word = word.strip('"')
+        self.word_type = word_type.strip('"')
+        self.polarity = map_polarity_to_int(polarity.strip('"'))
+        self.reliability = float(reliability.strip('"%').replace(',', '.'))
+
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'word': self.word,
+            'word_type': self.word_type,
+            'polarity': self.polarity,
+            'reliability': self.reliability,
+        }
+
 # Actual Lexicon Model
+
+
 class FEELLexiconItem():
     def __init__(self, id, word, polarity, joy, fear, sadness, anger, surprise, disgust):
         self.id = int(id)
-        self.word = word 
-        self.polarity = polarity 
-        self.joy = int(joy)  
-        self.fear = int(fear)  
-        self.sadness = int(sadness)  
-        self.anger = int(anger)  
-        self.surprise = int(surprise)  
-        self.disgust = int(disgust)  
-    
+        self.word = word
+        self.polarity = polarity
+        self.joy = int(joy)
+        self.fear = int(fear)
+        self.sadness = int(sadness)
+        self.anger = int(anger)
+        self.surprise = int(surprise)
+        self.disgust = int(disgust)
+
     def to_dict(self):
         return {
             'id': self.id,
@@ -28,10 +56,13 @@ class FEELLexiconItem():
             'disgust': self.disgust
         }
 # Enums for FEEL
+
+
 class LexiconModel():
     def __init__(self, index, name):
         self.index = index
         self.name = name
+
 
 class FEELModel():
     id = LexiconModel(name='id', index=0)
@@ -45,6 +76,8 @@ class FEELModel():
     disgust = LexiconModel(name='disgust', index=8)
 
 # Model used to load data from the FR Gov Synthese dataset
+
+
 class GouvSyntheseModel():
     casConfirmes = 'casConfirmes'
     deces = 'deces'

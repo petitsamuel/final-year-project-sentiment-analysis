@@ -1,6 +1,7 @@
 from shared.db_helpers import init_db, load_duplicates, load_by_title, remove_by_ids
 from shared.duplicates_helpers import compute_similarity
 
+
 # Remove duplicate articles from MySQL DB - This ended up not being used
 def remove_db_duplicates():
     init_db()

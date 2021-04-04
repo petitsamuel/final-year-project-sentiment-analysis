@@ -29,7 +29,8 @@ def format_data(data, dates_map):
     for key, value in dates_map.items():
         data_at_date = data[key]['counter']
         total_word_count = data[key]['total_words']
-        data_at_date = {k: float(v)/float(total_word_count) for k, v in data_at_date.items() if k.strip(punctuation) and len(k) > 2}
+        data_at_date = {k: float(v)/float(total_word_count)
+                        for k, v in data_at_date.items() if k.strip(punctuation) and len(k) > 2}
         for word, count in data_at_date.items():
             if word not in output:
                 output[word] = [0 for _ in range(len(dates_map))]
@@ -37,6 +38,7 @@ def format_data(data, dates_map):
         index += 1
 
     return dict(sorted(output.items(), key=lambda item: sum(item[1]))[-15:])
+
 
 def generate_monthly_plot(data, graph_name):
     dates_str = data.keys()
@@ -56,6 +58,7 @@ def generate_monthly_plot(data, graph_name):
         "Most Frequent Words in %s Monthly on a Logarithmic Scale" % (graph_name))
     ax.legend(loc='lower right')
 
+
 def plot_word_cloud(data, graph_name, path):
     summed_counter = Counter()
     sum_words = 0
@@ -65,11 +68,15 @@ def plot_word_cloud(data, graph_name, path):
     if '\xa0' in summed_counter:
         del summed_counter['\xa0']
 
-    frequencies = {k: float(v)/float(sum_words) for k, v in summed_counter.items() if k.strip(punctuation) and len(k) > 2}
+    frequencies = {k: float(v)/float(sum_words)
+                   for k, v in summed_counter.items() if k.strip(punctuation) and len(k) > 2}
 
-    wc = WordCloud(max_font_size=50, max_words=100, background_color="white").generate_from_frequencies(frequencies)
+    wc = WordCloud(max_font_size=50, max_words=100,
+                   background_color="white").generate_from_frequencies(frequencies)
     wc.to_file(path)
-    print("Saved wordcloud of word frequencies for %s at file %s" % (graph_name, path))
+    print("Saved wordcloud of word frequencies for %s at file %s" %
+          (graph_name, path))
+
 
 def plot_titles_monthly():
     data = json.loads(read_file(title_monthly_frequencies))

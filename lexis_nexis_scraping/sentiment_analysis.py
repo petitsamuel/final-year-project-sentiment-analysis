@@ -1,27 +1,13 @@
-# from shared.model_sentiment_classifier import compute_model_sentiment
-# from shared.barthez import run_barthez_classifier
-# from shared.barthez_classifier import predict_sentiment_barthez
+# from shared.barthez_classifier import run_barthez_classifier
 from shared.db_helpers import load_articles_feel_limited, load_articles_model_limited, init_db, update_row_sentiment_scores, commit_db_changes, has_remaining_articles_for_feel_sentiment, update_row_feel_sentiment_scores, has_remaining_articles_for_model_sentiment, update_row_barthez_sentiment_scores
-from shared.feel_lexicon_helper import load_lexicon
+from shared.lexicon_helper import load_feel_lexicon
+from shared.regex_helpers import compile_regex_from_lexicon, count_intersections
 from collections import Counter
 from shared.text_processing import clean_text_for_analysis_lower, lemmatize_lexicon
 from shared.models import FEELLexiconItem
 from threading import Thread
 import queue
 import re
-
-
-def count_intersections(text):
-    output = []
-    matches = re_exact_match.findall(text)
-    occurrences = Counter(matches)
-    return dict(occurrences)
-    # Less efficient method
-    # for x in lexicon_words:
-    #     count = len(re.findall(r"\b" + re.escape(x) + r"\b", text))
-    #     if count > 0:
-    #         output.append([x, count])
-    # return output
 
 
 def compute_sentiment_feel(counts):
@@ -64,14 +50,14 @@ def analyse_sentiment_feel(data, queue):
     output = []
     for text in data:
         cleaned_text = clean_text_for_analysis_lower(text[1])
-        counts = count_intersections(cleaned_text)
+        counts = count_intersections(re_exact_match, cleaned_text)
         output.append(compute_sentiment_feel(counts))
     queue.put(output)
 
 
 # def analyse_sentiment_barthez(data, queue):
 #     predictions_barthez = predict_sentiment_barthez(
-#         data)  # run_barthez_classifier(data)
+#         data)
 #     queue.put(predictions_barthez)
 
 
@@ -148,10 +134,8 @@ def text_regex_mapper(s):
     return "\\b%s\\b" % (re.escape(s))
 
 
-feel_lexicon = load_lexicon()
-lexicon_words = feel_lexicon.keys()
-re_exact_match = re.compile(r'%s' % '|'.join(
-    map(text_regex_mapper, lexicon_words)), flags=re.IGNORECASE)
+feel_lexicon = load_feel_lexicon()
+re_exact_match = compile_regex_from_lexicon(feel_lexicon)
 
 init_db()
 # run_model_sentiment_analysis_on_all_data()

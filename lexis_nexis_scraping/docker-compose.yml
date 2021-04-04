@@ -8,7 +8,7 @@ services:
       - ${PWD}/db/:/var/lib/mysql
     environment:
       #to connect :
-      #mysql --host=127.0.0.1 --port=3306 -uadmin -ppassword
+      # mysql --host=127.0.0.1 --port=3306 -uadmin -ppassword
       # or if you don't have mysql installed:
       # docker exec -it fr_news_db mysql -uadmin -ppassword
       - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD} # injected from .env

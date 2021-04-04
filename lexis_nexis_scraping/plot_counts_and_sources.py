@@ -31,6 +31,7 @@ def plot_sources_count():
     ax.set_title(
         "Sources with the largest amount of articles (total %d sources)" % (total_sources))
 
+
 def plot_articles_count_monthly():
     data = fetch_script_from_db("count_by_month.sql")
     formatted_data = []
@@ -39,7 +40,7 @@ def plot_articles_count_monthly():
 
     # Sort by date
     formatted_data = sorted(formatted_data, key=lambda x: x[0])
-    
+
     # format our data
     dates, counts = zip(*formatted_data)
 
@@ -52,6 +53,7 @@ def plot_articles_count_monthly():
     ax.set_title(
         "Number of articles published in France on COVID-19 by Month")
 
+
 def plot_articles_count_weekly():
     data = fetch_script_from_db("count_by_week.sql")
     formatted_data = []
@@ -60,7 +62,7 @@ def plot_articles_count_weekly():
 
     # Sort by date
     formatted_data = sorted(formatted_data, key=lambda x: x[0])
-    
+
     # format our data
     dates, counts = zip(*formatted_data)
 
@@ -74,17 +76,22 @@ def plot_articles_count_weekly():
         "Number of articles published in France on COVID-19 by Week")
     ax.legend(loc='lower right')
 
+
 def monthly_average_word_count_weekly(data):
     output = []
     for d in data:
-        output.append([date_from_week(d['week'], d['year']), d['average_word_count']])
+        output.append([date_from_week(d['week'], d['year']),
+                      d['average_word_count']])
     return sorted(output, key=lambda x: x[0])
+
 
 def monthly_average_word_count_monthly(data):
     output = []
     for d in data:
-        output.append([date_from_month(d['month'], d['year']), d['average_word_count']])
+        output.append([date_from_month(d['month'], d['year']),
+                      d['average_word_count']])
     return sorted(output, key=lambda x: x[0])
+
 
 def plot_average_word_count_monthly():
     data = json.loads(read_file(monthly_average_word_count))
@@ -100,7 +107,8 @@ def plot_average_word_count_monthly():
     ax.set_ylabel("Average word count")
     ax.set_title(
         "Average Word Count of COVID-19 French News Articles Monthly")
-    ax.legend(loc='lower right')   
+    ax.legend(loc='lower right')
+
 
 def plot_average_word_count_weekly():
     data = json.loads(read_file(weekly_average_word_count))
@@ -117,6 +125,7 @@ def plot_average_word_count_weekly():
     ax.set_title(
         "Average Word Count of COVID-19 French News Articles Weekly")
     ax.legend(loc='lower right')
+
 
 # plot_sources_count()
 # plot_articles_count_monthly()

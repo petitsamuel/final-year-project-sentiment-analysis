@@ -10,7 +10,7 @@ from datetime import datetime
 def de_sum_data(data):
     for i in reversed(range(1, len(data))):
         data[i] = max(0, data[i] - data[i - 1])
-    return data    
+    return data
 
 
 def grab_metric_from_data(data, metric):
@@ -104,4 +104,3 @@ plot_deaths_fr()
 plot_vaccination()
 plot_hospitalise()
 plt.show()
-

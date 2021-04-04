@@ -23,14 +23,16 @@ def lemmatize_lexicon(lexicon):
 
 
 def tokenize_to_string_lemma(doc, truncate):
-    tokens = [token.lemma_ for token in doc if not token.is_stop and token.text.strip(punctuation)]
+    tokens = [token.lemma_ for token in doc if not token.is_stop and token.text.strip(
+        punctuation)]
     if truncate and len(tokens) > 1024:
         tokens = tokens[:1024]
     return ' '.join(tokens)
 
 
 def tokenize_to_string(doc, truncate):
-    tokens = [token.text for token in doc if not token.is_stop and token.text.strip(punctuation)]
+    tokens = [token.text for token in doc if not token.is_stop and token.text.strip(
+        punctuation)]
     if truncate and len(tokens) > 750:
         tokens = tokens[:750]
     return ' '.join(tokens)
