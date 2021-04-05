@@ -1,5 +1,5 @@
 from shared.lexicon_helper import load_polarimots_lexicon, compute_sentiment
-from shared.db_helpers import commit_db_changes, load_articles_barthez_limited, has_remaining_articles_polarimots, update_row_polarimots_sentiment_scores
+from shared.db_helpers import commit_db_changes, load_articles_polarimots_limited, has_remaining_articles_polarimots, update_row_polarimots_sentiment_scores
 from shared.regex_helpers import compile_regex_from_lexicon
 
 
@@ -41,7 +41,7 @@ def update_db_sentiment_polarimots(data, output):
 
 def run_polarimots_sentiment_analysis():
     while has_remaining_articles_polarimots() > 0:
-        data = load_articles_barthez_limited(2000)
+        data = load_articles_polarimots_limited(2000)
         out = compute_sentiment(data, re_exact_match, process_counts_polimots)
         update_db_sentiment_polarimots(data, out)
         print("Batch finished!")

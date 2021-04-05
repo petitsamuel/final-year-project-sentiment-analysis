@@ -209,9 +209,9 @@ def load_titles():
         raise Exception({'error': 'MySQL error: %s' % (err)})
 
 
-def load_articles_barthez_limited(limit=40):
+def load_articles_polarimots_limited(limit=40):
     print("Loading articles with limit %d" % (limit))
-    script = load_sql_script('sql/bodies_barthez_sentiment_limited.sql')
+    script = load_sql_script('sql/bodies_polarimots_sentiment_limited.sql')
     try:
         cursor.execute(script, [(limit)])
         return cursor.fetchall()
