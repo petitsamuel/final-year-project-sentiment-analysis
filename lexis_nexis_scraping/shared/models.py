@@ -11,6 +11,36 @@ def map_polarity_to_int(polarimots_polarity):
     return 0
 
 
+class DikoItem():
+    def __init__(self, word, positif, neutral, negative):
+        self.word = word.strip('"')
+        self.positif = int(positif)
+        self.neutral = int(neutral)
+        self.negative = int(negative)
+        self.weight = None
+
+    def get_vote_count(self):
+        return self.positif + self.negative + self.neutral
+
+    def get_vote_count_no_neutral(self):
+        return self.positif + self.neutral
+
+    def compute_score(self, variation):
+        total = self.get_vote_count()
+        # Z-Score without normalisation
+        self.weight = (total/variation) * \
+            ((self.positif - self.negative) / total)
+
+    def to_dict(self):
+        return {
+            'word': self.word,
+            'positif': self.positif,
+            'neutral': self.neutral,
+            'negative': self.negative,
+            'weight': self.weight
+        }
+
+
 class PolarimotsItem():
     def __init__(self, id, word, word_type, polarity, reliability):
         self.id = int(id)
@@ -31,9 +61,8 @@ class PolarimotsItem():
             'reliability': self.reliability,
         }
 
+
 # Actual Lexicon Model
-
-
 class FEELLexiconItem():
     def __init__(self, id, word, polarity, joy, fear, sadness, anger, surprise, disgust):
         self.id = int(id)

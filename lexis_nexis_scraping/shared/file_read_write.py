@@ -27,10 +27,11 @@ def write_to_file(value, file):
 def read_file(file):
     print("\nReading file - %s" % (file))
     try:
-        f = open(data_folder + file, "r")
+        f = open(data_folder + file, "r", encoding='ISO-8859-1')
         content = f.read()
         f.close()
         return content
-    except Exception:
+    except Exception as e:
+        print(e)
         print("Error: could not load file %s%s" % (data_folder, file))
         return None

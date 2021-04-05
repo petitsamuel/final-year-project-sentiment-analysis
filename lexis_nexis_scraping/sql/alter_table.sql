@@ -9,4 +9,6 @@ ADD COLUMN feel_sentiment_positive INT DEFAULT NULL,
     ADD COLUMN feel_anger INT DEFAULT NULL,
     ADD COLUMN feel_surprise INT DEFAULT NULL,
     ADD COLUMN feel_disgust INT DEFAULT NULL,
-    ADD COLUMN barthez_sentiment TINYINT(1) DEFAULT NULL;
+    ADD COLUMN barthez_sentiment TINYINT(1) DEFAULT NULL,
+    ADD COLUMN diko_positive FLOAT DEFAULT NULL,
+    ADD COLUMN diko_negative FLOAT DEFAULT NULL;

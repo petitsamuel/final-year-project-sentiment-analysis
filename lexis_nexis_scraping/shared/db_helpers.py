@@ -41,6 +41,16 @@ def load_sql_script(file_name):
     return None
 
 
+# Keep some SQL Scrips in memory for fast usage
+update_sentiment_feel_script = load_sql_script('sql/update_sentiment_feel.sql')
+update_sentiment_barthez_script = load_sql_script(
+    'sql/update_sentiment_barthez.sql')
+update_sentiment_polarimots_script = load_sql_script(
+    'sql/update_sentiment_polarimots.sql')
+update_sentiment_diko_script = load_sql_script(
+    'sql/update_sentiment_diko.sql')
+
+
 def init_db():
     script = load_sql_script('sql/create_table.sql')
     execute_sql(script)
@@ -95,13 +105,6 @@ def update_row_sentiment_scores(article_id, barthez_score, feel_score):
         raise Exception({'error': 'MySQL error: %s' % (err)})
 
 
-update_sentiment_feel_script = load_sql_script('sql/update_sentiment_feel.sql')
-update_sentiment_barthez_script = load_sql_script(
-    'sql/update_sentiment_barthez.sql')
-update_sentiment_polarimots_script = load_sql_script(
-    'sql/update_sentiment_polarimots.sql')
-
-
 def update_row_feel_sentiment_scores(article_id, positive_count, negative_count, emotions):
     try:
         cursor.execute(update_sentiment_feel_script,
@@ -121,6 +124,14 @@ def update_row_barthez_sentiment_scores(article_id, output):
 def update_row_polarimots_sentiment_scores(article_id, positive_count, negative_count):
     try:
         cursor.execute(update_sentiment_polarimots_script,
+                       (positive_count, negative_count, article_id,))
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err)})
+
+
+def update_row_diko_sentiment_scores(article_id, positive_count, negative_count):
+    try:
+        cursor.execute(update_sentiment_diko_script,
                        (positive_count, negative_count, article_id,))
     except mysql.connector.Error as err:
         raise Exception({'error': 'MySQL error: %s' % (err)})
@@ -222,6 +233,16 @@ def load_articles_polarimots_limited(limit=40):
 def load_articles_feel_limited(limit=100):
     print("Loading articles with limit %d" % (limit))
     script = load_sql_script('sql/bodies_feel_sentiment_limited.sql')
+    try:
+        cursor.execute(script, [(limit)])
+        return cursor.fetchall()
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err)})
+
+
+def load_articles_diko_limited(limit=100):
+    print("Loading articles with limit %d" % (limit))
+    script = load_sql_script('sql/bodies_diko_sentiment_limited.sql')
     try:
         cursor.execute(script, [(limit)])
         return cursor.fetchall()
@@ -334,5 +355,12 @@ def has_remaining_articles_for_model_sentiment():
 def has_remaining_articles_polarimots():
     result = fetch_script_from_db(
         "count_remaining_articles_to_analyse_polarimots.sql")
+    # returns an array of tuple
+    return result[0][0]
+
+
+def has_remaining_articles_diko():
+    result = fetch_script_from_db(
+        "count_remaining_articles_to_analyse_diko.sql")
     # returns an array of tuple
     return result[0][0]
