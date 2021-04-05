@@ -13,9 +13,8 @@ SELECT COUNT(*),
     (
         SUM(feel_sentiment_negative) + SUM(feel_sentiment_positive)
     ) * 100 / SUM(length) AS PERCENT_WORDS_USED_POLARITY,
-    (
-        SUM(polarimots_positive) + SUM(polarimots_negative)
-    ) * 100 / SUM(length) AS POLARIMOTS_SCORE
+    SUM(polarimots_positive) / SUM(length) as POLARIMOTS_POSITIVE,
+    SUM(ABS(polarimots_negative)) / SUM(length) as POLARIMOTS_NEGATIVE
 FROM articles
 WHERE feel_joy IS NOT NULL
     AND feel_sentiment_positive IS NOT NULL
