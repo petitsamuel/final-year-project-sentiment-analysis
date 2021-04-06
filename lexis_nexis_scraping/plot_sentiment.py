@@ -7,7 +7,7 @@ def format_data(data):
     formatted = []
     for d in data:
         formatted.append({
-            'id': d[0],
+            'count': d[0],
             'date': date_from_month(d[1], d[2]),
             'len': int(d[3]),
             'feel': {
@@ -24,6 +24,10 @@ def format_data(data):
             'polarimots': {
                 'positive': d[13],
                 'negative': d[14]
+            },
+            'diko': {
+                'positive': d[15],
+                'negative': d[16]
             }
         })
     return formatted
@@ -47,10 +51,10 @@ def get_feel_data(formatted_data):
     }
 
 
-def get_polarimots_data(formatted_data):
+def get_data_for_plot(formatted_data, source):
     return {
-        'positive': [x['polarimots']['positive'] for x in formatted_data],
-        'negative': [x['polarimots']['negative'] for x in formatted_data],
+        'positive': [x[source]['positive'] for x in formatted_data],
+        'negative': [x[source]['negative'] for x in formatted_data],
     }
 
 
@@ -68,17 +72,17 @@ def plot_feel_sentiment(feel_data, dates):
     ax.legend(loc='lower right')
 
 
-def plot_polarimots_sentiment(polarimots_data, dates):
+def plot_sentiment_scored(formatted_data, dates, lexicon):
     # plot the data
     fig = plt.figure()
     ax = fig.add_subplot(111)
-    for key, value in polarimots_data.items():
+    for key, value in formatted_data.items():
         ax.plot(dates, value, label=key)
     ax.set_xlabel("Date")
     ax.set_ylabel("Average Weighted Score")
     # ax.set_yscale("log")
     ax.set_title(
-        "Articles Sentiment Frequencies Monthly - Polarimots Lexicon")
+        "Articles Sentiment Frequencies Monthly - %s Lexicon" % (lexicon))
     ax.legend(loc='lower right')
 
 
@@ -90,10 +94,12 @@ def plot_all_sentiment():
     # Format data
     dates = get_dates(formatted)
     feel_data = get_feel_data(formatted)
-    polarimots_data = get_polarimots_data(formatted)
+    polarimots_data = get_data_for_plot(formatted, 'polarimots')
+    diko_data = get_data_for_plot(formatted, 'diko')
     # Plot data
     plot_feel_sentiment(feel_data, dates)
-    plot_polarimots_sentiment(polarimots_data, dates)
+    plot_sentiment_scored(polarimots_data, dates, "Polarimots")
+    plot_sentiment_scored(diko_data, dates, "Diko")
 
 
 init_db()

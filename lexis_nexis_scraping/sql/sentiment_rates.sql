@@ -14,7 +14,9 @@ SELECT COUNT(*),
         SUM(feel_sentiment_negative) + SUM(feel_sentiment_positive)
     ) * 100 / SUM(length) AS PERCENT_WORDS_USED_POLARITY,
     SUM(polarimots_positive) / SUM(length) as POLARIMOTS_POSITIVE,
-    SUM(ABS(polarimots_negative)) / SUM(length) as POLARIMOTS_NEGATIVE
+    SUM(ABS(polarimots_negative)) / SUM(length) as POLARIMOTS_NEGATIVE,
+    SUM(diko_positive) / SUM(length) as DIKO_POS,
+    SUM(ABS(diko_negative)) / SUM(length) as DIKO_NEGATIVE
 FROM articles
 WHERE feel_joy IS NOT NULL
     AND feel_sentiment_positive IS NOT NULL
@@ -24,6 +26,8 @@ WHERE feel_joy IS NOT NULL
     AND feel_anger IS NOT NULL
     AND feel_surprise IS NOT NULL
     AND feel_disgust IS NOT NULL
+    AND diko_positive IS NOT NULL
+    AND diko_negative IS NOT NULL
 GROUP BY MONTH(date),
     YEAR(date)
 ORDER BY YEAR(date),
