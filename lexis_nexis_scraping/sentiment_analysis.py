@@ -3,7 +3,7 @@ from shared.db_helpers import load_articles_feel_limited, load_articles_model_li
 from shared.lexicon_helper import load_feel_lexicon
 from shared.regex_helpers import compile_regex_from_lexicon, count_intersections
 from collections import Counter
-from shared.text_processing import clean_text_for_analysis_lower, lemmatize_lexicon
+from shared.text_processing import clean_text_for_analysis_lower
 from shared.models import FEELLexiconItem
 from threading import Thread
 import queue
@@ -91,7 +91,7 @@ def update_db_sentiment_model(data, result):
 
 
 def perform_feel_sentiment_analysis():
-    data = load_articles_feel_limited(1500)  # Make batches of 1000 articles
+    data = load_articles_feel_limited(2000)  # Make batches of 1000 articles
 
     # use a queue to grab the return value - this makes for easy threading
     q = queue.Queue()

@@ -1,9 +1,15 @@
+import treetaggerwrapper as ttw
+from treetaggerwrapper import Tag
 import spacy
 from .models import punctuation
+from spacy.lang.fr.stop_words import STOP_WORDS as fr_stop
 
 print("Loading spacy language package...")
 nlp = spacy.load("fr_core_news_lg")
 print("Loaded fr_core_news_lg")
+
+tagger = ttw.TreeTagger(
+    TAGLANG='fr', TAGDIR='/home/sam/dev/fyp/lexis_nexis_scraping/treetagger')
 
 
 def process_text(text, remove_stop_words=True, vectorize=False):
@@ -17,11 +23,6 @@ def process_text(text, remove_stop_words=True, vectorize=False):
         return []
 
 
-def lemmatize_lexicon(lexicon):
-    doc = nlp(lexicon)
-    return [token.lemma_ for token in doc if token.has_vector]
-
-
 def tokenize_to_string_lemma(doc, truncate):
     tokens = [token.lemma_ for token in doc if not token.is_stop and token.text.strip(
         punctuation)]
@@ -30,28 +31,22 @@ def tokenize_to_string_lemma(doc, truncate):
     return ' '.join(tokens)
 
 
-def tokenize_to_string(doc, truncate):
-    tokens = [token.text for token in doc if not token.is_stop and token.text.strip(
-        punctuation)]
-    if truncate and len(tokens) > 750:
-        tokens = tokens[:750]
-    return ' '.join(tokens)
+# Lowercase & remove stop words and punctuation from text.
+def clean_text(text):
+    return ' '.join([word for word in text.lower().split() if word not in fr_stop and word.strip(punctuation)])
+
+
+def grab_lemmas_treetagger(clean_text):
+    tags = tagger.tag_text(clean_text)
+    lemmas = ttw.make_tags(tags)
+    return ' '.join([v.lemma for v in lemmas if isinstance(v, Tag)])
 
 
 def clean_text_for_analysis_lower(text, truncate=False):
-    doc = nlp(text.lower())
-    return tokenize_to_string_lemma(doc, truncate)
+    # Spacy Lemmatization approach
+    # doc = nlp(text.lower())
+    # return tokenize_to_string_lemma(doc, truncate)
 
-
-# Remove stop words and punctuations. Truncate tokens.
-def clean_text_for_tf_model(text, truncate=True):
-    doc = nlp(text)
-    return tokenize_to_string(doc, truncate)
-
-
-def clean_texts_for_tf_model(texts):
-    print("Removing stop words, punctuation and truncating texts")
-    output = []
-    for t in texts:
-        output.append(clean_text_for_tf_model(t[1]))
-    return output
+    # TreeTagger Approach
+    cleaned_text = clean_text(text)
+    return grab_lemmas_treetagger(cleaned_text)
