@@ -98,7 +98,7 @@ def update_db_sentiment(data, output):
 
 
 def perform_sentiment_analysis():
-    data = load_articles_feel_limited(100)
+    data = load_articles_feel_limited(2000)
     output = analyse_sentiment(data)
 
     update_db_sentiment(data, output)
@@ -108,7 +108,6 @@ def perform_sentiment_analysis():
 def run_feel_sentiment_analysis_on_all_data():
     while has_remaining_articles_for_feel_sentiment() > 0:
         perform_sentiment_analysis()
-        exit()
     print("Finished FEEL Sentiment Analysis")
 
 

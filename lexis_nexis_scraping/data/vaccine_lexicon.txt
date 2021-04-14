@@ -3,17 +3,26 @@ administrer
 anticorps
 antigène
 antiviral
-dose
 immunisation
 immuniser
 immunité
 immunoglobine
 injection
 pathogène
-prévention
-taux vaccination
 vaccin
 vaccinal
 vaccination
 vacciner
 virologue
+dose
+astrazeneca
+pfizer
+moderna
+janssen
+vaxzevria
+johnson&johnson
+curevac
+spoutnik v
+biontech
+sanofi
+arn

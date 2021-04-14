@@ -136,7 +136,7 @@ def add_row_counts(counter_death, counter_vaccine, counter_virus):
     try:
         cursor.execute(
             script,
-            (json.dumps(counter_death), json.dumps(counter_virus), json.dumps(counter_vaccine)))
+            (json.dumps(counter_death), json.dumps(counter_vaccine), json.dumps(counter_virus)))
     except mysql.connector.Error as err:
         raise Exception({'error': 'MySQL error: %s' % (err)})
 

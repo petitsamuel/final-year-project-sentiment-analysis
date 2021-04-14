@@ -1,11 +1,6 @@
 administration test
-adn
 antibiotique
-anticorps
-antigène
-antiviral
 aplatir courbe
-arn
 asymptomatique
 auto-immun
 auto-isolement
@@ -30,7 +25,8 @@ déconfiné
 déficit immunitaire
 dépistage
 dépister
-désinfectant pour main
+désinfectant
+désinfecter
 epidémie
 epidémiologie
 faux négatif
@@ -56,6 +52,7 @@ masque
 mesure sanitaires
 mutation
 muter
+nasal
 oms
 pandémie
 pandémique
@@ -68,14 +65,10 @@ symptôme
 taux de mortalité
 test antigénique
 transmission
-vaccin
-vaccinateur
-vaccination
-vacciner
-vacciné
 viral
 virologie
 virus
 vulnérable
 écraser courbe
 épidémie
+laver main
