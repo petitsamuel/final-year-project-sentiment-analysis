@@ -5,6 +5,7 @@ import mysql.connector
 from datetime import datetime
 from dotenv import load_dotenv
 import os
+import json
 
 load_dotenv(dotenv_path="/home/sam/dev/fyp/lexis_nexis_scraping/.env")
 
@@ -43,6 +44,8 @@ def load_sql_script(file_name):
 
 # Keep some SQL Scrips in memory for fast usage
 update_sentiment_feel_script = load_sql_script('sql/update_sentiment_feel.sql')
+update_sentiment_feel_specialised_script = load_sql_script(
+    'sql/update_sentiment_feel_specialised.sql')
 update_sentiment_barthez_script = load_sql_script(
     'sql/update_sentiment_barthez.sql')
 update_sentiment_polarimots_script = load_sql_script(
@@ -53,6 +56,8 @@ update_sentiment_diko_script = load_sql_script(
 
 def init_db():
     script = load_sql_script('sql/create_table.sql')
+    execute_sql(script)
+    script = load_sql_script('sql/create_counts.sql')
     execute_sql(script)
     script = load_sql_script('sql/alter_table.sql')
     try:
@@ -109,6 +114,29 @@ def update_row_feel_sentiment_scores(article_id, positive_count, negative_count,
     try:
         cursor.execute(update_sentiment_feel_script,
                        (positive_count, negative_count, emotions.joy, emotions.fear, emotions.sadness, emotions.anger, emotions.surprise, emotions.disgust, article_id,))
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err)})
+
+
+def update_row_feel_sentiment_specialised(article_id, positive_count, negative_count, emotions, death_count, virus_count, vaccine_count):
+    try:
+        cursor.execute(update_sentiment_feel_specialised_script,
+                       (positive_count, negative_count,
+                        emotions.joy, emotions.fear,
+                        emotions.sadness, emotions.anger,
+                        emotions.surprise, emotions.disgust,
+                        death_count, virus_count,
+                        vaccine_count, article_id,))
+    except mysql.connector.Error as err:
+        raise Exception({'error': 'MySQL error: %s' % (err)})
+
+
+def add_row_counts(counter_death, counter_vaccine, counter_virus):
+    script = load_sql_script('sql/insert_count_row.sql')
+    try:
+        cursor.execute(
+            script,
+            (json.dumps(counter_death), json.dumps(counter_virus), json.dumps(counter_vaccine)))
     except mysql.connector.Error as err:
         raise Exception({'error': 'MySQL error: %s' % (err)})
 

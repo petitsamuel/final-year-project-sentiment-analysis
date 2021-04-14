@@ -23,7 +23,7 @@ def process_text(text, remove_stop_words=True, vectorize=False):
         return []
 
 
-def tokenize_to_string_lemma(doc, truncate):
+def tokenize_to_string_lemma(doc, truncate=False):
     tokens = [token.lemma_ for token in doc if not token.is_stop and token.text.strip(
         punctuation)]
     if truncate and len(tokens) > 1024:
@@ -44,9 +44,9 @@ def grab_lemmas_treetagger(clean_text):
 
 def clean_text_for_analysis_lower(text, truncate=False):
     # Spacy Lemmatization approach
-    # doc = nlp(text.lower())
-    # return tokenize_to_string_lemma(doc, truncate)
+    doc = nlp(text.lower())
+    return tokenize_to_string_lemma(doc, truncate)
 
     # TreeTagger Approach
-    cleaned_text = clean_text(text)
-    return grab_lemmas_treetagger(cleaned_text)
+    # cleaned_text = clean_text(text)
+    # return grab_lemmas_treetagger(cleaned_text)

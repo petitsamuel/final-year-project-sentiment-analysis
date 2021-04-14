@@ -11,4 +11,7 @@ ADD COLUMN feel_sentiment_positive INT DEFAULT NULL,
     ADD COLUMN feel_disgust INT DEFAULT NULL,
     ADD COLUMN barthez_sentiment TINYINT(1) DEFAULT NULL,
     ADD COLUMN diko_positive FLOAT DEFAULT NULL,
-    ADD COLUMN diko_negative FLOAT DEFAULT NULL;
+    ADD COLUMN diko_negative FLOAT DEFAULT NULL,
+    ADD COLUMN death_sentiment INT DEFAULT NULL,
+    ADD COLUMN virus_sentiment INT DEFAULT NULL,
+    ADD COLUMN vaccine_sentiment INT DEFAULT NULL;

@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS counts (
+	death TEXT NOT NULL,
+	vaccine TEXT NOT NULL,
+	virus TEXT NOT NULL
+) CHARACTER SET utf8 COLLATE utf8_general_ci;

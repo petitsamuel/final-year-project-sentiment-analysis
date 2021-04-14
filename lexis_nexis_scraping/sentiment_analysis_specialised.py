@@ -1,5 +1,5 @@
 # from shared.barthez_classifier import run_barthez_classifier
-from shared.db_helpers import load_articles_feel_limited, load_articles_model_limited, init_db, update_row_sentiment_scores, commit_db_changes, has_remaining_articles_for_feel_sentiment, update_row_feel_sentiment_scores, has_remaining_articles_for_model_sentiment, update_row_barthez_sentiment_scores
+from shared.db_helpers import load_articles_feel_limited, load_articles_model_limited, init_db, commit_db_changes, has_remaining_articles_for_feel_sentiment, update_row_feel_sentiment_specialised, add_row_counts
 from shared.lexicon_helper import load_feel_lexicon, load_custom_lexicons, update_lexicon_from_specialised
 from shared.regex_helpers import compile_regex_from_lexicon, count_intersections
 from collections import Counter
@@ -46,92 +46,70 @@ def compute_sentiment_feel(counts):
     }
 
 
-def analyse_sentiment_feel(data, queue):
+def analyse_sentiment(data):
     output = []
     for text in data:
         cleaned_text = clean_text_for_analysis_lower(text[1])
-        counts = count_intersections(re_exact_match, cleaned_text)
-        output.append(compute_sentiment_feel(counts))
-    queue.put(output)
+        # Comput matches with FEEL Lexicon
+        counts_feel = count_intersections(re_exact_match, cleaned_text)
+        # Compute matches with Custom Lexicons
+        counts_death = count_intersections(
+            specialised_lexicons.death_regexp, cleaned_text)
+        counts_vaccine = count_intersections(
+            specialised_lexicons.vaccine_regexp, cleaned_text)
+        counts_virus = count_intersections(
+            specialised_lexicons.virus_regexp, cleaned_text)
+
+        output.append({
+            'feel': compute_sentiment_feel(counts_feel),
+            'death': counts_death,
+            'virus': counts_virus,
+            'vaccine': counts_vaccine
+        })
+
+    return output
 
 
-# def analyse_sentiment_barthez(data, queue):
-#     predictions_barthez = predict_sentiment_barthez(
-#         data)
-#     queue.put(predictions_barthez)
-
-
-def update_db_sentiment(data, barthez, feel):
+def update_db_sentiment(data, output):
+    # update articles table counts
     for i in range(len(data)):
         article_id = data[i][0]
-        barthez_score = 1 if barthez[i]['label'].lower() == 'positive' else 0
-        feel_score = 1 if feel[i]['label'].lower() == 'positive' else 0
-        update_row_sentiment_scores(article_id, barthez_score, feel_score)
+        positive_count = output[i]['feel']['positive_count']
+        negative_count = output[i]['feel']['negative_count']
+        emotions_output = output[i]['feel']['emotions']
+        death_count = sum(output[i]['death'].values())
+        virus_count = sum(output[i]['virus'].values())
+        vaccine_count = sum(output[i]['vaccine'].values())
+        update_row_feel_sentiment_specialised(
+            article_id, positive_count, negative_count, emotions_output, death_count, virus_count, vaccine_count)
+
+    # Aggregate specialised word counts
+    counter_death = Counter()
+    counter_virus = Counter()
+    counter_vaccine = Counter()
+    for d in output:
+        counter_death += d['death']
+        counter_virus += d['virus']
+        counter_vaccine += d['vaccine']
+
+    # Insert row and commit changes
+    add_row_counts(counter_death, counter_vaccine, counter_virus)
     commit_db_changes()
 
 
-def update_db_sentiment_feel(data, feel):
-    for i in range(len(data)):
-        article_id = data[i][0]
-        positive_count = feel[i]['positive_count']
-        negative_count = feel[i]['negative_count']
-        emotions_output = feel[i]['emotions']
-        update_row_feel_sentiment_scores(
-            article_id, positive_count, negative_count, emotions_output)
-    commit_db_changes()
+def perform_sentiment_analysis():
+    data = load_articles_feel_limited(100)
+    output = analyse_sentiment(data)
 
-
-def update_db_sentiment_model(data, result):
-    for i in range(len(data)):
-        article_id = data[i][0]
-        output = 1 if result[i] == 'positive' else 0
-        update_row_barthez_sentiment_scores(
-            article_id, output)
-    commit_db_changes()
-
-
-def perform_feel_sentiment_analysis():
-    data = load_articles_feel_limited(2000)  # Make batches of 1000 articles
-
-    # use a queue to grab the return value - this makes for easy threading
-    q = queue.Queue()
-    analyse_sentiment_feel(data, q,)
-
-    # Grab output
-    feel_out = q.get()
-
-    update_db_sentiment_feel(data, feel_out)
-    print("Batch finished!")
-
-
-def perform_model_sentiment_analysis():
-    data = load_articles_model_limited(250)
-
-    # use a queue to grab the return value - this makes for easy threading
-    q = queue.Queue()
-    analyse_sentiment_barthez(data, q,)
-
-    # Grab output
-    model_out = q.get()
-    update_db_sentiment_model(data, model_out)
+    update_db_sentiment(data, output)
     print("Batch finished!")
 
 
 def run_feel_sentiment_analysis_on_all_data():
     while has_remaining_articles_for_feel_sentiment() > 0:
-        perform_feel_sentiment_analysis()
+        perform_sentiment_analysis()
+        exit()
     print("Finished FEEL Sentiment Analysis")
-
-
-def run_model_sentiment_analysis_on_all_data():
-    while has_remaining_articles_for_model_sentiment() > 0:
-        perform_model_sentiment_analysis()
-    print("Finished Model Sentiment Analysis")
-
-
-# Escape all strings and wrap with \b (a regex word boundary)
-def text_regex_mapper(s):
-    return "\\b%s\\b" % (re.escape(s))
 
 
 # Load FEEL and specialised lexicons
@@ -144,8 +122,5 @@ feel_lexicon = update_lexicon_from_specialised(
 
 re_exact_match = compile_regex_from_lexicon(feel_lexicon)
 
-print(specialised_lexicons.to_dict())
-exit()
 init_db()
-# run_model_sentiment_analysis_on_all_data()
 run_feel_sentiment_analysis_on_all_data()
