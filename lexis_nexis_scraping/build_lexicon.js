@@ -91,106 +91,131 @@
 // ADN
 // contaminer
 // `
+// const lexicon = `
+// Agonie
+// Disparition
+// Extinction
+// Décès
+// Trépas
+// Tombeau
+// Disparu
+// Victime
+// Dépouille
+// Défunt
+// Tombe
+// Sépulture 
+// Homicide
+// Tué
+// Décédé
+// Trépassé
+// Martyre 
+// Cadavre
+// Crypte
+// Cénotaphe
+// Cercueil
+// Fossoyeur
+// Lugubre
+// Mortel
+// Fatal
+// Funeste 
+// Funèbre 
+// Funéraire 
+// Funérailles 
+// Enterrement
+// Inhumation
+// Obsèques
+// Ensevelissement
+// Épitaphe
+// Deuil 
+// Condoléances 
+// Mourir 
+// mort
+// Décéder
+// Trépasser 
+// Périr
+// Disparaître 
+// Succomber 
+// S’éteindre 
+// Ensevelir 
+// Décimer 
+// Génocide
+// Cimetière  
+// cadavre
+// défunt
+// cadavre
+// résurrection
+// tombeau
+// cercueil
+// agonie
+// dépouille
+// deuil
+// décès
+// meurtre
+// ressusciter
+// exécution
+// tombe
+// funèbre
+// cimetière
+// mourir
+// décéder
+// mourant	
+// décédé	
+// mort	
+// décédée
+// défunt
+// qui nous a quitté
+// âme
+// décès
+// maladie
+// hôpital	
+// cercueil
+// cendres
+// incinérer
+// incinération
+// crématoire 
+// crématorium
+// enterrer
+// cimetière
+// tombe
+// tombeau
+// pierre	tombale
+// funérailles
+// obsèques
+// commémoration
+// deuil
+// condoléances
+// éteint
+// décédé
+// inerte
+// Incinération 
+// Caveau
+// Tombe 
+// obsèques`
+
 const lexicon = `
-Agonie
-Disparition
-Extinction
-Décès
-Trépas
-Tombeau
-Disparu
-Victime
-Dépouille
-Défunt
-Tombe
-Sépulture 
-Homicide
-Tué
-Décédé
-Trépassé
-Martyre 
-Cadavre
-Crypte
-Cénotaphe
-Cercueil
-Fossoyeur
-Lugubre
-Mortel
-Fatal
-Funeste 
-Funèbre 
-Funéraire 
-Funérailles 
-Enterrement
-Inhumation
-Obsèques
-Ensevelissement
-Épitaphe
-Deuil 
-Condoléances 
-Mourir 
-mort
-Décéder
-Trépasser 
-Périr
-Disparaître 
-Succomber 
-S’éteindre 
-Ensevelir 
-Décimer 
-Génocide
-Cimetière  
-cadavre
-défunt
-cadavre
-résurrection
-tombeau
-cercueil
-agonie
-dépouille
-deuil
-décès
-meurtre
-ressusciter
-exécution
-tombe
-funèbre
-cimetière
-mourir
-décéder
-mourant	
-décédé	
-mort	
-décédée
-défunt
-qui nous a quitté
-âme
-décès
-maladie
-hôpital	
-cercueil
-cendres
-incinérer
-incinération
-crématoire 
-crématorium
-enterrer
-cimetière
-tombe
-tombeau
-pierre	tombale
-funérailles
-obsèques
-commémoration
-deuil
-condoléances
-éteint
-décédé
-inerte
-Incinération 
-Caveau
-Tombe 
-obsèques`
+Vaccination
+vacciné
+vaccin
+Pathogène
+taux vaccination
+Immunité
+Immunisé
+Immunisation
+Antigène
+Anticorps
+immunoglobine
+vaccination
+vacciner
+injection
+immunisation
+anticorps
+dose
+administré
+prévention
+antiviral
+vaccinal
+virologue
+Adjuvant`;
 let arr = lexicon.toLowerCase().split('\n').filter(d => !!d).map(d => d.trim());
 let dedup = [...new Set(arr)].sort()
 console.log(dedup.join('\n'))

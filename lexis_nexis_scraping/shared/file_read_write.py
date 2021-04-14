@@ -30,10 +30,10 @@ def write_raw_to_file(value, file):
     print("Done!")
     f.close()
 
-def read_file(file):
+def read_file(file, encoding='ISO-8859-1'):
     print("\nReading file - %s" % (file))
     try:
-        f = open(data_folder + file, "r", encoding='ISO-8859-1')
+        f = open(data_folder + file, "r", encoding=encoding)
         content = f.read()
         f.close()
         return content

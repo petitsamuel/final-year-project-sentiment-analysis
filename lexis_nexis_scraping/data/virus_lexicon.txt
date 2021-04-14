@@ -12,9 +12,9 @@ auto-isolement
 bactérie
 cas actif
 cas confirmé
+cas confirmer
 cas contact
 charge viral
-charger viral
 clinique de dépistage
 confinement
 confiné
