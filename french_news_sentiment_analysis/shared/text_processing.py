@@ -2,14 +2,14 @@ import treetaggerwrapper as ttw
 from treetaggerwrapper import Tag
 import spacy
 from .models import punctuation
+from .folders import treetagger_path
 from spacy.lang.fr.stop_words import STOP_WORDS as fr_stop
 
 print("Loading spacy language package...")
 nlp = spacy.load("fr_core_news_lg")
 print("Loaded fr_core_news_lg")
 
-tagger = ttw.TreeTagger(
-    TAGLANG='fr', TAGDIR='/home/sam/dev/fyp/lexis_nexis_scraping/treetagger')
+tagger = ttw.TreeTagger(TAGLANG='fr', TAGDIR=treetagger_path)
 
 
 def process_text(text, remove_stop_words=True, vectorize=False):

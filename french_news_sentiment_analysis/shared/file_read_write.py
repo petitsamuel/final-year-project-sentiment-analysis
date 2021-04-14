@@ -1,16 +1,16 @@
 import json
-from .folders import data_folder
+from .folders import data_folder, db_offset_file_full_path
 
 
 def write_offset_to_file(value):
     print("\nWriting new offset - %d - to offset file" % (value))
-    f = open("/home/sam/dev/fyp/lexis_nexis_scraping/shared/offset.txt", "w")
+    f = open(db_offset_file_full_path, "w")
     f.write("%d" % (value))
     f.close()
 
 
 def read_offset_from_file():
-    f = open("/home/sam/dev/fyp/lexis_nexis_scraping/shared/offset.txt", "r")
+    f = open(db_offset_file_full_path, "r")
     value = int(f.read())
     f.close()
     return value

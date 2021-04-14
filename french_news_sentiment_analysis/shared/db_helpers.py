@@ -1,13 +1,13 @@
 from datetime import datetime, date
-import traceback
-import sys
-import mysql.connector
-from datetime import datetime
 from dotenv import load_dotenv
+from .folders import path_to_root_dir
+import mysql.connector
+import traceback
 import os
 import json
+import sys
 
-load_dotenv(dotenv_path="/home/sam/dev/fyp/lexis_nexis_scraping/.env")
+load_dotenv(dotenv_path=path_to_root_dir + r'.env')
 
 host = os.getenv('MYSQL_HOST')
 user = os.getenv('MYSQL_USER')
@@ -15,7 +15,7 @@ password = os.getenv('MYSQL_PASSWORD')
 database = os.getenv('MYSQL_DATABASE')
 
 if host == None or user == None or password == None or database == None:
-    print("MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD and MYSQL_DATABASE must be set in the .env file")
+    print('MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD and MYSQL_DATABASE must be set in the .env file')
     exit(1)
 try:
     connection = mysql.connector.connect(host=host,
@@ -24,9 +24,9 @@ try:
                                          database=database)
     if connection.is_connected():
         db_Info = connection.get_server_info()
-        print("Connected to MySQL Server version ", db_Info)
+        print('Connected to MySQL Server version ', db_Info)
 except mysql.connector.Error as e:
-    print("Error while connecting to MySQL", e)
+    print('Error while connecting to MySQL', e)
     exit(1)
 finally:
     cursor = connection.cursor()
@@ -63,14 +63,14 @@ def init_db():
     try:
         execute_sql(script)
     except:
-        print("Script alter table failed - columns likely already exist")
+        print('Script alter table failed - columns likely already exist')
     print('DB initiated')
 
 
 def fetch_script_from_db(script_name):
     script = load_sql_script(os.path.join('sql/', script_name))
     if not script:
-        print("Script %s not found" % (script_name))
+        print('Script %s not found' % (script_name))
         return None
     try:
         cursor.execute(script)
@@ -90,14 +90,14 @@ def load_by_title(title):
 
 
 def remove_by_ids(ids):
-    print("Loading all ids...")
+    print('Loading all ids...')
     print(ids)
     script = load_sql_script('sql/remove_by_id_in.sql')
     try:
         for i in ids:
             cursor.execute(script, (i,))
         connection.commit()
-        print("record(s) deleted")
+        print('record(s) deleted')
     except mysql.connector.Error as err:
         raise Exception({'error': 'MySQL error: %s' % (err)})
 
@@ -167,11 +167,11 @@ def update_row_diko_sentiment_scores(article_id, positive_count, negative_count)
 
 def commit_db_changes():
     connection.commit()
-    print("Commited changes")
+    print('Commited changes')
 
 
 def load_titles_group_month():
-    print("Loading all titles...")
+    print('Loading all titles...')
     script = load_sql_script('sql/all_titles_group_month.sql')
     try:
         cursor.execute(script)
@@ -181,7 +181,7 @@ def load_titles_group_month():
 
 
 def articles_by_month(month, year, limit=4000):
-    script = load_sql_script("sql/articles_where_month_year.sql")
+    script = load_sql_script('sql/articles_where_month_year.sql')
     try:
         cursor.execute(script, (month, year, limit))
         return cursor.fetchall()
@@ -190,7 +190,7 @@ def articles_by_month(month, year, limit=4000):
 
 
 def titles_by_month(month, year, limit=4000):
-    script = load_sql_script("sql/titles_where_month_year.sql")
+    script = load_sql_script('sql/titles_where_month_year.sql')
     try:
         cursor.execute(script, (month, year, limit))
         return cursor.fetchall()
@@ -199,7 +199,7 @@ def titles_by_month(month, year, limit=4000):
 
 
 def load_titles_group_week():
-    print("Loading all titles grouped by week...")
+    print('Loading all titles grouped by week...')
     script = load_sql_script('sql/all_titles_group_week.sql')
     try:
         cursor.execute(script)
@@ -209,7 +209,7 @@ def load_titles_group_week():
 
 
 def load_articles_group_week():
-    print("Loading all articles grouped by week...")
+    print('Loading all articles grouped by week...')
     script = load_sql_script('sql/all_articles_group_week.sql')
     try:
         cursor.execute(script)
@@ -219,7 +219,7 @@ def load_articles_group_week():
 
 
 def load_word_counts_weekly():
-    print("Loading all articles word counts by week...")
+    print('Loading all articles word counts by week...')
     script = load_sql_script('sql/weekly_word_counts.sql')
     try:
         cursor.execute(script)
@@ -229,7 +229,7 @@ def load_word_counts_weekly():
 
 
 def load_articles_group_month():
-    print("Loading all titles...")
+    print('Loading all titles...')
     script = load_sql_script('sql/all_articles_group_month.sql')
     try:
         cursor.execute(script)
@@ -239,7 +239,7 @@ def load_articles_group_month():
 
 
 def load_titles():
-    print("Loading all titles...")
+    print('Loading all titles...')
     script = load_sql_script('sql/all_titles.sql')
     try:
         cursor.execute(script)
@@ -249,7 +249,7 @@ def load_titles():
 
 
 def load_articles_polarimots_limited(limit=40):
-    print("Loading articles with limit %d" % (limit))
+    print('Loading articles with limit %d' % (limit))
     script = load_sql_script('sql/bodies_polarimots_sentiment_limited.sql')
     try:
         cursor.execute(script, [(limit)])
@@ -259,7 +259,7 @@ def load_articles_polarimots_limited(limit=40):
 
 
 def load_articles_feel_limited(limit=100):
-    print("Loading articles with limit %d" % (limit))
+    print('Loading articles with limit %d' % (limit))
     script = load_sql_script('sql/bodies_feel_sentiment_limited.sql')
     try:
         cursor.execute(script, [(limit)])
@@ -269,7 +269,7 @@ def load_articles_feel_limited(limit=100):
 
 
 def load_articles_diko_limited(limit=100):
-    print("Loading articles with limit %d" % (limit))
+    print('Loading articles with limit %d' % (limit))
     script = load_sql_script('sql/bodies_diko_sentiment_limited.sql')
     try:
         cursor.execute(script, [(limit)])
@@ -279,7 +279,7 @@ def load_articles_diko_limited(limit=100):
 
 
 def load_articles_model_limited(limit=100):
-    print("Loading articles with limit %d" % (limit))
+    print('Loading articles with limit %d' % (limit))
     script = load_sql_script('sql/bodies_model_sentiment_limited.sql')
     try:
         cursor.execute(script, [(limit)])
@@ -289,7 +289,7 @@ def load_articles_model_limited(limit=100):
 
 
 def load_duplicates():
-    print("Loading all duplicate titles...")
+    print('Loading all duplicate titles...')
     script = load_sql_script('sql/select_duplicate_titles.sql')
     try:
         cursor.execute(script)
@@ -299,7 +299,7 @@ def load_duplicates():
 
 
 def load_sources():
-    print("Loading all sources...")
+    print('Loading all sources...')
     script = load_sql_script('sql/all_sources.sql')
     try:
         cursor.execute(script)
@@ -309,7 +309,7 @@ def load_sources():
 
 
 def load_sources_count():
-    print("Loading count of all sources...")
+    print('Loading count of all sources...')
     script = load_sql_script('sql/count_sources.sql')
     try:
         cursor.execute(script)
@@ -360,7 +360,7 @@ def close_db():
 
 def print_sql_err(er):
     print('MySQL error: %s' % (' '.join(er.args)))
-    print("Exception class is: ", er.__class__)
+    print('Exception class is: ', er.__class__)
     print('MySQL traceback: ')
     exc_type, exc_value, exc_tb = sys.exc_info()
     print(traceback.format_exception(exc_type, exc_value, exc_tb))
@@ -368,27 +368,27 @@ def print_sql_err(er):
 
 def has_remaining_articles_for_feel_sentiment():
     result = fetch_script_from_db(
-        "count_remaining_articles_to_analyse_feel.sql")
+        'count_remaining_articles_to_analyse_feel.sql')
     # returns an array of tuple
     return result[0][0]
 
 
 def has_remaining_articles_for_model_sentiment():
     result = fetch_script_from_db(
-        "count_remaining_articles_to_analyse_model.sql")
+        'count_remaining_articles_to_analyse_model.sql')
     # returns an array of tuple
     return result[0][0]
 
 
 def has_remaining_articles_polarimots():
     result = fetch_script_from_db(
-        "count_remaining_articles_to_analyse_polarimots.sql")
+        'count_remaining_articles_to_analyse_polarimots.sql')
     # returns an array of tuple
     return result[0][0]
 
 
 def has_remaining_articles_diko():
     result = fetch_script_from_db(
-        "count_remaining_articles_to_analyse_diko.sql")
+        'count_remaining_articles_to_analyse_diko.sql')
     # returns an array of tuple
     return result[0][0]

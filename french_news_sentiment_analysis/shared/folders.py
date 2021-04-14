@@ -1,8 +1,13 @@
-path_to_root_dir = r'/home/sam/dev/fyp/lexis_nexis_scraping/'
+path_to_root_dir = r'/home/sam/dev/fyp/french_news_sentiment_analysis/'
+
+treetagger_path = path_to_root_dir + r'treetagger'
 output_folder = path_to_root_dir + r'download_monthly'
 download_folder = path_to_root_dir + r'download'
 data_folder = path_to_root_dir + r'data/'
 tmp_folder = path_to_root_dir + r'tmp'
+
+db_offset_file = r'shared/offset.txt'
+db_offset_file_full_path = path_to_root_dir + db_offset_file
 
 articles_words_freq = 'articles_body_frequencies.json'
 titles_words_freq = 'title_frequencies.json'
