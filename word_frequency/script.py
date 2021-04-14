@@ -6,16 +6,16 @@ def print_frequencies(frequencies, total_count, should_print = False):
     out_strings = []
     for w in sorted(frequencies, key=frequencies.get, reverse=True):
         freq = float(frequencies[w]) / float(total_count)
-        out_strings.append("%s - %.12f" % (w, freq))
+        out_strings.append("%s,%.12f" % (w, freq))
     output = "\n".join(out_strings)
     if should_print == True:
         print(output)
     return output
 
 def write_to_file(file_name, content):
-    f = open(file_name, "w")
-    f.write(content)
-    f.close()
+    with open(file_name, "w") as f:
+        f.write(content)
+        f.close()
     print("Wrote to %s" % (file_name))
 
 # Obtain list of text files in /texts dir

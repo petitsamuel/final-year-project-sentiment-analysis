@@ -1,134 +1,0 @@
-
-Bats Are Natural Reservoirs of SARS-Like Coronaviruses
-Wendong Li
-Abstract
-Severe acute respiratory syndrome (SARS) emerged in 2002 to 2003 in southern China. The origin of its etiological agent, the SARS coronavirus (SARS-CoV), remains elusive. Here we report that species of bats are a natural host of coronaviruses closely related to those responsible for the SARS outbreak. These viruses, termed SARS-like coronaviruses (SL-CoVs), display greater genetic variation than SARS-CoV isolated from humans or from civets. The human and civet isolates of SARS-CoV nestle phylogenetically within the spectrum of SL-CoVs, indicating that the virus responsible for the SARS outbreak was a member of this coronavirus group.
-Severe acute respiratory syndrome (SARS) was caused by a newly emerged coronavirus, now known as SARS coronavirus (SARS-CoV) (1, 2). In spite of the early success of etiological studies and molecular characterization of this virus (3, 4), efforts to identify the origin of SARS-CoV have been less successful. Without knowledge of the reservoir host distribution and transmission routes of SARS-CoV, it will be difficult to prevent and control future outbreaks of SARS.
-Studies conducted previously on animals sampled from live animal markets in Guangdong, China, indicated that masked palm civets (Paguma larvata) and two other species had been infected by SARS-CoV (5). This led to a large-scale culling of civets to prevent further SARS outbreaks. However, subsequent studies have revealed no widespread infection in wild or farmed civets (6, 7). Experimental infection of civets with two different human isolates of SARS-CoV resulted in overt clinical symptoms, rendering them unlikely to be the natural reservoir hosts (8). These data suggest that although P. larvata may have been the source of the human infection that precipitated the SARS outbreak, infection in this and other common species in animal markets was more likely a reflection of an “artificial” market cycle in naïve species than an indication of the natural reservoir of the virus.
-Bats are reservoir hosts of several zoonotic viruses, including the Hendra and Nipah viruses, which have recently emerged in Australia and East Asia, respectively (9–11). Bats may be persistently infected with many viruses but rarely display clinical symptoms (12). These characteristics and the increasing presence of bats and bat products in food and traditional medicine markets in southern China and elsewhere in Asia (13) led us to survey bats in the search for the natural reservoir of SARS-CoV.
-In this study, conducted from March to December of 2004, we sampled 408 bats representing nine species, six genera, and three families from four locations in China (Guangdong, Guangxi, Hubei, and Tianjin) after trapping them in their native habitat (Table 1). Blood, fecal, and throat swabs were collected; serum samples and cDNA from fecal or throat samples were independently analyzed, double-blind, with different methods in our laboratories in Wuhan and Geelong (14).
-Table 1.
-Detection of antibodies to SARS-CoV and PCR amplification of N and P gene fragments with SARS-CoV–specific primers. ND, not determined because of poor sample quality or unavailability of specimens from individual animals.
-SamplingBat speciesAntibody test: positive/total (%)PCR analysis: positive/total (%)TimeLocationFecal swabsRespiratory swabsMar 04Nanning, GuangxiRousettus leschenaulti1/84 (1.2%)0/110NDMaoming, GuangdongRousettus leschenaulti0/420/45NDCynopterus sphinx0/170/27NDJuly 04Nanning, GuangxiRousettus leschenaultiND0/550/55TianjinMyotis rickettiND0/210/21Nov 04Yichang, HubeiRhinolophus pusillusND0/15NDRhinolophus ferrumequinum0/41/8 (12.5%)View inlineNDRhinolophus macrotis5/7 (71%)1/8 (12.5%)View inline0/3Nyctalus plancyi0/10/1NDMiniopterus schreibersi0/10/1NDMyotis altarium0/10/1NDDec 04Nanning, GuangxiRousettus leschenaulti1/58 (1.8)NDNDRhinolophus pearsoni13/46 (28.3%)3/30 (10%)View inline0/11??Rhinolophus pussilus2/6 (33.3%)0/60/2*  View inline* Positive fecal sample designated Rf1
-*  View inline† Positive fecal sample designated Rm1
-*  View inline‡ Positive fecal samples designated Rp1, Rp2, and Rp3, respectively.
-Among six genera of bat species surveyed (Rousettus, Cynopterus, Myotis, Rhinolophus, Nyctalus, and Miniopterus), three communal, cave-dwelling species from the genus Rhinolophus (horseshoe bats) in the family Rhinolophidae demonstrated a high SARS-CoV antibody prevalence: 13 out of 46 bats (28%) in R. pearsoni from Guangxi, 2 out of 6 bats (33%) in R. pussilus from Guangxi, and 5 out of 7 bats (71%) in R. macrotis from Hubei. The high seroprevalence and wide distribution of seropositive bats is expected for a wildlife reservoir host for a pathogen (15).
-The serological findings were corroborated by poylmerase chain reaction (PCR) analyses with primer pairs derived from the nucleocapsid (N) and polymerase (P) genes (table S1). Five fecal samples tested positive, all of them from the genus Rhinolophus: three in R. pearsoni from Guangxi and one each in R. macrotis and R. ferrumequinum, respectively, from Hubei. No virus was isolated from an inoculation of Vero E6 cells with fecal swabs of PCR-positive samples.
-A complete genome sequence was determined directly from PCR products from one of the fecal samples (sample Rp3) that contained relatively high levels of genetic material. The genome organization of this virus (Fig. 1), tentatively named SARS-like coronavirus isolate Rp3 (SL-CoV Rp3), was essentially identical to that of SARS-CoV, with the exception of three regions (Fig. 1, shaded boxes). The overall nucleotide sequence identity between SL-CoV Rp3 and SARS-CoV Tor2 was 92% and increased to ?94% when the three variable regions were excluded. The variable regions are located at the 5? end of the S gene (equivalent to the S1 coding region of coronavirus S protein) and the region immediately upstream of the N gene. These regions have been identified as “high mutation” regions among different SARS-CoVs (5, 16, 17). The region upstream of the N gene is known to be prone to deletions of various sizes (5, 16, 18).
-
-*  Download high-res image
-*  Open in new tab
-*  Download Powerpoint
-Fig. 1.
-Genome organization of, and comparison between, SL-CoV and SARS-CoV. (A) Overall genome organization of SL-CoV Rp3. (B) Expanded diagram of the 3? region of the genome in comparison with SARS-CoV strains Tor2 and SZ3, following the same nomenclature used by Marra et al. (4). The genes (named by letters P, S, E, M, and N) present in all coronaviruses are shown in dark-colored arrows, whereas the SARS-CoV–specific ORFs are numbered and illustrated in light-colored arrows. ORF10? follows the nomenclature by Guan et al. (5) to indicate that the single ORF present between ORF9 and N in SL-CoV is equivalent to the fusion of ORF10 and ORF11 in the same region in SARS-CoV Tor2. The shaded boxes mark the only three regions displaying significant sequence difference between the two viruses (table S2).
-Predicted protein products from each gene or putative open reading frame (ORF) of SL-CoV Rp3 and SARS-CoV Tor2 were compared (table S2). The P, S, E, M, and N proteins, which are present in all coronaviruses, were similarly sized in the two viruses, with sequence identities ranging from 96% to 100%. The only exception was the S1 domain of the S protein, where sequence identity fell to 64%. The S1 domain is involved in receptor binding, whereas the S2 domain is responsible for the fusion of virus and host cell membranes (19). The sequence divergence in the S1 domain corroborated our serum neutralization studies, which indicated that although bat sera have a high level of cross-reactive antibodies (with enzyme-linked immunosorbent assay titers ranging from 1:100 to 1:6400), they failed to neutralize SARS-CoV when tested on Vero E6 cells. This finding suggests that S1 is the main target for antibody-mediated neutralization of this group of viruses, which is consistent with previous reports indicating that major SARS-CoV neutralization epitopes are located in the S1 region (20, 21).
-In addition to the five genes present in all coronavirus genomes, coronaviruses also have several ORFs between the P gene and the 3? end of the genome that code for nonstructural proteins. The function of these nonstructural proteins is largely unknown. The location and sequence of ORFs are group- or virus-specific and hence can serve as important molecular markers for studying virus evolution and classification (19, 22). SARS-CoV has a unique set of ORFs not shared by any of the known coronaviruses (3, 4). Most of these ORFs were also present in SL-CoV, confirming the extremely close genetic relationship between SARS-CoV and SL-CoV (Fig. 1 and table S2).
-Coronaviruses produce subgenomic mRNAs through a discontinuous transcription process not fully characterized (19). Conserved nucleotide sequences functioning as transcription regulatory sequences (TRSs) are required for the production of the subgenomic mRNAs. In SARS-CoV, such TRSs were identified at each of the predicted gene start sites (3, 4). All of these TRSs were absolutely conserved between SARS-CoV Tor2 and SL-CoV Rp3 (table S3), further demonstrating that these two viruses are very closely related.
-SL-CoV is completely different from a bat coronavirus (bat-CoV) recently identified by Poon et al. (7) from species of bats in the genus Miniopterus during a wildlife surveillance study in Hong Kong (Fig. 2). Because the complete genome sequence was not available for bat-CoV, only the trees covering the common sequences (i.e., parts of the P1b and S2 proteins) are shown. The phylogenetic analysis demonstrated that SL-CoV Rp3 and SARS-CoVs are clustered together but that bat-CoV is placed among the relatively distant group 1 viruses. Hereafter, SARS-CoVs and SL-CoVs will be collectively called the SARS cluster of coronaviruses.
-
-*  Download high-res image
-*  Open in new tab
-*  Download Powerpoint
-Fig. 2.
-Phylogenetic trees. (A) and (B) are trees based on deduced amino acid sequences of the same regions in P1b and S, respectively, as used by Poon et al. (7) for bat-CoV. Tor2 and SZ3, SARS-CoV strains Tor2 and SZ3; Rp3, SL-CoV Rp3; HCoV, human coronavirus; MHV, mouse hepatitis virus; PEDV, porcine epidemic diarrhea virus; IBV, avian infectious bronchitis virus.
-In addition to the complete genome sequence of SL-CoV Rp3, partial genome sequences for the other four PCR-positive bat samples were also determined. Phylogenetic analysis based on the N protein sequences (Fig. 3A) revealed that the genetic variation among the SL-CoV sequences was much greater than that exhibited by SARS-CoVs (for simplicity, only three human and civet SARS-CoV isolates were used; the remainder are almost identical to those shown). This was especially obvious when SL-CoVs isolated from different bat species were compared. Moreover, the results suggested that SARS-CoVs nestle phylogenetically within the spectrum of SL-CoVs.
-
-*  Download high-res image
-*  Open in new tab
-*  Download Powerpoint
-Fig. 3.
-Phylogenetic trees based on deduced amino acid sequences of (A) N, (B) ORF10?, and (C) S1 proteins. Tor2, SZ3, and GD01, different SARS-CoV strains; Rf1, Rm1, and Rp1-3, different SL-CoV sequences. The genetic distance scale shown for (A) is different from those for (B) and (C).
-We also compared the “high mutation” regions in samples Rf1, Rm1, and Rp3. For the region upstream of the N gene, SL-CoVs from all three bat species contained a single ORF (ORF10?), similar to that found in SARS-CoV isolates from civets (5) and patients in the early phase of the outbreaks (16, 18) but different from that in most human isolates, which have a 29-nucleotide deletion in this region (3, 4, 16). ORF10? in Rf1 codes for a protein having the same size (122 amino acids) as and more than 80% sequence identity to ORF10? proteins of SARS-CoVs, but those in Rm1 and Rp3 code for a 121–amino acid protein with only 35% sequence identity (Fig. 3B and fig. S2). By contrast, analysis of the S1 protein regions (Fig. 3C and fig. S3) indicated that Rf1 was more closely related to SL-CoVs from two other bat species than to SARS-CoVs, suggesting that the SARS cluster of coronaviruses could recombine to increase genetic diversity and fitness, as is well documented for other coronaviruses (19). We were unable to sequence these regions for Rp1 or Rp2, owing to the poor quality of the fecal materials from these two animals. The limited amount of cDNA available was used up for N gene analysis and in initial sequencing trials with SARS-CoV–derived primers, which were largely unsuccessful. Judging from the close relationship of the N genes between Rp1, Rp2, and Rp3 (fig. S1), it is unlikely that Rp1 or Rp2 will have major sequence differences from Rp3 in the S1 or ORF10? regions. This is not unexpected, considering that these three positive samples were obtained from the same bat species in the same location.
-The genetic diversity of bat-derived sequences supports the notion that bats are a natural reservoir host of the SARS cluster of coronaviruses. A similar observation has been made for henipaviruses, another important group of emerging zoonotic viruses of bat origin, which show greater genetic diversity in bats than was observed among viruses isolated during the initial Nipah outbreaks in Malaysia (23–26). The overall nucleotide sequence identity of 92% between SL-CoVs and SARS-CoVs is very similar to that observed between Nipah viruses isolated from Malaysia and Bangladesh in 1999 and 2004, respectively (25) (fig. S4). SL-CoVs present a new challenge to the diagnosis and treatment of future disease outbreaks. The current tests and therapeutic strategies may not work effectively against all viruses in this group, owing to their great genetic variability in the S1 domain region of the S gene.
-The genus Rhinolophus contains 69 species and has a wide distribution from Australia to Europe (27). They roost primarily in caves and feed mainly on moths and beetles. However, notwithstanding the predominant Rhinolophus findings in this study, it is highly likely that there are more SARS-related coronaviruses to be discovered in bats. Indeed, our positive serological findings in the cave-dwelling fruit bat Rousettus leschenaulti indicate that infection by a related virus could occur in fruit bats as well, albeit at a much lower frequency. A plausible mechanism for emergence from a natural bat reservoir can be readily envisaged. Fruit bats including R. leschenaulti, and less frequently insectivorous bats, are found in markets in southern China. An infectious consignment of bats serendipitously juxtaposed with a susceptible amplifying species, such as P. larvata, at some point in the wildlife supply chain could result in spillover and establishment of a market cycle while susceptible animals are available to maintain infection. Further studies in field epidemiology, laboratory infection, and receptor distribution and usage are being conducted to assess potential roles played by different bat species in SARS emergence.
-These findings on coronaviruses, together with data on henipaviruses (23–25, 28), suggest that genetic diversity exists among zoonotic viruses in bats, increasing the possibility of variants crossing the species barrier and causing outbreaks of disease in human populations. It is therefore essential that we enhance our knowledge and understanding of reservoir host distribution, animal-animal and human-animal interaction (particularly within the wet-market system), and the genetic diversity of bat-borne viruses to prevent future outbreaks.
-Supporting Online Material
-www.sciencemag.org/cgi/content/full/1118391/DC1
-Materials and Methods
-Figs. S1 to S4
-Tables S1 to S3
-References and Notes
-References and Notes
-1. ?
-J. S. M. Peiris et al., Lancet 361, 1319 (2003).
-CrossRefPubMedWeb of ScienceGoogle Scholar
-2. ?
-T. G. Ksiazek et al., N. Engl. J. Med. 348, 1953 (2003).
-CrossRefPubMedWeb of ScienceGoogle Scholar
-3. ?
-P. A. Rota et al., Science 300, 1394 (2003).
-Abstract/FREE Full TextGoogle Scholar
-4. ?
-M. A. Marra et al., Science 300, 1399 (2003).
-Abstract/FREE Full TextGoogle Scholar
-5. ?
-Y. Guan et al., Science 302, 276 (2003).
-Abstract/FREE Full TextGoogle Scholar
-6. ?
-C. Tu et al., Emerg. Infect. Dis. 10, 2244 (2004).
-PubMedWeb of ScienceGoogle Scholar
-7. ?
-L. L. M. Poon et al., J. Virol. 79, 2110 (2005).
-Google Scholar
-8. ?
-D. Wu et al., J. Virol. 79, 2620 (2005).
-Abstract/FREE Full TextGoogle Scholar
-9. ?
-K. Murray et al., Science 268, 94 (1995).
-Abstract/FREE Full TextGoogle Scholar
-10. K. B. Chua et al., Science 288, 1432 (2000).
-Abstract/FREE Full TextGoogle Scholar
-11. ?
-L.-F. Wang, B. T. Eaton, Infect. Dis. Rev. 3, 52 (2001).
-Google Scholar
-12. ?
-S. E. Sulkin, R. Allen, Monograph Virol. 8, 170 (1974).
-Google Scholar
-13. ?
-S. P. Mickleburgh, A. M. Huston, P. A. Racey, Oryx 36, 18 (2002).
-Google Scholar
-14. ?
-Materials and methods are available as supporting material on Science Online.
-15. ?
-P. J. Hudson, A. Rizzoli, B. T. Grenfell, H. Heesterbeek, A. P. Dobson, Eds., The Ecology of Wildlife Diseases (Oxford Univ. Press, Oxford, 2002).
-Google Scholar
-16. ?
-Chinese SARS Molecular Epidemiology Consortium, Science 303, 1666 (2004).
-Abstract/FREE Full TextGoogle Scholar
-17. ?
-P. Liò, N. Goldman, Trends Microbiol. 12, 106 (2004).
-CrossRefPubMedWeb of ScienceGoogle Scholar
-18. ?
-H.-D. Song et al., Proc. Natl. Acad. Sci. U.S.A. 102, 2430 (2005).
-Abstract/FREE Full TextGoogle Scholar
-19. ?
-M. C. Lai, K. V. Holmes, in Fields Virology, D. M. Knipe et al., Eds. (Lippincott, Williams & Wilkins, Philadelphia, 2001), vol. 2, chap. 35.
-Google Scholar
-20. ?
-R. A. Tripp et al., J. Virol. Methods 128, 21 (2005).
-CrossRefPubMedWeb of ScienceGoogle Scholar
-21. ?
-Y. He, H. Lu, P. Siddiqui, Y. Zhou, S. Jiang, J. Immunol. 174, 4908 (2005).
-Abstract/FREE Full TextGoogle Scholar
-22. ?
-D. A. Brian, R. S. Baric, Curr. Top. Microbiol. Immunol. 287, 1 (2005).
-PubMedWeb of ScienceGoogle Scholar
-23. ?
-S. AbuBakar et al., Emerg. Infect. Dis. 10, 2228 (2004).
-PubMedWeb of ScienceGoogle Scholar
-24. J.-M. Reynes et al., Emerg. Infect. Dis. 11, 1042 (2005).
-PubMedWeb of ScienceGoogle Scholar
-25. ?
-B. H. Harcourt et al., Emerg. Infect. Dis. 11, 1594 (2005).
-PubMedWeb of ScienceGoogle Scholar
-26. ?
-V. P. Hsu et al., Emerg. Infect. Dis. 10, 2082 (2004).
-PubMedWeb of ScienceGoogle Scholar
-27. ?
-T. H. Kunz, M. B. Fenton, Eds., Bat Ecology (Univ. of Chicago Press, Chicago, 2003).
-Google Scholar
-28. ?
-L.-F. Wang, K. B. Chua, M. Yu, B. T. Eaton, Curr. Genomics 4, 263 (2003).
-Google Scholar
-29. This work was jointly funded by a special grant for “Animal Reservoir of SARS-CoV,” State Key Program for Basic Research Grant 2005CB523004, and State High Technology Development Program grant no. 2005AA219070 from the Ministry of Science and Technology, People's Republic of China; the Sixth Framework Program “EPISARS” from the European Commission (no. 51163); the Australian Biosecurity Cooperative Research Centre for Emerging Infectious Disease (Project 1.007R); and an NIH/NSF “Ecology of Infectious Diseases” award (no. R01-TW05869) from the John E. Fogarty International Center and the V. Kann Rasmussen Foundation. For the full-length genome sequence of SL-CoV Rp3, see GenBank accession no. DQ71615. Additional GenBank accession numbers are given in the supporting material.
-
