@@ -8,7 +8,7 @@ def text_regex_mapper(s):
 
 
 def compile_regex_from_lexicon(lexicon):
-    words = lexicon.keys()
+    words = lexicon.keys() if isinstance(lexicon, dict) else lexicon
     return re.compile(r'%s' % '|'.join(
         map(text_regex_mapper, words)), flags=re.IGNORECASE)
 

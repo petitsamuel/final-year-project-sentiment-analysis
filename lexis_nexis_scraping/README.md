@@ -33,3 +33,11 @@ MYSQL_HOST=127.0.0.1
 PAGE_SIZE=500
 TIMEOUT=300
 ```
+
+### Useful Commands
+
+`mysqldump -h 127.0.0.1 -u root -p fr_covid_news > dump_treetagger.sql`
+
+`mysql --host=127.0.0.1 --port=3306 -uadmin -ppassword`
+
+`docker exec -it fr_news_db mysql -uadmin -ppassword`

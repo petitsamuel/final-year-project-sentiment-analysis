@@ -1,10 +1,49 @@
-from .folders import FEEL_lexicon, polarimots_lexicon, diko_lexicon
+from .folders import FEEL_lexicon, polarimots_lexicon, diko_lexicon, virus_lexicon, death_lexicon, vaccine_lexicon
 from .file_read_write import read_file
 from .regex_helpers import count_intersections
-from .models import FEELModel, FEELLexiconItem, PolarimotsItem, DikoItem
+from .models import FEELModel, FEELLexiconItem, PolarimotsItem, DikoItem, SpecialisedLexicons
 from .text_processing import clean_text_for_analysis_lower
 import numpy as np
 import json
+
+
+# Remove entries of specialised lexicons from the polarity lexicon
+def update_lexicon_from_specialised(lexicon, specialised):
+    assert isinstance(specialised, SpecialisedLexicons)
+
+    for word in specialised.virus:
+        if word in lexicon:
+            del lexicon[word]
+    for word in specialised.vaccine:
+        if word in lexicon:
+            del lexicon[word]
+    for word in specialised.death:
+        if word in lexicon:
+            del lexicon[word]
+
+    return lexicon
+
+
+def load_custom_lexicons():
+    # Load raw lexicons
+    data_virus = read_file(virus_lexicon, 'UTF-8')
+    data_vaccine = read_file(vaccine_lexicon, 'UTF-8')
+    data_death = read_file(death_lexicon, 'UTF-8')
+
+    lines_virus = data_virus.split("\n")
+    lines_vaccine = data_vaccine.split("\n")
+    lines_death = data_death.split("\n")
+
+    del data_virus
+    del data_vaccine
+    del data_death
+
+    # Remove empty strings
+    lines_virus = list(filter(None, lines_virus))
+    lines_vaccine = list(filter(None, lines_vaccine))
+    lines_death = list(filter(None, lines_death))
+
+    return SpecialisedLexicons(lines_death, lines_virus, lines_vaccine)
 
 
 def load_feel_lexicon():

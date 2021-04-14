@@ -1,6 +1,32 @@
+from .regex_helpers import compile_regex_from_lexicon
 import string
 
 punctuation = r'«»‹›' + string.punctuation
+
+
+class SpecialisedLexicons():
+    def __init__(self, death, virus, vaccine):
+        self.death = death
+        self.virus = virus
+        self.vaccine = vaccine
+
+        self.death_regexp = compile_regex_from_lexicon(death)
+        self.vaccine_regexp = compile_regex_from_lexicon(vaccine)
+        self.virus_regexp = compile_regex_from_lexicon(virus)
+
+    def to_dict(self):
+        return {
+            'lexicons': {
+                'death': self.death,
+                'vaccine': self.vaccine,
+                'virus': self.virus
+            },
+            'regexp': {
+                'death': self.death_regexp.pattern,
+                'vaccine': self.vaccine_regexp.pattern,
+                'virus': self.virus_regexp.pattern
+            }
+        }
 
 
 def map_polarity_to_int(polarimots_polarity):
