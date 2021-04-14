@@ -45,6 +45,41 @@ def load_custom_lexicons():
 
     return SpecialisedLexicons(lines_death, lines_virus, lines_vaccine)
 
+def compute_sentiment_feel(counts, lexicon):
+    output = FEELLexiconItem(0, 0, 0, 0, 0, 0, 0, 0, 0)
+    positive_count = 0
+    negative_count = 0
+    for w, c in counts.items():
+        try:
+            feel_weights = lexicon[w]
+        except:
+            # if word is not in lexicon - ignore it
+            continue
+
+        if feel_weights.polarity == 'positive':
+            positive_count += c
+        else:
+            negative_count += c
+
+        output.joy += (feel_weights.joy * c)
+        output.fear += (feel_weights.fear * c)
+        output.sadness += (feel_weights.sadness * c)
+        output.anger += (feel_weights.anger * c)
+        output.surprise += (feel_weights.surprise * c)
+        output.disgust += (feel_weights.disgust * c)
+
+    label = "positive" if positive_count > negative_count else "negative"
+    print("FEEL Predicted label: %s - Score %d positive - %d negative" %
+          (label, positive_count, negative_count))
+
+    return {
+        'label': label,
+        'score': positive_count - negative_count,
+        'positive_count': positive_count,
+        'negative_count': negative_count,
+        'emotions': output
+    }
+
 
 def load_feel_lexicon():
     data = read_file(FEEL_lexicon)

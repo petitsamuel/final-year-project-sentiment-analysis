@@ -10,6 +10,9 @@ import json
 punctuation = r'«»‹›' + string.punctuation
 
 
+# Plot data using MySQL Queries: sources, article counts, word counts & more...
+
+
 def plot_sources_count():
     total_sources = load_sources_count()[0][0]
     data = load_sources()
@@ -127,9 +130,9 @@ def plot_average_word_count_weekly():
     ax.legend(loc='lower right')
 
 
-# plot_sources_count()
-# plot_articles_count_monthly()
-# plot_articles_count_weekly()
+plot_sources_count()
+plot_articles_count_monthly()
+plot_articles_count_weekly()
 plot_average_word_count_weekly()
 plot_average_word_count_monthly()
 plt.show()

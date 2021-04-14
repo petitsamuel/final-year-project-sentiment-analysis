@@ -1,26 +1,12 @@
 from shared.file_read_write import read_file
 import matplotlib.pyplot as plt
 from shared.models import GouvSyntheseModel
+from shared.gov_data_helper import grab_metric_from_data, de_sum_data
 import json
 from datetime import datetime
 
 
-# Most of the data provided by the FR gov is cumulative
-# This method makes the data non-cumulative
-def de_sum_data(data):
-    for i in reversed(range(1, len(data))):
-        data[i] = max(0, data[i] - data[i - 1])
-    return data
-
-
-def grab_metric_from_data(data, metric):
-    selected_metric = []
-    for d in data:
-        if metric in d:
-            parsed_date = datetime.strptime(
-                d[GouvSyntheseModel.date], '%Y-%m-%d')
-            selected_metric.append([parsed_date, d[metric]])
-    return sorted(selected_metric, key=lambda x: x[0])
+# Plots data provided by the French government on Covid cases, deaths vaccinations...
 
 
 def plot_vaccination():
@@ -50,7 +36,7 @@ def plot_cases_fr():
     # plot data
     fig = plt.figure()
     ax = fig.add_subplot(111)
-    ax.plot(dates, values, label='New cases')
+    ax.bar(dates, values, label='New cases')
     ax.set_title("COVID-19 Cases in France")
     ax.legend(loc='upper left')
 
@@ -98,9 +84,9 @@ def tests_quantite():
     ax.legend(loc='upper left')
 
 
-# tests_quantite()
-# plot_cases_fr()
-# plot_deaths_fr()
-# plot_vaccination()
-# plot_hospitalise()
-# plt.show()
+tests_quantite()
+plot_cases_fr()
+plot_deaths_fr()
+plot_vaccination()
+plot_hospitalise()
+plt.show()

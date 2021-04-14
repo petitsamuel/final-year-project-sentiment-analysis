@@ -2,10 +2,15 @@ from shared.db_helpers import init_db, fetch_script_from_db
 from shared.dates_helper import to_datetime
 from shared.file_read_write import read_file
 from shared.models import GouvSyntheseModel
-from plot_gov_data import grab_metric_from_data, de_sum_data
+from shared.gov_data_helper import grab_metric_from_data, de_sum_data
 from shared.folders import deaths_sentiment_csv
 from shared.file_read_write import write_raw_to_file
 import json
+
+
+# Grab article counts daily from the DB along with the data. Merge the data with
+# data from the French Goverment: daily covid-19 deaths.
+# This generates a csv file in the data directory & will be used to compute correlations.
 
 
 def merge_into_csv():
@@ -45,7 +50,7 @@ def merge_into_csv():
     csv_out = 'date,deaths,articles,deaths_cumulated'
     for d in data:
         csv_out += '\n%s,%d,%d,%d' % (d['date'],
-                                   d['death_count'], d['article_count'], d['deaths_cumulated'])
+                                      d['death_count'], d['article_count'], d['deaths_cumulated'])
     write_raw_to_file(csv_out, deaths_sentiment_csv)
     print("Saved data to CSV into %s" % (deaths_sentiment_csv))
 

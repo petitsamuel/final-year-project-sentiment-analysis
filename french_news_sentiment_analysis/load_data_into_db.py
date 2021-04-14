@@ -7,6 +7,15 @@ import glob
 import zipfile
 
 
+# Load the data downloaded from the LexisNexis scraper into the database.
+# This script loads files from the output directory (where downloaded files are indexed).
+# One by one it will unzip the files, remove index files (non articles), parse them
+# then finally load them into a database.
+# This script keeps track of which files were loaded previously and
+# which one is currently being loaded. If killed and re-launched it will resume work where it left off.
+# Note: Currently MySQL commits after every instert. This could be changed to only commit once
+# per batch & would accelerate this script by a ton.
+
 def load_batches_txt_file():
     f = open(loaded_batches_full_path, "r")
     value = f.read()

@@ -6,6 +6,11 @@ import os
 import zipfile
 import re
 
+# !! Deprecated !!
+# This script was used to load downloaded article files into the MySQL Database.
+# It would extract all of the files from the download folder, remove duplicate files
+# then parse & load the remaining files into the database.
+
 
 def unzip_all():
     print("Grabbing Zip Files")

@@ -1,5 +1,6 @@
-from .folders import output_folder
+from .db_helpers import load_duplicates, load_by_title, remove_by_ids
 from .file_extensions import is_index_file, is_rtf_file
+from .folders import output_folder
 from difflib import SequenceMatcher, get_close_matches
 from striprtf.striprtf import rtf_to_text
 from operator import itemgetter
@@ -7,6 +8,20 @@ import os
 import re
 
 
+# Returns the ratio of similarity between 2 strings
+def compute_similarity(a, b):
+    return SequenceMatcher(None, a, b).ratio()
+
+
+# From 2 provided file names, return the similarity ratio of their contents.
+def check_file_contents(a, b):
+    file_a = open(os.path.join(output_folder, a), "r")
+    file_b = open(os.path.join(output_folder, b), "r")
+    return compute_similarity(rtf_to_text(file_a.read()),
+                              rtf_to_text(file_b.read()))
+
+
+# Remove non-articles (index) files from the output folder.
 def remove_index_files(folder=output_folder):
     print("\nRemoving index files (non articles)")
     index_files = [
@@ -19,17 +34,6 @@ def remove_index_files(folder=output_folder):
     print("Finished!")
 
 
-def compute_similarity(a, b):
-    return SequenceMatcher(None, a, b).ratio()
-
-
-def check_file_contents(a, b):
-    file_a = open(os.path.join(output_folder, a), "r")
-    file_b = open(os.path.join(output_folder, b), "r")
-    return compute_similarity(rtf_to_text(file_a.read()),
-                              rtf_to_text(file_b.read()))
-
-
 def to_file_dict(filename):
     return {
         'filename': filename,  # Keep for potentially removing
@@ -38,6 +42,13 @@ def to_file_dict(filename):
     }
 
 
+# Note: THIS DID NOT END UP BEING USED AS DUPLICATES WERE KEPT!!
+# (more details in my disseration)
+# Method to remove duplicate RTF articles from the output directory.
+# Works by checking if titles match some threashold then removes an article
+# if it matches another one up to some threshold.
+# Runs in N^2 time complexity (worst case) - in practise it runs faster:
+# n*(n-1)/2 (remains O(n^2))
 def remove_duplicates():
     print("Listing all RTF files in output dir...")
     files = [
@@ -73,3 +84,36 @@ def remove_duplicates():
     print(
         "\nFinished removing duplicated - total amount of files: %d, number of removed files: %d"
         % (new_len, (original_len - new_len)))
+
+
+# Note: THIS DID NOT END UP BEING USED AS DUPLICATES WERE KEPT!!
+# (more details in my disseration)
+# Method to remove duplicate articles from MySQL DB.
+# Works by identifying articles within the MySQL DB which have the same title
+# Then a similarity check is performed, if 2 articles match over 90% one of the articles
+# is removed from the database
+# Algorithm complexity is n^2 in the worst case but performs much better in practise
+# (all_duplicates reduces in size over iterations)
+def remove_db_duplicates():
+    duplicates = load_duplicates()
+    for _, title in duplicates:
+        all_duplicates = load_by_title(title)
+        if len(all_duplicates) >= 100:
+            print("Skipping duplicate checking - over 100 articles have the same title")
+            continue
+        print("Loaded %d potential duplicates" % (len(all_duplicates)))
+        to_remove = []
+        while len(all_duplicates) > 1:
+            i_id, i_body = all_duplicates.pop(0)
+            tmp_to_remove = []
+            for j_id, j_body in all_duplicates:
+                if compute_similarity(i_body, j_body) >= 0.90:
+                    tmp_to_remove.append(j_id)
+            to_remove = to_remove + tmp_to_remove
+
+            # Remove ids in tmp_to_remove from all_duplicates
+            # these will be removed so we don't need to consider them anymore
+            all_duplicates = [(x, y)
+                              for x, y in all_duplicates if not x in tmp_to_remove]
+        if len(to_remove):
+            remove_by_ids(to_remove)

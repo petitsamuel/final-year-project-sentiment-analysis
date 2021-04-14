@@ -3,6 +3,10 @@ from shared.dates_helper import date_from_month
 import matplotlib.pyplot as plt
 
 
+# Plots average sentiment score for FEEL, diko and polarimots lexicons
+# grouped by month.
+
+
 def format_data(data):
     formatted = []
     for d in data:

@@ -1,3 +1,4 @@
+from shared.folders import output_folder, download_folder
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from dotenv import load_dotenv
@@ -7,6 +8,10 @@ import time
 import numpy as np
 import sys
 
+
+# Scraper for lexis nexis, uses a provided set of permalink urls, associated article count and batch id.
+# Will download articles automatically, taking into account: TCD rate limiting, authentification, popups etc.
+# Once downloaded, files are indexed into the download_monthly directory.
 
 URLS = [
     "https://login.elib.tcd.ie/login?qurl=https://advance.lexis.com%2fapi%2fpermalink%2feb37d77e-e2b2-4601-9610-52f56f9e2fe5%2f%3fcontext%3d1519360%26identityprofileid%3d69Q2VF60797",
@@ -355,6 +360,7 @@ dead_time = os.getenv('TIMEOUT')
 page_size = int(os.getenv('PAGE_SIZE'))
 download_folder = os.getenv('DOWNLOAD_FOLDER')
 output_folder = os.getenv('OUTPUT_FOLDER')
+
 
 try:
     dead_time = int(dead_time)

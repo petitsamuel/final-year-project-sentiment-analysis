@@ -1,49 +1,18 @@
-# from shared.barthez_classifier import run_barthez_classifier
 from shared.db_helpers import load_articles_feel_limited, load_articles_model_limited, init_db, commit_db_changes, has_remaining_articles_for_feel_sentiment, update_row_feel_sentiment_specialised, add_row_counts
-from shared.lexicon_helper import load_feel_lexicon, load_custom_lexicons, update_lexicon_from_specialised
+from shared.lexicon_helper import compute_sentiment_feel, load_feel_lexicon, load_custom_lexicons, update_lexicon_from_specialised
 from shared.regex_helpers import compile_regex_from_lexicon, count_intersections
-from collections import Counter
 from shared.text_processing import clean_text_for_analysis_lower
 from shared.models import FEELLexiconItem
 from threading import Thread
+from collections import Counter
 import queue
 import re
 
 
-def compute_sentiment_feel(counts):
-    output = FEELLexiconItem(0, 0, 0, 0, 0, 0, 0, 0, 0)
-    positive_count = 0
-    negative_count = 0
-    for w, c in counts.items():
-        try:
-            feel_weights = feel_lexicon[w]
-        except:
-            # if word is not in lexicon - ignore it
-            continue
-
-        if feel_weights.polarity == 'positive':
-            positive_count += c
-        else:
-            negative_count += c
-
-        output.joy += (feel_weights.joy * c)
-        output.fear += (feel_weights.fear * c)
-        output.sadness += (feel_weights.sadness * c)
-        output.anger += (feel_weights.anger * c)
-        output.surprise += (feel_weights.surprise * c)
-        output.disgust += (feel_weights.disgust * c)
-
-    label = "positive" if positive_count > negative_count else "negative"
-    print("FEEL Predicted label: %s - Score %d positive - %d negative" %
-          (label, positive_count, negative_count))
-
-    return {
-        'label': label,
-        'score': positive_count - negative_count,
-        'positive_count': positive_count,
-        'negative_count': negative_count,
-        'emotions': output
-    }
+# Script to run sentiment analysis on using the FEEL lexicon & custom dictionaries:
+# death, vaccine and virus dictionaries were create to find correlations.
+# Computes FEEL sentiment as well as death, vaccine and virus sentiments.
+# Writes output to DB and custom dictionary word counts to a separate table.
 
 
 def analyse_sentiment(data):
@@ -61,7 +30,7 @@ def analyse_sentiment(data):
             specialised_lexicons.virus_regexp, cleaned_text)
 
         output.append({
-            'feel': compute_sentiment_feel(counts_feel),
+            'feel': compute_sentiment_feel(counts_feel, feel_lexicon),  # Use
             'death': counts_death,
             'virus': counts_virus,
             'vaccine': counts_vaccine
@@ -105,7 +74,7 @@ def perform_sentiment_analysis():
     print("Batch finished!")
 
 
-def run_feel_sentiment_analysis_on_all_data():
+def run_sentiment_analysis():
     while has_remaining_articles_for_feel_sentiment() > 0:
         perform_sentiment_analysis()
     print("Finished FEEL Sentiment Analysis")
@@ -122,4 +91,4 @@ feel_lexicon = update_lexicon_from_specialised(
 re_exact_match = compile_regex_from_lexicon(feel_lexicon)
 
 init_db()
-run_feel_sentiment_analysis_on_all_data()
+run_sentiment_analysis()

@@ -1,4 +1,5 @@
-path_to_root_dir = r'/home/sam/dev/fyp/french_news_sentiment_analysis/'
+import os 
+path_to_root_dir = '%s/' % (os.getcwd())
 
 treetagger_path = path_to_root_dir + r'treetagger'
 output_folder = path_to_root_dir + r'download_monthly'

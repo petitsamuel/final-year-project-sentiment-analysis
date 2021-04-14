@@ -12,6 +12,12 @@ import json
 punctuation = r'«»‹›' + string.punctuation
 
 
+# Plot various word count (word clouds and most frequent word frequencies by month)
+# for both article bodies and titles.
+# Relies on the data computed by `compute_word_frequencies.py`
+
+
+# Parse date strings into date objects.
 def make_date_map(str_dates):
     output = {}
     for d in str_dates:
@@ -22,7 +28,7 @@ def make_date_map(str_dates):
 
 
 def format_data(data, dates_map):
-    # we got date -> all counts
+    # we have data formatted as a dict: date -> all counts
     # map it to: word -> [counts...]
     output = {}
     index = 0

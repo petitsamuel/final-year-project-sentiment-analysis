@@ -7,6 +7,10 @@ import os
 import zipfile
 
 
+# !! Deprecated !!
+# Legacy script to extract downloaded zip files, remove duplicates, parse RTF files content
+# and load into database. Kept to keep the deduplication logic.
+
 def clean_output_dir():
     print("\nRemoving files from output folder")
     index_files = [filename for filename in os.listdir(output_folder)]

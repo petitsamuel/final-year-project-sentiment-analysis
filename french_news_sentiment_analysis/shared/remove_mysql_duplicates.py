@@ -1,10 +1,9 @@
-from shared.db_helpers import init_db, load_duplicates, load_by_title, remove_by_ids
-from shared.duplicates_helpers import compute_similarity
+from .db_helpers import load_duplicates, load_by_title, remove_by_ids
+from .duplicates_helpers import compute_similarity
 
 
 # Remove duplicate articles from MySQL DB - This ended up not being used
 def remove_db_duplicates():
-    init_db()
     duplicates = load_duplicates()
     for _, title in duplicates:
         all_duplicates = load_by_title(title)
@@ -27,6 +26,3 @@ def remove_db_duplicates():
                               for x, y in all_duplicates if not x in tmp_to_remove]
         if len(to_remove):
             remove_by_ids(to_remove)
-
-
-remove_db_duplicates()

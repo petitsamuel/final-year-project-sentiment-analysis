@@ -1,3 +1,4 @@
+# Dockerized MySQL DB
 version: "3.7"
 services:
   fr_news_db:

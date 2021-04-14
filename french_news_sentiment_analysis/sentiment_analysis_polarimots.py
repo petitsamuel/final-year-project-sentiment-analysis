@@ -3,6 +3,11 @@ from shared.db_helpers import commit_db_changes, load_articles_polarimots_limite
 from shared.regex_helpers import compile_regex_from_lexicon
 
 
+# Perform sentiment analysis for the Polarimots Lexicon.
+# Writes output to the MySQL DB. Works in batches of 2000
+# articles. Exits once there are no remaining articles to compute.
+
+
 def process_counts_polimots(counts):
     negative_count = 0
     positive_count = 0

@@ -8,6 +8,10 @@ import string
 
 punctuation = r'«»‹›' + string.punctuation
 
+# Loads data from the database, cleans articles (using lemmatization, stop word removal & lowercase)
+# to generate json files (available in the data directory) with the following data:
+# title word frequencies, article word frequencies, average word counts grouped weekly & monthly.
+
 
 def compute_frequencies(data):
     print("Loaded %d datapoints" % (len(data)))
@@ -83,6 +87,7 @@ def format_weekly_word_count(data):
         })
     return output
 
+
 def format_monthly_word_count(data):
     output = []
     for word_sum, article_count, average, month, year in data:
@@ -120,7 +125,6 @@ def compute_title_freqs_by_month():
     write_to_file(computed_data, title_monthly_frequencies)
 
 
-
 def compute_average_word_count_monthly():
     data = fetch_script_from_db("monthly_word_counts.sql")
     output = format_monthly_word_count(data)
@@ -131,7 +135,6 @@ def compute_average_word_count_weekly():
     data = load_word_counts_weekly()
     output = format_weekly_word_count(data)
     write_to_file(output, weekly_average_word_count)
-
 
 
 init_db()
