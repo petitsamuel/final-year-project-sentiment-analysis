@@ -7,3 +7,6 @@ def date_from_week(week, year):
 
 def date_from_month(month, year):
     return datetime.strptime("%d-%d" % (year, month), '%Y-%m')
+
+def to_datetime(day, month, year):
+    return datetime.strptime("%d-%d-%d" % (year, month, day), r'%Y-%m-%d')

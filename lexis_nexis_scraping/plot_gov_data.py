@@ -98,9 +98,9 @@ def tests_quantite():
     ax.legend(loc='upper left')
 
 
-tests_quantite()
-plot_cases_fr()
-plot_deaths_fr()
-plot_vaccination()
-plot_hospitalise()
-plt.show()
+# tests_quantite()
+# plot_cases_fr()
+# plot_deaths_fr()
+# plot_vaccination()
+# plot_hospitalise()
+# plt.show()

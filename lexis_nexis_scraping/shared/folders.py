@@ -20,3 +20,6 @@ articles_word_freq_wordcloud = r'data/plots/articles_word_freq_wordcloud.png'
 FEEL_lexicon = r'FEEL/FEEL.csv'
 polarimots_lexicon = r'polarimots_1.csv'
 diko_lexicon = r'diko_lexicon.txt'
+
+deaths_sentiment_csv = r'deaths_sentiment.csv'
+deaths_sentiment_csv_full_path = data_folder + deaths_sentiment_csv
