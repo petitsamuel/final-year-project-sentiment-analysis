@@ -72,3 +72,4 @@ vulnérable
 écraser courbe
 épidémie
 laver main
+restriction
