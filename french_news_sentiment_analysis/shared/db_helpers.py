@@ -46,8 +46,6 @@ def load_sql_script(file_name):
 update_sentiment_feel_script = load_sql_script('sql/update_sentiment_feel.sql')
 update_sentiment_feel_specialised_script = load_sql_script(
     'sql/update_sentiment_feel_specialised.sql')
-update_sentiment_barthez_script = load_sql_script(
-    'sql/update_sentiment_barthez.sql')
 update_sentiment_polarimots_script = load_sql_script(
     'sql/update_sentiment_polarimots.sql')
 update_sentiment_diko_script = load_sql_script(
@@ -137,14 +135,6 @@ def add_row_counts(counter_death, counter_vaccine, counter_virus):
         cursor.execute(
             script,
             (json.dumps(counter_death), json.dumps(counter_vaccine), json.dumps(counter_virus)))
-    except mysql.connector.Error as err:
-        raise Exception({'error': 'MySQL error: %s' % (err)})
-
-
-def update_row_barthez_sentiment_scores(article_id, output):
-    try:
-        cursor.execute(update_sentiment_barthez_script,
-                       (output, article_id,))
     except mysql.connector.Error as err:
         raise Exception({'error': 'MySQL error: %s' % (err)})
 
@@ -271,16 +261,6 @@ def load_articles_feel_limited(limit=100):
 def load_articles_diko_limited(limit=100):
     print('Loading articles with limit %d' % (limit))
     script = load_sql_script('sql/bodies_diko_sentiment_limited.sql')
-    try:
-        cursor.execute(script, [(limit)])
-        return cursor.fetchall()
-    except mysql.connector.Error as err:
-        raise Exception({'error': 'MySQL error: %s' % (err)})
-
-
-def load_articles_model_limited(limit=100):
-    print('Loading articles with limit %d' % (limit))
-    script = load_sql_script('sql/bodies_model_sentiment_limited.sql')
     try:
         cursor.execute(script, [(limit)])
         return cursor.fetchall()

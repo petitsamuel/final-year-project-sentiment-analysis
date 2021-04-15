@@ -1,4 +1,4 @@
-from shared.db_helpers import load_articles_feel_limited, load_articles_model_limited, init_db, commit_db_changes, has_remaining_articles_for_feel_sentiment, update_row_feel_sentiment_specialised, add_row_counts
+from shared.db_helpers import load_articles_feel_limited, init_db, commit_db_changes, has_remaining_articles_for_feel_sentiment, update_row_feel_sentiment_specialised, add_row_counts
 from shared.lexicon_helper import compute_sentiment_feel, load_feel_lexicon, load_custom_lexicons, update_lexicon_from_specialised
 from shared.regex_helpers import compile_regex_from_lexicon, count_intersections
 from shared.text_processing import clean_text_for_analysis_lower

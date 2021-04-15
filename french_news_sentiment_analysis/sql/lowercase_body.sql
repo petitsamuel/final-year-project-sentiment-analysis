@@ -1,1 +1,2 @@
-UPDATE articles SET body=LOWER(body);
+UPDATE articles
+SET body = LOWER(body);

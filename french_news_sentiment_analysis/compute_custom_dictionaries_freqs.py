@@ -5,6 +5,10 @@ from collections import Counter
 import json
 
 
+# Script to group the data from the counts MySQL table into word frequencies
+# for the 3 custom dictionaties.
+
+
 def from_counter_from_frequency_dict(counter):
     assert isinstance(counter, Counter)
     total = float(sum(counter.values()))

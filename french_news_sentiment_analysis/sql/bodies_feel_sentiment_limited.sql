@@ -8,6 +8,5 @@ WHERE feel_sentiment_positive IS NULL
     OR feel_fear IS NULL
     OR feel_joy IS NULL
     OR feel_sadness IS NULL
-    OR feel_surprise IS NULL
--- ORDER BY RAND()
+    OR feel_surprise IS NULL -- ORDER BY RAND()
 LIMIT %s;

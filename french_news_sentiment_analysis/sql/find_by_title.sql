@@ -1,1 +1,4 @@
-SELECT id, body FROM articles WHERE title = %s;
+SELECT id,
+    body
+FROM articles
+WHERE title = %s;
