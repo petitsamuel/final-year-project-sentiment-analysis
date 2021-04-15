@@ -2,7 +2,7 @@
 # Will load available data, then sleep until more data is found.
 cd ..
 while true; do
-  python unzip_clean_load_single.py
+  python load_data_into_db.py
   echo "Sleeping 400 seconds"
   sleep 400
 done

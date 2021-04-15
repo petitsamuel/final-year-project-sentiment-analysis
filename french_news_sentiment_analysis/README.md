@@ -62,17 +62,17 @@ Once you have the link, make the following changes to `./ln_scraper.py`:
 You're now ready to start downloading! Run:
 `./scripts/scrape.sh`
 
-## TODO
+## Loading the Data & DB
 
-- docker compose
+### Setup
 
-- details of db loading & setup
+The database for this project is MySQL and runs within a docker container. Install:
 
-- data analysis & plots
+- [docker](https://docs.docker.com/get-docker/)
 
-- sentiment analysis systems
+- [docker-compose](https://docs.docker.com/compose/install/)
 
-## Loading the Data
+Then add the following variables to the `./.env` file (in this directory):
 
 ```.env
 MYSQL_ROOT_PASSWORD=root
@@ -82,10 +82,58 @@ MYSQL_DATABASE=fr_covid_news
 MYSQL_HOST=127.0.0.1
 ```
 
+### Running the DB
+
+To run the DB:
+
+```bash
+docker-compose up -d # use -d to run in detached mode
+```
+
+To kill the DB:
+
+```bash
+docker-compose down
+```
+
+To clear the DB's data:
+
+```bash
+docker-compose down
+```
+
+Script to run the DB and wait for the container to be healthy (initialisation finished & ready for requests):
+
+`./scripts/run_db.sh`
+
+### Loading Data into DB
+
+To load data downloaded from the LexisNexis Scrapper, make sure to go through the setup steps above, then run:
+
+`python load_data_into_db.py`
+
+You can also run this script in parallel with the scrapper:
+
+`./scripts/db_loader.sh`
+
+This will run the script, import available data, then sleep 40 minutes and check for new data.
+
 ### Useful Commands
 
-`mysqldump -h 127.0.0.1 -u root -p fr_covid_news > dump_treetagger.sql`
+Logging into DB using mysql CLI tool:
 
 `mysql --host=127.0.0.1 --port=3306 -uadmin -ppassword`
 
+Logging into DB using docker container:
+
 `docker exec -it fr_news_db mysql -uadmin -ppassword`
+
+Dumping data to a file:
+
+`mysqldump -h 127.0.0.1 -u root -p fr_covid_news > dump_treetagger.sql`
+
+## TODO
+
+- data analysis & plots
+
+- sentiment analysis systems
