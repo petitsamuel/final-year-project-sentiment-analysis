@@ -22,8 +22,18 @@ def default_vaccine_dict_entry(date):
         'injections_cumulated': 0,
         'dict_hits': 0,
         'average_hits_per_article': 0,
-        'average_hits_per_words': 0
+        'average_hits_per_words': 0,
+        'total_words': 0,
+        'feel_positive': 0,
+        'feel_negative': 0,
+        'feel_joy': 0,
+        'feel_fear': 0,
+        'feel_sadness': 0,
+        'feel_anger': 0,
+        'feel_surprise': 0,
+        'feel_disgust': 0
     }
+#
 
 
 def default_death_dict_entry(date):
@@ -34,7 +44,16 @@ def default_death_dict_entry(date):
         'deaths_cumulated': 0,
         'dict_hits': 0,
         'average_hits_per_article': 0,
-        'average_hits_per_words': 0
+        'average_hits_per_words': 0,
+        'total_words': 0,
+        'feel_positive': 0,
+        'feel_negative': 0,
+        'feel_joy': 0,
+        'feel_fear': 0,
+        'feel_sadness': 0,
+        'feel_anger': 0,
+        'feel_surprise': 0,
+        'feel_disgust': 0
     }
 
 
@@ -46,7 +65,16 @@ def default_virus_dict_entry(date):
         'cases_cumulated': 0,
         'dict_hits': 0,
         'average_hits_per_article': 0,
-        'average_hits_per_words': 0
+        'average_hits_per_words': 0,
+        'total_words': 0,
+        'feel_positive': 0,
+        'feel_negative': 0,
+        'feel_joy': 0,
+        'feel_fear': 0,
+        'feel_sadness': 0,
+        'feel_anger': 0,
+        'feel_surprise': 0,
+        'feel_disgust': 0
     }
 
 
@@ -56,12 +84,25 @@ def format_dates(data):
     return data
 
 
-def add_article_counts_to_data(default_dict):
+def add_article_counts_and_sentiment_to_data(default_dict):
     data = {}
     for count, day, month, year in counts:
         date = to_datetime(day, month, year)
         data[date] = default_dict(date)
         data[date]['article_count'] = count
+
+    for day, month, year, total_words, feel_positive, feel_negative, feel_joy, feel_fear, feel_sadness, feel_anger, feel_surprise, feel_disgust in sentiments_daily:
+        date = to_datetime(day, month, year)
+        data[date]['total_words'] = total_words
+        data[date]['feel_positive'] = feel_positive
+        data[date]['feel_negative'] = feel_negative
+        data[date]['feel_joy'] = feel_joy
+        data[date]['feel_fear'] = feel_fear
+        data[date]['feel_sadness'] = feel_sadness
+        data[date]['feel_anger'] = feel_anger
+        data[date]['feel_surprise'] = feel_surprise
+        data[date]['feel_disgust'] = feel_disgust
+
     return data
 
 
@@ -99,7 +140,7 @@ def merge_death_into_csv():
     assert(gouv_data)
     assert(counts)
 
-    data = add_article_counts_to_data(default_death_dict_entry)
+    data = add_article_counts_and_sentiment_to_data(default_death_dict_entry)
     data = add_sentiment_to_data(data, 'sentiment_death_daily.sql')
 
     # Get Gov Data
@@ -127,7 +168,7 @@ def merge_virus_into_csv():
     assert(gouv_data)
     assert(counts)
 
-    data = add_article_counts_to_data(default_virus_dict_entry)
+    data = add_article_counts_and_sentiment_to_data(default_virus_dict_entry)
     data = add_sentiment_to_data(data, 'sentiment_virus_daily.sql')
 
     # Get Gov Data
@@ -155,7 +196,7 @@ def merge_vaccine_into_csv():
     assert(gouv_data)
     assert(counts)
 
-    data = add_article_counts_to_data(default_vaccine_dict_entry)
+    data = add_article_counts_and_sentiment_to_data(default_vaccine_dict_entry)
     data = add_sentiment_to_data(data, 'sentiment_vaccine_daily.sql')
 
     # Get Gov Data
@@ -185,6 +226,9 @@ init_db()
 
 # Load article counts
 counts = fetch_script_from_db("count_daily.sql")
+
+# Load article counts
+sentiments_daily = fetch_script_from_db("sentiment_daily.sql")
 
 # Load government dataset
 gouv_data = json.loads(read_file('gouv/synthese-fra.json'))
