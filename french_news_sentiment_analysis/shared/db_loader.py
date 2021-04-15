@@ -11,6 +11,8 @@ import logging
 
 logging.basicConfig(filename='logs/db_loader_log.log', level=logging.DEBUG)
 
+# Used to parse RTF files from output folder and load them into the MySQL DB.
+
 
 def extractValue(data):
     if ':' in data:

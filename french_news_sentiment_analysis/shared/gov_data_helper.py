@@ -1,6 +1,9 @@
 from .models import GouvSyntheseModel
 from datetime import datetime
 
+# Useful methods when using data provided by the French Government
+
+
 def grab_metric_from_data(data, metric):
     selected_metric = []
     for d in data:

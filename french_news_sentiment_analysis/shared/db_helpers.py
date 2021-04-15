@@ -7,6 +7,8 @@ import os
 import json
 import sys
 
+# Performs DB Operations (connections, querying, updating, inserting...)
+
 load_dotenv(dotenv_path=path_to_root_dir + r'.env')
 
 host = os.getenv('MYSQL_HOST')

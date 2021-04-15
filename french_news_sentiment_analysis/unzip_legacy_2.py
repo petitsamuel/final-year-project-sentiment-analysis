@@ -2,7 +2,7 @@ from shared.folders import download_folder, output_folder
 from shared.file_read_write import read_offset_from_file, write_offset_to_file
 from shared.duplicates_helpers import remove_index_files, remove_duplicates
 from pathlib import Path
-from shared.db_insert import load_files
+from shared.db_loader import load_files
 import os
 import zipfile
 

@@ -6,6 +6,8 @@ from .text_processing import clean_text_for_analysis_lower
 import numpy as np
 import json
 
+# Useful methods to load, prepare and use lexicons
+
 
 # Remove entries of specialised lexicons from the polarity lexicon
 def update_lexicon_from_specialised(lexicon, specialised):
@@ -44,6 +46,7 @@ def load_custom_lexicons():
     lines_death = list(filter(None, lines_death))
 
     return SpecialisedLexicons(lines_death, lines_virus, lines_vaccine)
+
 
 def compute_sentiment_feel(counts, lexicon):
     output = FEELLexiconItem(0, 0, 0, 0, 0, 0, 0, 0, 0)

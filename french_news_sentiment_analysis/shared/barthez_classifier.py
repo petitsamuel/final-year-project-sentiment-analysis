@@ -4,6 +4,12 @@ from transformers import (
     AutoModelForSequenceClassification
 )
 
+# This code did not end up being used. Uses the transformers library to
+# perform sentiment classification on text from pre-trained models.
+# Issue: The pipeline does not handle large text well & is mostly trained for short sized
+# texts such as tweets etc.
+# Using the `max_length=500, truncation=True` flags did not seem to fix.
+
 barthez_tokenizer = AutoTokenizer.from_pretrained("moussaKam/barthez")
 barthez_model = AutoModelForSequenceClassification.from_pretrained(
     "moussaKam/barthez-sentiment-classification")

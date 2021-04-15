@@ -1,4 +1,5 @@
-import os 
+import os
+
 path_to_root_dir = '%s/' % (os.getcwd())
 
 treetagger_path = path_to_root_dir + r'treetagger'

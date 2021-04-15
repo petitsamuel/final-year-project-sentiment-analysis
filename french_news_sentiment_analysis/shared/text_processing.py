@@ -5,6 +5,11 @@ from .models import punctuation
 from .folders import treetagger_path
 from spacy.lang.fr.stop_words import STOP_WORDS as fr_stop
 
+
+# Methods relating to text processing, includes lemmatization, stop word removal.
+# Includes methods for both SpaCy and TreeTagger lemmatization
+
+
 print("Loading spacy language package...")
 nlp = spacy.load("fr_core_news_lg")
 print("Loaded fr_core_news_lg")
@@ -42,11 +47,11 @@ def grab_lemmas_treetagger(clean_text):
     return ' '.join([v.lemma for v in lemmas if isinstance(v, Tag)])
 
 
-def clean_text_for_analysis_lower(text, truncate=False):
+def clean_text_for_analysis_lower(text, truncate=False, use_tree_tagger=False):
+    # TreeTagger Approach
+    if use_tree_tagger:
+        cleaned_text = clean_text(text)
+        return grab_lemmas_treetagger(cleaned_text)
     # Spacy Lemmatization approach
     doc = nlp(text.lower())
     return tokenize_to_string_lemma(doc, truncate)
-
-    # TreeTagger Approach
-    # cleaned_text = clean_text(text)
-    # return grab_lemmas_treetagger(cleaned_text)

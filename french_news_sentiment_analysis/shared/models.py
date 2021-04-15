@@ -113,9 +113,9 @@ class FEELLexiconItem():
             'surprise': self.surprise,
             'disgust': self.disgust
         }
+
+
 # Enums for FEEL
-
-
 class LexiconModel():
     def __init__(self, index, name):
         self.index = index
@@ -133,9 +133,8 @@ class FEELModel():
     surprise = LexiconModel(name='surprise', index=7)
     disgust = LexiconModel(name='disgust', index=8)
 
+
 # Model used to load data from the FR Gov Synthese dataset
-
-
 class GouvSyntheseModel():
     casConfirmes = 'casConfirmes'
     deces = 'deces'
@@ -158,6 +157,6 @@ class GouvSyntheseModel():
     prisesRendezVousSemaineRang1 = 'prisesRendezVousSemaineRang1'
     prisesRendezVousSemaineRang2 = 'prisesRendezVousSemaineRang2'
     stockEhpadNombreDosesPfizer = 'stockEhpadNombreDosesPfizer'
-    # The data below  was depreated
+    # The data below  was deprecated
     testsRealises = 'testsRealises'
     testsPositifs = 'testsPositifs'

@@ -23,12 +23,14 @@ def write_to_file(value, file):
     print("Done!")
     f.close()
 
+
 def write_raw_to_file(value, file):
     print("\nWriting raw date to file - %s" % (file))
     f = open(data_folder + file, "w")
     f.write(value)
     print("Done!")
     f.close()
+
 
 def read_file(file, encoding='ISO-8859-1'):
     print("\nReading file - %s" % (file))

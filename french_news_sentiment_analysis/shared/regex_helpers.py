@@ -13,6 +13,7 @@ def compile_regex_from_lexicon(lexicon):
         map(text_regex_mapper, words)), flags=re.IGNORECASE)
 
 
+# Count occurences of a lexicon within a clean text.
 def count_intersections(compiled_regex, text):
     output = []
     matches = compiled_regex.findall(text)
