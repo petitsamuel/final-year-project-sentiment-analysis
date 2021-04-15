@@ -39,4 +39,5 @@ death_lexicon = r'death_lexicon.txt'
 vaccine_lexicon = r'vaccine_lexicon.txt'
 
 deaths_sentiment_csv = r'deaths_sentiment.csv'
-deaths_sentiment_csv_full_path = data_folder + deaths_sentiment_csv
+virus_sentiment_csv = r'virus_sentiment.csv'
+vaccine_sentiment_csv = r'vaccine_sentiment.csv'
