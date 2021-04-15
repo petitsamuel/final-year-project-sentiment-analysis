@@ -19,6 +19,11 @@ articles_weekly_frequencies = 'articles_weekly_frequencies.json'
 weekly_average_word_count = 'weekly_average_word_count.json'
 monthly_average_word_count = 'monthly_average_word_count.json'
 
+
+death_dict_freqs = 'death_custom_dict_frequencies.json'
+virus_dict_freqs = 'virus_custom_dict_frequencies.json'
+vaccine_dict_freqs = 'vaccine_custom_dict_frequencies.json'
+
 loaded_batches_full_path = r'data/db/loaded_batches.txt'
 current_batch_full_path = r'data/db/current_batch.txt'
 titles_word_freq_wordcloud = r'data/plots/titles_word_freq_wordcloud.png'

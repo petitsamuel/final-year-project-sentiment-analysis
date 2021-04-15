@@ -1,0 +1,1 @@
+SELECT death, virus, vaccine FROM counts;
