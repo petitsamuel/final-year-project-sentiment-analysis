@@ -25,6 +25,8 @@ def check_tcd_limit_reached():
 
 ### How to use
 
+Note that the following setup is only required for the scrapper, if you are not looking to use the scrapper you may skip these steps.
+
 Download the chromedriver [here](https://chromedriver.chromium.org/downloads)
 
 Make sure to make it executable
@@ -93,22 +95,18 @@ docker-compose up -d # use -d to run in detached mode
 To kill the DB:
 
 ```bash
-docker-compose down
+docker-compose down # use -v to clear the DB's data
 ```
 
-To clear the DB's data:
+To run the DB and wait for the container to be healthy (initialisation finished & ready for requests):
 
 ```bash
-docker-compose down
+./scripts/run_db.sh
 ```
-
-Script to run the DB and wait for the container to be healthy (initialisation finished & ready for requests):
-
-`./scripts/run_db.sh`
 
 ### Loading Data into DB
 
-To load data downloaded from the LexisNexis Scrapper, make sure to go through the setup steps above, then run:
+To load data downloaded from the LexisNexis Scrapper run:
 
 `python load_data_into_db.py`
 
