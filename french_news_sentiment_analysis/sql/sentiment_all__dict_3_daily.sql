@@ -1,6 +1,6 @@
-SELECT SUM(vaccine_sentiment),
-    SUM(virus_sentiment),
-    SUM(death_sentiment),
+SELECT SUM(vaccine_sentiment) / SUM(length),
+    SUM(virus_sentiment) / SUM(length),
+    SUM(death_sentiment) / SUM(length),
     DAY(date),
     MONTH(date),
     YEAR(date)

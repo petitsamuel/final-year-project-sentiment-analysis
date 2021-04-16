@@ -19,11 +19,11 @@ def default_all_dict_entry(date):
         'date': date,
         'article_count': 0,
         'cases_count': 0,
-        'cases_cumulated': 0,
+        # 'cases_cumulated': 0,
         'death_count': 0,
-        'deaths_cumulated': 0,
+        # 'deaths_cumulated': 0,
         'injections_count': 0,
-        'injections_cumulated': 0,
+        # 'injections_cumulated': 0,
         'vaccine_dict_hits': 0,
         'virus_dict_hits': 0,
         'death_dict_hits': 0,
@@ -58,7 +58,6 @@ def default_vaccine_dict_entry(date):
         'feel_surprise': 0,
         'feel_disgust': 0
     }
-
 
 
 def default_death_dict_entry(date):
@@ -141,6 +140,7 @@ def add_sentiment_to_data(data, sentiment_script):
 
     return data
 
+
 def add_all_sentiment_to_data(data):
     sentiment = fetch_script_from_db("sentiment_all__dict_3_daily.sql")
     for vaccine_dict_hits, virus_dict_hits, death_dict_hits, day, month, year in sentiment:
@@ -150,6 +150,7 @@ def add_all_sentiment_to_data(data):
         data[date]['death_dict_hits'] = death_dict_hits
 
     return data
+
 
 def get_gov_metric(metric, decumul=True):
     assert(gouv_data)
@@ -256,7 +257,6 @@ def merge_vaccine_into_csv():
     print("Saved data to CSV into %s" % (vaccine_sentiment_csv))
 
 
-
 def merge_all_data_into_csv():
     assert(gouv_data)
     assert(counts)
@@ -265,45 +265,46 @@ def merge_all_data_into_csv():
     data = add_all_sentiment_to_data(data)
 
     # Get Gov Data
-    gouv_dates, gouv_deaths, cumul_gouv_deaths = get_gov_metric(
-        GouvSyntheseModel.deces)
     gouv_dates, gouv_injections = get_gov_metric(
         GouvSyntheseModel.nouvellesPremieresInjections, False)
     _, cumul_gouv_injections = get_gov_metric(
         GouvSyntheseModel.cumulPremieresInjections, False)
-    gouv_dates, gouv_cases, cumul_gouv_cases = get_gov_metric(
-        GouvSyntheseModel.casConfirmes)
-    
-    # Add Gov Data to Data Dict
+
     for i in range(len(gouv_injections)):
         date = gouv_dates[i]
         injections = gouv_injections[i]
         cumul_injections = cumul_gouv_injections[i]
         if date not in data:
-            data[date] = default_vaccine_dict_entry(date)
+            data[date] = default_all_dict_entry(date)
 
         data[date]['injections_count'] = injections
-        data[date]['injections_cumulated'] = cumul_injections
+        # data[date]['injections_cumulated'] = cumul_injections
+
+    gouv_dates, gouv_cases, cumul_gouv_cases = get_gov_metric(
+        GouvSyntheseModel.casConfirmes)
 
     for i in range(len(gouv_cases)):
         date = gouv_dates[i]
         cases = gouv_cases[i]
         cumul = cumul_gouv_cases[i]
         if date not in data:
-            data[date] = default_virus_dict_entry(date)
+            data[date] = default_all_dict_entry(date)
 
         data[date]['cases_count'] = cases
-        data[date]['cases_cumulated'] = cumul
+        # data[date]['cases_cumulated'] = cumul
+
+    gouv_dates, gouv_deaths, cumul_gouv_deaths = get_gov_metric(
+        GouvSyntheseModel.deces)
 
     for i in range(len(gouv_deaths)):
         date = gouv_dates[i]
         deaths = gouv_deaths[i]
         cumul = cumul_gouv_deaths[i]
         if date not in data:
-            data[date] = default_death_dict_entry(date)
+            data[date] = default_all_dict_entry(date)
 
         data[date]['death_count'] = deaths
-        data[date]['deaths_cumulated'] = cumul
+        # data[date]['deaths_cumulated'] = cumul
 
     data = prepare_data_for_csv(data)
 
