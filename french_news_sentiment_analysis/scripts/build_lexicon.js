@@ -1,225 +1,179 @@
 // Used to clean, deduplicate custom built lexicons for virus, vaccine and death.
 
 const lexicon_virus = `
-asymptomatique
-isolement
-Covid-19
-Contamination
-contaminer
-Distanciation social
-Couvre-feu
-Confinement
-Écraser courbe
-épidémie
-Foyer infection
-Fermeture frontière
-Geste barrière
-Immunité collectif
-OMS
-Pandémie
-patient zéro
-Quarantaine
-Réanimation
-Transmission
-Télétravail
-Virus
-Virologie
 administration test
-anticorps
-antigène
+antibiotique
 aplatir courbe
+asymptomatique
+auto-immun
 auto-isolement
-vaccination
-vaccin
-cas confirmer
+bactérie
 cas actif
+cas confirmé
+cas confirmer
 cas contact
-charger viral
+charge viral
 clinique de dépistage
+confinement
 confiné
+contamination
+contaminer
 coronavirus
-masque
+couvre-feu
+covid-19
+distanciation social
 déconfinement
 déconfiner
+déconfiné
+déficit immunitaire
 dépistage
 dépister
-désinfectant pour main
+désinfectant
+désinfecter
+epidémie
+epidémiologie
 faux négatif
 faux positif
+fermeture frontière
 fièvre
-symptôme
 foyer infection
+germe
+germes
+geste barrière
 hospitalisation
-immunité collectif
+immunisation
+immuniser
+immunité
+immunodéprimé
 infecter
 infection
 insuffisance respiratoire
+isolement
+isoler
 lits soins intensifs
-mesurer sanitaires
+masque
+mesure sanitaires
 mutation
 muter
-pandémique
+nasal
+oms
 pandémie
 pandémique
-vacciner
-vulnérable
-isoler
+pathogène
+patient zéro
+pneumonie
+quarantaine
+réanimation
+symptôme
 taux de mortalité
 test antigénique
 transmission
-vaccinateur
-Virus
-Epidémie
-Pandémie
-Pathogène
-Epidémiologie
-Anticorps
-Antigène
-Antiviral
-Auto-immun
-Charge viral
-Déficit immunitaire
-Germe
-Germes
-Immunisation
-Immunité
-Immuniser
-Immunodéprimé
-Infection
 viral
-Pneumonie
-Antibiotique
-Bactérie
-ARN
-ADN
-contaminer
+virologie
+virus
+vulnérable
+écraser courbe
+épidémie
+laver main
+restriction
 `;
 
 const lexicon_death = `
-Agonie
-Disparition
-Extinction
-Décès
-Trépas
-Tombeau
-Disparu
-Victime
-Dépouille
-Défunt
-Tombe
-Sépulture 
-Homicide
-Tué
-Décédé
-Trépassé
-Martyre 
-Cadavre
-Crypte
-Cénotaphe
-Cercueil
-Fossoyeur
-Lugubre
-Mortel
-Fatal
-Funeste 
-Funèbre 
-Funéraire 
-Funérailles 
-Enterrement
-Inhumation
-Obsèques
-Ensevelissement
-Épitaphe
-Deuil 
-Condoléances 
-Mourir 
-mort
-Décéder
-Trépasser 
-Périr
-Disparaître 
-Succomber 
-S’éteindre 
-Ensevelir 
-Décimer 
-Génocide
-Cimetière  
-cadavre
-défunt
-cadavre
-résurrection
-tombeau
-cercueil
 agonie
-dépouille
-deuil
-décès
-meurtre
-ressusciter
-exécution
-tombe
-funèbre
-cimetière
-mourir
-décéder
-mourant	
-décédé	
-mort	
-décédée
-défunt
-qui nous a quitté
-âme
-décès
-maladie
-hôpital	
-cercueil
+cadavre
+caveau
 cendres
-incinérer
-incinération
-crématoire 
-crématorium
-enterrer
+cercueil
 cimetière
+commémoration
+condoléances
+crypte
+crématoire
+crématorium
+cénotaphe
+deuil
+disparaître
+disparition
+décimer
+décès
+décéder
+défunt
+dépouille
+ensevelir
+ensevelissement
+enterrement
+enterrer
+extinction
+exécution
+fatal
+fossoyeur
+funeste
+funèbre
+funérailles
+funéraire
+génocide
+homicide
+hôpital
+incinération
+incinérer
+inerte
+inhumation
+lugubre
+maladie
+martyre
+meurtre
+mort
+mortel
+mourant
+mourir
+obsèques
+pierre tombale
+périr
+avoir quitter
+ressusciter
+résurrection
+succomber
+sépulture
+s’éteindre
 tombe
 tombeau
-pierre	tombale
-funérailles
-obsèques
-commémoration
-deuil
-condoléances
-éteint
-décédé
-inerte
-Incinération 
-Caveau
-Tombe 
-obsèques`;
+trépas
+trépasser
+tuer
+victime
+âme
+épitaphe
+éteindre`;
 
 const lexicon_vaccine = `
-Vaccination
-vacciné
-vaccin
-Pathogène
-taux vaccination
-Immunité
-Immunisé
-Immunisation
-Antigène
-Anticorps
+adjuvant
+administrer
+anticorps
+antigène
+antiviral
+immunisation
+immuniser
+immunité
 immunoglobine
+injection
+pathogène
+vaccin
+vaccinal
 vaccination
 vacciner
-injection
-immunisation
-anticorps
-dose
-administré
-prévention
-antiviral
-vaccinal
 virologue
-Adjuvant`;
+dose
+astrazeneca
+pfizer
+moderna
+janssen
+vaxzevria
+johnson&johnson
+curevac
+spoutnik v
+biontech
+sanofi
+arn`;
 
 function clean_and_deduplicate(data) {
     const arr = data.toLowerCase().split('\n').filter(d => !!d).map(d => d.trim());
@@ -234,4 +188,4 @@ const death = clean_and_deduplicate(lexicon_death)
 // Output these to files using CLI piping >
 // console.log(virus)
 // console.log(vaccine)
-// console.log(death)
+console.log(death)

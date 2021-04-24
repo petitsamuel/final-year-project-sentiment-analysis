@@ -6,8 +6,8 @@ auto-immun
 auto-isolement
 bactérie
 cas actif
-cas confirmé
 cas confirmer
+cas confirmé
 cas contact
 charge viral
 clinique de dépistage
@@ -47,6 +47,7 @@ infection
 insuffisance respiratoire
 isolement
 isoler
+laver main
 lits soins intensifs
 masque
 mesure sanitaires
@@ -60,6 +61,7 @@ pathogène
 patient zéro
 pneumonie
 quarantaine
+restriction
 réanimation
 symptôme
 taux de mortalité
@@ -71,5 +73,3 @@ virus
 vulnérable
 écraser courbe
 épidémie
-laver main
-restriction
