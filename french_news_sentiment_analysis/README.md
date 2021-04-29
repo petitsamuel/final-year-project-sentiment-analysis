@@ -1,5 +1,19 @@
 # French News Sentiment Analysis
 
+## Key Data Files
+
+Within the data directory:
+
+`./data/all_sentiment.csv` includes aggregated daily data combining sentiment and government data
+
+`./data/all_sentiment.csv` includes aggregated daily data combining sentiment and government data
+
+JSON Files include computed frequencies for various dictionaries as well as all articles.
+
+CSV files include sentiment data
+
+Specialised lexicons are stored as txt files.
+
 ## Dependencies
 
 `pip install -r dependencies.txt`
@@ -130,8 +144,30 @@ Dumping data to a file:
 
 `mysqldump -h 127.0.0.1 -u root -p fr_covid_news > dump_treetagger.sql`
 
-## TODO
+## Sentiment Analysis and Plots
 
-- data analysis & plots
+The remaining python scripts within this root directory compute sentiment for the corpus:
 
-- sentiment analysis systems
+```python
+python sentiment_analysis_diko.py # sentiment analysis using Diko
+python sentiment_analysis_feel.py # sentiment analysis using FEEL
+python sentiment_analysis_polarimots.py # sentiment analysis using Polarimots
+python sentiment_analysis_specialised.py # sentiment analysis using specialised lexicons
+```
+
+Aggregate word frequencies:
+
+```python
+python compute_word_frequencies.py # compute word frequencies for body and titles
+python compute_custom_dictionaries_freqs.py # compute word frequencies for specialised lexicons (requires python sentiment_analysis_specialised.py to have completed)
+python generate_csv_dictionary_rates.py # aggregate sentiment data and gov data into CSV for statistical analysis
+```
+
+Plot results and various data:
+
+```python
+python plot_word_frequencies.py # requires python compute_word_frequencies.py to have completed
+python plot_sentiment.py # plots using the computed sentiments (even if incomplete)
+python plot_gov_data.py
+python plot_counts_and_sources.py
+```
